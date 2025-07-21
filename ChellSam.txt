@@ -1,24 +1,25 @@
 C Support
-speak;Chell;Sam, do you have a moment?
-speak;Sam;Sure do. What's up?
-speak;Chell;You've been in Oregot this whole time?
-speak;Sam;Pretty much.
-speak;Chell;How did you happen to get the cabin you have?
-speak;Sam;Shortly after I left, I was recruited by a mercenary company.|They helped me. Gave me training.|We cleared out that cabin when it was being used as a bandit hangout.|Eventually, I left them and went solo.|I went back to that old cabin, cleaned it up a bit,|and just used it as a base of operations, so to speak.
-speak;Chell;Oh. It's rather large for someone all alone.
-speak;Sam;Yeah, a little. But there's still too many bandits.|Once Oregot is safer, I'll probably settle down with someone, but not yet.
-speak;Chell;You mean you don't have a girlfriend? Perhaps a pretty girl mercenary?
-speak;Sam;No, been too busy killing bandits,|tracking down the one who killed your parents, and all that.
-speak;Chell;You{tgm}...{tgm} killed that brigand?
-speak;Sam;Still tracking him down. He's in Oregot, I know that much.|I got some of his captains, but not him yet.|{c:e;Sam;Smile}By the way, how's Lin doing?|She'd be part of the Pegasus Knight unit by now, right?
-expression;Chell;CloseEyes
-speak;Chell;She left, Sam.{c:e;Chell;NormalBlink} She went on her own two years ago.|{e:"I haven't heard from her since the goodbye note she left." if game.get_unit('Lin').team != 'player' else "She said she was going to be a mercenary."}|{c:e;Chell;CloseEyes}I only hope she's still alive and well.
-expression;Sam;HalfCloseEyes,NoSmile
-speak;Sam;I{tgm}...{tgm} I see.
-expression;Sam;NormalBlink
-speak;Sam;But anyway, I'm going to go train want to come?
-expression;Chell;NormalBlink,Smile
-speak;Chell;I would love to. It's been too long.
+Chell: Sam, do you have a moment?
+Sam: Sure do. What's up?
+Chell: You've been in Oregot this whole time?
+Sam: Pretty much.
+Chell: How did you happen to get the cabin you have?
+Sam: Shortly after I left, I was recruited by a mercenary company. They helped me. Gave me training. We cleared out that cabin when it was being used as a bandit hangout. Eventually, I left them and went solo. I went back to that old cabin, cleaned it up a bit, and just used it as a base of operations, so to speak.
+Chell: Oh. It's rather large for someone all alone.
+Sam: Yeah, a little. But there's still too many bandits. Once Oregot is safer, I'll probably settle down with someone, but not yet.
+Chell: You mean you don't have a girlfriend? Perhaps a pretty girl mercenary?
+Sam: No, been too busy killing bandits, tracking down the one who killed your parents, and all that.
+Chell: You... killed that brigand?
+Sam: Still tracking him down. He's in Oregot, I know that much. I got some of his captains, but not him yet. By the way, how's Lin doing? She'd be part of the Pegasus Knight unit by now, right?
+Chell: She left, Sam. She went on her own two years ago.
+[IF Lin hasn't been recruited]
+Chell: I haven't heard from her since the goodbye note she left.
+[ELSE]
+Chell: She said she was going to be a mercenary.
+[END]
+Chell: I only hope she's still alive and well.
+Sam: I... I see. But anyway, I'm going to go train want to come?
+Chell: I would love to. It's been too long.
 # Original script by Berserker Sam #
 
 A Support

@@ -1,50 +1,28 @@
 C Support
-speak;Ryuuji;I've been doing some thinking lately, and I think we should drop formalities now.
-speak;Tsubaki;What do you mean, Kenji?
-speak;Ryuuji;I'm not under your service anymore,|so I don't see any reason to keep seeing you as my liege.|You're just some little girl in my eyes now.
-speak;Tsubaki;P-Pardon?
-speak;Ryuuji;So, instead of "Lady Tsubaki",|I'd say something like Tsuba or Baki would be more appropriate.
-bop_portrait;Tsubaki
-speak;Tsubaki;Hold for a moment! What's with those nicknames?|A-And more importantly, you may not be my retainer anymore,|but I'm still next in line to the throne.|There should still be some level of respect.
-expression;Ryuuji;CloseEyes
-speak;Ryuuji;You know what? You have a point.|{c:e;Ryuuji;NormalBlink}But, y'know, you gotta earn that respect.
-speak;Tsubaki;Earn it?
-speak;Ryuuji;Let's see you live up to being the emperor's daughter.|Once you do that, maybe I'll see you as Lady Tsubaki again.|Until then, you're still just a little girl.
-speak;Tsubaki;Now, hold on--
-expression;Ryuuji;CloseEyes
-speak;Ryuuji;See ya later, Baki.
-mirror_portrait;Ryuuji
-move_portrait;Ryuuji;OffscreenRight
-expression;Tsubaki;HalfCloseEyes
-speak;Tsubaki;Oh, Kenji{tgm}...
-expression;Tsubaki;CloseEyes
-speak;Tsubaki;I know he's always been rough around the edges,|but being with that pirate crew made him worse!|{c:e;Tsubaki;NormalBlink}Still, his brashness has always had an appeal{tgm}...
-unlock_support_rank;Ryuuji;Tsubaki;C
-end
-end_skip
-if;support_rank_nid == 'B'
-change_background;InsideCastle
-transition;open
-music;Girl of the Plains
-multi_add_portrait;Tsubaki;Left;Ryuuji;Right
-speak;Tsubaki;Kenji, may I--
-bop_portrait;Tsubaki
-speak;Tsubaki;I mean, I must speak with you this instant!
-expression;Ryuuji;Smile
-speak;Ryuuji;Oh, 'sup, Baki? What did ya need?
-speak;Tsubaki;First of all, I will no longer tolerate that ridiculous nickname!|You must refer to me as "Lady Tsubaki" from now on.
-expression;Ryuuji;HalfCloseEyes,Smile
-speak;Ryuuji;Uh-huh?
-speak;Tsubaki;A-And secondly, you may not be my retainer anymore,|but you are still a citizen of Merinas.|As such, you must recognize my authority as the imperial princess.
-expression;Ryuuji;NormalBlink,Smile
-speak;Ryuuji;Is that all?
-speak;Tsubaki;Yes. I will not negotiate on these terms.
-expression;Ryuuji;CloseEyes,Smile
-speak;Ryuuji;Heh. Well, you're trying at least. I'll give you that much.
-speak;Tsubaki;Then{tgm}...?
-expression;Ryuuji;NormalBlink,Smile
-speak;Ryuuji;Still not enough. Gotta try harder than that, Baki.{c:e;Ryuuji;CloseEyes,Smile} See ya.
-mirror_portrait;Ryuuji
-move_portrait;Ryuuji;OffscreenRight
-bop_portrait;Tsubaki
-speak;Tsubaki;W-Wait a moment!|{c:e;Tsubaki;CloseEyes}*sigh* That man, I swear{tgm}...{tgm}|{c:e;Tsubaki;HalfCloseEyes}Still, there must be something I can do.|{c:e;Tsubaki;NormalBlink}I can't let him walk over me like this any longer!
+Ryuuji: I've been doing some thinking lately, and I think we should drop formalities now.
+Tsubaki: What do you mean, Kenji?
+Ryuuji: I'm not under your service anymore, so I don't see any reason to keep seeing you as my liege. You're just some little girl in my eyes now.
+Tsubaki: P-Pardon?
+Ryuuji: So, instead of "Lady Tsubaki", I'd say something like Tsuba or Baki would be more appropriate.
+Tsubaki: Hold for a moment! What's with those nicknames? A-And more importantly, you may not be my retainer anymore, but I'm still next in line to the throne. There should still be some level of respect.
+Ryuuji: You know what? You have a point. But, y'know, you gotta earn that respect.
+Tsubaki: Earn it?
+Ryuuji: Let's see you live up to being the emperor's daughter. Once you do that, maybe I'll see you as Lady Tsubaki again. Until then, you're still just a little girl.
+Tsubaki: Now, hold on--
+Ryuuji: See ya later, Baki.
+(Ryuuji leaves the scene.)
+Tsubaki: Oh, Kenji... I know he's always been rough around the edges, but being with that pirate crew made him worse! Still, his brashness has always had an appeal...
+
+B Support
+Tsubaki: Kenji, may I-- I mean, I must speak with you this instant!
+Ryuuji: Oh, 'sup, Baki? What did ya need?
+Tsubaki: First of all, I will no longer tolerate that ridiculous nickname! You must refer to me as "Lady Tsubaki" from now on.
+Ryuuji: Uh-huh?
+Tsubaki: A-And secondly, you may not be my retainer anymore, but you are still a citizen of Merinas. As such, you must recognize my authority as the imperial princess.
+Ryuuji: Is that all?
+Tsubaki: Yes. I will not negotiate on these terms.
+Ryuuji: Heh. Well, you're trying at least. I'll give you that much.
+Tsubaki: Then...?
+Ryuuji: Still not enough. Gotta try harder than that, Baki. See ya.
+(Ryuuji leaves the scene.)
+Tsubaki: W-Wait a moment! *sigh* That man, I swear... Still, there must be something I can do. I can't let him walk over me like this any longer!

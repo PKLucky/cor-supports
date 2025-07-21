@@ -1,156 +1,74 @@
 C Support
-speak;Forrest;Torgen, do you have a moment?
-speak;Torgen;Yeah, what's up?
-speak;Forrest;I never had the opportunity to ask about this until now, but{tgm}...
-expression;Forrest;CloseEyes
-speak;Forrest;Hm{tgm}...
-speak;Torgen;Uh-huh? Come on, spit it out.
-expression;Forrest;NormalBlink
-speak;Forrest;About Princess Krista, why{tgm}...
-expression;Forrest;CloseEyes
-speak;Forrest;Or rather{tgm}...{tgm} How do I phrase this{tgm}...?
-speak;Torgen;You wanna know why getting tied up turns her on.
-expression;Forrest;HalfCloseEyes
-speak;Forrest;I would have preferred a more subtle way of saying that, but yes.
-speak;Torgen;See, I'm not one-hundred percent sure why she does, but I do have my theories.
-expression;Forrest;NormalBlink
-speak;Forrest;Go on.
-speak;Torgen;Could be just that she likes it, no two ways about it.
-expression;Torgen;CloseEyes,Smile
-speak;Torgen;Who knows?|Maybe getting kidnapped all those years ago made her discover something about herself.
-expression;Forrest;HalfCloseEyes
-speak;Forrest;Please take this seriously, Torgen.
-expression;Torgen;NormalBlink,NoSmile
-speak;Torgen;I am! Not saying it could be the only reason.|There's also the chance the experience had the complete opposite effect.|She might've been traumatized so bad that this is her way of coping.
-expression;Forrest;CloseEyes
-speak;Forrest;That is disturbing and I hope that is not the case.
-speak;Torgen;Hey, like I said, I'm just theorizing.|Why don't you just ask her yourself if you're so curious?
-expression;Forrest;NormalBlink
-speak;Forrest;I'd rather not. It's a{tgm}...{tgm} strange subject to talk about.
-speak;Torgen;Figures.
-expression;Torgen;CloseEyes
-speak;Torgen;Hm{tgm}...
-expression;Torgen;NormalBlink
-speak;Torgen;Hey, I think I have an idea.
-speak;Forrest;Yes?
-speak;Torgen;Why don't I try tying YOU up?
-expression;Forrest;HalfCloseEyes
-speak;Forrest;What.
-speak;Torgen;I'm just thinking that maybe you'll understand her point of view once you|get a feel for yourself.
-expression;Forrest;NormalBlink
-speak;Forrest;An{tgm}...{tgm} interesting proposition. I'll consider it.
-expression;Torgen;CloseEyes,Smile
-speak;Torgen;It's not a "no," at least.
-expression;Torgen;NormalBlink,NoSmile
-speak;Torgen;I'll give you time to think about it. Lemme know if you're down to do this.
-unlock_support_rank;Forrest;Torgen;C
-end
-end_skip
-if;support_rank_nid == 'B'
-change_background;Bedroom
-transition;open
-music;Girl of the Plains
-multi_add_portrait;Forrest;Left;Torgen;Right
-expression;Forrest;CloseEyes
-speak;Forrest;I can't believe I agreed to this.
-speak;Torgen;We can still call it quits before we even start.
-expression;Forrest;NormalBlink
-speak;Forrest;No. I need to know why Her Highness finds this so appealing.
-speak;Torgen;Alright then. Take off your armor.
-speak;Forrest;P-Pardon?
-expression;Torgen;HalfCloseEyes,Smile
-speak;Torgen;What, do you WANT to have all that on when you're restrained?
-expression;Forrest;CloseEyes
-speak;Forrest;No, I suppose not.
-expression;Forrest;NormalBlink
-bop_portrait;Forrest
-# Forrest takes off his armor (Make new talk sprite)
-expression;Torgen;NormalBlink,Smile
-speak;Torgen;There we go.
-expression;Torgen;NoSmile
-speak;Torgen;Now, turn around and hands behind your back.
-mirror_portrait;Forrest
-move_portrait;Torgen;MidLeft
-bop_portrait;Torgen
-move_portrait;Torgen;Right
-speak;Torgen;Feel anything?
-speak;Forrest;Am I supposed to?
-speak;Torgen;Well, Krista usually gets all--
-expression;Forrest;CloseEyes
-speak;Forrest;Don't finish that sentence.
-expression;Forrest;NormalBlink
-speak;Forrest;But I still wish to deepen my understanding.|Restrain me more. Maybe only tying the upper body isn't enough for me.
-speak;Torgen;Whatever you say.|Here, let's sit you down in that chair there. I'll tie your legs together.
-mirror_portrait;Forrest
-move_portrait;Torgen;MidLeft
-bop_portrait;Torgen
-move_portrait;Torgen;Right
-expression;Forrest;HalfCloseEyes
-speak;Forrest;...;no_talk
-speak;Torgen;Well?
-expression;Forrest;CloseEyes
-speak;Forrest;Still nothing.
-expression;Torgen;CloseEyes
-speak;Torgen;Hmm{tgm}...
-expression;Torgen;NormalBlink
-speak;Torgen;Well, there's one last thing I could do,|but I'm gonna need your permission for it.
-expression;Forrest;NormalBlink
-speak;Forrest;What is it?
-speak;Torgen;I'll blindfold you and touch different parts of your body without warning.|I won't go for anything between the legs even if you agree to this.|I'll guarantee that.
-expression;Torgen;CloseEyes,Smile
-speak;Torgen;I mean, unless you want me to.
-expression;Forrest;CloseEyes
-speak;Forrest;I don't.
-expression;Forrest;NormalBlink
-speak;Forrest;That aside, what would be the point of this?
-expression;Torgen;NormalBlink,NoSmile
-speak;Torgen;Taking away one of your senses will make you feel all helpless.|Maybe that's what Krista really likes about this.
-expression;Forrest;CloseEyes
-speak;Forrest;That{tgm}...{tgm} makes no sense.
-expression;Forrest;NormalBlink
-speak;Forrest;But I'm willing to try anything now. You may blindfold me, Torgen.
-move_portrait;Torgen;MidLeft
-bop_portrait;Torgen
-transition;close
-change_background;BlackBackground
-transition;open
-speak;Torgen;Now, I'd usually gag Krista at this point too,|but that defeats the purpose of getting feedback from you.|So, just lemme know if you notice anything, alright?
-speak;Forrest;Of course.
-speak;Forrest;...|......|.........
-speak;Forrest;(He's not doing anything. He wouldn't just leave me like this, would he?)|(No, of course not. But what if--)
-speak;Forrest;!!
-speak;Torgen;You were starting to squirm a bit.
-speak;Forrest;Wh-Wha--
-speak;Torgen;I think we're starting to get somewhere, though.
-speak;Forrest;I hope so.
-speak;Forrest;(Okay. Focus.)|(There has to be a reason why Krista likes this.)|(If I can understand that, then maybe--)
-speak;Forrest;A-Ah...!?
-speak;Torgen;Well, that sure was a noise.
-speak;Forrest;I-I...
-speak;Forrest;(My voice just came out on its own!)|(It was such an indecent sound too.)|(What... What is coming over me?)
-speak;Forrest;Mnngh...!
-speak;Torgen;Forrest?
-speak;Forrest;... Untie me. Now.
-speak;Torgen;Got it.
-transition;close
-change_background;Bedroom
-transition;open
-multi_add_portrait;Forrest;Left;Torgen;Right
-speak;Torgen;So, learn anything?
-expression;Forrest;HalfCloseEyes
-speak;Forrest;...;no_talk
-expression;Forrest;CloseEyes
-speak;Forrest;I need to be alone with my thoughts.
-speak;Torgen;No problem.
-expression;Torgen;Smile
-speak;Torgen;And don't worry. I won't tell anyone about this.
-mirror_portrait;Torgen
-move_portrait;Torgen;OffscreenRight
-expression;Forrest;HalfCloseEyes
-speak;Forrest;Did I feel helpless just now{tgm}...?
-expression;Forrest;CloseEyes
-speak;Forrest;No, not exactly. It was something else I felt.
-expression;Forrest;NormalBlink
-speak;Forrest;And I{tgm}...{tgm} didn't hate it, per se.
-expression;Forrest;CloseEyes
-speak;Forrest;Hm{tgm}...
+Forrest: Torgen, do you have a moment?
+Torgen: Yeah, what's up?
+Forrest: I never had the opportunity to ask about this until now, but... Hm...
+Torgen: Uh-huh? Come on, spit it out.
+Forrest: About Princess Krista, why... Or rather... How do I phrase this...?
+Torgen: You wanna know why getting tied up turns her on.
+Forrest: I would have preferred a more subtle way of saying that, but yes.
+Torgen: See, I'm not one-hundred percent sure why she does, but I do have my theories.
+Forrest: Go on.
+Torgen: Could be just that she likes it, no two ways about it. Who knows? Maybe getting kidnapped all those years ago made her discover something about herself.
+Forrest: Please take this seriously, Torgen.
+Torgen: I am! Not saying it could be the only reason. There's also the chance the experience had the complete opposite effect. She might've been traumatized so bad that this is her way of coping.
+Forrest: That is disturbing and I hope that is not the case.
+Torgen: Hey, like I said, I'm just theorizing. Why don't you just ask her yourself if you're so curious?
+Forrest: I'd rather not. It's a... strange subject to talk about.
+Torgen: Figures. Hm... Hey, I think I have an idea.
+Forrest: Yes?
+Torgen: Why don't I try tying YOU up?
+Forrest: What.
+Torgen: I'm just thinking that maybe you'll understand her point of view once you get a feel for yourself.
+Forrest: An... interesting proposition. I'll consider it.
+Torgen: It's not a "no," at least. I'll give you time to think about it. Lemme know if you're down to do this.
+
+B Support
+Forrest: I can't believe I agreed to this.
+Torgen: We can still call it quits before we even start.
+Forrest: No. I need to know why Her Highness finds this so appealing.
+Torgen: Alright then. Take off your armor.
+Forrest: P-Pardon?
+Torgen: What, do you WANT to have all that on when you're restrained?
+Forrest: No, I suppose not.
+(Forrest takes off his armor.)
+Torgen: There we go. Now, turn around and hands behind your back.
+(Torgen ties Forrest's wrists together.)
+Torgen: Feel anything?
+Forrest: Am I supposed to?
+Torgen: Well, Krista usually gets all--
+Forrest: Don't finish that sentence. But I still wish to deepen my understanding. Restrain me more. Maybe only tying the upper body isn't enough for me.
+Torgen: Whatever you say. Here, let's sit you down in that chair there. I'll tie your legs together.
+(Torgen ties Forrest's legs together.)
+Forrest: ...
+Torgen: Well?
+Forrest: Still nothing.
+Torgen: Hmm... Well, there's one last thing I could do, but I'm gonna need your permission for it.
+Forrest: What is it?
+Torgen: I'll blindfold you and touch different parts of your body without warning. I won't go for anything between the legs even if you agree to this. I'll guarantee that. I mean, unless you want me to.
+Forrest: I don't. That aside, what would be the point of this?
+Torgen: Taking away one of your senses will make you feel all helpless. Maybe that's what Krista really likes about this.
+Forrest: That... makes no sense. But I'm willing to try anything now. You may blindfold me, Torgen.
+(Torgen blindfolds Forrest.)
+Torgen: Now, I'd usually gag Krista at this point too, but that defeats the purpose of getting feedback from you. So, just lemme know if you notice anything, alright?
+Forrest: Of course. ... ...... .........
+Forrest, thinking: He's not doing anything. He wouldn't just leave me like this, would he?) (No, of course not. But what if--
+Forrest: !!
+Torgen: You were starting to squirm a bit.
+Forrest: Wh-Wha--
+Torgen: I think we're starting to get somewhere, though.
+Forrest: I hope so.
+Forrest, thinking: Okay. Focus. There has to be a reason why Krista likes this.) (If I can understand that, then maybe--
+Forrest: A-Ah...!?
+Torgen: Well, that sure was a noise.
+Forrest: I-I...
+Forrest, thinking: My voice just came out on its own! It was such an indecent sound too. What... What is coming over me?
+Forrest: Mnngh...!
+Torgen: Forrest?
+Forrest: ... Untie me. Now.
+Torgen: Got it.
+(Torgen unties Forrest.)
+Torgen: So, learn anything?
+Forrest: ... I need to be alone with my thoughts.
+Torgen: No problem. And don't worry. I won't tell anyone about this.
+(Torgen leaves the scene.)
+Forrest: Did I feel helpless just now...? No, not exactly. It was something else I felt. And I... didn't hate it, per se. Hm...

@@ -1,28 +1,21 @@
 C Support
-speak;Trevor;Ah, Miss Xiang! May I have a moment of your time?
-speak;Xiang;Yes?
-speak;Trevor;You seem quite adept at using dark magic--
-expression;Xiang;CloseEyes
-speak;Xiang;Elder magic.
-expression;Trevor;NoSmile
-speak;Trevor;Er, pardon?
-expression;Xiang;NormalBlink
-speak;Xiang;The proper term is "elder magic".
-expression;Trevor;Smile
-speak;Trevor;Now this is exactly why I am in need of your assistance!|{c:e;Trevor;NoSmile}You see, I wish to delve deeper into understanding the inner workings of|various types of magic.|Under normal circumstances, I would ask Felicity to help in this endeavor.|{c:e;Trevor;CloseEyes}However, she seems more interested in being an overall nuisance rather than|a fellow arcane scholar.
-speak;Xiang;So then{tgm}...?
-expression;Trevor;NormalBlink
-speak;Trevor;Miss Xiang, could you please teach me everything you know about da--|I mean, elder magic?|{c:e;Trevor;Smile}In return, I could teach you anything you may desire about anima magic.
-expression;Xiang;CloseEyes
-speak;Xiang;Nature magic.
-expression;Trevor;NormalBlink
-speak;Trevor;Wha--Oh!{c:e;Trevor;CloseEyes,Smile} Fascinating.|{c:e;Trevor;NormalBlink,Smile}It seems I have much to learn!
+Trevor: Ah, Miss Xiang! May I have a moment of your time?
+Xiang: Yes?
+Trevor: You seem quite adept at using dark magic--
+Xiang: Elder magic.
+Trevor: Er, pardon?
+Xiang: The proper term is "elder magic".
+Trevor: Now this is exactly why I am in need of your assistance! You see, I wish to delve deeper into understanding the inner workings of various types of magic. Under normal circumstances, I would ask Felicity to help in this endeavor. However, she seems more interested in being an overall nuisance rather than a fellow arcane scholar.
+Xiang: So then...?
+Trevor: Miss Xiang, could you please teach me everything you know about da-- I mean, elder magic? In return, I could teach you anything you may desire about anima magic.
+Xiang: Nature magic.
+Trevor: Wha--Oh! Fascinating. It seems I have much to learn!
 
-B Support
-Trevor: Miss Xiang, is there a reason why you use these… archaic terms for the categories of magic?
+B Support (Could either finish here or go more in depth with the magic system.)
+Trevor: Miss Xiang, is there a reason why you use these... archaic terms for the categories of magic?
 Xiang: Those terms are what they are supposed to be called. It wasn't until recently that the names have changed.
 Trevor: Recently? Why, as far as I am aware, Light, Dark, and Anima have been called these names for centuries at least!
-Xiang: … Right. My sense of time has been lost on me.
+Xiang: ... Right. My sense of time has been lost on me.
 Trevor: I apologize. I did not mean to imply that you were at fault in any way. Honestly, it is intriguing how language evolves over time. However, having "elder magic" become "dark magic" seems rather insidious.
 Xiang: I can agree with that.
 Trevor: It being called elder magic seems more appropriate. The name implies it to be the oldest type of magic.
@@ -31,8 +24,8 @@ Trevor: Since that is the case, elder magic should be taught to set a foundation
 Xiang: Incorrect.
 Trevor: Oh?
 Xiang: Elder magic is different from holy and nature magic. Even if you had the ability to cast either one of those, it does not automatically mean you can also cast elder magic.
-Trevor: So it involves a deeper innate potential… I suppose that explains why practitioners of elder magic are few and far between.
-Xiang: That is… part of the reason.
+Trevor: So it involves a deeper innate potential... I suppose that explains why practitioners of elder magic are few and far between.
+Xiang: That is... part of the reason.
 Trevor: Hm?
 Xiang: We are getting off topic. Shall we continue the lesson?
 Trevor: Ah, yes. Of course.

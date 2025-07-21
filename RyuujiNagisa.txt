@@ -1,47 +1,41 @@
 C Support
-speak;Ryuuji;Yo, Nagisa. Got a minute?
-speak;Nagisa;What do you want, Kenji?
-speak;Ryuuji;I know I ain't in any position to be saying this,|but you really gotta cool it around the Medeans.
-expression;Nagisa;CloseEyes
-speak;Nagisa;...;no_talk
-speak;Ryuuji;Like it or not, we're all allies here.|On top of that, you're Tsubaki's retainer.|What you say is gonna be taken like Samegoro said it himself.|{c:e;Ryuuji;CloseEyes}Man, why do I even gotta explain this to you?{c:e;Ryuuji;NormalBlink} You of all people should get that.
-expression;Nagisa;HalfCloseEyes
-speak;Nagisa;And you of all people shouldn't be lecturing me on alliances, you dirty traitor.
-expression;Ryuuji;CloseEyes,Smile
-speak;Ryuuji;Heh, on one hand, I get where you're coming from.|{c:e;Ryuuji;NormalBlink}But honestly? That just shows how ignorant you are.
-expression;Nagisa;NormalBlink
-speak;Nagisa;What?
-speak;Ryuuji;Like I said, you of all people should know what I'm getting at.|You ain't a kid anymore, Nagisa.|{c:e;Ryuuji;HalfCloseEyes,Smile}Or maybe you still need me to hold your hand?
-speak;Nagisa;Oh, shove it! Don't think you can still tease me like that.
-expression;Ryuuji;NormalBlink,NoSmile
-speak;Ryuuji;Except I ain't teasin'. Seriously, what's gotten into you?
-speak;Nagisa;You{tgm}...{tgm} You just don't get it!
-mirror_portrait;Nagisa
-move_portrait;Nagisa;OffscreenLeft
-expression;Ryuuji;CloseEyes
-speak;Ryuuji;*sigh* That girl{tgm}...
+Ryuuji: Yo, Nagisa. Got a minute?
+Nagisa: What do you want, Kenji?
+Ryuuji: I know I ain't in any position to be saying this, but you really gotta cool it around the Medeans.
+Nagisa: ...
+Ryuuji: Like it or not, we're all allies here. On top of that, you're Tsubaki's retainer. What you say is gonna be taken like Samegoro said it himself. Man, why do I even gotta explain this to you? You of all people should get that.
+Nagisa: And you of all people shouldn't be lecturing me on alliances, you dirty traitor.
+Ryuuji: Heh, on one hand, I get where you're coming from. But honestly? That just shows how ignorant you are.
+Nagisa: What?
+Ryuuji: Like I said, you of all people should know what I'm getting at. You ain't a kid anymore, Nagisa. Or maybe you still need me to hold your hand?
+Nagisa: Oh, shove it! Don't think you can still tease me like that.
+Ryuuji: Except I ain't teasin'. Seriously, what's gotten into you?
+Nagisa: You... You just don't get it!
+(Nagisa leaves the scene.)
+Ryuuji: *sigh* That girl...
 
 A Support
-Nagisa: You… You kept the Wyrmfang Pirates away from the capital this whole time.
-Ryuuji: And first prize goes to the lovely lady. Didn’t you find it strange that the raids just suddenly stopped?
-Nagisa: I did, but I didn’t think you were responsible for that. Kenji. We thought you were dead! Why would we even think of that possibility?
-Ryuuji: I thought you’d make the connection after you saw I was still alive and kickin’. Seriously, you’re smarter than that, Nagisa. Use that head of yours.
-Nagisa: You… never stopped thinking of us.
-Ryuuji: You guys are family. Getting kidnapped by pirates ain’t gonna change that.
-Nagisa: I–We missed you so much, Kenji.
-Ryuuji: I know. I’m sorry. After the old captain kicked the bucket, someone had to take over the crew. And I just happened to be the man for the job. I had new responsibilities to take care of.
-Nagisa: You just can’t escape being everyone’s father figure, can you?
+[]
+Nagisa: You... You kept the Wyrmfang Pirates away from the capital this whole time.
+Ryuuji: And first prize goes to the lovely lady. Didn't you find it strange that the raids just suddenly stopped?
+Nagisa: I did, but I didn't think you were responsible for that. Kenji. We thought you were dead! Why would we even think of that possibility?
+Ryuuji: I thought you’d make the connection after you saw I was still alive and kickin'. Seriously, you're smarter than that, Nagisa. Use that head of yours.
+Nagisa: You never stopped thinking of us.
+Ryuuji: You guys are family. Getting kidnapped by pirates ain't gonna change that.
+Nagisa: I--We missed you so much, Kenji.
+Ryuuji: I know. I'm sorry. After the old captain kicked the bucket, someone had to take over the crew. And I just happened to be the man for the job. I had new responsibilities to take care of.
+Nagisa: You just can’t escape being everyone's father figure, can you?
 Ryuuji: Heh, you can say that again.
-Nagisa: … So, you returning to Edoyama is…
+Nagisa: So, you returning to Edoyama is...
 Ryuuji: Next to impossible.
 Nagisa: What if Lady Tsubaki took your crew into the imperial navy?
 Ryuuji: Nah, they're too free-spirited for that. Too many of us split off after Samegoro went mad. I'd rather not have something like that happen again.
-Nagisa: So you'll be gone once this is all over…
+Nagisa: So you'll be gone once this is all over...
 Ryuuji: Yup. No two ways about it.
-Nagisa: … Kenji, there's something I need to tell you.
+Nagisa: ... Kenji, there's something I need to tell you.
 Ryuuji: Yeah?
-Nagisa: I… I've always loved you.
-Ryuuji: Nagisa–
-Nagisa: D-Don’t say anything! I don't want to know. If you're leaving, then there's no point. I just wanted to get it off my chest. So… So just don't mind it.
+Nagisa: I... I've always loved you.
+Ryuuji: Nagisa--
+Nagisa: D-Don’t say anything! I don't want to know. If you're leaving, then there's no point. I just wanted to get it off my chest. So... So just don't mind it.
 (Nagisa leaves the scene)
-Ryuuji: *sigh* I've always known, Nagisa. I’ve always known.
+Ryuuji: *sigh* I've always known, Nagisa. I've always known.

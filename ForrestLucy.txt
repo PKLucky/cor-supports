@@ -1,34 +1,23 @@
 C Support
-speak;Forrest;Hello, Lucy. I see you and Bessie are doing well.
-expression;Lucy;Smile
-speak;Lucy;Yup! Looks like you and Macintosh are doing good too.
-expression;Forrest;NoSmile
-speak;Forrest;How are you holding up after your first taste of combat?
-speak;Lucy;Doing okay.|{c:e;Lucy;NoSmile}A lot of people got hurt, though.
-speak;Forrest;That's war, Lucy. People are going to get hurt.|That's why it's imperative that there's always at least one medic on hand. Preferably more.|And with you able to dash around on your horse,|you can get to people that those on foot cannot.
-speak;Lucy;I know, Sir Forrest.|{c:e;Lucy;Smile}I like making people feel better, patching up their boo-boos and all that.
-speak;Forrest;Their "boo-boos"?
-speak;Lucy;Yeah! You know their ouchies!
-expression;Forrest;CloseEyes
-speak;Forrest;Medea, please tell me this is NOT how she explains the healing craft to people.;StyleNid=thought_bubble
-expression;Forrest;HalfCloseEyes
-speak;Forrest;Yes{tgm}...{tgm} Of course.
-expression;Lucy;HalfCloseEyes,NoSmile
-speak;Lucy;I just wish I could help Mom get better though. She was--{c:e;Lucy;NormalBlink}Is the best.
-expression;Forrest;Smile
-speak;Forrest;She is. We're lucky she taught you what she knew before her illness came.
-expression;Lucy;CloseEyes
-speak;Lucy;I just wish I could help her.
-speak;Forrest;You are. Knowing you're helping in her place is helping her, Lucy.|She doesn't have to worry that no one is tending to those getting hurt.
-expression;Lucy;NormalBlink
-speak;Lucy;Really?
-speak;Forrest;Yes. Just keep it up.
-expression;Lucy;Smile
-speak;Lucy;Okay! I'll do my best and become the best healer ever! Other than Mom, of course.
-speak;Forrest;Of course.
-speak;Lucy;I'm gonna go practice my healing magic! See you later, Sir Forrest!
-mirror_portrait;Lucy
-move_portrait;Lucy;OffscreenRight
-expression;Forrest;NoSmile
-speak;Forrest;I hope for her sake her mother does recover,|but this illness that has afflicted her is a strange one.|No one seems to know what it is.
+Forrest: Hello, Lucy. I see you and Bessie are doing well.
+Lucy: Yup! Looks like you and Macintosh are doing good too.
+Forrest: How are you holding up after your first taste of combat?
+Lucy: Doing okay. A lot of people got hurt, though.
+Forrest: That's war, Lucy. People are going to get hurt. That's why it's imperative that there's always at least one medic on hand. Preferably more. And with you able to dash around on your horse, you can get to people that those on foot cannot.
+Lucy: I know, Sir Forrest. I like making people feel better, patching up their boo-boos and all that.
+Forrest: Their "boo-boos"?
+Lucy: Yeah! You know their ouchies!
+Forrest, thinking: Medea, please tell me this is NOT how she explains the healing craft to people.
+Forrest: Yes... Of course.
+Lucy: I just wish I could help Mom get better though. She was--Is the best.
+Forrest: She is. We're lucky she taught you what she knew before her illness came.
+Lucy: I just wish I could help her.
+Forrest: You are. Knowing you're helping in her place is helping her, Lucy. She doesn't have to worry that no one is tending to those getting hurt.
+Lucy: Really?
+Forrest: Yes. Just keep it up.
+Lucy: Okay! I'll do my best and become the best healer ever! Other than Mom, of course.
+Forrest: Of course.
+Lucy: I'm gonna go practice my healing magic! See you later, Sir Forrest!
+(Lucy leaves the scene.)
+Forrest: I hope for her sake her mother does recover, but this illness that has afflicted her is a strange one. No one seems to know what it is.
 # Original script by Berserker Sam #

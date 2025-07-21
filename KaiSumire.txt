@@ -1,31 +1,43 @@
 C Support
-speak;Kai;Sumireee! Wakey-wakey!
-bop_portrait;Sumire
-speak;Sumire;Huh? Wha?|{c:e;Sumire;Smile}Oh, Kai! Mornin'.
-expression;Kai;CloseEyes,Smile
-speak;Kai;It's three in the afternoon, but who's keeping track, am I right?
-expression;Sumire;NoSmile
-speak;Sumire;It's already--? Oh, no!|I was supposed to help organize the armory today!
-expression;Kai;NormalBlink,Smile
-speak;Kai;No need to worry about it. I took over for you.
-expression;Sumire;Smile
-speak;Sumire;Really? Thanks a million, Kai.|I owe ya--
-expression;Sumire;NoSmile
-bop_portrait;Sumire
-speak;Sumire;W-Wait, I mean{tgm}...!
-expression;Kai;HalfCloseEyes,Smile
-speak;Kai;Hm~? Were you about to say "I owe you one"?
-speak;Sumire;Nope! Nuh-uh!|I didn't finish my sentence. It doesn't count!
-expression;Kai;NormalBlink,Smile
-speak;Kai;The sentiment is there. It definitely counts.
-speak;Sumire;Well, I'm still not gonna do anything you say. No, sir!
-expression;Kai;HalfCloseEyes,Smile
-speak;Kai;I dunno, Sumire. I'm not the type of guy who does things for free.
-speak;Sumire;And I'm not the type of girl who blindly follows orders.|Even if it's something a friend asked me to do.
-expression;Kai;CloseEyes,Smile
-speak;Kai;Can't deny that.{c:e;Kai;NormalBlink,Smile}With that in mind, you don't have to worry about a thing, Sumire.|I'm not gonna ask anything out of you.|{c:e;Kai;HalfCloseEyes,Smile}This time.
-speak;Sumire;"This time" he says{tgm}...
-expression;Kai;NormalBlink,Smile
-speak;Kai;Anyway, you'd better wake up on time tomorrow.|Because I won't be this generous next time.
-expression;Sumire;Smile
-speak;Sumire;Yeah, yeah.
+Kai: Sumireee! Wakey-wakey!
+Sumire: Huh? Wha? Oh, Kai! Mornin'.
+Kai: It's three in the afternoon, but who's keeping track, am I right?
+Sumire: It's already--? Oh, no! I was supposed to help organize the armory today!
+Kai: No need to worry about it. I took over for you.
+Sumire: Really? Thanks a million, Kai. I owe ya-- W-Wait, I mean...!
+Kai: Hm~? Were you about to say "I owe you one"?
+Sumire: Nope! Nuh-uh! I didn't finish my sentence. It doesn't count!
+Kai: The sentiment is there. It definitely counts.
+Sumire: Well, I'm still not gonna do anything you say. No, sir!
+Kai: I dunno, Sumire. I'm not the type of guy who does things for free.
+Sumire: And I'm not the type of girl who blindly follows orders. Even if it's something a friend asked me to do.
+Kai: Can't deny that. With that in mind, you don't have to worry about a thing, Sumire. I'm not gonna ask anything out of you. This time.
+Sumire: "This time" he says...
+Kai: Anyway, you'd better wake up on time tomorrow. Because I won't be this generous next time.
+Sumire: Yeah, yeah.
+
+B Support
+Kai: Sumire?
+Sumire: Zzz...
+Kai: Rise n' shine, Sumire!
+Sumire: Ah! I'm up, I'm up! Oh, hey there, Kai. What's up?
+Kai: Mind enlightening me on something? I figured you'd probably have some insight on certain things.
+Sumire: What're you wondering about?
+Kai: What's with everyone thinking I'm some shameless skirt chaser?
+Sumire: Oh, that! There were rumors going around of a real looker of a mercenary doing... "side work." And well, his description pretty much matched yours, so...
+Kai: ... Ah.
+Sumire: But that couldn't be right. The Kai I know wouldn't make passes at a girl. He's too focused on all that cool ninja stuff to even think about romance! Right?
+Kai: Glad you understand, Sumire--
+Sumire: Heck yeah!
+Kai: But--
+Sumire: Oh dear Merin, why are you saying "but"? Kai, what have you been doing?? You didn't knock up some poor, innocent noblewoman while you were off doing Merin knows what--
+Kai: Sumire!! Man, with how you're reacting, I wouldn't be surprised if YOU were the reason why these rumors started cropping up.
+Sumire: H-Hey, don't look at me! I'm about as clueless about how all this started as you are.
+Kai: *sigh* Still, on one hand, I don't particularly care if some nobodies think that of me. On the other hand, if word gets out to the others in the army... Well, things will be more complicated than I'd like them to be.
+Sumire: Agreed. But hey, that only matters if any of that is actually true. Which it isn't, right?
+Kai: ...
+Sumire: ... Kai, you're supposed to agree with me there.
+Kai: ...
+(Kai leaves the scene.)
+Sumire: What the-- Kai! Don't avoid the question like that!!
+(Sumire chases after him.)

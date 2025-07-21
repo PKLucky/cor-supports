@@ -1,56 +1,41 @@
-transition;close
-if;support_rank_nid == 'C'
-change_background;CastleInterior
-transition;open
-music;Guildmaster Wigglytuff
-multi_add_portrait;Forrest;Left;Jake;Right
-speak;Forrest;Jake, may I ask you for some advice?
-speak;Jake;Well, sure thing, Sir Forrest! What's troubling ya?
-expression;Forrest;CloseEyes
-speak;Forrest;I{tgm}...{tgm} well{tgm}...{tgm} This is embarrassing, but{tgm}...{tgm}|{c:e;Forrest;NormalBlink}How do you{tgm}...{tgm}{br}court a woman?
-expression;Jake;Smile
-speak;Jake;Is that all? No need to be so shy about it!|So, who's the lucky lady?
-speak;Forrest;Th-That is irrelevant, isn't it?
-expression;Jake;NoSmile
-speak;Jake;I mean, if I have an idea who the girl is, I could give ya better advice.
-speak;Forrest;I would feel more comfortable if you gave me more general advice, then.
-speak;Jake;If you say so.|{c:e;Jake;Smile}So, first thing's first. You gotta get on this girl's good side.|Listen to her problems, do little things for her, stuff like that.
-speak;Forrest;I do a lot of that already.
-speak;Jake;There we go! You're already ahead of the game here.|{c:e;Jake;NoSmile}From there, you drop subtle hints that you like her.|{c:e;Jake;CloseEyes}Key word here: SUBTLE.|{c:e;Jake;HalfCloseEyes}Speaking from personal experience.
-speak;Forrest;But, it still worked, correct?{br}You and Anna--
-expression;Jake;NormalBlink
-speak;Jake;There were other girls before Anna.|{c:e;Jake;HalfCloseEyes}So many other girls{tgm}...
-expression;Forrest;HalfCloseEyes
-speak;Forrest;Ah.
-expression;Jake;NormalBlink,Smile
-speak;Jake;But yeah, subtlety is your best friend. Don't forget it!
-expression;Forrest;NormalBlink
-speak;Forrest;I apologize, Jake, but subtlety has not made any noticeable difference.
-expression;Jake;NoSmile
-speak;Jake;Huh, really? If that's the case, then might as well just be upfront with her!
-bop_portrait;Forrest
-speak;Forrest;N-No! That is not an option.
-expression;Jake;CloseEyes
-speak;Jake;Alright, alright. I think I see what the problem is.|{c:e;Jake;NormalBlink,Smile}Sir Forrest, what you need is to work on your confidence!
-speak;Forrest;My confidence?
-speak;Jake;Yup! Once we get that confidence up, you can get your girl, guaranteed!
-speak;Forrest;I suppose we can try that.
-speak;Jake;Great! I'm gonna brainstorm some ideas for confidence boosters.|I'll check back in with ya later.
+C Support
+Forrest: Jake, may I ask you for some advice?
+Jake: Well, sure thing, Sir Forrest! What's troubling ya?
+Forrest: I... well... This is embarrassing, but... How do you... court a woman?
+Jake: Is that all? No need to be so shy about it! So, who's the lucky lady?
+Forrest: Th-That is irrelevant, isn't it?
+Jake: I mean, if I have an idea who the girl is, I could give ya better advice.
+Forrest: I would feel more comfortable if you gave me more general advice, then.
+Jake: If you say so. So, first thing's first. You gotta get on this girl's good side. Listen to her problems, do little things for her, stuff like that.
+Forrest: I do a lot of that already.
+Jake: There we go! You're already ahead of the game here. From there, you drop subtle hints that you like her. Key word here: SUBTLE. Speaking from personal experience.
+Forrest: But, it still worked, correct? You and Anna--
+Jake: There were other girls before Anna. So many other girls...
+Forrest: Ah.
+Jake: But yeah, subtlety is your best friend. Don't forget it!
+Forrest: I apologize, Jake, but subtlety has not made any noticeable difference.
+Jake: Huh, really? If that's the case, then might as well just be upfront with her!
+Forrest: N-No! That is not an option.
+Jake: Alright, alright. I think I see what the problem is. Sir Forrest, what you need is to work on your confidence!
+Forrest: My confidence?
+Jake: Yup! Once we get that confidence up, you can get your girl, guaranteed!
+Forrest: I suppose we can try that.
+Jake: Great! I'm gonna brainstorm some ideas for confidence boosters. I'll check back in with ya later.
 
 B Support
-Jake: Sir Forrest, there you are! I’ve got a whole bunch of ideas to get your confidence up to snuff. Are you free?
+Jake: Sir Forrest, there you are! I've got a whole bunch of ideas to get your confidence up to snuff. Are you free?
 Forrest: Yes, I am.
 Jake: Great! Let’s get started. To my room!
-(Scene transitions to Jake’s room.)
+(Scene transitions to Jake's room.)
 Jake: Alright, first off, you gotta remember the most important thing: "With great confidence comes great won-fidence!"
 Forrest: "Won-fidence."
-Jake: Because you’ll always be a winner if you believe in yourself!
+Jake: Because you'll always be a winner if you believe in yourself!
 Forrest: Sure. Okay.
 Jake: Now, as an accomplished warrior yourself, I'm sure you have a nice, strong stance and posture. So, just keep it up throughout the day, not just in battle. The way you carry yourself can get you into the right mindset.
 Forrest: Hmm, I suppose that makes sense.
 Jake: Once you're standing tall with your chest puffed out, then you gotta speak with conviction! No hesitation!
 Forrest: Ah, well--
-Jake: Aha! That's the problem! Sir Forrest, you have to make your intentions known. If you don’t speak up, your girl will never know how you feel.
+Jake: Aha! That's the problem! Sir Forrest, you have to make your intentions known. If you don't speak up, your girl will never know how you feel.
 Forrest: Jake, it's not that simple-
 Jake: That's quitter talk! Here, I'll pretend to be the girl, then you seduce me.
 Forrest: What--
@@ -60,6 +45,6 @@ Forrest: Uh. Ahem.
 A Support
 Jake: Sir Forrest, I'm gonna be real frank with ya here. You never told me the girl you liked was the Medean princess herself!
 Forrest: Does that change things?
-Jake: Yes!! By a country mile! Man, if you've been followin' my advice to the letter this entire time, there's no way–
+Jake: Yes!! By a country mile! Man, if you've been followin' my advice to the letter this entire time, there's no way--
 Forrest: I don't know what you're so worked up about. Your advice has helped, Jake. Much better than I expected, if I'm being honest.
-Jake: Wh– I-I mean, yeah! Of course it has! Haha...
+Jake: Wh-- I-I mean, yeah! Of course it has! Haha...

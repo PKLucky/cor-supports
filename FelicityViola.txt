@@ -1,36 +1,27 @@
 C Support
-speak;Viola;Hey, Felicity, mind clearing up something for me?
-speak;Felicity;What is it?
-expression;Viola;CloseEyes
-speak;Viola;I'm trying to do the math in my head, and well{tgm}...{tgm}|{c:e;Viola;NormalBlink}Her Highness hired you seven years ago, right?
-speak;Felicity;Correct.
-speak;Viola;And you're how old again?
-expression;Felicity;CloseEyes,Smile
-speak;Felicity;Oh, Viola, don't you know it's rude to ask a lady her age?
-expression;Felicity;NormalBlink,NoSmile
-speak;Felicity;Besides, I stopped keeping track a long time ago.
-expression;Viola;CloseEyes
-speak;Viola;Hm{tgm}...{tgm} Well, you look like you're around my age,|so that would mean you would've still been a teenager when you met Princess Krista.
-expression;Viola;NormalBlink
-speak;Viola;But that's not right! You look just like you did seven years ago.
-expression;Felicity;CloseEyes,Smile
-speak;Felicity;You can say I aged quite gracefully, then.
-speak;Viola;Wait, then{tgm}...{tgm}|{c:e;Viola;CloseEyes}Hm{tgm}...{tgm} Hmmmmm{tgm}...
-expression;Felicity;NormalBlink,NoSmile
-speak;Felicity;As entertaining as this conversation is, Viola, I must return to my chores.|If you'll excuse me{tgm}...
-mirror_portrait;Felicity
-move_portrait;Felicity;OffscreenLeft
-expression;Viola;NormalBlink
-bop_portrait;Viola
-speak;Viola;Ah, wait!|{tgm}...{tgm} And she's gone.|{c:e;Viola;CloseEyes}Either I'm bad at math or Felicity's hiding something.|{c:e;Viola;HalfCloseEyes}{tgm}...{tgm} I should probably review my textbooks.
+Viola: Hey, Felicity, mind clearing up something for me?
+Felicity: What is it?
+Viola: I'm trying to do the math in my head, and well... Her Highness hired you seven years ago, right?
+Felicity: Correct.
+Viola: And you're how old again?
+Felicity: Oh, Viola, don't you know it's rude to ask a lady her age? Besides, I stopped keeping track a long time ago.
+Viola: Hm... Well, you look like you're around my age, so that would mean you would've still been a teenager when you met Princess Krista. But that's not right! You look just like you did seven years ago.
+Felicity: You can say I aged quite gracefully, then.
+Viola: Wait, then... Hm... Hmmmmm...
+Felicity: As entertaining as this conversation is, Viola, I must return to my chores. If you'll excuse me...
+(Felicity leaves the scene.)
+Viola: Ah, wait! ... And she's gone. Either I'm bad at math or Felicity's hiding something. ... I should probably review my textbooks.
 
 B Support
-Viola: Felicity! I’ve figured it out!
+Viola: Felicity! I've figured it out!
 Felicity: Figured out what, exactly?
 Viola: Your age! I now know why my calculations were off.
 Felicity: Oh?
-Viola: I’ve been going about it all wrong. You’re just older than you look!
-Felicity: Uh-
-Viola: That’s totally it, right? You’re probably like forty or fifty and just look really young for your age!
-Felicity: Oh! Um, yes. You got it right, Viola! Haha…
-Viola: No need to be embarrassed about it! My mother was like that too.
+Viola: I've been going about it all wrong. You're just older than you look!
+Felicity: Uh--
+Viola: That's totally it, right? You’re probably like forty or fifty and just look really young for your age!
+Felicity: Oh! Um, yes. You got it right, Viola! Haha...
+Viola: No need to be embarrassed about it! My mother was like that too. You look really good for fifty!
+Felicity: Wh-Why thank you, Viola. I, er, appreciate you saying so.
+Viola: Of course! Oh, and don't worry. I won't tell anyone. A lady's gotta have her secrets, after all.
+Felicity: I am glad you understand, Viola.

@@ -1,121 +1,66 @@
-transition;close
-if;support_rank_nid == 'C'
-change_background;InsideCastle
-transition;open
-music;Silent Ground
-add_portrait;Kai;Left;mirror;no_block
-add_portrait;Asuka;Right
-expression;Asuka;HalfCloseEyes
-speak;Asuka;...;no_talk
-expression;Asuka;NormalBlink
-move_portrait;Asuka;MidLeft
-move_portrait;Kai;FarLeft
-expression;Asuka;HalfCloseEyes
-speak;Asuka;Got you.
-expression;Kai;Smile,CloseEyes
-speak;Kai;Nice to see you too, Asuka.
-expression;Asuka;NormalBlink
-speak;Asuka;You know very well what the consequences are for defecting, Kai.|And as much as I would like to follow through with them, I can't exactly do that.
-expression;Kai;HalfCloseEyes,Smile
-speak;Kai;Aw, you still care about me.
-expression;Asuka;HalfCloseEyes
-speak;Asuka;When did you pick up that insufferable attitude?
-expression;Kai;NormalBlink,Smile
-speak;Kai;It's always been there. I was just good at hiding it.|{c:e;Kai;CloseEyes,Smile}Now, are you gonna keep holding me like this, or should I just break free myself?
-expression;Asuka;NormalBlink
-speak;Asuka;Wha--
-expression;Kai;NormalBlink,NoSmile
-bop_portrait;Kai
-move_portrait;Asuka;Right
-mirror_portrait;Kai
-move_portrait;Kai;Left
-speak;Kai;You couldn't have honestly believed I wouldn't know how to break out of that hold.|It was my father's technique. You know that.
-expression;Asuka;CloseEyes
-speak;Asuka;I suppose I underestimated you.{c:e;Asuka;NormalBlink} I assumed you'd be rusty after all this time.
-speak;Kai;So, what's the deal, Asuka?|I'm sure getting your hands on me wasn't the reason for your "visit".|{c:e;Kai;HalfCloseEyes,Smile}Heh, unless{tgm}...
-speak;Asuka;Now, hold on--
-expression;Kai;CloseEyes,Smile
-speak;Kai;I mean, I know I look like my old man, but come on--
-speak;Asuka;Quiet already!
-expression;Kai;HalfCloseEyes,Smile
-speak;Kai;Hmm, not hearing you deny it.
-expression;Asuka;HalfCloseEyes
-speak;Asuka;{tgm}...{c:expression;Asuka;CloseEyes}{tgm} You are just trying to distract me.|I will not give in so easily.
-expression;Kai;CloseEyes,Smile
-speak;Kai;Whatever makes you feel better.
-expression;Asuka;NormalBlink
-speak;Asuka;This was just a warning, Kai.|Once our time with the Medean princess is over, I will not show you mercy.|Watch yourself.
-mirror_portrait;Asuka
-move_portrait;Asuka;OffscreenRight
-expression;Kai;NoSmile,NormalBlink
-speak;Kai;Man, I know I was just trying to rile her up, but{tgm}...{tgm}{c:expression;Kai;HalfCloseEyes} Hm{tgm}...{tgm}|{c:e;Kai;CloseEyes}That's just plain pitiful, Asuka.
-unlock_support_rank;Kai;Asuka;C
-end
-end_skip
-if;support_rank_nid == 'B'
-change_background;InsideCastle
-transition;open
-music;Silent Ground
-add_portrait;Kai;Left;mirror;no_block
-add_portrait;Asuka;FarRight
-expression;Asuka;HalfCloseEyes
-speak;Asuka;...;no_talk
-expression;Asuka;NormalBlink
-move_portrait;Asuka;MidRight
-mirror_portrait;Kai
-bop_portrait;Asuka
-speak;Asuka;!!;no_talk
-speak;Kai;I'm not playing around anymore, Asuka. Gonna have to try harder than that.
-expression;Asuka;HalfCloseEyes
-speak;Asuka;Why, you{tgm}...!{tgm}|{c:e;Asuka;NormalBlink}Ya!
-move_portrait;Asuka;MidLeft
-expression;Kai;HalfCloseEyes,Smile
-speak;Kai;Hey, what happened to not killing me, hm?
-expression;Asuka;HalfCloseEyes
-speak;Asuka;You're making me reconsider, Kai. Choose your next words carefully.
-expression;Kai;HalfCloseEyes,NoSmile
-speak;Kai;{tgm}...{c:e;Kai;NormalBlink,Smile}{tgm}|"Good job, Su-chan. You've really improved."
-expression;Asuka;NormalBlink
-speak;Asuka;...!;no_talk
-move_portrait;Asuka;Right
-expression;Asuka;HalfCloseEyes
-speak;Asuka;D-Don't{tgm}...{tgm} Don't call me that.
-speak;Kai;What's wrong?|I thought you would've missed being called by that nickname.
-expression;Asuka;CloseEyes
-speak;Asuka;...;no_talk
-expression;Kai;CloseEyes,Smile
-speak;Kai;If you want me to keep going, I can.|{c:e;Kai;NormalBlink,Smile}In fact, I'll even throw in my "services" if you feel so inclined.
-expression;Asuka;NormalBlink
-speak;Asuka;You cannot be serious.
-expression;Kai;CloseEyes,Smile
-speak;Kai;Wouldn't be offering if I wasn't.|{c:e;Kai;NormalBlink,Smile}He and I went through similar training. You know that.|I bet I look just like him in his prime.|{c:e;Kai;HalfCloseEyes,Smile}Just a little bit of gold, and you can see for yourself, Asuka.
-expression;Asuka;HalfCloseEyes
-speak;Asuka;{tgm}...{tgm} Even you can admit this is going too far, Kai.
-expression;Kai;NormalBlink,Smile
-speak;Kai;Maybe. But your hesitation is giving me mixed signals.|{c:e;Kai;CloseEyes,Smile}Think about it. No one will know but us.|{c:e;Kai;NormalBlink,Smile}Keeping secrets is literally what ninjas are trained to do, after all.
-speak;Asuka;Do not tempt me.
-speak;Kai;So, it is up for consideration, then?
-speak;Asuka;{tgm}...{c:e;Asuka;CloseEyes}{tgm}|No. Goodbye, Kai.
-mirror_portrait;Asuka
-move_portrait;Asuka;OffscreenRight
-expression;Kai;NormalBlink,NoSmile
-speak;Kai;Damn, so close.|{c:e;Kai;CloseEyes}Hmm{tgm}...{tgm} but even if she did accept, would I really have it in me to follow through on it?|{tgm}{c:e;Kai;HalfCloseEyes}...{tgm} Ugh, just thinking about pretending to be him is making me sick{tgm}...
+C Support
+Asuka: ...
+(Asuka sneaks behind Kai and pins him to the wall.)
+Asuka: Got you.
+Kai: Nice to see you too, Asuka.
+Asuka: You know very well what the consequences are for defecting, Kai. And as much as I would like to follow through with them, I can't exactly do that.
+Kai: Aw, you still care about me.
+Asuka: When did you pick up that insufferable attitude?
+Kai: It's always been there. I was just good at hiding it. Now, are you gonna keep holding me like this, or should I just break free myself?
+Asuka: Wha--
+(Kai breaks out of Asuka's grasp.)
+Kai: You couldn't have honestly believed I wouldn't know how to break out of that hold. It was my father's technique. You know that.
+Asuka: I suppose I underestimated you. I assumed you'd be rusty after all this time.
+Kai: So, what's the deal, Asuka? I'm sure getting your hands on me wasn't the reason for your "visit". Heh, unless...
+Asuka: Now, hold on--
+Kai: I mean, I know I look like my old man, but come on--
+Asuka: Quiet already!
+Kai: Hmm, not hearing you deny it.
+Asuka: ... You are just trying to distract me. I will not give in so easily.
+Kai: Whatever makes you feel better.
+Asuka: This was just a warning, Kai. Once our time with the Medean princess is over, I will not show you mercy. Watch yourself.
+(Asuka leaves the scene.)
+Kai: Man, I know I was just trying to rile her up, but... Hm... That's just plain pitiful, Asuka.
+
+B Support
+Asuka: ... 
+(Asuka sneaks up behind Kai, but he turns around before she can get closer.)
+Asuka: !!
+Kai: I'm not playing around anymore, Asuka. Gonna have to try harder than that.
+Asuka: Why, you...! Ya!
+(Asuka moves in to strike Kai, but he dodges.)
+Kai: Hey, what happened to not killing me, hm?
+Asuka: You're making me reconsider, Kai. Choose your next words carefully.
+Kai: ... "Good job, Su-chan. You've really improved."
+Asuka: ...! D-Don't... Don't call me that.
+Kai: What's wrong? I thought you would've missed being called by that nickname.
+Asuka: ...
+Kai: If you want me to keep going, I can. In fact, I'll even throw in my "services" if you feel so inclined.
+Asuka: You cannot be serious.
+Kai: Wouldn't be offering if I wasn't. He and I went through similar training. You know that. I bet I look just like him in his prime. Just a little bit of gold, and you can see for yourself, Asuka.
+Asuka: ... Even you can admit this is going too far, Kai.
+Kai: Maybe. But your hesitation is giving me mixed signals. Think about it. No one will know but us. Keeping secrets is literally what ninjas are trained to do, after all.
+Asuka: Do not tempt me.
+Kai: So, it is up for consideration, then?
+Asuka: ... No. Goodbye, Kai.
+(Asuka leaves the scene.)
+Kai: Damn, so close. Hmm... but even if she did accept, would I really have it in me to follow through on it? ... Ugh, just thinking about pretending to be him is making me sick...
 
 A Support
-Asuka: …
+Asuka: ...
 Kai: What's wrong, Asuka? Given up?
-Asuka: … Why…? Why do you have to be so much like him?
-Kai: Asuka… *sigh* Alright, this is just getting sad. You've gotta let him go. Yuuto’s gone, and I ain’t here to replace him.
-Asuka: “Let him go”? You expect me to just “let him go”? I can't do that, Kai. Yuuto was… He… You can't even begin to understand how I feel!
-Kai: Hmph. You're right. I can't. I'll never understand how you can still love him that deeply after what happened. He got careless, Asuka. He's a failure. An absolute failure of a father…!
-Asuka: Kai? … Oh, Kai…
+Asuka: ... Why...? Why do you have to be so much like him?
+Kai: Asuka... *sigh* Alright, this is just getting sad. You've gotta let him go. Yuuto's gone, and I ain't here to replace him.
+Asuka: "Let him go"? You expect me to just "let him go"? I can't do that, Kai. Yuuto was... He... You can't even begin to understand how I feel!
+Kai: Hmph. You're right. I can't. I'll never understand how you can still love him that deeply after what happened. He got careless, Asuka. He's a failure. An absolute failure of a father...!
+Asuka: Kai? ... Oh, Kai...
 (Asuka attempts to pull Kai into an embrace)
 Kai: Don't touch me. Yuuto is gone. I don't care about him anymore and you shouldn't either. So just stop it already.
-Asuka: You can hide your feelings all you want, but you can’t hide them from me. I’ve known you all your life, Kai. 
+Asuka: You can hide your feelings all you want, but you can't hide them from me. I've known you all your life, Kai. 
 [Placeholder]
-Kai: He shouldn't have died like that, Asuka. He was better than that! He… He was…
+Kai: He shouldn't have died like that, Asuka. He was better than that! He... He was...
 Asuka: I know, Kai. I know.
-Kai: … Asuka?
+Kai: ... Asuka?
 Asuka: Yes?
 Kai: Do not tell anyone of this.
 Asuka: Of course.
@@ -127,10 +72,10 @@ Asuka: Well, that disproves a certain rumor I heard about you.
 Kai: Huh? And what rumor might that be?
 Asuka: I wonder if I should tell you? Maybe not. It'll be for your own peace of mind.
 Kai: With how you phrased that, maybe I SHOULD know.
-Asuka: I'm sure you won't have to worry about it, being under the Medean princess’s service now. Besides, ninjas are trained to keep their secrets. You said so yourself.
-Kai: Don't use my words against me like that…
+Asuka: I'm sure you won't have to worry about it, being under the Medean princess' service now. Besides, ninjas are trained to keep their secrets. You said so yourself.
+Kai: Don't use my words against me like that...
 Asuka: Haha!
-Kai: *sigh* … Asuka?
+Kai: *sigh* ... Asuka?
 Asuka: Hm?
 Kai: I missed this.
 Asuka: I did too.

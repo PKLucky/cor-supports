@@ -1,30 +1,21 @@
 C Support
-speak;Sam;Huah! Rargh! Hoorah! You're dead now!
-speak;Taylor;Huh, his axe maneuvers are better than I would've expected for|one living in the wilds for so long.
-mirror_portrait;Sam
-expression;Sam;Smile
-speak;Sam;Ah, Taylor! Didn't notice you there. You here to train too?
-speak;Taylor;I was, yeah. Your attacks are surprisingly accurate. Fast too.
-expression;Sam;NormalBlink
-speak;Sam;I had a few good trainers.
-speak;Taylor;You mean Gibson?
-speak;Sam;He was one of them.|Though, I encountered a few mercenaries who taught me a few things too.
-speak;Taylor;That explains it.|{c:e;Taylor;Smile}So, what do you do when you're not training?
-speak;Sam;Kill bandits.
-expression;Taylor;NoSmile
-speak;Taylor;Besides that.
-speak;Sam;Eat.
-expression;Taylor;CloseEyes
-speak;Taylor;Anything besides ESSENTIAL activities?
-speak;Sam;Uhh{tgm}...{tgm} Stare at {e:"Krista" if game.check_dead('Chell') == True else "Chell"}'s thighs and ass?
-expression;Taylor;HalfCloseEyes,Smile
-speak;Taylor;Ohh, somebody has a crush.
-speak;Sam;Wait, I said that out loud?
-expression;Taylor;Smile,NormalBlink
-speak;Taylor;Yup!|{c:e;Taylor;NoSmile}You know what, why don't we continue this conversation in a more relaxing atmosphere?
-speak;Sam;Uh, sure?
-expression;Taylor;Smile,NormalBlink
-bop_portrait;Taylor
-speak;Taylor;Tavern here we come! Have your drinks ready!
-speak;Sam;Oh no! I don't think this is a good idea!
+Sam: Huah! Rargh! Hoorah! You're dead now!
+Taylor: Huh, his axe maneuvers are better than I would've expected for one living in the wilds for so long.
+Sam: Ah, Taylor! Didn't notice you there. You here to train too?
+Taylor: I was, yeah. Your attacks are surprisingly accurate. Fast too.
+Sam: I had a few good trainers.
+Taylor: You mean Gibson?
+Sam: He was one of them. Though, I encountered a few mercenaries who taught me a few things too.
+Taylor: That explains it. So, what do you do when you're not training?
+Sam: Kill bandits.
+Taylor: Besides that.
+Sam: Eat.
+Taylor: Anything besides ESSENTIAL activities?
+Sam: Uhh... Stare at Chell's thighs and ass?
+Taylor: Ohh, somebody has a crush.
+Sam: Wait, I said that out loud?
+Taylor: Yup! You know what, why don't we continue this conversation in a more relaxing atmosphere?
+Sam: Uh, sure?r
+Taylor: Tavern here we come! Have your drinks ready!
+Sam: Oh no! I don't think this is a good idea!
 # Original script by Berserker Sam #

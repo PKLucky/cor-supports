@@ -1,18 +1,12 @@
 C Support
-speak;Aqua;Azure, how has traveling with the troupe been so far?
-expression;Azure;Smile
-speak;Azure;Quite well.|You know, once they knew I had a sister,|they begged me to take you along with us if we stopped near the monastery again.
-speak;Aqua;Oh?
-speak;Azure;They would go on and on about meeting you.|{c:e;Azure;CloseEyes,Smile}"Oh, Azure, why are you hiding your sister from us?"|"Is she as cute as you are?"
-expression;Aqua;Smile
-speak;Aqua;Haha! I see.{c:e;Aqua;NoSmile}I wouldn't even know what I would do if I came with you, though.|{c:e;Aqua;CloseEyes}I don't play an instrument, my singing voice isn't all that great,|and I don't know the first thing about dancing.
-expression;Azure;NormalBlink,NoSmile
-speak;Azure;I didn't either before I joined them.
-expression;Aqua;NormalBlink
-speak;Aqua;But you've always been so graceful with your movements.|Becoming a dancer just seemed so natural for you.
-expression;Azure;Smile
-speak;Azure;Really now? Since we're twins, I'd imagine some of that grace is in you too.
-speak;Aqua;Do you think so?
-speak;Azure;Sure I do. In fact, we can prove that easily.|I'll teach you one of the first dances I learned while in the troupe.|If you can grasp that, then that'll be proof enough.
-expression;Aqua;CloseEyes
-speak;Aqua;Hmm{tgm}...{tgm} If anything, it sounds like it would be fun.|{c:e;Aqua;NormalBlink,Smile}Alright, Azure, let's do it!
+Aqua: Azure, how has traveling with the troupe been so far?
+Azure: Quite well. You know, once they knew I had a sister, they begged me to take you along with us if we stopped near the monastery again.
+Aqua: Oh?
+Azure: They would go on and on about meeting you. "Oh, Azure, why are you hiding your sister from us?" "Is she as cute as you are?"
+Aqua: Haha! I see. I wouldn't even know what I would do if I came with you, though. I don't play an instrument, my singing voice isn't all that great, and I don't know the first thing about dancing.
+Azure: I didn't either before I joined them.
+Aqua: But you've always been so graceful with your movements. Becoming a dancer just seemed so natural for you.
+Azure: Really now? Since we're twins, I'd imagine some of that grace is in you too.
+Aqua: Do you think so?
+Azure: Sure I do. In fact, we can prove that easily. I'll teach you one of the first dances I learned while in the troupe. If you can grasp that, then that'll be proof enough.
+Aqua: Hmm... If anything, it sounds like it would be fun. Alright, Azure, let's do it!

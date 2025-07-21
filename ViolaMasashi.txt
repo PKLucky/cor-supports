@@ -1,36 +1,28 @@
 C Support
-speak;Viola;There you are, Mello. A nice juicy apple for you.|I even sprinkled some sugar on it just for you.
-speak;Invisible;Neigh!
-speak;Viola;There you are!|Who's my favorite girl? Who's my favorite girl? YOU'RE my favorite girl!
-add_portrait;Masashi;OffscreenRight
-move_portrait;Masashi;Right
-expression;Masashi;Smile
-speak;Masashi;Oh magnificent heavens,|who is this perfect example of grace, poise, and loveliness?
-mirror_portrait;Viola
-speak;Viola;Huh? Who are you?
-expression;Masashi;NoSmile
-speak;Masashi;Oh, did I startle you, madam? I'm dreadfully sorry.|{c:e;Masashi;Smile}I am Masashi, a shogun of Merinas.|I just couldn't stay silent after seeing the grace and poise you possess.|Especially after seeing how you look after your steed.
-speak;Viola;Uhhhh{tgm}...{tgm} Thank you?
-speak;Masashi;Oh my, graceful AND humble?|Madam, you are a diamond amongst rubble, mere coal even.|Would you be interested in a pot of tea later? Perhaps around lunch?
-expression;Viola;Smile
-speak;Viola;Sure! I'd love to.
-speak;Invisible;NEIGH!!! Neigh neigh neigh!!!!
-speak;Masashi;Even your pegasus has gotten excited.|I'll see you later, then. Until next time.
-mirror_portrait;Masashi
-move_portrait;Masashi;OffscreenRight
-speak;Viola;He seems nice.|{c:e;Viola;CloseEyes,Smile}Hm{tgm}...{tgm} Tea would be good.{c:e;Viola;NormalBlink,Smile} I hope there's plenty of sugar.
-speak;Invisible;NEIGH!
-mirror_portrait;Viola
-speak;Viola;What's that, girl?
-speak;Invisible;Neigh! Neigh!!
-speak;Viola;Now, that's not very nice to say.|We don't even know him to know if that's true or not.
-speak;Invisible;Neeighhh. Neigh, neigh. Neigh!
-speak;Viola;Wait, what? Mello, please!|He just wants to have tea and maybe some biscuits or something.
-speak;Invisible;Neigh!
-bop_portrait;Viola
-speak;Viola;It's not that serious!
-speak;Invisible;NEIGH!!
-speak;Viola;Will you stop worrying?!
+Viola: There you are, Mello. A nice juicy apple for you. I even sprinkled some sugar on it just for you.
+Mello: Neigh!
+Viola: There you are! Who's my favorite girl? Who's my favorite girl? YOU'RE my favorite girl!
+(Masashi enters the scene.)
+Masashi: Oh magnificent heavens, who is this perfect example of grace, poise, and loveliness?
+Viola: Huh? Who are you?
+Masashi: Oh, did I startle you, madam? I'm dreadfully sorry. I am Masashi, a shogun of Merinas. I just couldn't stay silent after seeing the grace and poise you possess. Especially after seeing how you look after your steed.
+Viola: Uhhhh... Thank you?
+Masashi: Oh my, graceful AND humble? Madam, you are a diamond amongst rubble, mere coal even. Would you be interested in a pot of tea later? Perhaps around lunch?
+Viola: Sure! I'd love to.
+Mello: NEIGH!!! Neigh neigh neigh!!!!
+Masashi: Even your pegasus has gotten excited. I'll see you later, then. Until next time.
+(Masashi leaves the scene.)
+Viola: He seems nice. Hm... Tea would be good. I hope there's plenty of sugar.
+Mello: NEIGH!
+Viola: What's that, girl?
+Mello: Neigh! Neigh!!
+Viola: Now, that's not very nice to say. We don't even know him to know if that's true or not.
+Mello: Neeighhh. Neigh, neigh. Neigh!
+Viola: Wait, what? Mello, please! He just wants to have tea and maybe some biscuits or something.
+Mello: Neigh!
+Viola: It's not that serious!
+Mello: NEIGH!!
+Viola: Will you stop worrying?!
 # Original script by Berserker Sam #
 
 B Support

@@ -1,21 +1,17 @@
 C Support
-speak;Xiang;His power{tgm}...{tgm} It's faint, but{tgm}...
-mirror_portrait;Forrest
-speak;Forrest;Ah, Xiang. I did not see you there. Did you need something?
-speak;Xiang;Forrest, how apt would you say you are at casting magic?
-expression;Forrest;CloseEyes
-speak;Forrest;Hmm, not very.|{c:e;Forrest;NormalBlink}I've only dabbled in basic spellcasting.|And it's not something I've ever considered putting a lot of focus into.
-speak;Xiang;Then, I would imagine that means you've never gone beyond|exploring your options outside of the natural magicks?
-speak;Forrest;Ah, no.
-speak;Xiang;I see. Would you like to expand your knowledge?
-speak;Forrest;In what way exactly?
-speak;Xiang;Elder magic.
-speak;Forrest;Elder magic? You mean the dark arts?
-expression;Xiang;CloseEyes
-speak;Xiang;That's a rather derogatory way to refer to it.|{c:e;Xiang;NormalBlink}But, yes.
-speak;Forrest;Ah, I apologize.|{c:e;Forrest;CloseEyes}But either way, that's surprising.|{c:e;Forrest;NormalBlink}Why da--I mean, elder magic specifically?|An innate talent for it is rare.
-speak;Xiang;You have the potential for it, Forrest. I can sense it.
-speak;Forrest;Are you sure you're not mistaken, Xiang?
-speak;Xiang;I'm positive.|In fact, your potential for it has me curious about you.|I wish to see how far you can go with this.
-expression;Forrest;CloseEyes
-speak;Forrest;Well, I have to admit, now I'm curious about that as well.|{c:e;Forrest;NormalBlink}I'll let you know when I have a moment to practice it with you, then.
+Xiang: His power... It's faint, but...
+Forrest: Ah, Xiang. I did not see you there. Did you need something?
+Xiang: Forrest, how apt would you say you are at casting magic?
+Forrest: Hmm, not very. I've only dabbled in basic spellcasting. And it's not something I've ever considered putting a lot of focus into.
+Xiang: Then, I would imagine that means you've never gone beyond exploring your options outside of the natural magicks?
+Forrest: Ah, no.
+Xiang: I see. Would you like to expand your knowledge?
+Forrest: In what way exactly?
+Xiang: Elder magic.
+Forrest: Elder magic? You mean the dark arts?
+Xiang: That's a rather derogatory way to refer to it. But, yes.
+Forrest: Ah, I apologize. But either way, that's surprising. Why da--I mean, elder magic specifically? An innate talent for it is rare.
+Xiang: You have the potential for it, Forrest. I can sense it.
+Forrest: Are you sure you're not mistaken, Xiang?
+Xiang: I'm positive. In fact, your potential for it has me curious about you. I wish to see how far you can go with this.
+Forrest: Well, I have to admit, now I'm curious about that as well. I'll let you know when I have a moment to practice it with you, then.

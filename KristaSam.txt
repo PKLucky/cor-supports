@@ -1,108 +1,64 @@
 C Support
-speak;Sam;Hey, Krista. We haven't had the chance to actually catch up on things.
-expression;Krista;Smile
-speak;Krista;Yeah! What happened with you all this time?|You know, besides the whole bandit-killing thing.
-speak;Sam;Not much beyond that.|But more importantly, what were you doing in Oregot?
-expression;Krista;HalfCloseEyes,Smile
-speak;Krista;Uh{tgm}...{tgm} things?
-expression;Sam;HalfCloseEyes
-speak;Sam;Things.
-expression;Krista;NoSmile,NormalBlink
-speak;Krista;Yup. Things.|Things that do not need any elaboration or detail whatsoever.
-expression;Sam;NormalBlink
-speak;Sam;Come on, Krista. Be honest with me.|No one goes to Oregot without rhyme or reason.|Especially not in its more bandit-infested regions.|You have a lot more important stuff to deal with than that, right?
-speak;Krista;That's true. It's complicated though{tgm}...
-speak;Sam;It can't be that hard to explain.
-expression;Krista;CloseEyes
-speak;Krista;I can't believe I gotta actually say this to you.|{c:e;Krista;NormalBlink}You remember how I got kidnapped by bandits years ago, right?
-speak;Sam;How can I forget?
-speak;Krista;Y'see, the thing is that I{tgm}...{tgm}|{c:e;Krista;CloseEyes}Dear Medea, how do I even begin to phrase this?|{c:e;Krista;NormalBlink}After all that, I kinda{tgm}...{tgm} liked it?
-speak;Sam;What.
-speak;Krista;I, uh. Liked getting kidnapped?
-speak;Sam;...;no_talk
-speak;Krista;Sam?
-speak;Sam;You know what? Let's put this conversation on hold.|I need time to think.
-mirror_portrait;Sam
-move_portrait;Sam;OffscreenRight
-expression;Krista;CloseEyes
-speak;Krista;And this is why I didn't wanna elaborate.
-unlock_support_rank;Krista;Sam;C
-end
-end_skip
-if;support_rank_nid == 'B'
-change_background;InsideCastle
-transition;open
-music;Guildmaster Wigglytuff
-multi_add_portrait;Krista;Left;Sam;Right
-speak;Sam;Alright, Krista. It's about time we discuss the elephant in the room.
-speak;Krista;You mean--{c:e;Krista;CloseEyes}Oh, dear Medea, do we have to?|{c:e;Krista;HalfCloseEyes}I REALLY don't want to go any more in depth than I already have.
-speak;Sam;Your explanation hardly makes any sense, though.|How can you LIKE getting kidnapped? You are deliberately putting yourself in danger!
-expression;Krista;NormalBlink
-speak;Krista;Yeah, but{tgm}...{c:e;Krista;CloseEyes}{tgm} *sigh* Here we go with the word choice again.|{c:e;Krista;NormalBlink}It{tgm}...{tgm} gets the blood pumping.
-speak;Sam;Then just do more training.
-speak;Krista;No, no, no, more like{tgm}...{tgm} it excites the senses?
-speak;Sam;Just read a good book. I can give you recommendations.
-expression;Krista;CloseEyes
-speak;Krista;It's not like that either!
-speak;Sam;So, what is it, then?
-expression;Krista;NormalBlink
-bop_portrait;Krista
-speak;Krista;For the love of Medea, Sam! It riles me up like an animal in heat!|Happy now?!
-expression;Sam;OpenEyes,OpenMouth
-speak;Sam;...;no_talk
-expression;Krista;OpenEyes,OpenMouth
-speak;Krista;{tgm}...{tgm}|{c:e;Krista;NoSmile,CloseEyes}sorrybyesam--
-move_portrait;Krista;OffscreenRight
-speak;Sam;{tgm}...{c:e;Sam;CloseEyes,NoSmile}{tgm} That{tgm}...{tgm}|{c:e;Sam;NormalBlink}Still doesn't make a lick of sense!
-mirror_portrait;Sam
-bop_portrait;Sam
-speak;Sam;Krista, explain yourself!!
-move_portrait;Sam;OffscreenRight
-unlock_support_rank;Krista;Sam;B
-end
-end_skip
-if;support_rank_nid == 'A'
-change_background;InsideCastle
-transition;open
-music;Respite in Battle
-multi_add_portrait;Krista;Left;Sam;Right
-speak;Sam;Krista, we need to talk.
-expression;Krista;CloseEyes
-speak;Krista;Nope! Not having any more "talks" with you.{c:e;Krista;HalfCloseEyes} Been there, done that.
-speak;Sam;We are having this talk even if I have to tie you to a chair.
-expression;Krista;NormalBlink
-bop_portrait;Krista
-speak;Krista;Wait, you're gonna WHAT?|{c:e;Krista;CloseEyes}Agh, no, getting distracted here.|{c:e;Krista;NormalBlink}A-Anyway, what's so important that you would tie me up to talk about it?
-speak;Sam;Do you even know why I left Medeas in the first place?
-speak;Krista;I dunno.{c:e;Krista;HalfCloseEyes} You wanted to see what Oregot was like?
-speak;Sam;Krista, you're not that dumb or oblivious. Give me a real guess.
-expression;Krista;CloseEyes,NoSmile
-speak;Krista;Fine.|{c:e;Krista;NormalBlink}Well, it was after I got captured, and Chell's parents died in the rescue.|You were out for revenge?
-expression;Sam;CloseEyes
-speak;Sam;Not wrong, and not entirely right either.|{c:e;Sam;NormalBlink}I went there to kill every last bandit to ensure you wouldn't get captured again.|{c:e;Sam;CloseEyes}No one's gonna get hurt by those scum again.{c:e;Sam;HalfCloseEyes} Not on my watch.
-expression;Krista;HalfCloseEyes
-speak;Krista;I{tgm}...{tgm} I see.|{c:e;Krista;NormalBlink}Vengeance seemed like an obvious answer.|{c:e;Krista;CloseEyes}And, honestly, I thought you were mad at me too.
-expression;Sam;NormalBlink
-speak;Sam;Why would I be mad?
-expression;Krista;NormalBlink
-speak;Krista;It was my fault, Sam! It was because of me that they died!|{c:e;Krista;HalfCloseEyes}If I hadn't wandered off that day, they would still be alive{tgm}...
-speak;Sam;Krista, there are millions of "what if's".|You're not doing yourself any favors by listing all the many different ones.|{c:e;Sam;CloseEyes}They may be true, they may not. Something else may have happened.|{c:e;Sam;NormalBlink}I went to try and make Oregot safer by|eliminating what makes it dangerous for everyone.|That much is guaranteed.
-speak;Krista;Yeah, that's true{tgm}...{tgm}|{c:e;Krista;NormalBlink}I understand now. Thanks for telling me, Sam.|{c:e;Krista;CloseEyes}That's one less weight off my mind.
-speak;Sam;That aside, why do you keep feigning ignorance all the time?|I know you're not like that at all.
-expression;Krista;HalfCloseEyes
-speak;Krista;I{tgm}...{tgm} I don't know.
-expression;Sam;CloseEyes
-speak;Sam;Hm{tgm}...{tgm} I think I know why.|{c:e;Sam;NormalBlink}That event back then scarred you in more ways than one,|resulting in how you portray yourself  now.
-expression;Krista;CloseEyes
-speak;Krista;...;no_talk
-speak;Sam;You're smart and caring, Krista. You notice the details. Details that elude me at times.|And you always have everyone's best interests at heart.
-expression;Krista;NormalBlink
-speak;Krista;Sam{tgm}...
-expression;Sam;CloseEyes
-speak;Sam;And because of that, I know you will make a good queen of Medeas someday.|{c:e;Sam;NormalBlink}Don't forget that.
-mirror_portrait;Sam
-move_portrait;Sam;OffscreenRight
-expression;Krista;HalfCloseEyes
-speak;Krista;Sam{tgm}...{c:e;Krista;CloseEyes}{tgm} I understand where he's coming from, but it's not that simple.|{c:e;Krista;CloseEyes,Smile}Still, it's nice to know he hasn't changed, even after all these years.|{c:expression;Krista;HalfCloseEyes,NoSmile}{tgm}...{c:e;Krista;NormalBlink}{tgm} Hold on, didn't he say he was gonna have me tied up through that whole interrogation?
-bop_portrait;Krista
-speak;Krista;Sam, wait up! You need to hold up your end of the bargain!!
+Sam: Hey, Krista. We haven't had the chance to actually catch up on things.
+Krista: Yeah! What happened with you all this time? You know, besides the whole bandit-killing thing.
+Sam: Not much beyond that. But more importantly, what were you doing in Oregot?
+Krista: Uh... things?
+Sam: Things.
+Krista: Yup. Things. Things that do not need any elaboration or detail whatsoever.
+Sam: Come on, Krista. Be honest with me. No one goes to Oregot without rhyme or reason. Especially not in its more bandit-infested regions. You have a lot more important stuff to deal with than that, right?
+Krista: That's true. It's complicated though...
+Sam: It can't be that hard to explain.
+Krista: I can't believe I gotta actually say this to you. You remember how I got kidnapped by bandits years ago, right?
+Sam: How can I forget?
+Krista: Y'see, the thing is that I... Dear Medea, how do I even begin to phrase this? After all that, I kinda... liked it?
+Sam: What.
+Krista: I, uh. Liked getting kidnapped?
+Sam: ...
+Krista: Sam?
+Sam: You know what? Let's put this conversation on hold. I need time to think.
+(Sam leaves the scene.)
+Krista: And this is why I didn't wanna elaborate.
+
+B Support
+Sam: Alright, Krista. It's about time we discuss the elephant in the room.
+Krista: You mean--Oh, dear Medea, do we have to? I REALLY don't want to go any more in depth than I already have.
+Sam: Your explanation hardly makes any sense, though. How can you LIKE getting kidnapped? You are deliberately putting yourself in danger!
+Krista: Yeah, but... *sigh* Here we go with the word choice again. It... gets the blood pumping.
+Sam: Then just do more training.
+Krista: No, no, no, more like... it excites the senses?
+Sam: Just read a good book. I can give you recommendations.
+Krista: It's not like that either!
+Sam: So, what is it, then?
+Krista: For the love of Medea, Sam! It riles me up like an animal in heat! Happy now?!
+Sam: ...
+Krista: ... sorrybyesam--
+(Krista leaves the scene.)
+Sam: ... That... Still doesn't make a lick of sense!
+(Sam chases after her.)
+Sam: Krista, explain yourself!!
+
+A Support
+Sam: Krista, we need to talk.
+Krista: Nope! Not having any more "talks" with you. Been there, done that.
+Sam: We are having this talk even if I have to tie you to a chair.
+Krista: Wait, you're gonna WHAT? Agh, no, getting distracted here. A-Anyway, what's so important that you would tie me up to talk about it?
+Sam: Do you even know why I left Medeas in the first place?
+Krista: I dunno. You wanted to see what Oregot was like?
+Sam: Krista, you're not that dumb or oblivious. Give me a real guess.
+Krista: Fine. Well, it was after I got captured, and Chell's parents died in the rescue. You were out for revenge?
+Sam: Not wrong, and not entirely right either. I went there to kill every last bandit to ensure you wouldn't get captured again. No one's gonna get hurt by those scum again. Not on my watch.
+Krista: I... I see. Vengeance seemed like an obvious answer. And, honestly, I thought you were mad at me too.
+Sam: Why would I be mad?
+Krista: It was my fault, Sam! It was because of me that they died! If I hadn't wandered off that day, they would still be alive...
+Sam: Krista, there are millions of "what if's". You're not doing yourself any favors by listing all the many different ones. They may be true, they may not. Something else may have happened. I went to try and make Oregot safer by eliminating what makes it dangerous for everyone. That much is guaranteed.
+Krista: Yeah, that's true... I understand now. Thanks for telling me, Sam. That's one less weight off my mind.
+Sam: That aside, why do you keep feigning ignorance all the time? I know you're not like that at all.
+Krista: I... I don't know.
+Sam: Hm... I think I know why. That event back then scarred you in more ways than one, resulting in how you portray yourself  now.
+Krista: ...
+Sam: You're smart and caring, Krista. You notice the details. Details that elude me at times. And you always have everyone's best interests at heart.
+Krista: Sam...
+Sam: And because of that, I know you will make a good queen of Medeas someday. Don't forget that.
+(Sam leaves the scene.)
+Krista: Sam... I understand where he's coming from, but it's not that simple. ... Hold on, didn't he say he was gonna have me tied up through that whole interrogation? Sam, wait up! You need to hold up your end of the bargain!!
+(Krista chases after Sam.)

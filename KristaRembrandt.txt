@@ -1,39 +1,29 @@
 C Support
-speak;Rembrandt;...;no_talk
-move_portrait;Krista;Right
-speak;Krista;Hey, Rembrandt! I--{c:e;Krista;NoSmile}O-Oh.
-move_portrait;Krista;FarRight
-speak;Krista;...;no_talk
-speak;Rembrandt;...;no_talk
-expression;Rembrandt;NormalBlink
-mirror_portrait;Rembrandt
-speak;Rembrandt;You may come over, Your Highness.|I just finished.
-move_portrait;Krista;Right
-speak;Krista;Sorry about that.|I didn't realize you were performing the Fading Smoke ritual.
-speak;Rembrandt;It's alright.
-speak;Krista;Who were you paying respects to, if you don't mind me asking?
-speak;Rembrandt;Old comrades.
-speak;Krista;I see.
-speak;Rembrandt;If you would like, you may pay your respects to Prince Ervan as well.
-expression;Krista;HalfCloseEyes
-speak;Krista;I'm not sure if I{tgm}...{tgm} I mean, I just{tgm}...
-speak;Rembrandt;{tgm}...{tgm} Do you know the significance of this particular ritual, Your Highness?
-expression;Krista;NormalBlink
-speak;Krista;Hmm{tgm}...{tgm} vaguely.
-speak;Rembrandt;Each aspect of the Fading Smoke ritual represents an individual's life and death.|The bonfire itself is one's life, burning with warmth.|And the smoke that rises reflects how fleeting life is.|It rises into the air and dissipates as if it were never there.
-expression;Krista;HalfCloseEyes
-speak;Krista;Never there{tgm}...
-speak;Rembrandt;Though, there are signs that it had existed. Like the scent of wood smoke, for instance.|The bonfire itself also remains until it burns out.|Much like those who left us, there are still traces of them left behind.
-expression;Krista;NormalBlink
-speak;Krista;That's true.
-speak;Rembrandt;Even so, everything has to end eventually.|Like the bonfire, it must die out.|Eventually, you must let go.
-expression;Krista;CloseEyes
-speak;Krista;...;no_talk
-speak;Rembrandt;I will not tell you how to mourn over Prince Ervan's death, Your Highness.|However, you must remember you cannot hang onto him forever.
-expression;Krista;HalfCloseEyes
-speak;Krista;But I{tgm}...
-expression;Krista;CloseEyes
-speak;Krista;...
+Rembrandt: ...
+(Krista enters the scene.)
+Krista: Hey, Rembrandt! I--O-Oh.
+(Krista backs off.)
+Krista: ...
+Rembrandt: ...
+Rembrandt: You may come over, Your Highness. I just finished.
+(Krista moves closer.)
+Krista: Sorry about that. I didn't realize you were performing the Fading Smoke ritual.
+Rembrandt: It's alright.
+Krista: Who were you paying respects to, if you don't mind me asking?
+Rembrandt: Old comrades.
+Krista: I see.
+Rembrandt: If you would like, you may pay your respects to Prince Ervan as well.
+Krista: I'm not sure if I... I mean, I just...
+Rembrandt: ... Do you know the significance of this particular ritual, Your Highness?
+Krista: Hmm... vaguely.
+Rembrandt: Each aspect of the Fading Smoke ritual represents an individual's life and death. The bonfire itself is one's life, burning with warmth. And the smoke that rises reflects how fleeting life is. It rises into the air and dissipates as if it were never there.
+Krista: Never there...
+Rembrandt: Though, there are signs that it had existed. Like the scent of wood smoke, for instance. The bonfire itself also remains until it burns out. Much like those who left us, there are still traces of them left behind.
+Krista: That's true.
+Rembrandt: Even so, everything has to end eventually. Like the bonfire, it must die out. Eventually, you must let go.
+Krista: ...
+Rembrandt: I will not tell you how to mourn over Prince Ervan's death, Your Highness. However, you must remember you cannot hang onto him forever.
+Krista: But I... ...
 
 B Support
 Krista: Quick question for you, Rembrandt. If you don't mind, of course.

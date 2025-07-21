@@ -1,36 +1,21 @@
 C Support
-speak;Nagisa;Well, well, the floozy's guard dog is out on the training yard today?
-mirror_portrait;Forrest
-speak;Forrest;Are you referring to me?
-expression;Nagisa;NormalBlink,NoSmile
-speak;Nagisa;Is there anyone else out here?
-expression;Forrest;HalfCloseEyes
-speak;Forrest;I don't think you realize you're walking a fine line here, Nagisa.
-speak;Nagisa;Oh?
-expression;Forrest;NormalBlink
-speak;Forrest;I've said that disrespect towards Her Highness wouldn't be taken lightly.|{c:e;Forrest;CloseEyes}And I am a man of my word.
-speak;Nagisa;Just what are you--
-expression;Forrest;NormalBlink
-bop_portrait;Forrest
-sound;Miss
-wait;300
-bop_portrait;Nagisa
-speak;Nagisa;!!;no_talk
-mirror_portrait;Nagisa
-wait;300
-mirror_portrait;Nagisa
-speak;Nagisa;Was that a javelin? An ACTUAL javelin?!
-speak;Forrest;The only reason I missed is Her Highness wouldn't approve of me disposing an ally.|{c:e;Forrest;CloseEyes}Although, calling you an ally is a stretch.
-expression;Nagisa;HalfCloseEyes
-speak;Nagisa;Y-You{tgm}...
-expression;Forrest;NormalBlink
-speak;Forrest;If you value your life, I suggest you learn to hold your tongue.|Now, if we're done here, I shall resume my training.
-mirror_portrait;Forrest
-move_portrait;Forrest;OffscreenLeft
-speak;Nagisa;...
+Nagisa: Well, well, the floozy's guard dog is out on the training yard today?
+Forrest: Are you referring to me?
+Nagisa: Is there anyone else out here?
+Forrest: I don't think you realize you're walking a fine line here, Nagisa.
+Nagisa: Oh?
+Forrest: I've said that disrespect towards Her Highness wouldn't be taken lightly. And I am a man of my word.
+Nagisa: Just what are you--
+(Forrest throws a javelin in Nagisa's direction.)
+Nagisa: !! Was that a javelin? An ACTUAL javelin?!
+Forrest: The only reason I missed is Her Highness wouldn't approve of me disposing an ally. Although, calling you an ally is a stretch.
+Nagisa: Y-You...
+Forrest: If you value your life, I suggest you learn to hold your tongue. Now, if we're done here, I shall resume my training.
+(Forrest leaves the scene.)
+Nagisa: ...
 
 B Support
-Nagisa: …
+Nagisa: ...
 Forrest: What do you want?
 Nagisa: If it were up to you, would you still allow me to be here?
 Forrest: No. Your combat prowess is remarkable, but that is your only point of merit.

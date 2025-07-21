@@ -1,160 +1,68 @@
 C Support
-speak;Forrest;♫ Hm-hmm hmmmm~ Lala la doo doo{tgm}... ♫
-add_portrait;Marina;OffscreenRight
-move_portrait;Marina;Right
-speak;Marina;Oh, Sir Forrest. Was that you just now?
-expression;Forrest;NormalBlink,NoSmile
-bop_portrait;Forrest
-mirror_portrait;Forrest
-speak;Forrest;Miss Marina! You startled me.|And I'm sorry, but what are you referring to?
-speak;Marina;Why, your singing, of course!
-speak;Forrest;My singing? I'm not being a nuisance, am I?
-speak;Marina;The complete opposite, actually! You have quite the voice, Sir Forrest.|If you weren't a knight, I'm sure you would make an excellent bard.
-speak;Forrest;Thank you? I'm not sure how to take that.
-expression;Marina;Smile
-speak;Marina;Take it as a compliment, dear.|{c:e;Marina;NoSmile}Trust me, if this knight business goes south, you have nothing to worry about.|You have your charming voice to fall back on.|{c:e;Marina;HalfCloseEyes,Smile}Though, even if you didn't have the gift of song,|your handsome face could get you far in other lines of work.
-bop_portrait;Forrest
-speak;Forrest;E-Excuse me?
-expression;Marina;NormalBlink,Smile
-speak;Marina;Pay no mind to that last thing. It was merely a joke.|I'll let you get back to your chores.
-mirror_portrait;Marina
-move_portrait;Marina;OffscreenRight
-expression;Forrest;CloseEyes
-speak;Forrest;Just what did she mean by other lines of{tgm}...?
-expression;Forrest;NormalBlink
-bop_portrait;Forrest
-speak;Forrest;D-Did she really mean--?!|No, of course not. Why would she insinuate{tgm}...{tgm}|{c:e;Forrest;CloseEyes}For the love of Medea, I spend too much time with Krista.
-unlock_support_rank;Forrest;Marina;C
-end
-end_skip
-if;support_rank_nid == 'B'
-change_background;InsideCastle
-transition;open
-music;MoonForest
-add_portrait;Marina;Left;;CloseEyes,Smile;mirror
-add_portrait;Forrest;OffscreenRight
-speak;Marina;♫ Lyuk mistyek mire treux di rosbanl ye felk~ ♫;;;;;;iconvo
-move_portrait;Forrest;Right
-speak;Forrest;Who is--
-bop_portrait;Forrest
-speak;Forrest;A-Ah, Miss Marina.
-expression;Marina;NormalBlink,NoSmile
-bop_portrait;Marina
-mirror_portrait;Marina
-speak;Marina;Sir Forrest?|{c:e;Marina;Smile}Haha! I see it's your turn to walk in on me this time.
-speak;Forrest;I apologize. I did not mean to disturb you.
-expression;Marina;CloseEyes,NoSmile
-speak;Marina;Oh, Sir Forrest, you can be so serious sometimes.|{c:e;Marina;NormalBlink,Smile}No harm done. Really.
-speak;Forrest;Alright.
-speak;Marina;Why don't you stay here and relax for a little while?|You must be busy, but a few minutes of rest won't hurt, I'm sure.
-speak;Forrest;It would be rude if I declined, wouldn't it?|I shall take you up on your offer, then.
-expression;Marina;CloseEyes,Smile
-speak;Marina;That's a good boy.
-speak;Forrest;May I ask you something, Miss Marina?
-expression;Marina;NoSmile,NormalBlink
-speak;Marina;Of course you may.
-speak;Forrest;What was that song you were singing just now?|It was quite beautiful.
-speak;Marina;Ah, it's a folk song that originated from Lake Lunaris.|It's called "Moon Forest".
-expression;Forrest;Smile
-speak;Forrest;How fitting.
-expression;Marina;Smile
-speak;Marina;Indeed.|Its lyrics speak of the moon's beauty as it's reflected upon Lake Lunaris's surface.|I could teach it to you, if you'd like.
-expression;Forrest;NoSmile
-speak;Forrest;Oh, are you sure?
-speak;Marina;Absolutely. I wasn't lying the other day when I said you had a good voice.|Honestly, I just want to hear you at least attempt to sing it.
-speak;Forrest;Well, if you insist.|{c:e;Forrest;Smile}I'll do my best, Miss Marina.
-unlock_support_rank;Forrest;Marina;B
-end
-end_skip
-if;support_rank_nid == 'A'
-change_background;BlackBackground
-transition;open
-speak;;Note: This Support is best enjoyed with BGM on!;StyleNid=hint;NumLines=3;no_sound
-transition;close
-change_background;ForrestMarinaA1
-transition;open
-music;MoonForest - Duet
-wait;5563
-speak;;♫ Lyuk mistyek mire treux di rosbanl ye felk ♫;FontType=iconvo;no_block;hold;no_sound
-wait;5458
-unhold;;
-speak;;♫ Lechur nil foi glaum tunarg fhuear ♫;FontType=iconvo;no_block;hold;no_sound
-wait;5156
-unhold;;
-speak;;♫ Seo timlal dyuh fain calel cilmeirg otach ♫;FontType=iconvo;no_block;hold;no_sound
-wait;5598
-unhold;;
-speak;;♫ Ainn mel dom duit glaum widlys ♫;FontType=iconvo;no_block;hold;no_sound
-wait;5501
-unhold;;
-speak;;♫ Baramok ha chirt feur sao cran purg lefild ♫;FontType=iconvo;no_block;hold;no_sound
-wait;5280
-unhold;;
-speak;;♫ Tarugxa verhol zwher bewo phard juinak ♫;FontType=iconvo;no_block;hold;no_sound
-wait;5774
-unhold;;
-speak;;♫ Beto karf efors creat shero whoss harg{br}orvig ♫;FontType=iconvo;no_block;hold;no_sound
-wait;5181
-unhold;;
-speak;;♫ Sirdeph anirm vlart xer harg ♫;FontType=iconvo;no_block;hold;no_sound
-wait;5664
-unhold;;
-music_clear;5000
-wait;5000
-end_skip
-transition;close
-change_background;InsideCastle
-transition;open
-music;Girl of the Plains
-multi_add_portrait;Marina;Left;Forrest;Right
-expression;Marina;Smile
-speak;Marina;That was very good, Sir Forrest.|I'm very proud of your progress.
-expression;Forrest;Smile
-speak;Forrest;Thank you, Miss Marina.|Though, I believe you deserve most of the credit.|It was only because of your guidance that I was able to sing that song.
-expression;Marina;CloseEyes,Smile
-speak;Marina;Oh, you flatter me too much.|{c:e;Marina;NormalBlink,Smile}But, thank you. I really do appreciate it.
-expression;Forrest;NoSmile
-speak;Forrest;Now that I think of it, it's been a while since|I've heard you sing the whole song by yourself.|Would it be a bother if{tgm}...
-speak;Marina;Of course I can sing it for you, Sir Forrest.|You don't need to be so shy about a simple favor.
-music_clear;1000
-music;MoonForest - Marina;1000
-expression;Marina;CloseEyes,Smile
-speak;Marina;Ahem.
-remove_all_portraits
-transition;close
-change_background;ForrestMarinaA2
-transition;open
-wait;5000
-speak;Forrest;(Miss Marina... Her voice has always been so melodic.)|(But for some reason in this moment...)|(Everything about her is...)
-speak;Forrest;... Beautiful.
-transition;close
-change_background;InsideCastle
-transition;open
-music_clear;1000
-music;Girl of the Plains;1000
-multi_add_portrait;Marina;Left;Forrest;Right
-speak;Marina;Hm? Did you say something?
-speak;Forrest;Ah, n-no. Nothing.
-expression;Marina;Smile
-speak;Marina;You know, Sir Forrest, I wouldn't mind teaching you more Folian ballads.|That is, if you are willing to learn.
-expression;Forrest;Smile
-speak;Forrest;I would love to, Miss Marina.|I may even teach you some Medean tunes as well.|I do happen to know a few.
+Forrest: ♫ Hm-hmm hmmmm~ Lala la doo doo... ♫
+(Marina enters the scene.)
+Marina: Oh, Sir Forrest. Was that you just now?
+Forrest: Miss Marina! You startled me. And I'm sorry, but what are you referring to?
+Marina: Why, your singing, of course!
+Forrest: My singing? I'm not being a nuisance, am I?
+Marina: The complete opposite, actually! You have quite the voice, Sir Forrest. If you weren't a knight, I'm sure you would make an excellent bard.
+Forrest: Thank you? I'm not sure how to take that.
+Marina: Take it as a compliment, dear. Trust me, if this knight business goes south, you have nothing to worry about. You have your charming voice to fall back on. Though, even if you didn't have the gift of song, your handsome face could get you far in other lines of work.
+Forrest: E-Excuse me?
+Marina: Pay no mind to that last thing. It was merely a joke. I'll let you get back to your chores.
+(Marina leaves the scene.)
+Forrest: Just what did she mean by other lines of...? D-Did she really mean--?! No, of course not. Why would she insinuate... For the love of Medea, I spend too much time with Krista.
+
+B Support
+Marina: ♫ Lyuk mistyek mire treux di rosbanl ye felk~ ♫
+(Forrest enters the scene.)
+Forrest: Who is-- A-Ah, Miss Marina.
+Marina: Sir Forrest? Haha! I see it's your turn to walk in on me this time.
+Forrest: I apologize. I did not mean to disturb you.
+Marina: Oh, Sir Forrest, you can be so serious sometimes. No harm done. Really.
+Forrest: Alright.
+Marina: Why don't you stay here and relax for a little while? You must be busy, but a few minutes of rest won't hurt, I'm sure.
+Forrest: It would be rude if I declined, wouldn't it? I shall take you up on your offer, then.
+Marina: That's a good boy.
+Forrest: May I ask you something, Miss Marina?
+Marina: Of course you may.
+Forrest: What was that song you were singing just now? It was quite beautiful.
+Marina: Ah, it's a folk song that originated from Lake Lunaris. It's called "Moon Forest".
+Forrest: How fitting.
+Marina: Indeed. Its lyrics speak of the moon's beauty as it's reflected upon Lake Lunaris's surface. I could teach it to you, if you'd like.
+Forrest: Oh, are you sure?
+Marina: Absolutely. I wasn't lying the other day when I said you had a good voice. Honestly, I just want to hear you at least attempt to sing it.
+Forrest: Well, if you insist. I'll do my best, Miss Marina.
+
+A Support
+Forrest and Marina: ♫ Lyuk mistyek mire treux di rosbanl ye felk / Lechur nil foi glaum tunarg fhuear / Seo timlal dyuh fain calel cilmeirg otach / Ainn mel dom duit glaum widlys / Baramok ha chirt feur sao cran purg lefild / Tarugxa verhol zwher bewo phard juinak / Beto karf efors creat shero whoss harg orvig / Sirdeph anirm vlart xer harg ♫
+Marina: That was very good, Sir Forrest. I'm very proud of your progress.
+Forrest: Thank you, Miss Marina. Though, I believe you deserve most of the credit. It was only because of your guidance that I was able to sing that song.
+Marina: Oh, you flatter me too much. But, thank you. I really do appreciate it.
+Forrest: Now that I think of it, it's been a while since I've heard you sing the whole song by yourself. Would it be a bother if...
+Marina: Of course I can sing it for you, Sir Forrest. You don't need to be so shy about a simple favor. Ahem.
+Forrest, thinking: Miss Marina... Her voice has always been so melodic. But for some reason in this moment... Everything about her is...
+Forrest: ... Beautiful.
+Marina: Hm? Did you say something?
+Forrest: Ah, n-no. Nothing.
+Marina: You know, Sir Forrest, I wouldn't mind teaching you more Folian ballads. That is, if you are willing to learn.
+Forrest: I would love to, Miss Marina. I may even teach you some Medean tunes as well. I do happen to know a few.
 
 S Support
 []
 Marina: When I was a little girl, I dreamed of getting swept off my feet by a dashing young knight. I never thought that would have actually happened to me.
-Forrest: “Dashing,” you say? You flatter me too much, Miss Marina.
-Marina: Oh, enough of the formalities. We have gone past that, wouldn’t you say?
+Forrest: "Dashing," you say? You flatter me too much, Miss Marina.
+Marina: Oh, enough of the formalities. We have gone past that, wouldn't you say?
 Forrest: I suppose.
 Marina: But back to the matter at hand, I already told you how handsome you are. And with a face like that, it makes me wonder if there's a body to match.
 Forrest: P-Pardon?
 Marina: You always looked so gallant and strong when riding across the battlefield. Just what could be beneath all that armor, hm?
-Forrest: M-Marina, I…
+Forrest: M-Marina, I...
 Marina: Yes?
-Forrest: This, er, doesn’t seem like a proper conversation to have–
-Marina: We’ve had worse. Remember how I said you could do other lines of work?
+Forrest: This, er, doesn't seem like a proper conversation to have--
+Marina: We've had worse. Remember how I said you could do other lines of work?
 Forrest: I'd much rather forget.
 Marina: I do still think that, you know. In fact, I wouldn't mind if we did it for free.
-Forrest: Wh-What?! I… Erm… W-Well– I apologize, Marina. I-I just remembered Her Highness needed me for… Um… S-Sorry, goodbye!
+Forrest: Wh-What?! I... Erm... W-Well-- I apologize, Marina. I-I just remembered Her Highness needed me for... Um... S-Sorry, goodbye!
 (Forrest leaves)
 Marina: Still a shy boy, I see. He'll come around eventually.

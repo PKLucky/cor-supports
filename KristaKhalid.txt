@@ -1,78 +1,60 @@
 C Support
-speak;Khalid;Yo, Krista! How goes the archery?
-mirror_portrait;Krista
-expression;Krista;Smile
-speak;Krista;Not bad. Done with lance training for today?
-speak;Khalid;Yeah. Mind if I kick back and watch you for a bit?
-speak;Krista;Go ahead.
-mirror_portrait;Krista
-expression;Khalid;NoSmile
-speak;Khalid;...;no_talk
-speak;Krista;...;no_talk
-speak;Khalid;So{tgm}...{tgm} How've you been holding up?
-expression;Krista;CloseEyes
-speak;Krista;Hm.{c:e;Krista;HalfCloseEyes} Could be better, could be worse.|{c:e;Krista;NormalBlink}Honestly, I should be asking you that. He was your brother, after all.
-speak;Khalid;Yeah, but you were gonna marry him.
-expression;Krista;HalfCloseEyes
-speak;Krista;I guess.
-expression;Khalid;HalfCloseEyes
-speak;Khalid;{tgm}...{c:e;Khalid;NormalBlink}Hey. I know you haven't come around for a whole year, but--
-speak;Krista;I'm sorry.
-expression;Khalid;HalfCloseEyes
-speak;Khalid;Krista{tgm}...
-mirror_portrait;Krista
-expression;Krista;HalfCloseEyes
-speak;Krista;I just--
-expression;Khalid;NormalBlink
-speak;Khalid;Don't even worry about it.
-expression;Krista;NormalBlink
-speak;Krista;How are you not angry with me?!|{c:e;Krista;HalfCloseEyes}It's been a year, Khalid.|I didn't even try to see you after all this time.
-expression;Khalid;CloseEyes
-speak;Khalid;I was busy mourning too.|{c:e;Khalid;NormalBlink}Honestly, I thought you'd be angry at me for not checking up on you.
-expression;Krista;NormalBlink
-speak;Krista;O-Oh{tgm}...{c:e;Krista;HalfCloseEyes} ...
-expression;Khalid;HalfCloseEyes
-speak;Khalid;...;no_talk
-expression;Krista;NormalBlink
-speak;Krista;A-Anyway, I think I'm done training for today. See ya.
-move_portrait;Krista;OffscreenRight
-mirror_portrait;Khalid
-expression;Khalid;CloseEyes
-speak;Khalid;*sigh*{c:wait;100}{c:e;Khalid;HalfCloseEyes} Man, Ervan was always better at this "feelings" stuff.|{c:e;Khalid;NormalBlink}What would he have done?
+Khalid: Yo, Krista! How goes the archery?
+Krista: Not bad. Done with lance training for today?
+Khalid: Yeah. Mind if I kick back and watch you for a bit?
+Krista: Go ahead.
+Khalid: ...
+Krista: ...
+Khalid: So... How've you been holding up?
+Krista: Hm. Could be better, could be worse. Honestly, I should be asking you that. He was your brother, after all.
+Khalid: Yeah, but you were gonna marry him.
+Krista: I guess.
+Khalid: ... Hey. I know you haven't come around for a whole year, but--
+Krista: I'm sorry.
+Khalid: Krista...
+Krista: I just--
+Khalid: Don't even worry about it.
+Krista: How are you not angry with me?! It's been a year, Khalid. I didn't even try to see you after all this time.
+Khalid: I was busy mourning too. Honestly, I thought you'd be angry at me for not checking up on you.
+Krista: O-Oh... ...
+Khalid: ...
+Krista: A-Anyway, I think I'm done training for today. See ya.
+(Krista leaves the scene.)
+Khalid: *sigh* Man, Ervan was always better at talking n' stuff. What would he have done?
 
 B Support
 
-Krista: With how big and strong you are, I’m surprised that lances became your specialty instead of axes or something.
-Khalid: … Is that all I am to you?
+Krista: With how big and strong you are, I'm surprised that lances became your specialty instead of axes or something.
+Khalid: ... Is that all I am to you?
 Krista: Huh?
-Khalid: All muscle and no brains. That’s how you’ve always seen me, isn’t it?
-Krista: What? Where’d you get that idea?
+Khalid: All muscle and no brains. That's how you’ve always seen me, isn’t it?
+Krista: What? Where'd you get that idea?
 
 A Support
-Khalid: I was never enough for anyone. Ervan was always number one. But when we met… When you would look at me with so much warmth in your eyes… I thought I had a chance. I would be your number one. But no. Ervan wins again, and I’m the one left behind.
-Krista: Khalid… … You know, you and Ervan were the only ones up for consideration for marriage. *Literally* the only ones.
+Khalid: I was never enough for anyone. Ervan was always number one. But when we met... When you would look at me with so much warmth in your eyes... I thought I had a chance. I would be your number one. But no. Ervan wins again, and I'm the one left behind.
+Krista: Khalid... You know, you and Ervan were the only ones up for consideration for marriage. LITERALLY the only ones.
 Khalid: Huh?
-Krista: Every other suitor I had didn’t make the cut. It wasn’t until I met you and Ervan that I found someone I could spend the rest of my life with.
+Krista: Every other suitor I had didn't make the cut. It wasn't until I met you and Ervan that I found someone I could spend the rest of my life with.
 Khalid: Mother and Father told us the same thing after your visit. I thought that was just an exaggeration.
-Krista: Nope, that’s exactly how it was. You guys didn’t treat me like I was a princess. You treated me like a friend. And that stuck with me.
+Krista: Nope, that's exactly how it was. You guys didn't treat me like I was a princess. You treated me like a friend. And that stuck with me.
 Khalid: And in the end, you still chose Ervan.
-Krista: Yeah, but it’s not like you were completely out of the running. You had a chance, Khalid. You may not be as smart as Ervan, but you were always so kind. When I was sad, you’d always know just what to say or do to cheer me up. And you were always so happy and carefree… I loved Ervan, but he was just too buried in books sometimes, y’know?
+Krista: Yeah, but it's not like you were completely out of the running. You had a chance, Khalid. You may not be as smart as Ervan, but you were always so kind. When I was sad, you'd always know just what to say or do to cheer me up. And you were always so happy and carefree... I loved Ervan, but he was just too buried in books sometimes, y'know?
 Khalid: Heh, yeah.
-Krista: … I loved you, Khalid. A lot.
+Krista: ... I loved you, Khalid. A lot.
 Khalid: And now?
-Krista: I… I don’t know. Honestly, it’s too soon for me to think about right now.
-Khalid: Figured. Just thought I’d ask. But you know…
+Krista: I... I don’t know. Honestly, it's too soon for me to think about right now.
+Khalid: Figured. Just thought I'd ask. But you know...
 Krista: Yeah?
 Khalid: Ervan and I promised each other something. That whoever marries you will make you the happiest woman in the world. If something happened, the other one would do whatever it took to make things right.
 
 A+ Support
-Khalid: I’ll go wherever you go! Please, Krista. I can’t be apart from you again.
-Krista: We both know that isn’t possible.
-Khalid: … *sigh* First Ervan, now you… Dear Fueg, why does it have to be this way?
-Krista: I’m so sorry, Khalid.
+Khalid: I'll go wherever you go! Please, Krista. I can't be apart from you again.
+Krista: We both know that isn't possible.
+Khalid: *sigh* First Ervan, now you... Dear Fueg, why does it have to be this way?
+Krista: I'm so sorry, Khalid.
 
-Krista: I… I still love you.
+Krista: I... I still love you.
 Khalid: I do too, Krista. I've always loved you, and I never stopped loving you.
 Krista: If I could still become queen, would you still marry me, Khalid?
-Khalid: Do you even need to ask? Even if we can’t, I’ll never forget you, Krista. No matter what happens, you’ll always be in my heart.
-Krista: Khalid… *sniff* Khalid, I… I’m so sorry…!
+Khalid: Do you even need to ask? Even if we can't, I’ll never forget you, Krista. No matter what happens, you'll always be in my heart.
+Krista: Khalid... *sniff* Khalid, I... I'm so sorry...!

@@ -1,47 +1,23 @@
 C Support [REQUIRES REVISION]
-speak;Cole;Greetings, Mister Parker.
-speak;Parker;Hello, Cole.
-speak;Cole;What's today's lesson?
-speak;Parker;I know that you excel in fire magic, so I want you to practice more{tgm}...
-expression;Parker;CloseEyes
-speak;Parker;Obscure magic.
-expression;Parker;NormalBlink
-speak;Parker;I know that you're really good, but I want you to be able to adapt.|Some magic is stronger in certain situations.
-expression;Cole;CloseEyes
-speak;Cole;Ice against fire melts, but then turns into water which puts out the fire.
-expression;Cole;NormalBlink
-speak;Cole;In other words ice magic?
-speak;Parker;Precisely.
-speak;Cole;And the wind controls water. And the thunder can make fire.
-expression;Parker;Smile
-speak;Parker;Yes, very good. I see you have been keeping up with your studies.
-expression;Cole;Smile
-speak;Cole;Thank you, Mister Parker.
-expression;Parker;NoSmile
-speak;Parker;Now, let's begin with the rest of the lesson.
+Cole: Greetings, Mister Parker.
+Parker: Hello, Cole.
+Cole: What's today's lesson?
+Parker: I know that you excel in fire magic, so I want you to practice more... Obscure magic. I know that you're really good, but I want you to be able to adapt. Some magic is stronger in certain situations. Ice against fire melts, but then turns into water which puts out the fire. In other words ice magic?
+Parker: Precisely.
+Cole: And the wind controls water. And the thunder can make fire.
+Parker: Yes, very good. I see you have been keeping up with your studies.
+Cole: Thank you, Mister Parker.
+Parker: Now, let's begin with the rest of the lesson.
 
 B Support [REQUIRES REVISION]
-speak;Cole;Greetings, Mister Parker.
-speak;Parker;Hello again, Cole.
-speak;Cole;I have a question. What was the toughest magic duel you ever had?|I know that you're not supposed to just go into battle for the sake of it,|but I'm curious.
-expression;Parker;CloseEyes
-speak;Parker;Hmm{tgm}...{tgm} Let's see{tgm}...
-expression;Parker;NormalBlink
-speak;Parker;I had to deal with a rogue dark mage that was terrorizing towns.|I ended up confronting him at a port. He wielded Nosferatu.
-expression;Cole;CloseEyes
-speak;Cole;Steals the health of its victims and gives it to the user.
-expression;Cole;NormalBlink
-speak;Cole;Definitely doesn't seem like something that would be light magic.
-speak;Parker;Yes, it felt as if my very essence was being drained away.|The battle ended up being so fierce that a pub was destroyed.|The mage's tome ended up breaking so he swapped to Luna.
-speak;Cole;It completely ignores the victim's will and mental endurance.
-expression;Parker;CloseEyes,Smile
-speak;Parker;Correct.
-expression;Parker;NormalBlink,NoSmile
-speak;Parker;In the end, I got desperate that I ended up just beating him with my fists.
-expression;Cole;HalfCloseEyes
-speak;Cole;Hmm{tgm}...
-expression;Cole;NormalBlink
-speak;Cole;Sorry for asking. I'm glad you're okay.
-speak;Parker;It's not your fault. You're just curious.
-expression;Cole;CloseEyes
-speak;Cole;I need to be able to lift heavier tomes for the battles up ahead.
+Cole: Greetings, Mister Parker.
+Parker: Hello again, Cole.
+Cole: I have a question. What was the toughest magic duel you ever had? I know that you're not supposed to just go into battle for the sake of it, but I'm curious.
+Parker: Hmm... Let's see... I had to deal with a rogue dark mage that was terrorizing towns. I ended up confronting him at a port. He wielded Nosferatu.
+Cole: Steals the health of its victims and gives it to the user. Definitely doesn't seem like something that would be light magic.
+Parker: Yes, it felt as if my very essence was being drained away. The battle ended up being so fierce that a pub was destroyed. The mage's tome ended up breaking so he swapped to Luna.
+Cole: It completely ignores the victim's will and mental endurance.
+Parker: Correct. In the end, I got desperate that I ended up just beating him with my fists.
+Cole: Hmm... Sorry for asking. I'm glad you're okay.
+Parker: It's not your fault. You're just curious.
+Cole: I need to be able to lift heavier tomes for the battles up ahead.

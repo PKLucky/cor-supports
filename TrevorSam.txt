@@ -1,77 +1,41 @@
 C Support
-speak;Trevor;Ah Sam, my lusty axe fighter! How did you come into possession of a Wind tome?|And what were you doing with it exactly?|You seem to have no magical potential to speak of.
-speak;Sam;I took it from a bandit's corpse.
-speak;Trevor;Ah yes, of course.|But why keep it at your cabin? Why not sell it?
-expression;Sam;Smile
-speak;Sam;I found that if I kept it open, it kept the cabin cool during the summer.|Quite the breeze too.
-expression;Trevor;NoSmile
-speak;Trevor;I beg your pardon? You kept it to cool off your house?
-expression;Sam;NoSmile
-speak;Sam;Sure did. The old place gets hot in the summer.|{c:e;Sam;Smile}Oh, there was a Fire tome too.
-expression;Trevor;CloseEyes
-speak;Trevor;Please don't say you used that to keep the cabin warm in the winter.
-speak;Sam;Nope, I used it to cook with!
-expression;Trevor;NormalBlink
-speak;Trevor;What?? What did you do?|Tear it up and use its pages as ignition fuel?
-expression;Sam;NoSmile
-speak;Sam;No man, that's crazy. Only someone inept at starting a campfire does that.|{c:e;Sam;Smile}I found that if I struck a piece of wood across the book,|it would catch on fire and then the rest is easy.
-expression;Trevor;CloseEyes
-speak;Trevor;That is even worse.|{c:e;Trevor;NormalBlink}Thank you, my boisterous friend.|This conversation has been enlightening, but I need to take a reprieve.
-mirror_portrait;Trevor
-move_portrait;Trevor;OffscreenRight
-speak;Sam;How can someone talk so much but say so little?|And why was he so upset at such simple practical uses of something|otherwise useless?
-unlock_support_rank;Trevor;Sam;C
+Trevor: Ah Sam, my lusty axe fighter! How did you come into possession of a Wind tome? And what were you doing with it exactly? You seem to have no magical potential to speak of.
+Sam: I took it from a bandit's corpse.
+Trevor: Ah yes, of course. But why keep it at your cabin? Why not sell it?
+Sam: I found that if I kept it open, it kept the cabin cool during the summer. Quite the breeze too.
+Trevor: I beg your pardon? You kept it to cool off your house?
+Sam: Sure did. The old place gets hot in the summer. Oh, there was a Fire tome too.
+Trevor: Please don't say you used that to keep the cabin warm in the winter.
+Sam: Nope, I used it to cook with!
+Trevor: What?? What did you do? Tear it up and use its pages as ignition fuel?
+Sam: No man, that's crazy. Only someone inept at starting a campfire does that. I found that if I struck a piece of wood across the book, it would catch on fire and then the rest is easy.
+Trevor: That is even worse. Thank you, my boisterous friend. This conversation has been enlightening, but I need to take a reprieve.
+(Trevor leaves the scene.)
+Sam: How can someone talk so much but say so little? And why was he so upset at such simple practical uses of something otherwise useless?
 # Original script by Berserker Sam #
-end
-end_skip
-if;support_rank_nid == 'B'
-change_background;Library
-transition;open
-music;Guildmaster Wigglytuff
-add_portrait;Trevor;Left;mirror
-expression;Trevor;HalfCloseEyes
-speak;Trevor;Was I assuming things wrong? 'Cause if that was what was goin' on, then{tgm}...{tgm} Hm{tgm}...
-add_portrait;Sam;OffscreenRight
-move_portrait;Sam;Right
-expression;Sam;Smile
-speak;Sam;Trevor! Figures that you'd be here with your nose in a book.
-expression;Trevor;NormalBlink
-bop_portrait;Trevor
-mirror_portrait;Trevor
-speak;Trevor;S-Sam?! You startled me. What're--|I mean, what may you be doing in the castle library?
-speak;Sam;Wanted to find something for a light read. What are you up to?
-speak;Trevor;Reviewing the fundamentals of magic.|Quite frankly, our conversation the other day has vexed me for some time now.
-expression;Sam;NoSmile
-speak;Sam;Got a problem with how I used those tomes?
-expression;Trevor;CloseEyes
-speak;Trevor;Not exactly.|{c:e;Trevor;NormalBlink}Though your activation methods were{tgm}...{tgm} unconventional,|the tomes you acquired were able to perform their intended functions.|Yet, you have no magical potential to speak of.
-speak;Sam;Uh-huh?
-speak;Trevor;Magical tomes act as amplifiers to a user's magic potential.|If there is no potential, then they simply won't work.
-speak;Sam;Okay{tgm}...?
-expression;Trevor;CloseEyes
-speak;Trevor;You cannot create something out of nothing, Sam. That is just simple logic at work.|{c:e;Trevor;NormalBlink}With that in mind, I realized the answer I sought was in front of me all along!
-expression;Sam;CloseEyes
-speak;Sam;I don't like where this is going{tgm}...
-expression;Trevor;Smile
-speak;Trevor;Sam, my dear friend, you actually DO have magical potential within yourself!|That is why I would like to propose--
-expression;Sam;HalfCloseEyes
-speak;Sam;Nope. Nuh-uh. I'm not hearing it.
-mirror_portrait;Sam
-move_portrait;Sam;FarRight
-expression;Trevor;NoSmile
-bop_portrait;Trevor
-speak;Trevor;A-Ah, wait!!
-mirror_portrait;Sam
-move_portrait;Sam;Right
-expression;Sam;HalfCloseEyes
-speak;Sam;Trevor, I ain't gonna start using some stupid spells just because you|figured out that I could.
-speak;Trevor;That is not what I was about to say at all!|You are much too proficient with the axe to even consider quitting that.
-expression;Sam;NormalBlink
-speak;Sam;Huh. Color me surprised. Then, what were you gonna say?
-expression;Trevor;Smile
-speak;Trevor;I would like to closely observe you using your tomes.|You may be doing something that even the most learned scholars have not thought of.
-speak;Sam;You're just gonna observe? No weird experiments or anything?
-expression;Trevor;CloseEyes,Smile
-speak;Trevor;Not unless you want to.
-expression;Sam;CloseEyes,Smile
-speak;Sam;And I don't.|{c:e;Sam;Smile,NormalBlink}Alright, Trevor, you can watch me use them.|I'll let you know when I've got some free time.
+
+B Support
+Trevor: Was I assuming things wrong? 'Cause if that was what was goin' on, then... Hm...
+(Sam enters the scene.)
+Sam: Trevor! Figures that you'd be here with your nose in a book.
+Trevor: S-Sam?! You startled me. What're-- I mean, what may you be doing in the castle library?
+Sam: Wanted to find something for a light read. What are you up to?
+Trevor: Reviewing the fundamentals of magic. Quite frankly, our conversation the other day has vexed me for some time now.
+Sam: Got a problem with how I used those tomes?
+Trevor: Not exactly. Though your activation methods were... unconventional, the tomes you acquired were able to perform their intended functions. Yet, you have no magical potential to speak of.
+Sam: Uh-huh?
+Trevor: Magical tomes act as amplifiers to a user's magic potential. If there is no potential, then they simply won't work.
+Sam: Okay...?
+Trevor: You cannot create something out of nothing, Sam. That is just simple logic at work. With that in mind, I realized the answer I sought was in front of me all along!
+Sam: I don't like where this is going...
+Trevor: Sam, my dear friend, you actually DO have magical potential within yourself! That is why I would like to propose--
+Sam: Nope. Nuh-uh. I'm not hearing it.
+(Sam begins to leave.)
+Trevor: A-Ah, wait!!
+Sam: Trevor, I ain't gonna start using some stupid spells just because you figured out that I could.
+Trevor: That is not what I was about to say at all! You are much too proficient with the axe to even consider quitting that.
+Sam: Huh. Color me surprised. Then, what were you gonna say?
+Trevor: I would like to closely observe you using your tomes. You may be doing something that even the most learned scholars have not thought of.
+Sam: You're just gonna observe? No weird experiments or anything?
+Trevor: Not unless you want to.
+Sam: And I don't. Alright, Trevor, you can watch me use them. I'll let you know when I've got some free time.

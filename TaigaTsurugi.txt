@@ -1,34 +1,18 @@
 C Support
-speak;Tsurugi;Miss Taiga, I think we're lost.
-speak;Taiga;Huh? What d'ya mean?
-expression;Tsurugi;NormalBlink
-speak;Tsurugi;I don't see the path back to camp.
-expression;Taiga;CloseEyes,Smile
-speak;Taiga;Aw, we don't need some dumb path!|{c:e;Taiga;NormalBlink,Smile}If I remember right, we were heading north of camp to get supplies.|Then that just means we need to head south.
-speak;Tsurugi;But which way IS south?
-speak;Taiga;A great question. Look up at the sky.|See that really bright star up there?
-speak;Tsurugi;Yes?
-speak;Taiga;I've been using that one as a guide since we headed out 'cause it's always pointing north.|So we just gotta walk the opposite direction and we'll be back at camp in no time!
-speak;Tsurugi;Okay, I'm trusting you on this.
-remove_all_portraits
-transition;close
-change_background;BlackBackground
-transition;open
-speak;;One brief walk later...;StyleNid=hint;NumLines=1;no_sound
-transition;close
-change_background;Plain2Night
-transition;open
-multi_add_portrait;Tsurugi;Right;Taiga;Left
-expression;Taiga;Smile
-speak;Taiga;And here we are!
-expression;Tsurugi;Smile
-speak;Tsurugi;Wow, that worked!
-speak;Taiga;Of course it did! I ain't the navigator for the Wyrmfang Pirates for nothing.
-expression;Tsurugi;NoSmile
-speak;Tsurugi;That was really useful to know, Miss Taiga.|I would've been wandering that forest for ages if you weren't there.
-expression;Taiga;NoSmile
-speak;Taiga;Y'know, that gives me an idea. I'll teach you more about the stars!|That way, you can navigate on your own.|You'll never know if I won't be around to help you out.
-expression;Tsurugi;Smile
-speak;Tsurugi;That's a great idea! I'll take you up on that, Miss Taiga.
-expression;Taiga;Smile
-speak;Taiga;Great! Just lemme know when you've got a free night, alright?
+Tsurugi: Miss Taiga, I think we're lost.
+Taiga: Huh? What d'ya mean?
+Tsurugi: I don't see the path back to camp.
+Taiga: Aw, we don't need some dumb path! If I remember right, we were heading north of camp to get supplies. Then that just means we need to head south.
+Tsurugi: But which way IS south?
+Taiga: A great question. Look up at the sky. See that really bright star up there?
+Tsurugi: Yes?
+Taiga: I've been using that one as a guide since we headed out 'cause it's always pointing north. So we just gotta walk the opposite direction and we'll be back at camp in no time!
+Tsurugi: Okay, I'm trusting you on this.
+(One brief walk later...)
+Taiga: And here we are!
+Tsurugi: Wow, that worked!
+Taiga: Of course it did! I ain't the navigator for the Wyrmfang Pirates for nothing.
+Tsurugi: That was really useful to know, Miss Taiga. I would've been wandering that forest for ages if you weren't there.
+Taiga: Y'know, that gives me an idea. I'll teach you more about the stars! That way, you can navigate on your own. You'll never know if I won't be around to help you out.
+Tsurugi: That's a great idea! I'll take you up on that, Miss Taiga.
+Taiga: Great! Just lemme know when you've got a free night, alright?

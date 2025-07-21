@@ -1,159 +1,59 @@
 C Support
-speak;Ecco;Man, it's getting really hard finding jobs that will pay.|Where's all the good jobs?|{c:e;Ecco;HalfCloseEyes}Babysitting a cat? Seriously?
-mirror_portrait;Ecco
-multi_add_portrait;GuildGirl;Left;Sam;OffscreenRight
-bop_portrait;Ecco
-speak;Ecco;Hey, where's all the bandit jobs? Shouldn't there be more of those?
-speak;GuildGirl;Normally, yes. But, you see--
-music_clear
-music;Guildmaster Wigglytuff
-speak;Sam;HEY, GUILD GIRLLLLLL!!
-expression;GuildGirl;CloseEyes
-speak;GuildGirl;Oh, Oreg, here he is now.
-move_portrait;Sam;FarRight;no_block
-move_portrait;Ecco;MidRight
-expression;GuildGirl;HalfCloseEyes
-speak;GuildGirl;What is it?
-expression;Sam;Smile
-speak;Sam;Guess what?! You won't believe it!
-speak;GuildGirl;Let me guess. You killed all the bandits, didn't you, Sam?
-speak;Sam;Sure did! Got any more word of bandits?
-speak;GuildGirl;No.
-speak;Sam;Okay then! See ya around!
-mirror_portrait;Sam
-move_portrait;Sam;OffscreenRight;no_block
-move_portrait;Ecco;Right
-mirror_portrait;Ecco
-speak;Ecco;...;no_talk
-mirror_portrait;Ecco
-expression;Ecco;HalfCloseEyes
-speak;Ecco;He's the reason you don't have any bandit assignments, huh?
-expression;GuildGirl;CloseEyes
-speak;GuildGirl;Yes.
-expression;Ecco;CloseEyes,Smile
-speak;Ecco;That's all I need to know.
-remove_all_portraits
-transition;close
-change_background;Plains
-transition;open
-add_portrait;Sam;Right;;Smile;mirror
-add_portrait;Ecco;OffscreenLeft
-bop_portrait;Sam
-speak;Sam;Oh baby! Daddy is coming for you!!|I'm gonna put you to sleep!|{c:e;Sam;CloseEyes,NoSmile}Well, more like DEAD sleep.|{c:e;Sam;NormalBlink,Smile}BUT YOU'LL STILL BE ASLEEP!
-move_portrait;Ecco;Left
-speak;Ecco;Excuse me.
-expression;Sam;NoSmile
-bop_portrait;Sam
-speak;Sam;WAH!!
-mirror_portrait;Sam
-speak;Sam;Don't startle me like that! You almost gave me a heart attack.|What do you want?
-speak;Ecco;You've been killing a lot of bandits lately.
-expression;Sam;Smile
-speak;Sam;Glad you noticed!|{c:e;Sam;CloseEyes,Smile}There was Pig Nose, Cut Ear, Eyeless,|Ugly Face, Ugly Face Two, Ugly Face Three--{c:e;Sam;NormalBlink,Smile}Oh, and also their six cousins--
-expression;Ecco;CloseEyes
-speak;Ecco;Yeah, cool, great, big guy.|{c:e;Ecco;HalfCloseEyes}There's just a teeny, tiny problem.
-speak;Sam;What is it?
-expression;Ecco;NormalBlink
-speak;Ecco;Because of you, the rest of us mercenaries can't get any jobs!|You're getting all the money from the bandit killing and not leaving any for us.
-expression;Sam;NoSmile
-speak;Sam;No, I'm not. I'm not getting paid.
-bop_portrait;Sam
-speak;Sam;Wait a minute, you can get paid for this?! What for?
-expression;Ecco;CloseEyes
-speak;Ecco;Oh Oreg, this man{tgm}...{tgm}|{c:e;Ecco;NormalBlink}Yes, you can get paid! What do you think mercenaries do this for?|How do you maintain your equipment?
-expression;Sam;Smile
-speak;Sam;Oh, that's easy. I just take the bandits' weapons.|Plus, I don't use armor anyway.
-expression;Ecco;CloseEyes
-speak;Ecco;Well, I need to replenish my tomes!{c:e;Ecco;NormalBlink} They don't come cheap.
-expression;Sam;Smile
-speak;Sam;Is that what this is all about? I have plenty at my house. Follow me!
-remove_all_portraits
-transition;close
-change_background;House
-transition;open
-multi_add_portrait;Sam;Left;Ecco;Right
-expression;Sam;Smile
-speak;Sam;Here we go. One blinky blink book for you.
-expression;Ecco;HalfCloseEyes
-speak;Ecco;{tgm}...{tgm} Did you seriously just call it a "blinky blink book"?
-if;{v:SamEccoC} != True
-give_item;Ecco;Lightning
-sound;Item
-alert;Sam gained 10 EXP!
-give_exp;Sam;10
-game_var;SamEccoC;True
-end
-unlock_support_rank;Sam;Ecco;C
+Ecco: Man, it's getting really hard finding jobs that will pay. Where's all the good jobs? Babysitting a cat? Seriously? Hey, where's all the bandit jobs? Shouldn't there be more of those?
+Guild Girl: Normally, yes. But, you see--
+Sam, offscreen: HEY, GUILD GIRLLLLLL!!
+Guild Girl: Oh, Oreg, here he is now.
+(Sam enters the scene.)
+Guild Girl: What is it?
+Sam: Guess what?! You won't believe it!
+Guild Girl: Let me guess. You killed all the bandits, didn't you, Sam?
+Sam: Sure did! Got any more word of bandits?
+Guild Girl: No.
+Sam: Okay then! See ya around!
+(Sam leaves the scene.)
+Ecco: ...
+Ecco: He's the reason you don't have any bandit assignments, huh?
+Guild Girl: Yes.
+Ecco: That's all I need to know.
+(Scene transitions to a bandit camp.)
+Sam: Oh baby! Daddy is coming for you!! I'm gonna put you to sleep! Well, more like DEAD sleep. BUT YOU'LL STILL BE ASLEEP!
+(Ecco enters the scene.)
+Ecco: Excuse me.
+Sam: WAH!! Don't startle me like that! You almost gave me a heart attack. What do you want?
+Ecco: You've been killing a lot of bandits lately.
+Sam: Glad you noticed! There was Pig Nose, Cut Ear, Eyeless, Ugly Face, Ugly Face Two, Ugly Face Three--Oh, and also their six cousins--
+Ecco: Yeah, cool, great, big guy. There's just a teeny, tiny problem.
+Sam: What is it?
+Ecco: Because of you, the rest of us mercenaries can't get any jobs! You're getting all the money from the bandit killing and not leaving any for us.
+Sam: No, I'm not. I'm not getting paid. Wait a minute, you can get paid for this?! What for?
+Ecco: Oh Oreg, this man... Yes, you can get paid! What do you think mercenaries do this for? How do you maintain your equipment?
+Sam: Oh, that's easy. I just take the bandits' weapons. Plus, I don't use armor anyway.
+Ecco: Well, I need to replenish my tomes! They don't come cheap.
+Sam: Is that what this is all about? I have plenty at my house. Follow me!
+(Scene transitions to Sam's cabin.)
+Sam: Here we go. One blinky blink book for you.
+Ecco: ... Did you seriously just call it a "blinky blink book"?
 # Original script by Berserker Sam #
-end
-end_skip
-if;support_rank_nid == 'B'
-change_background;Ruins
-transition;open
-music;Strike
-multi_add_portrait;Sam;Right;Bandit1;Left
-move_portrait;Sam;MidLeft
-bop_portrait;Sam
-sound;Critical Hit 1
-remove_portrait;Bandit1
-speak;Sam;Oh, yeah! Dead!
-add_portrait;Bandit2;Right
-mirror_portrait;Sam
-move_portrait;Sam;MidRight
-bop_portrait;Sam
-sound;Critical Hit 2
-remove_portrait;Bandit2
-speak;Sam;Dead! Chopped!! Brain split!!!
-add_portrait;Bandit3;Left
-mirror_portrait;Sam
-move_portrait;Sam;MidLeft
-bop_portrait;Sam
-sound;Critical Hit 1
-remove_portrait;Bandit3
-speak;Sam;Oh now YOU'RE dead! You just lost your head! OOH YEAH!
-mirror_portrait;Sam
-add_portrait;Ecco;Right
-speak;Sam;Hey, Ecco you're a pretty good bandit-killing partner--
-add_portrait;Bandit1;FarRight;low_priority
-speak;Sam;Oh, look out behind you!
-mirror_portrait;Ecco
-move_portrait;Ecco;MidRight
-bop_portrait;Ecco
-sound;Critical Hit 2
-remove_portrait;Bandit1
-mirror_portrait;Ecco
-expression;Ecco;Smile,CloseEyes
-speak;Ecco;Please, I got him just fine.
-mirror_portrait;Ecco
-speak;Ecco;Be still you filthy, foul-mouthed mongrel of a man!|May the gods have mercy on you for I|shall not extend mercy regarding your worthless life!
-speak;Sam;Man! I think I'd rather face the gods than you.|You're scary when you're mad, let alone angry.
-remove_all_portraits
-transition;close
-change_background;Fireplace
-transition;open
-music_clear
-music;Girl of the Plains
-multi_add_portrait;GuildGirl;Left;Ecco;MidRight;Sam;FarRight
-expression;Ecco;Smile
-speak;Ecco;Yes, we cleared out the ENTIRE fort. Just us.|So, we'll be taking the one million gold reward for the leader,|plus the individual rewards for his underlings.|{c:e;Ecco;CloseEyes,Smile}And since it was just the two of us versus a whole troop,|there will be a performance bonus fee, and a life endangerment policy fee.
-expression;GuildGirl;CloseEyes
-speak;GuildGirl;*sigh*{c:e;GuildGirl;HalfCloseEyes} Yes, of course.|{c:e;GuildGirl;CloseEyes}I think I prefer it when HE was just killing bandits and|not asking for money for it.
-speak;Sam;Isn't that a little greedy, Ecco?
-expression;GuildGirl;HalfCloseEyes
-expression;Ecco;NormalBlink,Smile
-speak;GuildGirl;Yes.;hold;no_block
-speak;Ecco;Nah.
-unhold;GuildGirl
-speak;Ecco;You gotta know what you and your services are worth.|{c:e;Ecco;HalfCloseEyes,Smile}Now, if you'll just hand over the money, ma'am,|we'll be on our way and won't be bothering you.
-expression;GuildGirl;CloseEyes
-speak;GuildGirl;Fine.{c:wait;100}{c:e;GuildGirl;NormalBlink} Here.
-expression;Ecco;CloseEyes,Smile
-speak;Ecco;Pleasure doing business with you.
-remove_all_portraits
-multi_add_portrait;Ecco;Left;Sam;Right
-speak;Ecco;And now YOU. Big guy.
-speak;Sam;Yeah?
-expression;Ecco;Smile
-speak;Ecco;We are going to go celebrate,|and I'm going to show you what you can do with money.
-speak;Sam;Okay?
+
+B Support
+(Sam kills a bandit.)
+Sam: Oh, yeah! Dead!
+(Sam kills another bandit.)
+Sam: Dead! Chopped!! Brain split!!!
+(Sam kills one more bandit.)
+Sam: Oh now YOU'RE dead! You just lost your head! OOH YEAH! Hey, Ecco you're a pretty good bandit-killing partner-- Oh, look out behind you!
+(Ecco kills the bandit behind her.)
+Ecco: Please, I got him just fine. Be still you filthy, foul-mouthed mongrel of a man! May the gods have mercy on you for I shall not extend mercy regarding your worthless life!
+Sam: Man! I think I'd rather face the gods than you. You're scary when you're mad, let alone angry.
+(Scene transitions to the guild.)
+Ecco: Yes, we cleared out the ENTIRE fort. Just us. So, we'll be taking the one million gold reward for the leader, plus the individual rewards for his underlings. And since it was just the two of us versus a whole troop, there will be a performance bonus fee, and a life endangerment policy fee.
+Guild Girl: *sigh* Yes, of course. I think I prefer it when HE was just killing bandits and not asking for money for it.
+Sam: Isn't that a little greedy, Ecco?
+Guild Girl: Yes.
+Ecco: Nah. You gotta know what you and your services are worth. Now, if you'll just hand over the money, ma'am, we'll be on our way and won't be bothering you.
+Guild Girl: Fine. Here.
+Ecco: Pleasure doing business with you. And now YOU. Big guy.
+Sam: Yeah?
+Ecco: We are going to go celebrate, and I'm going to show you what you can do with money.
+Sam: Okay?
 # Original script by Berserker Sam #

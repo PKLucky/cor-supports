@@ -1,31 +1,22 @@
 C Support
-speak;Marina;Why, hello, Mister Rembrandt. How are you on this beautiful day?
-speak;Rembrandt;Just fine, Miss Marina. Can I help you with something?
-expression;Marina;NoSmile
-speak;Marina;I've heard that you were injured during your time in the Fuegsol military.
-speak;Rembrandt;That is correct.{c:e;Rembrandt;CloseEyes} Haven't been the same since.|{c:e;Rembrandt;NormalBlink}I can still swing a sword to ward off bandits and other assailants.
-speak;Marina;Have you heard of the practice of rehabilitation therapy?|Such as if a circus tumbler takes a nasty fall,|or if a dancer sprains her ankle while performing.
-speak;Rembrandt;I'm familiar with the concept, yes.
-speak;Marina;Did you undergo such treatment yourself, then?
-speak;Rembrandt;No. I was and am a mere soldier.|Such therapy is for those of rank. Those worth spending such time on.
-speak;Marina;Every life is worth spending time on, Mister Rembrandt.|{c:e;Marina;Smile}And think of it this way.|You could better serve in the army without that injury hindering you.
-speak;Rembrandt;That{tgm}...{tgm} That is an accurate assessment, Miss Marina.|However, it has been a long time since that injury.|{c:e;Rembrandt;CloseEyes}I fear it may be too late now.
-speak;Marina;Nonsense. I can tell by how you move that it is not unsalvageable.|{c:e;Marina;NoSmile}You have a quickness and agility, but it's like you're moving through mire.|You're slowed down and hindered. I could help you.
-expression;Rembrandt;NormalBlink
-speak;Rembrandt;How? Unless I'm mistaken, you are no physician, but a dancer.
-speak;Marina;Exactly. Dance with me, Mister Rembrandt.
-speak;Rembrandt;How would that help?
-expression;Marina;Smile
-speak;Marina;I've talked to many who study the use of the sword.|They all tell me that it's a dance.|Footwork is as vital as the sword swings and strokes.
-expression;Rembrandt;CloseEyes
-speak;Rembrandt;Hm{tgm}...
-expression;Marina;NoSmile
-speak;Marina;While I am no practitioner of swordplay, I am a dancer.|No one knows footwork better than a dancer.
-expression;Rembrandt;NormalBlink
-speak;Rembrandt;A very true statement.
-speak;Marina;So what I'm saying is that I can help you.|Will you let me help you, Rembrandt?
-expression;Rembrandt;Smile
-speak;Rembrandt;Yes, Miss Marina. I'll accept your help.
-expression;Marina;Smile
-speak;Marina;Good. Let's meet here again later, and we'll dance.
-unlock_support_rank;Marina;Rembrandt;C
+Marina: Why, hello, Mister Rembrandt. How are you on this beautiful day?
+Rembrandt: Just fine, Miss Marina. Can I help you with something?
+Marina: I've heard that you were injured during your time in the Fuegsol military.
+Rembrandt: That is correct. Haven't been the same since. I can still swing a sword to ward off bandits and other assailants.
+Marina: Have you heard of the practice of rehabilitation therapy? Such as if a circus tumbler takes a nasty fall, or if a dancer sprains her ankle while performing.
+Rembrandt: I'm familiar with the concept, yes.
+Marina: Did you undergo such treatment yourself, then?
+Rembrandt: No. I was and am a mere soldier. Such therapy is for those of rank. Those worth spending such time on.
+Marina: Every life is worth spending time on, Mister Rembrandt. And think of it this way. You could better serve in the army without that injury hindering you.
+Rembrandt: That... That is an accurate assessment, Miss Marina. However, it has been a long time since that injury. I fear it may be too late now.
+Marina: Nonsense. I can tell by how you move that it is not unsalvageable. You have a quickness and agility, but it's like you're moving through mire. You're slowed down and hindered. I could help you.
+Rembrandt: How? Unless I'm mistaken, you are no physician, but a dancer.
+Marina: Exactly. Dance with me, Mister Rembrandt.
+Rembrandt: How would that help?
+Marina: I've talked to many who study the use of the sword. They all tell me that it's a dance. Footwork is as vital as the sword swings and strokes.
+Rembrandt: Hm...
+Marina: While I am no practitioner of swordplay, I am a dancer. No one knows footwork better than a dancer.
+Rembrandt: A very true statement.
+Marina: So what I'm saying is that I can help you. Will you let me help you, Rembrandt?
+Rembrandt: Yes, Miss Marina. I'll accept your help.
+Marina: Good. Let's meet here again later, and we'll dance.

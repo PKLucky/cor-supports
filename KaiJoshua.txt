@@ -1,83 +1,69 @@
 C Support
-speak;Kai;Hm{tgm}...{tgm} Fascinating.|{c:e;Kai;NormalBlink,Smile}That hunk of iron doesn't slow him down nearly as much as one would expect.|He doesn't parry or deflect like one might with a large sword.|More like he cuts through his opponent's defenses. Interesting.
-move_portrait;Joshua;Left
-speak;Joshua;Hey, you going to spar, pretty boy?|Or are you just going to stand on the sidelines all day like an idiotic bystander?
-expression;Kai;NoSmile
-bop_portrait;Kai
-speak;Kai;Are you talking to me?
-speak;Joshua;You see anyone else just grinning on the sidelines not doing anything?
-speak;Kai;Doesn't that large sword weigh you down, though?|I would think something that massive would--
-speak;Joshua;Oh no you don't. You've been watching for the better part of half an hour.|Quit standing there and draw! Hyah!
-move_portrait;Joshua;MidRight
-sound;Sword Whoosh
-bop_portrait;Joshua
-sound;Sword Whoosh
-bop_portrait;Kai
-move_portrait;Joshua;Left
-expression;Kai;HalfCloseEyes
-speak;Kai;Ngh. Nice stroke.|{c:e;Kai;NormalBlink}You were aware that I was watching even while sparring yourself?
-expression;Joshua;Smile
-speak;Joshua;Sure was.|{c:e;Joshua;NoSmile}First rule of survival in the arena:|always be aware of your surroundings and who occupies them.|Anyone there is a potential assassin, adversary, or ambusher.
-speak;Kai;So you have good situational awareness, then. You would make a good soldier or spy.|Still, this sword is a large target making it easy to avoid and block.
-sound;Sword Whoosh
-move_portrait;Joshua;MidRight
-sound;Weapon Push
-expression;Kai;Smile,CloseEyes
-speak;Kai;Case in point.
-speak;Joshua;You may have blocked my blade, but look at your own.
-move_portrait;Joshua;MidLeft
-expression;Kai;NoSmile,NormalBlink
-bop_portrait;Kai
-speak;Kai;Wh-What the--?!
-speak;Joshua;As you noted, large target so easy to block.|But if you block near my crossguard, you are bearing the full weight of Old Iron here,|which is too much strain for the typical blade.|One more parry and you may break your sword.
-speak;Kai;D-Damn it{tgm}...
-speak;Joshua;What you want to do is block closer to the tip.|Less weight on your blade.
-move_portrait;Joshua;Left
-speak;Joshua;Let's call it for a day. Besides, you need to get your sword looked at.
-mirror_portrait;Joshua
-move_portrait;Joshua;OffscreenLeft
-speak;Kai;How did he get my sword to the point of breaking like that?|{c:e;Kai;CloseEyes}Thank Merin it didn't actually break.|{c:e;Kai;NormalBlink}Going to have to find more information on him.|{c:e;Kai;CloseEyes}He mentioned the arena{tgm}...{tgm}|{c:expression;Kai;NormalBlink}Maybe I'll see if anyone from there knows anything about the man.
+Kai: Hm... Fascinating. That hunk of iron doesn't slow him down nearly as much as one would expect. He doesn't parry or deflect like one might with a large sword. More like he cuts through his opponent's defenses. Interesting.
+Joshua: Hey, you going to spar, pretty boy? Or are you just going to stand on the sidelines all day like an idiotic bystander?
+Kai: Are you talking to me?
+Joshua: You see anyone else just grinning on the sidelines not doing anything?
+Kai: Doesn't that large sword weigh you down, though? I would think something that massive would--
+Joshua: Oh no you don't. You've been watching for the better part of half an hour. Quit standing there and draw! Hyah!
+(Joshua moves in for a strike, and Kai defends.)
+Kai: Ngh. Nice stroke. You were aware that I was watching even while sparring yourself?
+Joshua: Sure was. First rule of survival in the arena: always be aware of your surroundings and who occupies them. Anyone there is a potential assassin, adversary, or ambusher.
+Kai: So you have good situational awareness, then. You would make a good soldier or spy. Still, this sword is a large target making it easy to avoid and block.
+(Joshua goes in for another attack and Kai blocks it.)
+Kai: Case in point.
+Joshua: You may have blocked my blade, but look at your own.
+Kai: Wh-What the--?!
+Joshua: As you noted, large target so easy to block. But if you block near my cross guard, you are bearing the full weight of Old Iron here, which is too much strain for the typical blade. One more parry and you may break your sword.
+Kai: D-Damn it...
+Joshua: What you want to do is block closer to the tip. Less weight on your blade.
+(Joshua backs off.)
+Joshua: Let's call it for a day. Besides, you need to get your sword looked at.
+(Joshua leaves the scene.)
+Kai: How did he get my sword to the point of breaking like that? Thank Merin it didn't actually break. Going to have to find more information on him. He mentioned the arena... Maybe I'll see if anyone from there knows anything about the man.
 # Original script by Berserker Sam #
 
-Kai: So what can you tell me about Joshua, the pit fighter. He uses a massive sword.
-Arena man: Oh him! Boy that guy brings us in so much money and he’s great at entertaining the crowd too.
-Kai: Fascinating, what can you tell me about his sword.
-Arena man. Oh his sword? That thing is massive why it’s far too big and thick to be called a sword it is far too heavy and rough. Why in fact it’s much more like a large hunk of iron.
-Kai: You don’t say. Why does he use such an unwieldy weapon? Any way of countering or defending against it? Most weapons and armor would fair poorly against it.
-Arena Man: Aye lad my suggestion would be use something to hit him first such as a spear or if you could get a parrying weapon like a thick shortsword or dagger that would be your best bet against him.
-Kai: My thanks sir, here some gold for your time Kai leaves
-Kai with a merchant “Thank you good sir this is exactly what I was looking for.
-Scene change
-Joshua: Hiyah! Hoo yah!.......not quite right. Again shoot at me again.
-Kai to random standerby: What’s he doing?
-??? He’s been having the archers shoot at him, he says he’s trying to deflect the arrows with his sword
-Kai: Hmmmm……(not bad, his movements are a little slow though but still it’s impressive that he can wield that thing as fast as he does) Hey Joshua!
-Joshua: Huh? Oh hi Kai what’s up?
+B Support
+Kai: So, what can you tell me about Joshua, the pit fighter. He uses a massive sword.
+Arena man: Oh, him! Boy, that guy brings us in so much money, and he’s great at entertaining the crowd too.
+Kai: Fascinating. What can you tell me about his sword?
+Arena man. Oh, his sword? That thing is massive! Why, it's far too big and thick to be called a sword. In fact, it's much more like a large hunk of iron.
+Kai: You don't say. Why does he use such an unwieldy weapon? Any way of countering or defending against it? Most weapons and armor would fair poorly against it.
+Arena Man: Aye, lad. My suggestion would be use something to hit him first such as a spear. Or a parrying weapon like a thick short sword or dagger. That would be your best bet against him.
+Kai: My thanks, sir. Here, some gold for your time.
+(Scene transitions to the arena sparring grounds.)
+Joshua: Hiyah! Hoo yah! ... Not quite right. Again. Shoot at me again.
+(Camera pans over to Kai and an arena fighter on the sidelines.)
+Kai: What's he doing?
+Arena fighter: He's been having the archers shoot at him. He says he's trying to deflect the arrows with his sword.
+Kai: Hmm...
+Kai, thinking: Not bad. His movements are a little slow, though. But still, it's impressive that he can wield that thing as fast as he does.
+Kai: Hey, Joshua!
+Joshua: Huh? Oh, hi, Kai. What's up?
 Kai: Want to take a break and spar again?
-Joshua: Sure maybe I’m trying too hard at this.
-They spar back and forth
-Joshua: I got you now Kai! Ha!....What? Huh?
-Kai: Gotcha big guy.I decided to get myself a parrying dagger.
-Joshua: Smart. And by crossing your blades like that you can throw my blade off course without risking the integrity of your own since they’re sharing the weight.
-Kai: Exactly. Looks like I win
+Joshua: Sure! Maybe I'm trying too hard at this.
+(During their spar...)
+Joshua: I got you now Kai! Ha! ... What? Huh?
+Kai: Gotcha, big guy. I decided to get myself a parrying dagger.
+Joshua: Smart. And by crossing your blades like that, you can throw my weapon off course without risking the integrity of your own since they're sharing the weight.
+Kai: Exactly. Looks like I win.
 Joshua: Looks like it indeed.
-Kai: So what was that about earlier? The archers shooting you.
-Joshua: My dad left this manual behind with all of his techniques some borrowed some he invented. He was strong Kai, really strong and fast too. When he wielded Old Iron here, he wielded this weapon like it weighed nothing. The sword was a blur he would have merchants hurl their baskets of melons in the air and EVERY melon would be cut in half when it landed in the basket again
-Kai: He was good then, real good (damn that’s impressive and with how big that sword is? Wow) What happened to him?
-Joshua: He died…….such is the life for those who live by the sword. It’s a shame he was a real good sword fighter, a good mercenary he sometimes supplemented merc work with arena fights just to keep money coming in.
-Kai: Fascinating
-Joshua: What about you? How’s your dad?
+Kai: So, what was that about earlier? The archers shooting you, I mean.
+Joshua: My dad left this manual behind with all of his techniques. Some borrowed, some he invented. He was strong, Kai. Really strong. And fast too. When he wielded Old Iron here, he swung it around like it weighed nothing. He would have merchants hurl their baskets of melons in the air and EVERY melon would be cut in half when it landed in the basket again.
+Kai: He was good. then. Real good. What happened to him?
+Joshua: He died. Such is the life for those who live by the sword. It's a shame. He was a real good sword fighter. He sometimes supplemented merc work with arena fights just to keep money coming in.
+Kai: Fascinating.
+Joshua: What about you? How's your dad?
 Kai: Also dead.
-Joshua: Sorry to hear that
-Kai: Don’t be.
+Joshua: Sorry to hear that.
+Kai: Don't be.
 Joshua: Huh?
 Kai: Like you said those that live by the sword die by the sword. He got careless and sloppy and paid the consequences for it.
 
-Later
-Kai: So why do you keep that manual anyway?
-Joshua: I’m trying to master my father’s techniques some of them I got others are…..sloppy at best. I’m still a far cry from my father. He was strong and fast, very fast. You wouldn’t think it to look at him but he could strike faster than a snake with the precision of a stalking cat
-Kai: If I can make a suggestion
-Joshua: Go ahead
-Kai: Your strength is excellent but what you lack is speed I could help you train to move faster. Your strength and defense is excellent and your skill isn’t shabby either but your speed is lacking
-Joshua: Not a bad idea maybe then I can pull off some of my father’s more advanced techniques.
+[Placeholder]
+Kai: So, why do you keep that manual anyway?
+Joshua: I’m trying to master my father’s techniques. Some of them I got others are sloppy at best. I'm still a far cry from my father. He was strong and fast. Very fast. You wouldn't think it looking at him, but he could strike faster than a snake with the precision of a stalking cat.
+Kai: If I can make a suggestion?
+Joshua: Go ahead.
+Kai: Your strength is excellent, but what you lack is speed. I could help you train to move faster.
+Joshua: Not a bad idea. Maybe then I can pull off some of my father's more advanced techniques.
 # Original script by Berserker Sam #

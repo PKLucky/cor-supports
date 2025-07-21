@@ -1,159 +1,75 @@
 C Support
-speak;Masashi;Sam, you are a fellow appreciator of the female form, correct?
-speak;Sam;Are you asking if I like girls? Don't all guys do?|{c:e;Sam;CloseEyes}Anyway, I don't like where this is going{tgm}...
-speak;Masashi;Let's go into town, find a nice restaurant, and woo some lovely maidens.|{c:e;Masashi;NoSmile}First, though, you need to get a shirt on.
-expression;Sam;HalfCloseEyes
-speak;Sam;Not happening.
-speak;Masashi;But the staff won't let you in otherwise!
-expression;Sam;NormalBlink
-speak;Sam;Then find a place that's less picky.
-speak;Masashi;But{tgm}...{c:e;Masashi;CloseEyes}{tgm} Fine. *sigh*
-remove_all_portraits
-transition;close
-change_background;Fireplace
-transition;open
-multi_add_portrait;Masashi;Left;Sam;Right;BuffBarmaid;OffscreenRight
-expression;Masashi;Smile
-speak;Masashi;So now that we're here, you can see there are several lovely-looking ladies.|{c:e;Masashi;Smile,CloseEyes}But don't be hasty in your pursuit.|{c:e;Masashi;Smile,NormalBlink}You must observe the maiden. Watch her mannerisms.|{c:e;Masashi;CloseEyes,Smile}Ensure she has grace, charm, and is a proper, cultured lady.
-speak;Sam;Why.
-expression;Masashi;NormalBlink,NoSmile
-bop_portrait;Masashi
-speak;Masashi;"Why"!? Did you just say "why"??
-speak;Sam;That was the question, yes.
-speak;Masashi;Because, my good friend--
-expression;Sam;HalfCloseEyes
-speak;Sam;We've only met. We're hardly friends yet.
-expression;Masashi;CloseEyes,Smile
-speak;Masashi;Irrelevant, my companion.|{c:e;Masashi;NormalBlink,NoSmile}Now, to answer to your baseborn question,|you don't want to get with some mannerless oaf who|can't tell which fork to use at the table!|{c:e;Masashi;Smile}She must have some refinement, manners, grace of movement. A *lady*!
-expression;Sam;NormalBlink
-move_portrait;Sam;MidRight;no_block
-move_portrait;BuffBarmaid;FarRight
-expression;BuffBarmaid;Smile
-speak;BuffBarmaid;Pardon me, gents! Would either of you like a refill?
-expression;Sam;Smile,NormalBlink
-speak;Sam;I'll take one, thanks.
-speak;BuffBarmaid;Not a problem at all, good sir!
-mirror_portrait;BuffBarmaid
-move_portrait;BuffBarmaid;OffscreenRight;no_block
-move_portrait;Sam;Right
-expression;Masashi;CloseEyes,NoSmile
-speak;Masashi;And THAT is exactly what I'm talking about. How crude!|{c:e;Masashi;HalfCloseEyes}Such a cur, that one. I'd look elsewhere.
-speak;Sam;Yeah, but did you see how thick her legs were? And those shoulders!|She could carry a beer barrel with one arm!
-expression;Masashi;NormalBlink
-speak;Masashi;Whaaa?
-expression;Sam;NoSmile
-speak;Sam;She's buff, Masashi. Did I stutter?
-speak;Masashi;No, no, my friend.
-expression;Masashi;CloseEyes
-speak;Masashi;By Merin, what kind of a wingman is this man? He has no taste!;StyleNid=thought_bubble
-expression;Sam;Smile
-speak;Sam;Oh, she's swinging by again! One sec.
-expression;Masashi;NormalBlink
-speak;Masashi;Sam, you can't just--
-mirror_portrait;Sam
-move_portrait;Sam;OffscreenRight
-speak;Sam;Ma'am? You off soon?
-speak;BuffBarmaid;In two hours I will be, handsome.
-speak;Sam;I'll be waiting!
-speak;Masashi;H-He actually--?!
-expression;Masashi;CloseEyes
-speak;Masashi;Dear Merin, what am I to do?
-unlock_support_rank;Sam;Masashi;C
+Masashi: Sam, you are a fellow appreciator of the female form, correct?
+Sam: Are you asking if I like girls? Don't all guys do? Anyway, I don't like where this is going...
+Masashi: Let's go into town, find a nice restaurant, and woo some lovely maidens. First, though, you need to get a shirt on.
+Sam: Not happening.
+Masashi: But the staff won't let you in otherwise!
+Sam: Then find a place that's less picky.
+Masashi: But... Fine. *sigh*
+(Scene transitions to the tavern.)
+Masashi: So now that we're here, you can see there are several lovely-looking ladies. But don't be hasty in your pursuit. You must observe the maiden. Watch her mannerisms. Ensure she has grace, charm, and is a proper, cultured lady.
+Sam: Why.
+Masashi: "Why"!? Did you just say "why"??
+Sam: That was the question, yes.
+Masashi: Because, my good friend--
+Sam: We've only met. We're hardly friends yet.
+Masashi: Irrelevant, my companion. Now, to answer to your baseborn question, you don't want to get with some mannerless oaf who can't tell which fork to use at the table! She must have some refinement, manners, grace of movement. A *lady*!
+(A buff barmaid enters the scene.)
+Buff Barmaid: Pardon me, gents! Would either of you like a refill?
+Sam: I'll take one, thanks.
+Buff Barmaid: Not a problem at all, good sir!
+(The barmaid leaves the scene.)
+Masashi: And THAT is exactly what I'm talking about. How crude! Such a cur, that one. I'd look elsewhere.
+Sam: Yeah, but did you see how thick her legs were? And those shoulders! She could carry a beer barrel with one arm!
+Masashi: Whaaa?
+Sam: She's buff, Masashi. Did I stutter?
+Masashi: No, no, my friend.
+Masashi, thinking: By Merin, what kind of a wingman is this man? He has no taste!
+Sam: Oh, she's swinging by again! One sec.
+Masashi: Sam, you can't just--
+(Sam walks offscreen.)
+Sam: Ma'am? You off soon?
+Buff Barmaid: In two hours I will be, handsome.
+Sam: I'll be waiting!
+Masashi: H-He actually--?! Dear Merin, what am I to do?
 # Original script by Berserker Sam #
-end
-end_skip
-if;support_rank_nid == 'B'
-change_background;CastleInterior
-transition;open
-music;Guildmaster Wigglytuff
-multi_add_portrait;Sam;Left;Masashi;Right
-speak;Masashi;Sam, despite your lack of{tgm}...{tgm} refinement,|I notice that it seems women aren't put off by you.|In fact, they seem to like you more for it.
-speak;Sam;I guess never paid attention or kept track.
-speak;Masashi;Do you get a lot of dates, then?
-speak;Sam;Not especially.|{c:e;Sam;Smile}Although, when I was with the Ebony Tigers, women liked to watch us guys train.|Naturally, we all tried to outdo each other whenever that happened.
-expression;Masashi;Smile
-speak;Masashi;Ha-ha! Yes, of course.
-expression;Masashi;CloseEyes,Smile
-speak;Masashi;Maybe I should rethink my approach...;StyleNid=thought_bubble
-speak;Sam;Also, if we saved a village or such, the women were definitely very grateful to|have their men rescued, resources and money returned, that kind of thing.
-expression;Masashi;NormalBlink,Smile
-speak;Masashi;That decides it, friend. From this day forward, Masashi is no more!
-expression;Sam;NoSmile
-speak;Sam;Huh? You can't just disappear from existence.
-expression;Masashi;CloseEyes,Smile
-speak;Masashi;Introducing{tgm}...
-mirror_portrait;Masashi
-move_portrait;Masashi;OffscreenRight
-remove_portrait;Masashi;immediate
-add_portrait;MasashiShirtless;OffscreenRight
-move_portrait;MasashiShirtless;Right
-expression;MasashiShirtless;Smile
-speak;MasashiShirtless;MANsashi!
-speak;Sam;Pardon? Masashi--
-expression;MasashiShirtless;CloseEyes,Smile
-speak;MasashiShirtless;"MANsashi," my friend.
-expression;Sam;HalfCloseEyes
-speak;Sam;Just because you don't wear a shirt doesn't mean you're more of a man all of a sudden.
-expression;MasashiShirtless;CloseEyes
-speak;Sam;*sigh*{c:wait;100}{c:e;Sam;HalfCloseEyes} What did you have in mind that you wanted to do{tgm}...{tgm} Mansashi?
-expression;MasashiShirtless;NormalBlink,Smile
-speak;MasashiShirtless;What else do MEN do?|Go to the tavern and get drunk. And stare at hot women, preferably naked ones.
-expression;Sam;CloseEyes
-speak;Sam;Just what happened to him?{c:e;Sam;NormalBlink} I should supervise him.;StyleNid=thought_bubble
-remove_all_portraits
-transition;close
-change_background;Fireplace
-transition;open
-multi_add_portrait;MasashiShirtless;MidRight;Sam;FarRight;Man6;Left
-speak;MasashiShirtless;Honey, I'm home! Where's the liquor?
-speak;Sam;Hey, we're both hungry and thirsty. Been a rough training day.|We might be a little out of sorts, so some food and drink would be greatly appreciated.
-speak;Man6;Of course, sir.
-mirror_portrait;Man6
-speak;Man6;Girls, show these boys to a table.
-remove_portrait;Man6
-multi_add_portrait;BuffBarmaid;MidLeft;Barmaid;FarLeft
-expression;BuffBarmaid;Smile
-speak;BuffBarmaid;On it, boss. Right this way, boys.
-remove_all_portraits
-transition;close
-change_background;BlackBackground
-transition;open
-speak;;Some time later...;StyleNid=hint;NumLines=1;no_sound
-transition;close
-change_background;Fireplace
-transition;open
-multi_add_portrait;MasashiShirtless;MidLeft;Sam;FarLeft;BuffBarmaid;Right;Barmaid;OffscreenRight
-expression;MasashiShirtless;Smile
-speak;MasashiShirtless;Hey, hottie.|I'd be interested in getting to know you more when you're off.
-expression;BuffBarmaid;Smile
-speak;BuffBarmaid;Heh, heh I'll think about it, handsome.
-mirror_portrait;BuffBarmaid
-move_portrait;BuffBarmaid;OffscreenRight
-move_portrait;Barmaid;Right
-expression;Barmaid;Smile
-speak;Barmaid;Here you are, boys. Some food and drink.
-expression;Sam;Smile
-speak;Sam;Thanks, that's good looking stuff there.
-expression;Sam;CloseEyes
-bop_portrait;Sam
-speak;Sam;*Munch munch munch*
-expression;MasashiShirtless;HalfCloseEyes,Smile
-speak;MasashiShirtless;Oh heyyyy good lookin', you HAVE been cooking.
-expression;Barmaid;HalfCloseEyes,Smile
-speak;Barmaid;You're not that bad yourself, cutie.|{c:e;Barmaid;NormalBlink,Smile}You free later?
-expression;MasashiShirtless;NormalBlink,NoSmile
-speak;MasashiShirtless;Wait, you--
-bop_portrait;MasashiShirtless
-speak;MasashiShirtless;I mean, y-yes!{c:e;MasashiShirtless;Smile} I{tgm}...{tgm} I sure am!
-speak;Barmaid;See ya later then.
-mirror_portrait;Barmaid
-move_portrait;Barmaid;OffscreenRight
-expression;MasashiShirtless;CloseEyes
-speak;MasashiShirtless;This is working?|{c:e;MasashiShirtless;HalfCloseEyes}Dear Merin, why is this working??;StyleNid=thought_bubble
-expression;Sam;NormalBlink,Smile
-speak;Sam;Have fun, Masashi. Be good to her.
-expression;MasashiShirtless;NormalBlink,Smile
-speak;MasashiShirtless;Yes, of course, my friend.
-expression;MasashiShirtless;CloseEyes,NoSmile
-speak;MasashiShirtless;Why on earth did that work? That shouldn't have worked at all.
+
+B Support
+Masashi: Sam, despite your lack of... refinement, I notice that it seems women aren't put off by you. In fact, they seem to like you more for it.
+Sam: I guess never paid attention or kept track.
+Masashi: Do you get a lot of dates, then?
+Sam: Not especially. Although, when I was with the Ebony Tigers, women liked to watch us guys train. Naturally, we all tried to outdo each other whenever that happened.
+Masashi: Ha-ha! Yes, of course.
+Masashi, thinking: Maybe I should rethink my approach...
+Sam: Also, if we saved a village or such, the women were definitely very grateful to have their men rescued, resources and money returned, that kind of thing.
+Masashi: That decides it, friend. From this day forward, Masashi is no more!
+Sam: Huh? You can't just disappear from existence.
+Masashi: Introducing...
+(Masashi takes off his shirt.)
+Masashi: MANsashi!
+Sam: Pardon? Masashi--
+Masashi: "MANsashi," my friend.
+Sam: Just because you don't wear a shirt doesn't mean you're more of a man all of a sudden. *sigh* What did you have in mind that you wanted to do... Mansashi?
+Masashi: What else do MEN do? Go to the tavern and get drunk. And stare at hot women, preferably naked ones.
+Sam: Just what happened to him? I should supervise him.
+(Scene transitions to the tavern.)
+Masashi: Honey, I'm home! Where's the liquor?
+Sam: Hey, we're both hungry and thirsty. Been a rough training day. We might be a little out of sorts, so some food and drink would be greatly appreciated.
+Bartender: Of course, sir. Girls, show these boys to a table.
+Buff Barmaid: On it, boss. Right this way, boys.
+(Some time later...)
+Masashi: Hey, hottie. I'd be interested in getting to know you more when you're off.
+Buff Barmaid: Heh, heh I'll think about it, handsome.
+(The barmaid leaves and another one enters the scene.)
+Barmaid: Here you are, boys. Some food and drink.
+Sam: Thanks, that's good looking stuff there. *Munch munch munch*
+Masashi: Oh heyyyy good lookin', you HAVE been cooking.
+Barmaid:You're not that bad yourself, cutie. You free later?
+Masashi: Wait, you-- I mean, y-yes! I... I sure am!
+Barmaid: See ya later then.
+(The barmaid leaves.)
+Masashi, thinking: This is working? Dear Merin, why is this working??
+Sam: Have fun, Masashi. Be good to her.
+Masashi: Yes, of course, my friend.
+Masashi, thinking: Why on earth did that work? That shouldn't have worked at all.
 # Original script by Berserker Sam #
