@@ -1,0 +1,20 @@
+C Support
+speak;Alex;Hello, Joshua. I didn't expect to see you here in the library.
+expression;Joshua;Smile
+speak;Joshua;Hey there, Alex. Figured I'd unwind after training by doing some reading.
+expression;Alex;NoSmile
+speak;Alex;I never would have taken you for a reader Joshua.|You come off as more{tgm}...{tgm} abrasive, honestly.{e:'|A lot like Taylor, actually.|And getting HIM to read anything is like getting a child to eat their greens.' if game.check_alive('Taylor') == True else ''}
+expression;Joshua;NoSmile
+speak;Joshua;You gotta keep your mind sharp if you want to survive in the arena.|Both mind and body need to be strong.
+expression;Alex;Smile
+speak;Alex;I can agree with that sentiment.|{c:e;Alex;CloseEyes}Though, I fear it's my mind that's more strong than my body.
+expression;Joshua;Smile
+speak;Joshua;Don't sell yourself short, Alex. You strike me as a strong, capable woman.|{c:e;Joshua;NoSmile}However, if you want some help, these books might do the trick.|I'll leave them with you.
+expression;Alex;Smile
+speak;Alex;Why, thank you, Joshua.
+speak;Joshua;No problem. I'll catch you later. Reading makes me hungry.
+mirror_portrait;Joshua
+move_portrait;Joshua;OffscreenLeft
+expression;Alex;NoSmile
+speak;Alex;What a strange man.|{c:e;Alex;HalfCloseEyes}What are these books?|{c:e;Alex;NormalBlink}"10 Lifts for Life", "Meat Makes Muscle", and "Train Like a Champion, Be a Champion"{tgm}...{tgm}|{c:e;Alex;Smile}These aren't something I normally read, but they seem interesting.
+# Original script by Berserker Sam #

@@ -1,0 +1,93 @@
+C Support
+Anna: Well, hey there, Xiang! Whatcha up to there?
+speak;Xiang;Ah, hello, Anna.|I am performing a daily divination ritual.|I do this each morning to get an outlook on how the rest of the day fares.
+speak;Anna;Ohhh, cool stuff! So, how does this work?|Anything special going on with these cards?
+speak;Xiang;Each card in this deck has a different meaning.|The one I just drew, "The Drake", represents the concept of cycles and transitions.|It could either mean more of the same is in store for me today,|or there will be a change in routine.|{c:e;Xiang;CloseEyes}I will just have to stay aware of such things.
+expression;Anna;Smile
+speak;Anna;That's really fascinating.|{c:e;Anna;NoSmile}Say, have you ever thought of doing this for other people?
+expression;Xiang;NormalBlink
+speak;Xiang;What do you mean?
+speak;Anna;People out there might like a forecast on how their day goes, y'know?|And you could be their go-to person to give them that foresight.
+expression;Xiang;HalfCloseEyes
+speak;Xiang;I don't know{tgm}...{tgm}|{c:e;Xiang;NormalBlink}This is something I typically only do for myself.
+speak;Anna;You'd be doing people a service, Xiang!|I think everyone would be happier if they knew how to tackle the day.|Plus, if we charge for it, that just means more funds for the army to work with too.
+speak;Xiang;Since you put it that way, maybe I'll consider it.
+speak;Anna;Great!{c:e;Anna;CloseEyes} Oh, this is exciting.|{c:e;Anna;NormalBlink}I'm gonna make flyers and everything!|I'll let you know when I'm done with the prep work on my end.
+mirror_portrait;Anna
+move_portrait;Anna;OffscreenRight
+bop_portrait;Xiang
+speak;Xiang;Ah, Anna, I said "maybe"!|{c:e;Xiang;HalfCloseEyes}{tgm}...{tgm}|{c:e;Xiang;CloseEyes}Usually, the predictions don't happen this fast.
+unlock_support_rank;Anna;Xiang;C
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;InsideCastle
+transition;open
+music;Guildmaster Wigglytuff
+multi_add_portrait;Xiang;Left;Anna;Right
+speak;Anna;Hey, Xiang! So? How's the fortune-telling business treating you?
+expression;Xiang;CloseEyes
+speak;Xiang;I'm exhausted.{c:e;Xiang;HalfCloseEyes} I've had no time to myself for a week straight.|{c:e;Xiang;NormalBlink}Just how many people did you advertise this to?
+expression;Anna;Smile
+speak;Anna;I hung a flyer or two{tgm}...{tgm}{c:e;Anna;CloseEyes,Smile} Or three{tgm}...{tgm}|{c:e;Anna;HalfCloseEyes,NoSmile}Maybe closer to a dozen in the castle town's marketplace.|{c:e;Anna;NormalBlink}It's a high-traffic area, y'know? More eyes means more business.
+expression;Xiang;CloseEyes
+speak;Xiang;Too much business, in my opinion.|{c:e;Xiang;NormalBlink}This cannot be the only thing I do in my free time, Anna.|I have a life outside of this.
+expression;Anna;CloseEyes,Smile
+speak;Anna;Hm{tgm}...{tgm} You do have a point.
+expression;Anna;NormalBlink,NoSmile
+bop_portrait;Anna
+speak;Anna;Oh, here's an idea! How about I help you manage things?|I can figure out timeslots, handle the finances, all the clerical stuff!|That way, all you have to worry about is the readings.
+speak;Xiang;Well, that will help a lot--
+speak;Anna;Okay! Time to get some new flyers made.
+mirror_portrait;Anna
+move_portrait;Anna;OffscreenRight
+speak;Xiang;Maybe I should do a quick self-reading. That's always relaxing.|{c:e;Xiang;HalfCloseEyes}{tgm}...{tgm}{c:e;Xiang;NormalBlink} "The Turtle," but it's upside-down. Emotional instability{tgm}...{tgm}|{c:e;Xiang;CloseEyes}*sigh* I could have figured that one out on my own.
+unlock_support_rank;Anna;Xiang;B
+end
+end_skip
+if;support_rank_nid == 'A'
+change_background;InsideCastle
+transition;open
+music;Girl of the Plains
+multi_add_portrait;Anna;Right;Xiang;Left
+expression;Anna;Smile
+speak;Anna;Xiang, what's going on? I thought you were completely booked today.|Where is everyone?
+speak;Xiang;I canceled all my appointments for the day.
+bop_portrait;Anna
+speak;Anna;You what?! But all those clients--
+expression;Xiang;CloseEyes
+speak;Xiang;Can find someone else to read their fortunes.|{c:e;Xiang;NormalBlink}I did some research and found others who do similar readings to mine.
+speak;Anna;But why? You were really popular, Xiang!
+speak;Xiang;That never mattered to me. I was only in it to help others.|I do not want to shoulder that burden on my own if I can help it.
+expression;Anna;CloseEyes,Smile
+speak;Anna;Well, I guess it is ultimately your decision.|{c:e;Anna;HalfCloseEyes,Smile}But man, we were making so much gold off of this{tgm}...
+speak;Xiang;As I've said before, these readings were something I did solely for myself.|I find them therapeutic. It's something I do to self-reflect each day.
+expression;Anna;CloseEyes,Smile
+speak;Anna;Hm{tgm}...{tgm} I get it now.|{c:e;Anna;NormalBlink,Smile}Sorry for taking that away from you, Xiang. I wasn't thinking.
+speak;Xiang;Now that you understand, would you like me to do a reading for you?
+speak;Anna;Huh? Are you sure?
+speak;Xiang;Though I do readings for myself,|I do not mind performing the occasional reading for a friend.|Especially if it seems like they need time to reflect on things.
+expression;Anna;NoSmile
+speak;Anna;That's really kind of you, Xiang. Thanks.
+speak;Xiang;Now, is there anything currently on your mind? Anything that's troubling you?
+expression;Anna;CloseEyes,Smile
+speak;Anna;Well, other than this business venture falling through, there is something{tgm}...{tgm}|{c:e;Anna;NormalBlink,Smile}How's my future with Jake looking?|I don't want to go into the details, but I just wanna know how things turn out.
+speak;Xiang;I see. For this,|I'll draw three cards rather than the typical one-card readings for my daily fortune-telling.|A topic like this needs more insight.
+speak;Anna;Alright.
+speak;Xiang;Allow me to shuffle the deck.
+bop_portrait;Xiang
+speak;Xiang;Now, pick three cards.
+expression;Anna;Smile
+speak;Anna;Let's see, I'll pick this one, this one, and{tgm}...{tgm} that one.
+speak;Xiang;Now, I'll flip each card over one by one.|The first card represents how your relationship is currently faring.|You chose "The Phoenix." It signifies passion and energy.|{c:e;Xiang;Smile}I don't think there's any arguing about what this is implying.
+expression;Anna;NoSmile
+speak;Anna;Hah, nope!
+expression;Xiang;NoSmile
+speak;Xiang;The next card represents a possible future for this relationship.|For this, you chose "The Wyrm." This one symbolizes stability and growth.|There won't be major problems on the road ahead, from what I can tell.|And the "growth" part can range from the physical to the emotional.
+expression;Anna;CloseEyes,Smile
+speak;Anna;"Growth," huh{tgm}...?{tgm} Hm{tgm}...
+speak;Xiang;And finally, the final card will bridge the gap between the current state and the future.|The card you chose was "The Serpent."|This represents taking the initiative.
+expression;Anna;NormalBlink,Smile
+speak;Anna;I see{tgm}...{tgm} Yeah, I think I know what I need to do.|{c:e;Anna;NoSmile}Thanks, Xiang. Mind if we do this again sometime?|I'll be sure not to ask you too often.
+expression;Xiang;Smile
+speak;Xiang;I would be glad to, Anna.

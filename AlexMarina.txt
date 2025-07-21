@@ -1,0 +1,94 @@
+C Support
+speak;Marina;Oh, hello, Alex. A reader yourself, I see.|Mind if I join you?
+expression;Alex;Smile
+speak;Alex;Not at all. Actually, I do need someone to converse with.|Please take a seat and let me pour you a cup of tea.
+speak;Marina;Why, thank you.
+move_portrait;Marina;Right
+expression;Marina;NoSmile
+speak;Marina;Now, what is on your mind?
+expression;Alex;Smile
+speak;Alex;Someday I would like to find my own white knight who could protect my honor.
+expression;Marina;Smile
+speak;Marina;There is something appealing about a dashing champion, isn't there?|However, I'm afraid that while there are good men in the world,|there isn't a Mr. Perfect.
+expression;Alex;NormalBlink,NoSmile
+speak;Alex;Oh, I know that.{br}Everyone's human.|That's not quite the dilemma.
+expression;Marina;NoSmile
+speak;Marina;What is it then, dear? You look like something is troubling you.
+expression;Alex;HalfCloseEyes
+speak;Alex;It's{tgm}...{tgm} It's me.|{c:e;Alex;NormalBlink}I worry that an eligible and reputable man would find me lacking.|You, though, probably have many suitors.
+expression;Marina;Smile,CloseEyes
+speak;Marina;While it is true that there are many who like the idea of being with me,|it isn't Marina they want to be with.|{c:e;Marina;NoSmile,NormalBlink}It's MARINA they want.
+speak;Alex;I don't understand.
+speak;Marina;They don't want me, Alex.|They want the woman they see on the posters.|They want the woman they see on the stage.{c:e;Marina;CloseEyes} They want THAT Marina.|{c:e;Marina;NormalBlink}And, of course, there are those who just want their base desires met.
+speak;Alex;I didn't mean to complain.
+speak;Marina;I know, dear. I wasn't suggesting you were.|I only meant that you don't have to worry about people|falling over each other for an IDEA of you.|They will want you for you.
+speak;Alex;Want me for me?
+speak;Marina;You may not have what some call "the perfect body", but you have your own appeal.|There's something to be said about a moderate woman.
+speak;Alex;I never considered that.
+speak;Marina;You also don't need to worry about people liking you for your title, unlike Her Highness.
+expression;Marina;CloseEyes
+speak;Marina;I feel bad for her sometimes.|I'm sure she has suitors crawling at her feet for her just because she's Medeas' princess.|{c:e;Marina;NormalBlink}Reminds me of when I was younger when some only liked me for the fame I could bring them.
+expression;Alex;CloseEyes
+speak;Alex;But still{tgm}...{tgm} How to phrase this{tgm}...{tgm}|{c:e;Alex;NormalBlink}While I'm not looking for a Prince Charming,|I'm looking for someone I can fall in love with.|Someone to marry and look after. And he would look after me in return.|However, I wonder if I would even catch someone's eye.
+expression;Marina;NormalBlink
+speak;Marina;Alex. You have more going for you than you realize.|While you are mature enough to understand there is no Prince Charming,|you shouldn't worry about being the perfect girl either.|There are still men who don't care about perfect. They just want a loving wife.|{c:e;Marina;CloseEyes}Sadly, being a dancer makes finding such a man difficult for me.|{c:e;Marina;NormalBlink,Smile}But they do exist.
+expression;Alex;Smile
+speak;Alex;I see. Thank you, Marina.
+speak;Marina;No, thank YOU, Alex. It was a lovely talk.|And thank you for the tea.|{c:e;Marina;NoSmile}Oh, if you have any book recommendations, I would love to hear them.|I just finished this. Next time we talk, you can share your recommendations.
+speak;Alex;Certainly.
+speak;Marina;Until next time, dear.
+mirror_portrait;Marina
+move_portrait;Marina;OffscreenRight
+expression;Alex;NoSmile
+speak;Alex;I wonder what book this is?|{c:e;Alex;HalfCloseEyes}Hmm, "Heavenly Desires"? I haven't heard of this one before.|{c:e;Alex;NormalBlink}Maybe it can give me an idea of what kinds of books she likes.
+expression;Alex;HalfCloseEyes
+speak;Alex;{tgm}...{tgm}|{c:e;Alex;NormalBlink}Oh.|{c:e;Alex;HalfCloseEyes}{tgm}...{tgm} Oh my.|{c:e;Alex;NormalBlink}{tgm}...{tgm}|{c:e;Alex;OpenEyes}Oh, it went THERE already?|{c:e;Alex;CloseEyes}I haven't even finished the first chapter yet.
+unlock_support_rank;Alex;Marina;C
+# Original script by Berserker Sam #
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;Library
+transition;open
+music;Girl of the Plains
+multi_add_portrait;Alex;Left;Marina;Right
+speak;Marina;Hello again, Alex.|Not to put you in a rush, but have you finished "Heavenly Desires" yet?|I've recently had this urge to give it another read.|I'm also curious about any book recommendations you may have based on this.
+speak;Alex;Yes, here you go.
+expression;Marina;Smile
+speak;Marina;So, what did you think of it?
+expression;Alex;CloseEyes
+speak;Alex;It was{tgm}...{tgm} a book.|{c:e;Alex;HalfCloseEyes}It WAS interesting, but does it really need all{tgm}...{tgm} THAT in it?
+expression;Marina;NoSmile
+speak;Marina;What do you--|{c:e;Marina;CloseEyes}Ohh{tgm}...{tgm}{c:e;Marina;CloseEyes,Smile} Hm{tgm}...{tgm} Probably not.|{c:e;Marina;NormalBlink,Smile}Though, I still do enjoy it.
+expression;Alex;NormalBlink
+speak;Alex;It was certainly more intense than anything I've read myself.|{c:e;Alex;HalfCloseEyes}And{tgm}...{tgm} the euphemisms.{c:e;Alex;CloseEyes} Oh, Medea, the euphemisms.|{c:e;Alex;HalfCloseEyes}Why call those parts of a woman "nether lips" and "nip nops"?|Who talks like that?
+speak;Marina;No one to my knowledge, though I get a giggle out of it.
+expression;Alex;NormalBlink
+speak;Alex;I don't mean to criticize it so much.|It wasn't bad per se, but like I said, it progressed faster than what I'm used to.|I haven't read anything of this intensity before.
+expression;Marina;NoSmile
+speak;Marina;I'll admit that book is intense and not something I would have recommended if|you have not read something like this before.
+speak;Alex;Some of the intimate moments between the main couple were nice,|but I do prefer a slower progression.|{c:e;Alex;CloseEyes,Smile}Really let it brew and steep in first.
+expression;Marina;Smile
+speak;Marina;Ahhh, more into slow, methodical romances, I see.|I can let you read another one of my favorites, if you'd like.|There are a few I have that I think would be better for you.
+expression;Alex;NormalBlink,Smile
+speak;Alex;I would not mind that at all.
+remove_all_portraits
+transition;close
+change_background;Bedroom
+transition;open
+multi_add_portrait;Alex;Right;Marina;Left
+expression;Marina;Smile
+speak;Marina;Here we are, my personal book collection.|One I would recommend to you is "Roses and Strawberry Wine".|It's a more intense romance novel, but you're not diving into the deep end.
+expression;Alex;Smile
+speak;Alex;I'll give it a try. Thank you, Marina
+speak;Marina;Not at all, dear.
+expression;Alex;NoSmile
+speak;Alex;Oh, and since I'm borrowing a book of yours, why don't you take this?
+expression;Marina;NoSmile
+speak;Marina;"The Prince and the Peasant"?
+expression;Alex;Smile
+speak;Alex;Yes, it's a sweet romance about a noble who falls in love with a lowly farm girl.|I like it a lot.
+expression;Marina;Smile
+speak;Marina;I'll give it a try. Thank you, Alex.
+speak;Alex;Of course. Until next time, Marina.
+# Original script by Berserker Sam #
