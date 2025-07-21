@@ -1,0 +1,19 @@
+C Support
+Masashi: Ah Masashi you have the devil’s own luck! Not only have you found a most able fletcher but she is a most fetching fletcher too. And with being an archer perfect excuse to hit her up. Off we go!
+??? HALT! Don’t take another step!
+Masashi: Who is that? Oh it’s you sir Forrest why the grave demeanor?
+Forrest: Where are you going out to?
+Masashi: Why simply to take a walk around the royal city. Nothing more beyond that.
+Forrest: I don’t believe you
+Masashi: Forrest sir. I have done nothing amiss. Why the suspicion?
+Forrest: Your loyalty is suspect at best. You abandoned your previous ties at the drop of a hat and for what? Because the opposing commander was a gorgeous woman. You are pathetic. You abandoned your liege, your knightly vows, everything. For a woman. You are a disgrace.
+Masashi: But Forrest sir the emperor was not himself people needed to oppose him
+Forrest: That is besides the point. Where are you heading off to?
+Masashi: Is there nothing to convince you to trust me? We are on the same side here.
+Forrest: Temporarily. Temporarily, and against my better judgement we are on the same side. Someone needs to keep an eye on you.
+Masashi: Ah well, could be worse….hmmmm……who knows maybe Forrest will be a good wingman.
+Forrest: What was that?
+Masashi: Nothing, nothing sir Forrest follow me I need to see a fletcher my arrows need tending to
+Forrest: They look fine to me
+Masashi: Irrelevant good man, don’t worry about it.
+# Original script by Berserker Sam #

@@ -1,0 +1,35 @@
+C Support
+speak;Trevor;Azure, I must say, you are the most beautiful man I have ever laid my eyes upon.
+speak;Azure;Is this an attempt at courtship, Trevor?|If so, I applaud your boldness, but your technique needs work.
+bop_portrait;Trevor
+speak;Trevor;No! I mean, not that I would not consider the possibility--|Th-That is to say{tgm}...|{c:e;Trevor;HalfCloseEyes}...{tgm} May I reattempt initiating this conversation?
+speak;Azure;If you so wish.
+expression;Trevor;CloseEyes
+speak;Trevor;Thank you. As I was trying to say{tgm}...{tgm}|{c:e;Trevor;NormalBlink}Your beauty has a certain feminine quality to it, and yet you're still a man.
+speak;Azure;Yes? And?
+speak;Trevor;I wish to be as confident in my own masculinity as you are.|How do you do it, Azure?{br}Please teach me your ways!
+speak;Azure;Is that all? You should have just started with that.|And there's nothing to it, really. I was born a man, and that's just how I am.
+speak;Trevor;I{tgm}...{tgm} I see. Thank you for your wisdom, Azure.|At any rate, that was all I wished to speak with you about.|I shall take my leave now.
+mirror_portrait;Trevor
+move_portrait;Trevor;OffscreenLeft
+speak;Azure;He didn't seem satisfied with that. But what else could I have said?|I only spoke the truth.|{c:e;Azure;CloseEyes}I wonder what sort of answer he's looking for?
+
+A Support
+speak;Trevor;My parents believed I took on this identity to avoid the responsibilities of|being the Valoria family heir.|{c:e;Trevor;NormalBlink}But they were wrong! Being a man is more comfortable for me. That's all.|{c:e;Trevor;CloseEyes}I only wish that they understood that.
+speak;Azure;Trevor{tgm}...
+expression;Trevor;NormalBlink
+speak;Trevor;And so, I began this new life for myself.|Living as the man I wanted to be.
+expression;Azure;CloseEyes
+speak;Azure;So that's why you asked me about being masculine.
+speak;Trevor;Precisely.
+expression;Azure;NormalBlink
+speak;Azure;If it's any consolation, I would never imagine you as a woman, Trevor.
+speak;Trevor;R-Really?
+speak;Azure;When you had asked me about being a man,|I thought perhaps you lacked some self-confidence.|I never imagined not being born as one would|be the reason for your question.
+expression;Trevor;CloseEyes
+speak;Trevor;Perhaps self-confidence is a factor in this as well.|{c:e;Trevor;NormalBlink}However, being seen as a man does bring me great joy.|I want to hold onto this happiness for as long as I can.|{c:e;Trevor;CloseEyes}If I keep going like this,|then I am sure the others will believe I am a man through and through.
+speak;Azure;I'm sure they already do, Trevor.
+expression;Trevor;NormalBlink
+speak;Trevor;Azure{tgm}...{tgm} Thank you.{c:e;Trevor;Smile} You have been a great friend.
+expression;Azure;Smile
+speak;Azure;Of course, Trevor. I'm glad I could be there for you.

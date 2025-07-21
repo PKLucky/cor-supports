@@ -1,0 +1,92 @@
+C Support
+speak;Sam;Alright, you. Where's the rest of your gang?
+speak;Bandit1;Yer not gonna get that outta me. My lips're sealed.
+speak;Sam;Oh, we'll see about that.
+speak;Bandit1;What are you--
+move_portrait;Sam;MidLeft
+bop_portrait;Sam
+sound;Attack Hit 1
+expression;Bandit1;CloseEyes
+speak;Bandit1;ARGH!
+move_portrait;Sam;Right
+expression;Sam;HalfCloseEyes
+speak;Sam;How about now?
+expression;Bandit1;HalfCloseEyes
+speak;Bandit1;I-I still ain't sayin' nuthin' to ya{tgm}...!
+expression;Sam;CloseEyes
+speak;Sam;Alright, gonna have to do this the hard way.
+expression;Sam;NormalBlink
+move_portrait;Sam;MidLeft
+mirror_portrait;Bandit1
+bop_portrait;Bandit1
+expression;Bandit1;CloseEyes
+speak;Bandit1;Gah{tgm}...!{tgm} Can't{tgm}...{tgm} breathe{tgm}...!
+speak;Sam;Ready to spill now?
+expression;Bandit1;HalfCloseEyes
+speak;Bandit1;Okay, okay{tgm}...!{tgm} The hideout's to the west{tgm}...{tgm} j-just past the ravine{tgm}...!
+expression;Sam;CloseEyes,Smile
+speak;Sam;Much better.
+expression;Sam;NormalBlink
+sound;CombatDeath
+remove_portrait;Bandit1
+wait;200
+move_portrait;Sam;OffscreenLeft
+move_portrait;Kai;FarRight
+speak;Kai;...;no_talk
+remove_all_portraits
+transition;close
+change_background;CastleBack
+transition;open
+music_clear
+music;Girl of the Plains
+multi_add_portrait;Kai;Right;Sam;Left
+expression;Kai;CloseEyes,Smile
+speak;Kai;Back from another bandit-killing spree, I see.
+speak;Sam;Kai? How'd you know about that?
+expression;Kai;NormalBlink,Smile
+speak;Kai;Caught a bit of your interrogation earlier.|{c:e;Kai;NoSmile}I must say, your methods are{tgm}...{tgm}|{c:e;Kai;CloseEyes}Well, they lack refinement.|{c:e;Kai;NormalBlink}You had him in a chokehold. You could have broken his neck.
+expression;Sam;CloseEyes
+speak;Sam;Please. I know my own strength.|{c:e;Sam;NormalBlink}Would have needed more pressure than that to break it.
+expression;Kai;HalfCloseEyes
+speak;Kai;And you pulled his arm right out of the socket.
+speak;Sam;Oh yeah, well, that's his problem for being such a weakling.
+speak;Kai;Sam, where on earth did you learn such brutish interrogation tactics?
+speak;Sam;Mercenary work. Used to be part of a mercenary company.|We did stuff like this all the time before assaulting their camp, fort, or whatnot.
+expression;Kai;NormalBlink,Smile
+speak;Kai;Fascinating.|You wouldn't happen to know of a mercenary called the Prowling Tiger, would you?
+if;{v:SamKaiCh3} == True
+speak;Sam;Nope, first I'm hearing of it.
+expression;Kai;NoSmile
+speak;Kai;I mentioned it when bandits were attacking your home.
+speak;Sam;My house was being broken into!|You expect me to remember a pointless question like that?
+speak;Kai;Honestly, yes, but that's neither here nor there.|So do you know of anyone like that?
+end
+speak;Sam;No, but I was part of this one group called the Ebony Tigers.|Maybe that Prowling Tiger is one of them?
+expression;Kai;Smile
+speak;Kai;Heh, maybe.
+expression;Kai;CloseEyes,NoSmile
+speak;Kai;He's not trained to be one, but his methods are effective as a ninja's,|even if not as refined.|{c:e;Kai;NormalBlink}He'd be a nightmare with actual training like that.;StyleNid=thought_bubble
+expression;Kai;Smile
+speak;Kai;Anyway, this was an enlightening conversation, Sam.|Talk to you later.
+speak;Sam;Yeah, see ya.
+# Original script by Berserker Sam #
+
+B Support
+Kai: Hey Sam
+Sam: What up?
+Kai: So you left Medea eight years ago?
+Sam: More or less
+Kai: Hmmmm……timing could be right but need more info You ever run into someone called the Prowling Tiger?
+Sam: Prowling Tiger? Never heard of him. Who is he? Some bandit warlord?
+Kai: Way I hear it, he’s a bit of a terror tale amongst the bandits, something they tell little bandits to scare them into obeying the higher ups.
+Sam: Kai, bandits don’t need to make up tall tales to scare kids into obeying. A hard look and hefting your axe does that already
+Kai: You’re no fun. Anyway, he lives within the mountains striking at bands of bandits and fortresses, leaving none alive. A real terror that one. Assuming he’s real, that is, and isn’t just a personification of happenstance. Such as maybe a wild animal attack, landslide, a flood or any other natural disaster.
+Sam: Yeah that could be the case, but no I have not heard of anyone called the Prowling Tiger… Possibly one of my mercenary friends. Maybe it’s one of them, or they know someone who is called such.
+Kai: Mercenary friends? 
+Sam: When I left Medeas, a mercenary band took me in and taught me some things. It has helped me survive. One of them might be this Prowling Tiger or at very least one of them might know of someone who likely is.
+Kai: Good to know. Who was this mercenary band? Just asking for a friend, you know. I have a friend who wants to get into the mercenary life and they might be a good starting place.
+Sam: They were called the Ebony Tigers, if your friend has potential they may be willing to recruit him.
+Kai: Good to know thanks!
+(Kai leaves)
+Kai, thinking: Well, I have some leads at least. Let’s get to work!)
+# Original script by Berserker Sam #

@@ -1,0 +1,196 @@
+C Support
+speak;Masashi;Your Highness! May I have a word with you?
+expression;Krista;HalfCloseEyes
+speak;Krista;Oh, Masashi.|{c:e;Krista;NormalBlink}What is it?
+expression;Masashi;NoSmile
+speak;Masashi;I would like to humbly apologize for my behavior when we first met.|It was, quite frankly, a terrible first impression.
+expression;Krista;CloseEyes
+speak;Krista;You can say that again.
+speak;Masashi;I see now the error of my ways.|{c:e;Masashi;Smile}Why, your beauty is unparalleled!|You swing your blade with such grace.|The way you lead your army has such refinement.|I was completely wrong about you!
+expression;Krista;HalfCloseEyes
+speak;Krista;Dear Medea{tgm}...{tgm}|{c:e;Krista;NormalBlink}Look, you don't gotta say stuff you don't mean.
+expression;Masashi;NoSmile
+speak;Masashi;What? But I do mean what I said.
+expression;Krista;CloseEyes
+speak;Krista;Sure, sure.|{c:e;Krista;NormalBlink}Anyway, I've got more important things to do than listen to shallow compliments.|See ya.
+mirror_portrait;Krista
+move_portrait;Krista;OffscreenLeft
+bop_portrait;Masashi
+speak;Masashi;Ah, Your Highness!|{c:e;Masashi;CloseEyes}Hm{tgm}...{tgm} Perhaps words alone are not enough.|{c:e;Masashi;Smile}I shall prove to her my honesty by any means necessary!
+unlock_support_rank;Krista;Masashi;C
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;CastleInterior
+transition;open
+music;Guildmaster Wigglytuff
+multi_add_portrait;Krista;Left;Masashi;Right
+bop_portrait;Krista
+expression;Krista;HalfCloseEyes
+speak;Krista;Masashi!!
+speak;Masashi;Your Highness? Is something wrong?
+expression;Krista;CloseEyes
+speak;Krista;Yes. Multiple somethings, actually.|{c:e;Krista;NormalBlink}It's about all the gifts from you that were outside my chambers.
+speak;Masashi;Oh, is that all? Did you not like them?
+speak;Krista;Look, I will admit this is very flattering.|{c:e;Krista;CloseEyes}But, dear Medea,|I can just feel Forrest staring daggers at you from across the room.|{c:e;Krista;NormalBlink}I'm saying this because I'm honestly fearing for your life--
+expression;Masashi;Smile
+speak;Masashi;You actually care about me?
+expression;Krista;HalfCloseEyes
+speak;Krista;I never said that.|{c:e;Krista;NormalBlink}I just don't want Forrest to commit murder.|So, just cool it with the gifts, alright?|I don't want to lose a valuable member of the army because he's being stupid.
+mirror_portrait;Krista
+move_portrait;Krista;OffscreenLeft
+expression;Masashi;NoSmile
+speak;Masashi;Oh, Merin{tgm}...
+expression;Masashi;Smile
+bop_portrait;Masashi
+speak;Masashi;She said I was valuable!|{c:e;Masashi;CloseEyes,Smile}Masashi, you're in now!
+unlock_support_rank;Krista;Masashi;B
+end
+end_skip
+if;support_rank_nid == 'A'
+change_background;CastleBack
+transition;open
+music;Respite in Battle
+add_portrait;Krista;Left;mirror;no_block
+add_portrait;Masashi;Right
+expression;Masashi;Smile
+speak;Masashi;Ah, Your Highness! I did not expect to see you at the archery range.
+expression;Krista;HalfCloseEyes
+speak;Krista;Hm.
+speak;Masashi;A master of the bow yourself, I see.|You're just full of surprises, aren't you?
+expression;Krista;NormalBlink
+bop_portrait;Krista
+sound;Attack Hit 2
+wait;500
+speak;Krista;...;no_talk
+speak;Masashi;A bullseye!|You have great aim, Your Highness, even while I'm conversing with you like this.|You have great focus--
+expression;Krista;CloseEyes
+speak;Krista;Shut up already.
+expression;Masashi;NoSmile
+bop_portrait;Masashi
+speak;Masashi;P-Pardon?|I apologize. Am I distracting you?
+mirror_portrait;Krista
+speak;Krista;Technically, no. Just{tgm}...{tgm} Just don't talk to me while I shoot, okay?
+speak;Masashi;Er, alright.
+mirror_portrait;Krista
+bop_portrait;Krista
+sound;Attack Hit 2
+wait;500
+speak;Krista;...;no_talk
+speak;Masashi;...;no_talk
+bop_portrait;Krista
+sound;Miss
+wait;500
+expression;Krista;HalfCloseEyes
+speak;Krista;{tgm}...{tgm}{c:e;Krista;CloseEyes} D-Damn it{tgm}...
+speak;Masashi;Your Highness? What's wrong? Why are you crying?
+mirror_portrait;Krista
+expression;Krista;HalfCloseEyes
+speak;Krista;Masashi, I'm sorry. It's just{tgm}...{tgm}|When you started talking like that, it reminded me of Ervan{tgm}...
+speak;Masashi;Ervan?
+expression;Krista;NormalBlink
+speak;Krista;My fiancee.|{c:e;Krista;CloseEyes}{tgm}...{tgm} Ex-fiancee. And former prince of Fuegsol.|{c:e;Krista;NormalBlink}He taught me everything about the bow, and we would talk just like this during training.
+speak;Masashi;I see.|{c:e;Masashi;CloseEyes}{tgm}...{tgm} I deeply apologize, Your Highness. I did not mean to bring up such memories.
+speak;Krista;It's okay. You didn't know.|If anything, I should be sorry for snapping at you earlier.
+expression;Masashi;NormalBlink
+speak;Masashi;It's understandable.|{c:e;Masashi;Smile,CloseEyes}Just me being stupid. Haha{tgm}...
+expression;Krista;CloseEyes,Smile
+speak;Krista;Heh.
+expression;Masashi;NormalBlink,Smile
+speak;Masashi;Alright, let's get those tears dried, Your Highness.|And if you'd like, we can train together.|Perhaps you could give me some tips?|I'd love to hear about Fuegan archery techniques.
+expression;Krista;NormalBlink,Smile
+speak;Krista;Sure. I'd like that.
+if;{v:KristaMasashiA} != True
+sound;Item
+if;game.get_unit('Krista').klass == 'Lord'
+alert;Krista gained 10 EXP!
+give_exp;Krista;10
+sound;Item
+alert;Masashi gained some Bow EXP!
+else
+alert;Both particpants gained some Bow EXP!
+give_wexp;Krista;Bow;10
+end
+give_wexp;Masashi;Bow;10
+game_var;KristaMasashiA;True
+end
+unlock_support_rank;Krista;Masashi;A
+end
+end_skip
+if;support_rank_nid == 'S'
+change_background;CastleBack
+transition;open
+music;Lyn's Desire
+add_portrait;Masashi;Left;mirror;no_block
+add_portrait;Krista;Right
+speak;Krista;So, what're your plans after this whole conflict is over?|Going back to Merinas?
+speak;Masashi;Yes. I would imagine Emperor Samegoro will be back to his old self,|so I'm sure serving under him would be no problem.
+speak;Krista;Yeah, makes sense.
+bop_portrait;Masashi
+sound;Attack Hit 2
+wait;500
+expression;Krista;Smile
+speak;Krista;Nice bullseye.
+expression;Masashi;Smile
+speak;Masashi;Why, thank you, Your Highness.
+speak;Krista;Aw, you can drop the formalities, Masashi. Just call me Krista.
+expression;Masashi;NoSmile
+speak;Masashi;Oh, er, are you sure?
+speak;Krista;I don't see why not. We're friends, right?
+speak;Masashi;Friends{tgm}...{tgm}{c:e;Masashi;Smile} Yes, I suppose so.|{c:e;Masashi;NoSmile}I find it hard to believe we've gotten so close,|considering our rather{tgm}...{tgm}{c:e;Masashi;HalfCloseEyes,Smile} unfavorable first meeting.
+expression;Krista;CloseEyes,Smile
+speak;Krista;Heh, funny how things worked out.
+expression;Masashi;NormalBlink,NoSmile
+bop_portrait;Masashi
+sound;Attack Hit 2
+wait;500
+expression;Krista;NormalBlink,Smile
+speak;Krista;Another one on the mark. Not a bad round, Masashi.
+mirror_portrait;Masashi
+expression;Masashi;Smile
+speak;Masashi;Thank you, Yo--{c:e;Masashi;NoSmile}I mean, Krista.
+speak;Krista;You'll get used to it.|Anyway, want me to help you get your arrows?
+expression;Masashi;Smile
+speak;Masashi;That would be kind of you, Krista. Thank you.
+remove_all_portraits
+transition;close
+change_background;BlackBackground
+transition;open
+speak;;Further down the archery range...;StyleNid=hint;NumLines=2;no_sound
+transition;close
+change_background;CastleBack
+transition;open
+add_portrait;Krista;Left;mirror;no_block
+add_portrait;Masashi;Right
+expression;Krista;HalfCloseEyes
+speak;Krista;Hm{tgm}...{tgm} This one's stuck in here pretty good.
+mirror_portrait;Krista
+expression;Krista;NormalBlink
+speak;Krista;Mind giving me a hand?
+move_portrait;Masashi;MidLeft
+expression;Masashi;Smile
+speak;Masashi;Of course. Let me--
+remove_all_portraits
+transition;close
+#change_background;KristaMasashiS
+change_background;BlackBackground
+transition;open
+speak;Masashi;Mm?!
+transition;close
+change_background;CastleBack
+transition;open
+multi_add_portrait;Krista;Left;Masashi;Right
+speak;Masashi;K-Krista, wha{tgm}...?
+expression;Krista;Smile
+speak;Krista;Hehe, what?|{c:e;Krista;HalfCloseEyes,Smile}Don't tell me you've never been kissed before.
+speak;Masashi;Th-That's not--I just{tgm}...{tgm}|{c:e;Masashi;HalfCloseEyes}I don't like being kissed.
+expression;Krista;NormalBlink,NoSmile
+speak;Krista;Hm{tgm}...?{c:wait;100}{tgm} Oh, gotcha.|{c:e;Krista;Smile}No worries, we can take things slow.|Is holding hands okay?
+expression;Masashi;Smile
+speak;Masashi;Yes, that's fine.|{c:e;Masashi;NoSmile}But we need both hands to pull out my arrows, don't we?
+expression;Krista;CloseEyes,Smile
+speak;Krista;Very true.
+expression;Krista;NormalBlink,Smile
+bop_portrait;Krista
+speak;Krista;Oh! What if we hold hands and use our free hands to get your arrows out?
+speak;Masashi;That sounds overly complicated and silly,{c:e;Masashi;CloseEyes,Smile} but sure.

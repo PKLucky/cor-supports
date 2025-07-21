@@ -1,0 +1,117 @@
+C Support
+speak;Lucy;Hi! You're Aqua, right?
+speak;Aqua;Yes, that's me. Who are you?
+expression;Lucy;Smile
+speak;Lucy;I'm Lucy, a healer for the Medean royal army.|{c:e;Lucy;CloseEyes,NoSmile}Well, healer in training, I mean.|{c:e;Lucy;NoSmile}My mother was the head healer for the royal army,|but since she's sick, I'm trying to fill in for her until she recovers.
+expression;Aqua;Smile
+speak;Aqua;Oh, I see! I happen to be a cleric of Vergrande Monastery in Foliaga.
+expression;Lucy;Smile
+speak;Lucy;That's so cool! So, we're both healers, then.|We should be friends!
+speak;Aqua;It would be nice to have another friend, Lucy.
+speak;Lucy;By the way, that's a really nice staff.|I don't think I've ever seen anything like it before.
+speak;Aqua;Oh, thank you. Sam let us have it on our way back from Oregot.|{c:e;Aqua;NoSmile}It feels more powerful than the staves I normally use.|It can heal others from a good distance away.
+bop_portrait;Lucy
+speak;Lucy;That's amazing! Can I give it a try?
+expression;Aqua;Smile
+speak;Aqua;I don't see why not. Let's go to the infirmary and try it out.
+transition;close
+change_background;CastleBright
+transition;open
+add_portrait;Man1;FarLeft;;HalfCloseEyes;no_block
+multi_add_portrait;Lucy;MidRight;Aqua;FarRight;Woman1;MidLeft
+expression;Woman1;Smile
+speak;Woman1;Oh, Lucy! Did you need something?
+expression;Lucy;Smile
+speak;Lucy;Hello, Miss Joan. I just wanted to try out this new staff.|Is there anyone who needs help right now?
+expression;Woman1;NoSmile
+speak;Woman1;Why, Brennan here happened to come in with a sprained wrist earlier.|I'm sure he'd appreciate the assistance.
+expression;Lucy;Smile
+speak;Lucy;Okay! Here we go!
+bop_portrait;Lucy
+expression;Lucy;NoSmile
+speak;Lucy;...;no_talk
+speak;Woman1;...;no_talk
+speak;Lucy;Um. Wait, let me try again.
+bop_portrait;Lucy
+expression;Lucy;HalfCloseEyes
+speak;Lucy;...;no_talk
+expression;Aqua;HalfCloseEyes
+speak;Aqua;...;no_talk
+expression;Woman1;NoSmile
+speak;Woman1;Lucy, are you sure that staff works?
+expression;Lucy;NormalBlink
+speak;Lucy;I'm sure it does! I've seen Aqua use it all the time.
+mirror_portrait;Lucy
+speak;Lucy;Here, Aqua, show her.
+expression;Aqua;NormalBlink
+speak;Aqua;Alright.
+mirror_portrait;Lucy
+bop_portrait;Aqua
+sound;Heal1
+wait;300
+expression;Man1;NormalBlink,Smile
+speak;Man1;Ah, I feel so much better. Thank you!
+expression;Woman1;Smile
+speak;Woman1;Thank you very much for your help, you two.
+speak;Aqua;Yes, of course.
+remove_all_portraits
+multi_add_portrait;Lucy;Left;Aqua;Right
+expression;Aqua;CloseEyes
+speak;Aqua;That's so strange{tgm}...
+expression;Lucy;CloseEyes
+speak;Lucy;You can say that again.|{c:e;Lucy;NormalBlink}Looks like we've got a mystery on our hands, Aqua.|Let's figure out what's with that staff!
+unlock_support_rank;Aqua;Lucy;C
+# Original script by Berserker Sam #
+
+B Support
+speak;Lucy;Aqua! I have a theory for why I can't use that staff of yours!
+speak;Aqua;Oh? What is it?
+speak;Lucy;Maybe the staff knows that I can ride a horse?
+expression;Aqua;HalfCloseEyes
+speak;Aqua;What.
+expression;Lucy;NoSmile
+speak;Lucy;Well, you know how some people can't learn certain types of magic?|Maybe staves have weird rules like that too!
+expression;Aqua;NormalBlink
+speak;Aqua;When you put it that way, I suppose that makes some sense?|{c:e;Aqua;CloseEyes}Not a LOT of sense, but I do see the logic.
+expression;Lucy;CloseEyes
+speak;Lucy;If only we knew someone who could use magic AND ride a horse{tgm}...
+expression;Lucy;NormalBlink
+bop_portrait;Lucy
+speak;Lucy;WAIT A MINUTE!
+remove_all_portraits
+transition;close
+change_background;Gate
+transition;open
+multi_add_portrait;Lucy;MidRight;Aqua;FarRight;Forrest;Left
+expression;Lucy;Smile
+speak;Lucy;{tgm}...{tgm} And that's why we came to you, Sir Forrest!
+speak;Forrest;Lucy, I understand, but you DO realize I cannot use staves anyway, correct?
+expression;Lucy;NoSmile
+speak;Lucy;Have you tried?
+expression;Forrest;HalfCloseEyes
+speak;Forrest;{tgm}...{tgm}|{c:e;Forrest;NormalBlink}Hand it over.
+move_portrait;Lucy;MidLeft
+bop_portrait;Lucy
+move_portrait;Lucy;MidRight
+expression;Forrest;CloseEyes
+bop_portrait;Forrest
+speak;Forrest;...;no_talk
+speak;Lucy;...;no_talk
+expression;Forrest;NormalBlink
+expression;Lucy;HalfCloseEyes
+speak;Lucy;Nothing happened.
+speak;Forrest;This more than likely doesn't prove anything, Lucy.|I'm sorry to say, but this may have just been a waste of time.
+expression;Lucy;CloseEyes
+speak;Lucy;Man{tgm}...
+speak;Aqua;Maybe the Medean Castle library has some books on it?
+mirror_portrait;Lucy
+expression;Lucy;Smile
+speak;Lucy;Aqua, that's a great idea!
+mirror_portrait;Lucy
+expression;Lucy;Smile
+speak;Lucy;We're gonna head over there now, Sir Forrest.|Thanks for your help!
+mirror_portrait;Aqua
+mirror_portrait;Lucy
+move_portrait;Aqua;OffscreenRight;no_block
+move_portrait;Lucy;OffscreenRight
+speak;Forrest;But I didn't do anything?

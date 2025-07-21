@@ -1,0 +1,171 @@
+C Support
+speak;Krista;Hey, Torgen. Mind tying me up? For old-time's sake?
+speak;Torgen;Don't you have more important things to do?
+speak;Krista;I mean, yeah, but we've got a bit of downtime.
+expression;Torgen;CloseEyes
+speak;Torgen;I'm not tying you up.
+speak;Krista;C'mon, it'll be fun! I look real cute wrapped up in ropes, dontcha think?
+expression;Torgen;HalfCloseEyes
+speak;Torgen;I'm not into that.
+expression;Krista;HalfCloseEyes,Smile
+speak;Krista;If you aren't, why did you keep agreeing to "kidnapping" me, hm?
+expression;Torgen;NormalBlink
+speak;Torgen;Because you wouldn't stop pestering me if I didn't.
+expression;Krista;CloseEyes,NoSmile
+speak;Krista;Okay, fair.|{c:e;Krista;NormalBlink,Smile}But! You still enjoyed it at least a little bit, didn't you?
+expression;Torgen;CloseEyes
+speak;Torgen;Well, when it's just me and ol' Asra, it can get boring.
+expression;Krista;CloseEyes,Smile
+speak;Krista;That's what I thought.
+expression;Torgen;HalfCloseEyes
+speak;Torgen;Still not gonna tie you up.
+expression;Krista;NormalBlink,NoSmile
+speak;Krista;Oh come on! Please? For me?
+expression;Torgen;CloseEyes
+speak;Torgen;And there you go, pestering me again.
+expression;Krista;HalfCloseEyes,Smile
+speak;Krista;{tgm}...{tgm} Is it working?
+expression;Torgen;HalfCloseEyes
+speak;Torgen;{tgm}...{c:e;Torgen;CloseEyes}{tgm} *sigh*|Let me get the rope.
+expression;Krista;CloseEyes,Smile
+speak;Krista;Woo!
+unlock_support_rank;Krista;Torgen;C
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;InsideCastle
+transition;open
+music;Silent Ground
+multi_add_portrait;Torgen;Left;Krista;Right
+expression;Krista;Smile
+speak;Krista;Torgen! Wanna tie me up agai--
+expression;Torgen;CloseEyes
+speak;Torgen;No. Not in the mood.
+expression;Krista;NoSmile
+speak;Krista;Yeesh, you're sounding more grumpy than usual. What's up?
+expression;Torgen;HalfCloseEyes
+speak;Torgen;Just{tgm}...{tgm} Sorry about last time.
+speak;Krista;What?
+expression;Torgen;NormalBlink
+speak;Torgen;Things shouldn't have gone that way.|Gordon wouldn't've gotten his grubby mitts on you if I--
+speak;Krista;Hey. I already told you it was okay. I'm alive, aren't I?
+speak;Torgen;But--
+expression;Krista;CloseEyes
+speak;Krista;I'm not hearing it!|{c:e;Krista;NormalBlink}Besides, if I didn't forgive you, we wouldn't be talking right now.
+speak;Torgen;You have a point. Still, I can't get over how scared you were when Gordon got you.|{c:e;Torgen;HalfCloseEyes}It was like when we met eight years ago.
+expression;Krista;HalfCloseEyes
+speak;Krista;...;no_talk
+expression;Torgen;NormalBlink
+speak;Torgen;I don't want you fearing for your life like that, Krista.|I'm not fumbling like that ever again.
+expression;Krista;CloseEyes
+speak;Krista;If I died that day, I{tgm}...
+speak;Torgen;Huh?
+expression;Krista;NormalBlink
+speak;Krista;N-Nothing. It's nothing.|Anyway, sorry for bothering you. I'm just gonna go.
+mirror_portrait;Krista
+move_portrait;Krista;OffscreenRight
+speak;Torgen;Krista?{c:e;Torgen;HalfCloseEyes} What's gotten into you?
+unlock_support_rank;Krista;Torgen;B
+end
+end_skip
+if;support_rank_nid == 'A'
+change_background;Plains
+transition;open
+music;Respite in Battle
+multi_add_portrait;Torgen;Right;Invisible;Left
+speak;Torgen;Huh? Krista? What're you doing laying on the ground like that?
+speak;Invisible;... Cloud watching.
+speak;Torgen;Mind if I join you?
+speak;Invisible;If you wanna, go ahead.
+remove_all_portraits
+transition;close
+change_background;KristaTorgenA
+transition;open
+speak;Krista;...;no_talk
+speak;Torgen;... Doesn't cloud watching usually go where someone says, oh I don't know,|"Hey, that cloud looks like a bear," or something like that?
+speak;Krista;It could. To be honest, I just watch them float by.
+speak;Torgen;Huh.
+speak;Krista;I like your idea, though. Beats what I usually think about.
+speak;Torgen;Which is?
+speak;Krista;Sometimes I wonder if you fell from a great height,|would the clouds be the last thing you saw?
+speak;Torgen;If you fell on your back, maybe.|Kind of a morbid thing to think about, though.
+speak;Krista;I guess.
+speak;Torgen;... Krista, if you fell, I'd catch you.
+transition;close
+change_background;Plains
+transition;open
+multi_add_portrait;Krista;Left;Torgen;Right
+speak;Krista;H-Huh? Torgen--
+speak;Torgen;Let me finish.|Whatever the reason, if it was my fault, someone else's, on accident, on purpose,|it doesn't matter.|I'll be there before you hit the ground. You can count on me.
+expression;Krista;CloseEyes
+speak;Krista;On purpose too, huh{tgm}...?{tgm}|{c:e;Krista;HalfCloseEyes}Torgen, I{tgm}...{tgm} S-Sorry. I've been saying weird stuff this whole time.
+expression;Torgen;CloseEyes
+speak;Torgen;All sorts of weird stuff's been on your mind lately.|{c:e;Torgen;NormalBlink}A while back, you were sayin' something about dying when we first met.
+expression;Krista;NormalBlink
+speak;Krista;!!;no_talk
+speak;Torgen;I don't know what exactly's going on in that head of yours.|All I know is that something's stressing you out, right?|Something weighing down on you so much, you just wanna stop?
+expression;Krista;HalfCloseEyes
+speak;Krista;Y-Yeah.
+expression;Torgen;CloseEyes
+speak;Torgen;Being royalty's a lot of responsibility.|I can't even imagine how much is on your shoulders just from that.|{c:e;Torgen;NormalBlink}Still, I get it. Before this, I was just a bandit tryin' to scrape by.|All those years ago when you were captured, and I saw you crying in that cell,|I knew I couldn't keep living that life.|That's why I helped. Or tried to, at least.
+expression;Krista;NormalBlink
+speak;Krista;Torgen{tgm}...
+expression;Torgen;CloseEyes
+speak;Torgen;But I couldn't escape it.|I was still a bandit, and that's the only life I thought could know.{c:e;Torgen;HalfCloseEyes}I kept holding on, hoping that things would change.|That maybe there was a chance I wouldn't have to keep living like this.|{c:e;Torgen;NormalBlink}Then you came back.
+speak;Krista;You were just lucky. What if you're not there to save me like I did for you?|I can't just depend on you.
+expression;Torgen;NormalBlink
+speak;Torgen;Then you grit your teeth and save your own damn self.|I knew I couldn't bank on us meeting again.|Let alone you whisking me away to a new way of life.|So I just kept going despite everything.
+expression;Krista;CloseEyes
+speak;Krista;I'm not strong enough for that!
+speak;Torgen;Yes you are!
+expression;Krista;NormalBlink
+speak;Krista;...!;no_talk
+speak;Torgen;You made it this far, right? What's one more day?|If you make it that day, then you can make it to the next, right?
+expression;Krista;HalfCloseEyes
+speak;Krista;I guess you have a point.
+expression;Torgen;CloseEyes
+speak;Torgen;Life's tough. It'll keep beating your ass if you let it.|{c:e;Torgen;NormalBlink}So, the best thing to do is beat its ass back!|Show it that no matter what it throws at you, you can dish out ten times worse!|{c:e;Torgen;CloseEyes}So just{tgm}...{c:e;Torgen;NormalBlink}{tgm} Just keep living on, Krista. Promise me that.
+expression;Krista;NormalBlink
+speak;Krista;Torgen{tgm}...{tgm} Yeah. I promise.
+unlock_support_rank;Krista;Torgen;A
+end
+end_skip
+if;support_rank_nid == 'A+'
+change_background;CastleInterior
+transition;open
+music;Lyn's Desire
+multi_add_portrait;Krista;Left;Torgen;Right
+expression;Krista;Smile
+speak;Krista;Hey, Torgen. After this is all over, wanna stay in Medeas with me?
+speak;Torgen;What are you going on about now?
+speak;Krista;I'm giving you a job offer! You can be one of my retainers.
+speak;Torgen;You can't be serious. I'm a bandit, Krista. There's no way this can work.
+speak;Krista;I've turned a thief and a couple of vagrants into reliable retainers.|A bandit won't be too out there for me.
+speak;Torgen;You're a strange one.
+expression;Krista;CloseEyes,Smile
+speak;Krista;But that's why you like me.
+expression;Torgen;CloseEyes,Smile
+speak;Torgen;Can't deny that.
+expression;Krista;HalfCloseEyes,Smile
+speak;Krista;Besides, weren't you the one who said you wanted to leave the bandit life behind?
+expression;Torgen;NormalBlink,NoSmile
+speak;Torgen;Yeah, but having an out handed to me on a silver platter? Feels like cheating.
+expression;Krista;NormalBlink,NoSmile
+speak;Krista;So what? You wanna work for the position?
+speak;Torgen;That would make it feel more legitimate.
+expression;Krista;CloseEyes
+speak;Krista;Fine, fine. Let's see{tgm}...{tgm}|{c:e;Krista;NormalBlink,Smile}Oh, I know!|If you're still alive once this is all over, I'm making you my retainer. Deal?
+speak;Torgen;Wait, doesn't that mean I'll be under your service no matter what I do?|{c:e;Torgen;CloseEyes}Aw, forget it.{c:e;Torgen;NormalBlink} Deal.
+speak;Krista;Alright! Partners 'til the end!
+expression;Torgen;Smile
+speak;Torgen;As long as "the end" isn't too soon.
+expression;Krista;CloseEyes,Smile
+speak;Krista;I know, I know.
+expression;Torgen;NoSmile
+speak;Torgen;Don't even think about changing your mind about this, by the way.|Remember that you're the one who asked in the first place.
+expression;Krista;NormalBlink,NoSmile
+speak;Krista;I won't regret it. I promise.|{c:e;Krista;HalfCloseEyes,Smile}If you want, you can keep me on a short leash so I don't run away.
+expression;Torgen;CloseEyes
+speak;Torgen;You'd enjoy that too much.
+expression;Krista;CloseEyes,Smile
+speak;Krista;Hehe!

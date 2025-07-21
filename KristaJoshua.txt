@@ -1,0 +1,120 @@
+transition;close
+if;support_rank_nid == 'C'
+change_background;CastleInterior
+transition;open
+music;Guildmaster Wigglytuff
+multi_add_portrait;Krista;Left;Joshua;Right
+speak;Joshua;Krista! I got a proposition for ya!
+speak;Krista;What's up, Joshua?
+speak;Joshua;Y'see, I've been observing your sword techniques,|and I think I can help you get even better at handling swords.
+speak;Krista;Oh? What did you have in mind?
+speak;Joshua;So, your defenses and speed are good. Nothing wrong there.|What you DO need more of is raw strength.
+expression;Krista;Smile
+speak;Krista;And a big, strong, buff man like you is gonna get me all big, strong, and buff?
+expression;Joshua;Smile
+speak;Joshua;You get it! How about we get the ball rolling now?
+speak;Krista;I'm down! So, what sort of training do I gotta do?
+expression;Joshua;NoSmile
+speak;Joshua;No, no, no. We can't train 'til we get more muscle on ya.|{c:e;Joshua;Smile}And to do that, we gotta get some food in you to fuel them!
+expression;Krista;NoSmile
+bop_portrait;Krista
+speak;Krista;H-Huh?!
+speak;Joshua;To the dining hall, Krista! Let's go, let's go!!
+move_portrait;Joshua;MidLeft
+mirror_portrait;Krista
+move_portrait;Joshua;OffscreenLeft;no_block
+move_portrait;Krista;OffscreenLeft
+speak;Krista;Wait! I just had lunch!!|I can't eat anymore! WAIT!!!
+if;{v:KristaJoshuaC} != True
+sound;Item
+alert;Krista gained 1 STR!
+change_stats;Krista;STR,1
+game_var;KristaJoshuaC;True
+end
+unlock_support_rank;Krista;Joshua;C
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;CastleBack
+transition;open
+music;Guildmaster Wigglytuff
+add_portrait;Krista;Left;;CloseEyes;no_block
+add_portrait;Joshua;Right;;Smile
+speak;Joshua;So, how do you feel? Feel the burn?
+speak;Krista;I feel something burning, alright.
+speak;Joshua;Great! That just means you're making progress.
+expression;Krista;HalfCloseEyes
+speak;Krista;Joshua, I won't doubt your methods, but I feel like I'm literally gonna explode.|Or collapse.|{c:e;Krista;NormalBlink}Or both.|{c:e;Krista;CloseEyes}No, yeah, definitely both.
+speak;Joshua;No problem. We can take a break and pick things up tomorrow--
+expression;Krista;NormalBlink
+speak;Krista;Could you hold that thought?|Collapsing and exploding incoming.
+speak;Joshua;Wait, what--
+remove_portrait;Krista
+add_portrait;Invisible;Left
+bop_portrait;Joshua
+move_portrait;Joshua;MidRight
+speak;Joshua;Krista?! You okay??
+speak;Invisible;Urgh{tgm}......
+speak;Joshua;Yeesh, that ain't good.|Uh, let's pick things up in a few days instead?
+speak;Invisible;Sure. As long as you can carry me to my room.|Please?
+speak;Joshua;Deal.
+if;{v:KristaJoshuaB} != True
+sound;Item
+alert;Krista gained 1 STR!
+change_stats;Krista;STR,1
+game_var;KristaJoshuaB;True
+end
+unlock_support_rank;Krista;Joshua;B
+end
+end_skip
+if;support_rank_nid == 'A'
+change_background;CastleBack
+transition;open
+music;Girl of the Plains
+multi_add_portrait;Krista;Left;Joshua;Right
+speak;Joshua;So, Krista, how do you feel about your progress so far?
+expression;Krista;Smile
+speak;Krista;Pretty good, actually!|You see these biceps? BAM!|And these shoulders? POW!|And this ass? OH YEAH!
+speak;Joshua;We never specifically worked on your ass.
+expression;Krista;CloseEyes,Smile
+speak;Krista;I know. I just wanted to point it out.
+speak;Joshua;Seriously though, I have been seeing a lot of improvement.|{c:e;Joshua;Smile}Keep this up, and you'll be covered in muscles!
+expression;Krista;NormalBlink,Smile
+speak;Krista;Yeah!
+speak;Joshua;And maybe you'll be able to use Old Iron one day.
+expression;Krista;NormalBlink,NoSmile
+speak;Krista;You think so? Mind if I give it a try now?
+expression;Joshua;NoSmile
+speak;Joshua;Now?{c:wait;100}{c:e;Joshua;CloseEyes,Smile} Oh, sure, why not.|{c:e;Joshua;NormalBlink,NoSmile}Here, I'll lay it on the ground like this.
+move_portrait;Joshua;MidRight
+bop_portrait;Joshua
+move_portrait;Joshua;Right
+expression;Joshua;Smile
+speak;Joshua;Go for it!
+expression;Krista;Smile
+speak;Krista;Here I go!
+expression;Krista;CloseEyes,NoSmile
+bop_portrait;Krista
+speak;Krista;Hnnnnng!! Hurk! Gah{tgm}...!
+expression;Joshua;CloseEyes,Smile
+speak;Joshua;Can't say I didn't expect that.|{c:e;Joshua;NormalBlink,Smile}Good try, though!
+expression;Joshua;NoSmile
+bop_portrait;Joshua
+speak;Joshua;Hup!
+expression;Krista;NormalBlink
+speak;Krista;Man, you can do that so easily. I wanna do that one day.
+expression;Joshua;Smile
+speak;Joshua;Keep bulking up and training hard, then.|It'll take time, but who knows? Maybe you will be able to pick up Old Iron.
+expression;Krista;Smile
+speak;Krista;Yeah! Anyway, thanks for letting me try out Old Iron.|I'll see you around!
+mirror_portrait;Krista
+move_portrait;Krista;OffscreenLeft
+expression;Joshua;NoSmile
+speak;Joshua;She does have a nice ass, though.{c:e;Joshua;CloseEyes} Maybe{tgm}...{tgm}|{c:e;Joshua;NormalBlink}Nah, she'd never. She's the princess of Medeas for crying out loud!
+
+S Support
+Krista: Hey, Joshua! So, what did you want to show me?
+Joshua: Hey, Krista! Here it is!
+Krista: Whoa, cool sword.
+Joshua: Yup, and it’s all yours.
+Krista: Wait, for me?

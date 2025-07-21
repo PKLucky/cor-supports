@@ -1,0 +1,124 @@
+C Support
+speak;Masashi;Oh, Hikaru{tgm}...{tgm} Our lives surely have taken a turn, haven't they?|{c:e;Masashi;NormalBlink}One moment, I led Emperor Samegoro's most powerful military unit with you by my side.|{c:e;Masashi;CloseEyes}And now, we're nothing but lowly soldiers.
+speak;Hikaru;I do not see what has you so distraught, milord.|You are under the command of Medeas' princess now.|I would have assumed this is nothing but a positive turn of events by your standards.
+expression;Masashi;NormalBlink
+speak;Masashi;You'd think that, but that girl is{tgm}...{tgm}|{c:e;Masashi;HalfCloseEyes}She's nothing like Lady Tsubaki. Let's just put it that way.
+speak;Hikaru;That is true.|{c:e;Hikaru;CloseEyes}Lady Tsubaki is quite demure. Mindful, even.|{c:e;Hikaru;NormalBlink}Still, you must look at the positives, milord.|The emperor would have your head if he found out about our failure at Fort Daijima.|You said so yourself.
+expression;Masashi;CloseEyes,Smile
+speak;Masashi;Ahh{tgm}...{tgm} Right as always, Hikaru.|{c:e;Masashi;NormalBlink,Smile}I suppose having our lives still intact is better than nothing.|{c:e;Masashi;HalfCloseEyes,NoSmile}And yet, that is the bare minimum for relief, is it not?{c:wait;100}{c:e;Masashi;CloseEyes} *sigh*
+speak;Hikaru;As much as I loathe suggesting this, milord, would you{tgm}...{tgm}|feel better if we socialize with the local women of Medeas?
+expression;Masashi;NormalBlink
+bop_portrait;Masashi
+speak;Masashi;Hikaru{tgm}...!{c:e;Masashi;Smile}{tgm} Oh, you always know how to brighten up my mood.|Let's be off, then! The beauties of Medeas await us!
+move_portrait;Masashi;OffscreenLeft
+mirror_portrait;Hikaru
+expression;Hikaru;CloseEyes
+speak;Hikaru;I am regretting this already.
+unlock_support_rank;Masashi;Hikaru;C
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;Library
+transition;open
+music;Girl of the Plains
+multi_add_portrait;Masashi;Left;Hikaru;OffscreenRight
+speak;Masashi;I see{tgm}...{tgm} If an infantry unit were to go in this direction and wait{tgm}...{tgm}|{c:e;Masashi;HalfCloseEyes}Hm{tgm}...{tgm} but wouldn't it be better if{tgm}...
+move_portrait;Hikaru;FarRight
+speak;Hikaru;There you are, milord.|I should have guessed you would peruse the Medean Castle's library at some point.
+expression;Masashi;NormalBlink,Smile
+speak;Masashi;Hikaru! Good to see you. Care to join me?
+speak;Hikaru;Of course, milord.
+move_portrait;Hikaru;Right
+speak;Hikaru;What might you be reading?
+expression;Masashi;NoSmile
+speak;Masashi;It's a textbook on various war strategies and unit formations.|I was curious about how Medean and Merinese military strategies differ.
+speak;Hikaru;I see. Anything noteworthy that you've noticed?
+speak;Masashi;While it is covered, there aren't many specific chapters on maritime combat.|Which is understandable, of course.|{c:e;Masashi;HalfCloseEyes}There are some rather{tgm}...{tgm} interesting tactics listed here, such as this formation.|{c:e;Masashi;NormalBlink}While I do see some merit to positioning one's footsoldiers in the forest like this,|wouldn't that leave the fort wide open for an assault?|I think they would have been fine in their initial position.
+expression;Hikaru;HalfCloseEyes
+speak;Hikaru;Hmm{tgm}...{c:e;Hikaru;NormalBlink}{tgm}{c:wait;100} Hold on, milord. I think I see what's going on.|Notice how the calvary and pegasus knights are positioned.|They are far enough to be outside of the enemy's range of vision.|By moving the infantry to a nearby forest,|this can bring a false sense of security to the enemy.|With one's own forces out of sight,|that can lead to a successful ambush as the enemy forces approach the fort.
+expression;Masashi;Smile
+speak;Masashi;Aha! I see now. Good eye, Hikaru.|This is why you will always be my second-in-command.
+expression;Hikaru;CloseEyes
+speak;Hikaru;You flatter me too much, milord.
+expression;Masashi;NoSmile
+speak;Masashi;Oh, I also wanted your opinion on this maneuver.
+expression;Hikaru;NormalBlink
+speak;Hikaru;Let's see{tgm}...{tgm} Now, this one looks fascinating{tgm}...
+if;{v:MasashiHikaruB} != True
+sound;Item
+alert;Both participants gained 1 SKL!
+change_stats;Masashi;SKL,1
+change_stats;Hikaru;SKL,1
+game_var;MasashiHikaruB;True
+end
+unlock_support_rank;Masashi;Hikaru;B
+end
+end_skip
+if;support_rank_nid == 'A'
+change_background;InsideCastle
+transition;open
+music;Respite in Battle
+add_portrait;Hikaru;Left;;CloseEyes;no_block
+add_portrait;Masashi;Right;;CloseEyes
+speak;Hikaru;O Great Merin, may you bless this day and grant us protection.
+speak;Masashi;...;no_talk
+expression;Hikaru;NormalBlink
+speak;Hikaru;Thank you again for joining me, Lord Masashi.
+expression;Masashi;NormalBlink,Smile
+speak;Masashi;No need to thank me, Hikaru. I enjoy being together with you in prayer.|It's the only time I get to see you without that permanent scowl on your face.
+expression;Hikaru;HalfCloseEyes
+speak;Hikaru;...;no_talk
+expression;Masashi;CloseEyes,Smile
+speak;Masashi;And there it is again.|{c:e;Masashi;NormalBlink,Smile}My dear Hikaru, you must understand that while I do jest,|it does seem you are most calm when addressing the Great Merin.
+expression;Hikaru;NormalBlink
+speak;Hikaru;Knowing that she watches over us does put my mind at ease.|{c:e;Hikaru;CloseEyes}"For she is the anchor in the roughest storms."
+speak;Masashi;Always on top of knowing the scriptures.|I never would expect less from you, Hikaru.
+expression;Hikaru;NormalBlink
+speak;Hikaru;Again, you flatter me too much, milord.|This is something a priest such as myself should know at minimum.
+expression;Masashi;NoSmile
+speak;Masashi;While that may be true,|I do not believe that should stop me from admiring your devotion.
+speak;Hikaru;You could easily say that about any other devoted priest of Merin, milord.
+speak;Masashi;I don't believe I could.|{c:e;Masashi;Smile}Because they're not you, Hikaru.
+speak;Hikaru;Milord, I{tgm}...{tgm} Th-Thank you.
+expression;Masashi;CloseEyes,Smile
+speak;Masashi;And the scowl disappears once again.|{c:e;Masashi;HalfCloseEyes,Smile}Perhaps I should praise you more to keep it away?
+expression;Hikaru;CloseEyes
+speak;Hikaru;That is unnecessary!
+if;{v:MasashiHikaruA} != True
+sound;Item
+alert;Both participants gained 1 LCK!
+change_stats;Masashi;LCK,1
+change_stats;Hikaru;LCK,1
+game_var;MasashiHikaruA;True
+end
+unlock_support_rank;Masashi;Hikaru;A
+end
+end_skip
+if;support_rank_nid == 'A+'
+change_background;CastleInterior
+transition;open
+music;Lyn's Desire
+multi_add_portrait;Masashi;Right;Hikaru;Left
+speak;Masashi;You know, Hikaru, you're getting up there in age--
+speak;Hikaru;I am barely older than you are, milord, but go on.
+speak;Masashi;Haven't you considered looking for a wife?
+speak;Hikaru;Quite frankly, no, milord.|My religious studies and being your second-in-command already|occupy a lot of my time.|Adding a spouse to the picture will just be too much.
+speak;Masashi;But what about all those times you have been my wingman?|{c:e;Masashi;Smile}I'm sure at least one of those stunning beauties caught your eye at least once.
+expression;Hikaru;CloseEyes
+speak;Hikaru;I am not obsessed with women like you are, milord.
+expression;Masashi;CloseEyes,NoSmile
+speak;Masashi;I will choose to ignore that remark.|{c:e;Masashi;NormalBlink}However, Hikaru, please understand.|I am not saying this as your superior, but as your friend.|I don't want you to be alone and unhappy in the future.
+expression;Hikaru;NormalBlink
+speak;Hikaru;Milord, I promise you that I am happy with the way I'm living now.|And I won't be alone because I'll have you.|{c:e;Hikaru;HalfCloseEyes,Smile}Unless you want to hire another right-hand man anytime soon?
+expression;Masashi;CloseEyes,Smile
+speak;Masashi;I wouldn't dream of it.|{c:e;Masashi;NormalBlink,NoSmile}But what about when I find a wife of my own? It will happen someday, I'm sure.
+expression;Hikaru;CloseEyes,NoSmile
+speak;Hikaru;"A fisherman who casts will eventually reel something in," as the saying goes{tgm}...{tgm}|{c:e;Hikaru;NormalBlink}That aside, The Great Merin provides some company as well.|Her teachings will always provide comfort.|You need not worry about me, Lord Masashi.|{c:e;Hikaru;Smile}Though, part of me is glad you show so much concern for my well-being.|I am grateful to have someone like you in my life.
+expression;Masashi;Smile
+speak;Masashi;I can say the same to you, Hikaru. And you're right. I have nothing to worry about.|{c:e;Masashi;CloseEyes,Smile}You have already found fulfillment despite your young age.
+expression;Hikaru;NoSmile
+speak;Hikaru;Didn't you just say that I am "getting up there"?
+expression;Masashi;NormalBlink,Smile
+speak;Masashi;You are barely older than I am, though. You've still got some youth in you.
+expression;Hikaru;CloseEyes,Smile
+speak;Hikaru;Whatever you say, milord.

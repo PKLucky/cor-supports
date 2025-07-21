@@ -6,6 +6,12 @@ expression;Alex;NoSmile
 speak;Alex;I never would have taken you for a reader Joshua.|You come off as more{tgm}...{tgm} abrasive, honestly.{e:'|A lot like Taylor, actually.|And getting HIM to read anything is like getting a child to eat their greens.' if game.check_alive('Taylor') == True else ''}
 expression;Joshua;NoSmile
 speak;Joshua;You gotta keep your mind sharp if you want to survive in the arena.|Both mind and body need to be strong.
+
+Alex: I can agree with that sentiment, what do you like to read usually maybe I can make some recommendations? While not an expert on what the library contains I do know how the books are organized.
+Joshua: That would be very helpful, maybe books with legends about different dragon slayers especially those where a sword is used in the slaying.
+Alex: Ah, you like dragon slaying tales I take it?
+Joshua: They’re fun to read, besides what’s more formidable than a dragon?
+
 expression;Alex;Smile
 speak;Alex;I can agree with that sentiment.|{c:e;Alex;CloseEyes}Though, I fear it's my mind that's more strong than my body.
 expression;Joshua;Smile

@@ -1,0 +1,196 @@
+C Support
+speak;Alex;Hm{tgm}...{tgm} Perhaps if I hold it like this? Then do this?|{c:e;Alex;HalfCloseEyes}No, that doesn't seem right either{tgm}...{tgm}|{c:e;Alex;NormalBlink}I'm sorry for putting you through this, Tia.|{c:e;Alex;Smile}Once we get it done, I'll let you have an extra helping of oats.
+speak;Invisible;Neigh!
+move_portrait;Forrest;Left
+mirror_portrait;Alex
+speak;Alex;Ah, General Forrest! Perfect timing.|Do you have a moment?
+speak;Forrest;I do. Did you need something?
+expression;Alex;NoSmile
+speak;Alex;Yes. You see, back when your father led the royal army,|he taught the Lance Cavalry unit a certain technique.|I was just barely a squire back then, but I wanted to learn it myself when the time came.
+speak;Forrest;I see.
+speak;Alex;I have been looking over this combat manual he wrote,|but I'm not sure if I'm performing the actions detailed in it correctly.|Do you mind looking it over while you observe my and Tia's movements?|I could really use an outside perspective.
+expression;Forrest;Smile
+speak;Forrest;Of course.
+speak;Alex;Alright, ready?
+expression;Forrest;NoSmile
+speak;Forrest;Go ahead.
+bop_portrait;Alex
+speak;Alex;Let's go, Tia!
+remove_all_portraits
+transition;close
+change_background;BlackBackground
+transition;open
+speak;;Some time later...;StyleNid=hint;NumLines=1;no_sound
+transition;close
+change_background;CastleBack
+transition;open
+multi_add_portrait;Alex;Right;Forrest;Left
+speak;Alex;Anything you noticed?
+speak;Forrest;You have the right idea, but there's still room for improvement.|Point the tip of your lance a little lower from where you intend to strike.|That will give you a better view of your target and|it will prevent you from further lowering your weapon when you do strike.
+speak;Alex;Understood. I'll give it another try.
+remove_all_portraits
+transition;close
+change_background;BlackBackground
+transition;open
+speak;;Much later...;StyleNid=hint;NumLines=1;no_sound
+transition;close
+change_background;CastleBack
+transition;open
+multi_add_portrait;Alex;Right;Forrest;Left
+expression;Forrest;Smile
+speak;Forrest;There you go. I'm already seeing improvement.
+expression;Alex;Smile
+speak;Alex;Thank you, General. I think I can handle practicing more on my own from here.|{c:e;Alex;NoSmile}However, there are more maneuvers in this manual I'm interested in learning.|Is it alright if I call upon you again if I need more assistance?
+speak;Forrest;Of course.
+if;{v:ForrestAlexC} != True
+sound;Item
+alert;Alex gained some Lance EXP!
+give_wexp;Alex;Lance;10
+game_var;ForrestAlexC;True
+end
+unlock_support_rank;Forrest;Alex;C
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;CastleBack
+transition;open
+music;Girl of the Plains
+multi_add_portrait;Forrest;Left;Alex;Right
+speak;Alex;General, may I ask you something?
+speak;Forrest;Go ahead.
+speak;Alex;I've noticed that you've been more focused on your swordplay than|your lance techniques lately.|Is there any particular reason for that?
+speak;Forrest;While I have maintained my lance skills in my free time,|I feel compelled to improve my swordsmanship more.|Maybe even have it surpass my lance prowess.
+speak;Alex;Oh?|{c:e;Alex;HalfCloseEyes,Smile}Fascinating. Very fascinating.
+expression;Forrest;HalfCloseEyes
+speak;Forrest;Yes, Alex? Is there something you wish to say?
+expression;Alex;CloseEyes,Smile
+speak;Alex;No, nothing at all, General.|{c:e;Alex;NormalBlink,Smile}I'm just amused that someone as stoic as you can experience jealousy.
+expression;Forrest;NormalBlink
+speak;Forrest;What are you getting at?
+expression;Alex;NoSmile
+speak;Alex;It's not a coincidence that you have fully focused on|improving your skill with swords eight months ago.|{c:e;Alex;HalfCloseEyes,Smile}You know, the time when Her Highness acquired a new sword tutor?
+expression;Forrest;HalfCloseEyes
+speak;Forrest;Alex, you are very much overstepping your boundaries here.
+expression;Alex;NormalBlink,Smile
+speak;Alex;I see no problem with what I've said, General.|{c:e;Alex;HalfCloseEyes,Smile}Is there one?
+speak;Forrest;{tgm}...{tgm}|{c:e;Forrest;CloseEyes}No. There isn't.
+expression;Alex;CloseEyes,Smile
+speak;Alex;That's what I thought.
+expression;Forrest;NormalBlink
+speak;Forrest;Anyway, I have{tgm}...{tgm} important matters to attend to.|If you'll excuse me{tgm}...
+mirror_portrait;Forrest
+move_portrait;Forrest;OffscreenLeft
+expression;Alex;NormalBlink,NoSmile
+speak;Alex;Oh, Forrest, you're never subtle when it comes to her.
+unlock_support_rank;Forrest;Alex;B
+end
+end_skip
+if;support_rank_nid == 'A'
+change_background;CastleBack
+transition;open
+music;Girl of the Plains
+multi_add_portrait;Alex;Right;Forrest;Left
+expression;Forrest;Smile
+speak;Forrest;Excellent work, Alex.|You have made great strides with going through my father's combat manual.
+expression;Alex;Smile
+speak;Alex;Thank you, General.|It's thanks to you that I have been able to do so.|Now there's just one last technique to go over.
+speak;Forrest;Alright. I'm ready whenever you are.
+remove_all_portraits
+transition;close
+change_background;BlackBackground
+transition;open
+speak;;Later...;StyleNid=hint;NumLines=1;no_sound
+transition;close
+change_background;CastleBack
+transition;open
+multi_add_portrait;Alex;Right;Forrest;Left
+expression;Alex;Smile
+speak;Alex;So, General, what did you think?
+speak;Forrest;Overall, very good. However, if I may{tgm}...
+move_portrait;Forrest;MidRight
+expression;Alex;NoSmile
+bop_portrait;Alex
+speak;Alex;!!;no_talk
+speak;Forrest;If you slide your hand down lower on the shaft like this{tgm}...
+speak;Alex;Uh-huh?
+speak;Forrest;You'll find that it's a more balanced grip.|It won't be as much of a burden if you lower yourself down to this position.
+speak;Alex;I{tgm}...{tgm} I see.
+speak;Forrest;There's no need to hold it as tightly as you did before.|With less stress on your hand, you have more energy to focus on other things.
+speak;Alex;Y-Yes, of course.|{c:e;Alex;HalfCloseEyes}Er, General{tgm}...?
+speak;Forrest;Yes?
+expression;Alex;CloseEyes
+speak;Alex;You're{tgm}...{tgm} rather close.
+speak;Forrest;Wha--
+bop_portrait;Forrest
+speak;Forrest;O-Oh!
+move_portrait;Forrest;Left
+expression;Alex;NormalBlink
+speak;Forrest;I apologize, Alex. I didn't mean to--
+speak;Alex;No, it's alright!|It just surprised me how willing you were to take on a more{tgm}...{tgm} hands-on approach.|{c:e;Alex;CloseEyes}On top of that, you{tgm}...
+speak;Forrest;Hm?
+expression;Alex;HalfCloseEyes
+speak;Alex;Just be more mindful of your words next time.|Especially when you're that close.
+speak;Forrest;Erm, alright?
+expression;Alex;NormalBlink,Smile
+speak;Alex;Thank you for all your help, General Forrest.|If you don't mind, I think I'll call it here for today.
+expression;Forrest;Smile
+speak;Forrest;You're welcome, Alex. Have a good rest of your day.|{c:e;Forrest;NoSmile}And please get some rest. You look feverish.
+expression;Alex;NoSmile
+speak;Alex;H-Huh?
+speak;Forrest;Your face is flushed.
+expression;Alex;CloseEyes
+speak;Alex;Ah, I-I'm fine. Thank you for your concern.|{c:e;Alex;NormalBlink}Anyway, I'll be taking my leave. Until next time, General.
+mirror_portrait;Alex
+move_portrait;Alex;OffscreenRight
+speak;Forrest;I hope she's feeling well.|She's been working hard, but I don't want her to overdo it.|{c:e;Forrest;CloseEyes}And what did she mean about watching my words? Just what did I say earlier?|{c:e;Forrest;NormalBlink}I don't think I said anything offensive, or{tgm}...
+expression;Forrest;HalfCloseEyes
+speak;Forrest;{tgm}...{tgm} Wait.|{c:e;Forrest;NormalBlink}WAIT.
+if;{v:ForrestAlexA} != True
+sound;Item
+alert;Alex gained some Lance EXP!
+give_wexp;Alex;Lance;10
+game_var;ForrestAlexA;True
+end
+unlock_support_rank;Forrest;Alex;A
+end
+end_skip
+if;support_rank_nid == 'S'
+change_background;CastleBack
+transition;open
+music;Lyn's Desire
+add_portrait;Forrest;Left;mirror
+speak;Forrest;Alright, hold it like this then thrust{tgm}...
+bop_portrait;Forrest
+speak;Forrest;Yes, there we go.|Just a couple more like that, and I think I've got it.
+add_portrait;Alex;OffscreenRight
+move_portrait;Alex;Right
+speak;Alex;Getting back into your lance training, General?
+bop_portrait;Forrest
+mirror_portrait;Forrest
+speak;Forrest;A-Alex, you startled me. But, yes, I am.
+speak;Alex;Finally decided to give swords a rest?
+speak;Forrest;Not necessarily. My swordplay has just been maintained well enough right now.|I may do it more regularly again in the future,|but I know for a fact I need to get back into lances.|{c:e;Forrest;HalfCloseEyes}I've found that I'm more rusty than I thought I was.
+speak;Alex;I see.{c:e;Alex;CloseEyes,Smile} Starting to move on, then.
+expression;Forrest;NormalBlink
+speak;Forrest;What was that?
+expression;Alex;NormalBlink,Smile
+speak;Alex;It's nothing.|{c:e;Alex;NoSmile}Oh, General, doesn't that grip feel uncomfortable?|Wouldn't pulling your front hand back a bit feel less strenuous on your joints?
+speak;Forrest;Hm? Let's see{tgm}...
+bop_portrait;Forrest
+speak;Forrest;Ah, I thought something felt off. Thank you, Alex.|{c:e;Forrest;Smile}Though I must say, shouldn't I be the one guiding you?
+expression;Alex;Smile
+speak;Alex;Heehee, I suppose so.|{c:e;Alex;HalfCloseEyes,Smile}Besides, I'm sure that you would know how to handle your own lance better than I would.
+expression;Forrest;NoSmile
+speak;Forrest;That should go without saying--|{c:e;Forrest;HalfCloseEyes}Alex, what was with that tone just now?
+expression;Alex;CloseEyes,Smile
+speak;Alex;I have no idea what you're talking about.
+expression;Forrest;NormalBlink
+speak;Forrest;Oh, really?{c:e;Forrest;HalfCloseEyes,Smile} Not insinuating something, are you?
+expression;Alex;HalfCloseEyes,Smile
+speak;Alex;I was just thinking that perhaps once you are done here,|I could observe your "lance techniques" up close?
+expression;Forrest;NormalBlink,Smile
+speak;Forrest;How forward. What's gotten you so confident?
+expression;Alex;NormalBlink,Smile
+speak;Alex;Hm, I wonder{tgm}...
+speak;Forrest;I don't mind it at all.|Though I feel that we should go out to dinner first, at least.
+speak;Alex;I'd like that.

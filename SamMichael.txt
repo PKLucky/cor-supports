@@ -1,0 +1,52 @@
+C Support
+speak;Michael;Okay, Michael. Steady. Keep a good grip and thrust.
+move_portrait;Michael;FarLeft
+sound;Attack Hit 1
+wait;300
+move_portrait;Michael;Left
+speak;Michael;Right. Then prepare to parry.
+bop_portrait;Michael
+speak;Michael;Alright. Repeat.
+add_portrait;Sam;OffscreenRight
+move_portrait;Sam;Right
+speak;Sam;Hey, there! You Michael?
+bop_portrait;Michael
+speak;Michael;Wha? Huh? Who?
+mirror_portrait;Michael
+speak;Michael;Oh, it's you, sir. Yes, sir, that's me.
+speak;Sam;You don't need to "sir" me. Just call me Sam.
+speak;Michael;Yes. sir--{c:e;Michael;HalfCloseEyes}Er, Sam, sir{tgm}...{c:e;Michael;NormalBlink}{tgm} Sam.
+speak;Sam;I was watching your lance work, and while I'm no expert, your form seems good.|It's a nice, accurate reach weapon.
+speak;Michael;Yes, s{tgm}...{tgm} Mister Sam.{c:e;Michael;Smile} Thank you.
+expression;Sam;Smile
+speak;Sam;No problem!|{c:e;Sam;NoSmile}Would you like to train? I can show you a few things that I've learned.|Some things to watch out for particularly when facing an axe fighter.
+speak;Michael;I'd like that, Mister Sam. It would help.
+expression;Sam;Smile
+speak;Sam;Great!|Though, your armor looks pretty defensive,|so there's not as much of a worry when it comes to getting injured.|Still, knowing is half the battle.
+expression;Michael;NoSmile
+speak;Michael;Wow, this guy is a lot friendlier than he looks!|He looks like a lawless brigand but he's kind of jolly.|Like Santa Claus' nephew or something.;StyleNid=thought_bubble
+speak;Sam;C'mon, Michael, show me what you can do!
+expression;Michael;Smile
+speak;Michael;Coming, Mister Sam!
+expression;Michael;NoSmile
+move_portrait;Michael;MidRight
+bop_portrait;Michael
+sound;Attack Hit 1
+wait;300
+move_portrait;Michael;Left
+move_portrait;Sam;MidLeft
+bop_portrait;Sam
+sound;Attack Hit 2
+wait;300
+move_portrait;Sam;Right
+speak;Sam;You're pretty good for your age, Michael.|However, unlike a sword or a spear where you can easily recover from a miss,|an axe is a momentum weapon.
+speak;Michael;How so, Mister Sam?
+speak;Sam;If you miss a lance strike, you can retract it quickly.|An axe, however, once you set it in motion, you have to follow through.
+speak;Michael;So, if I can see the path it's on,|I can then tell where it will go next?
+expression;Sam;Smile
+speak;Sam;Right on! You're doing good, kid.|I'll see you around.
+mirror_portrait;Sam
+move_portrait;Sam;OffscreenRight
+expression;Michael;Smile
+speak;Michael;He's nice. Surprisingly nice.
+# Original script by Berserker Sam #

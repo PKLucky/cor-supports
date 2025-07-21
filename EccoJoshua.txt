@@ -1,0 +1,18 @@
+C Support
+??? Hey you! Over here.
+Joshua: Huh? Oh hey there. Your names Ecco right?
+Ecco: Sure is now here’s the thing I’m a mercenary
+Joshua: Cool. So was my dad, I sometimes do it myself time to time
+Ecco: Thing is sometimes there just aren’t any contracts around to take up and I need money
+Joshua: I’m not in the habit of loaning money and both my father and my mother warned me about women asking for hand outs especially money hand outs
+Ecco: Not what I’m asking for, what kind of girl do you take me for? A mere gold chaser?
+Joshua: Not necessarily
+Ecco: I hear you’re an arena fighter
+Joshua: Yeah I got the idea from my dad, he would supplement arena fights with his mercenary work
+Ecco: Huh. Smart, anyway I was wondering if you could get me in. I need a recommendation
+Joshua: I don’t know about this, arena fights can be rough you never know who you’ll be up against. An armored opponent or maybe against a shaman you would be fine but you don’t want to bet on those odds
+Ecco: Please. I can handle myself I’m a big girl
+Joshua: Really? You look small and slender to me
+Ecco: Tell you what. We spar and if I win you need to get me into the arena.
+Joshua: Sure, let’s go.
+# Original script by Berserker Sam #

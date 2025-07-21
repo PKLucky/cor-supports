@@ -1,0 +1,121 @@
+C Support
+speak;Taylor;Hey! You're Lady Tsubaki's retainer. Nagisa, right?
+speak;Nagisa;And you are?
+expression;Taylor;Smile
+speak;Taylor;Taylor, co-captain of the Medean royal army. Glad to meet ya!
+expression;Nagisa;CloseEyes
+speak;Nagisa;Hmph.
+expression;Taylor;NoSmile
+speak;Taylor;Yeesh, Her Highness was right. You're a prickly one.
+expression;Nagisa;NormalBlink
+speak;Nagisa;Can you leave me alone? I'm busy training.
+expression;Taylor;Smile
+speak;Taylor;I can see that! And that brings me to why I'm here.|{c:e;Taylor;NoSmile}With you being one of the newbies, I think it's a good idea to get to know each other.|Since we're working together and all.
+expression;Nagisa;HalfCloseEyes
+speak;Nagisa;How annoying.
+expression;Taylor;Smile
+speak;Taylor;Aw, don't be like that. It'll be fun!|{c:e;Taylor;Smile,CloseEyes}The way I see it, there's two good ways to get to know a person.|{c:e;Taylor;Smile,NormalBlink}One: see them fight. Two: see 'em at the tavern.|And I've seen you fight plenty already.
+expression;Nagisa;NormalBlink
+speak;Nagisa;So, we're done here.
+expression;Taylor;NoSmile
+speak;Taylor;Oh, no, no, no. I gotta see both sides of the coin!|{c:e;Taylor;Smile}Two different situations, two different sides. Get it?
+expression;Nagisa;HalfCloseEyes
+speak;Nagisa;I'm not going to the tavern with you.
+expression;Taylor;CloseEyes,Smile
+speak;Taylor;Trust me. This'll be the perfect bonding experience.|{c:e;Taylor;NormalBlink,Smile}Besides, you're just about done training, aren't you?|You'll want a refreshing drink after working so hard.
+expression;Nagisa;CloseEyes
+speak;Nagisa;{tgm}...{c:e;Nagisa;HalfCloseEyes}{tgm} I suppose I'm not against it.
+bop_portrait;Taylor
+speak;Taylor;There we go! We can get going as soon as you're ready.
+remove_all_portraits
+transition;close
+change_background;Fireplace
+transition;open
+multi_add_portrait;Nagisa;Left;Taylor;Right
+music;Guildmaster Wigglytuff
+bop_portrait;Nagisa
+expression;Nagisa;CloseEyes
+speak;Nagisa;An' I just don' *hic!* understand, Taylor!|Why'd they jus' *hic!* up an' leave like that, huhhhh?
+speak;Taylor;That's{tgm}...{tgm} a real rough story, Nagisa.
+expression;Taylor;HalfCloseEyes
+speak;Taylor;Yeesh, how drunk is she? She barely had a sip and she's already like this.;StyleNid=thought_bubble
+expression;Nagisa;HalfCloseEyes
+speak;Nagisa;An' now I gotta take care of Tsu-Tsu all by m'self{tgm}...
+expression;Taylor;NormalBlink
+speak;Taylor;"Tsu-Tsu"? You mean Lady Tsubaki?
+expression;Nagisa;NormalBlink
+bop_portrait;Nagisa
+speak;Nagisa;Yeah! *hic* Who else would it be?
+expression;Taylor;CloseEyes
+speak;Taylor;Yeah, that sounds like a lot{tgm}...{tgm}|{c:e;Taylor;NormalBlink}Speaking of a lot, you definitely had more than your fill of drinks.|Let's head back.
+expression;Nagisa;CloseEyes
+speak;Nagisa;Carry me.
+bop_portrait;Taylor
+speak;Taylor;Wha--{c:e;Taylor;CloseEyes}Actually, that's probably not a bad idea.|{c:e;Taylor;NormalBlink}Alright, up and at 'em. Time to go, Nagisa.
+if;{v:TaylorNagisaC} != True
+sound;Item
+alert;Nagisa gained 10 EXP!
+give_exp;Nagisa;10
+game_var;TaylorNagisaC;True
+end
+unlock_support_rank;Taylor;Nagisa;C
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;CastleInterior
+transition;open
+music;Girl of the Plains
+multi_add_portrait;Taylor;Right;Nagisa;Left
+expression;Taylor;Smile
+speak;Taylor;Yo! Nagisa! Hard at work again, huh?
+expression;Nagisa;HalfCloseEyes
+speak;Nagisa;Oh. Taylor. Hello.
+expression;Taylor;NoSmile
+speak;Taylor;Uh, you okay?
+expression;Nagisa;CloseEyes
+speak;Nagisa;Far from it.|{c:e;Nagisa;NormalBlink}I was thinking about our time at the tavern.|I remember some of what happened, but could you fill in some blanks?
+speak;Taylor;I can try.
+speak;Nagisa;First off, did I mention anything about Lady Nagisa?
+speak;Taylor;You did call her "Tsu-Tsu".
+bop_portrait;Nagisa
+speak;Nagisa;Not. A word. About that. To. ANYONE. Understand?
+speak;Taylor;My lips are sealed.
+speak;Nagisa;Anything else?
+speak;Taylor;You also had me carry you--
+speak;Nagisa;WHAT?
+bop_portrait;Taylor
+speak;Taylor;Hey, you're the one who asked for it!|{c:e;Taylor;Smile}Don't worry, I was all gentlemanly about it.
+expression;Nagisa;CloseEyes
+speak;Nagisa;Oh dear Merin{tgm}...
+expression;Taylor;NoSmile
+speak;Taylor;You also said stuff about Kai and{tgm}...{tgm} Kenji, I think? I dunno.|{c:e;Taylor;HalfCloseEyes}Honestly, you were slurring your words a lot, so it was hard to understand most of it.
+expression;Nagisa;NormalBlink
+bop_portrait;Nagisa
+speak;Nagisa;Forget everything I said about those two.
+expression;Taylor;NormalBlink
+speak;Taylor;Now, hold on there. I did get some of what you said.|It sounded like you really missed having those two around back in Edoyama, right?
+expression;Nagisa;HalfCloseEyes
+speak;Nagisa;...;no_talk
+expression;Taylor;Smile
+speak;Taylor;At least Kai's here! Maybe you can talk things out--
+expression;Nagisa;NoSmile
+speak;Nagisa;As if I'd talk to a womanizing traitor like him!
+mirror_portrait;Nagisa
+move_portrait;Nagisa;OffscreenLeft
+expression;Taylor;NoSmile
+speak;Taylor;Huh. Wonder what she meant by that.
+
+A Support
+Taylor: I still don't get what her problem is. You’re an upstanding guy, Kai.
+Kai: Pff– “Upstanding.” Sure. Alright. Whatever you say, Taylor.
+Taylor: I mean, you left Merinas, but so what? We saw how Emperor Samegoro was acting. Of course you'd leave! And the whole “womanizer” angle? I don't think I've seen you even make eyes at a woman since you got here.
+Kai: Then you haven't been paying attention.
+Taylor: Huh?
+Kai: Don't worry about it. Still, you’re half-right, at least.
+(Camera pans to Nagisa who is eavesdropping in the distance)
+Nagisa: …
+(Time passes?)
+Taylor: Oh, hey, Nagisa! What’re you up to?
+Nagisa: Nothing. I was just passing through. But…
+Taylor: Hm?
+Nagisa: 

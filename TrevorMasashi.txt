@@ -1,0 +1,67 @@
+C Support
+speak;Masashi;Ah, Trevor, my good man.|What say you and I hit the town and do some{tgm}...{tgm} sightseeing?
+expression;Trevor;Smile
+speak;Trevor;Wonderful idea, Lord Masashi. I can guide you around.
+speak;Masashi;Perfect.|Now, you wouldn't happen to know of places where those of the fairer sex and|graceful mannerisms might frequent, would you?
+expression;Trevor;NoSmile
+speak;Trevor;"The fairer sex"?{c:e;Trevor;HalfCloseEyes} Are you referring to women?
+expression;Masashi;NoSmile
+speak;Masashi;No need to be so crass, my fellow man. But{tgm}...{tgm} yes and no.|{c:e;Masashi;Smile}There's women and then there's LADIES!|We must scout out and observe the ladies, Trevor.|Make sure they are up to standard.
+expression;Trevor;NormalBlink
+speak;Trevor;Oh{tgm}...{tgm} Ha ha{tgm}...{tgm} Yes, well, that sounds{tgm}...{tgm} lovely, Lord Masashi.|But I'm not sure if I'm the man for the job.
+speak;Masashi;Nonsense!|I can sense that you have a certain knack for dealing with fair maidens.
+bop_portrait;Trevor
+speak;Trevor;Wh-What do you--I mean, er, thank you? I think?
+expression;Masashi;CloseEyes,Smile
+speak;Masashi;Trust me, Trevor, you will be a wonderful wingman.|{c:e;Masashi;NormalBlink,Smile}With your natural charm and my refined skills in flirtation, we'll make quite the team.
+expression;Trevor;CloseEyes
+speak;Trevor;Alright, fine.{c:e;Trevor;NormalBlink} I will accompany you just this once, Lord Masashi.|{c:e;Trevor;HalfCloseEyes}ONLY this once.
+speak;Masashi;Perfect! Let's be off, then!
+remove_all_portraits
+transition;close
+change_background;BlackBackground
+transition;open
+speak;;One trip around town later...;center;150;hint;NumLines=1;no_sound
+transition;close
+change_background;VillageGate
+transition;open
+multi_add_portrait;Masashi;Left;Trevor;Right
+expression;Masashi;Smile
+speak;Masashi;A fruitful expedition, if I do say so myself!
+expression;Trevor;CloseEyes
+speak;Trevor;You were slapped by two women and one threw her drink at you.
+expression;Masashi;CloseEyes,Smile
+speak;Masashi;We are ignoring that.|{c:e;Masashi;NormalBlink,Smile}But you, Trevor! You had all the ladies fawning over you.
+expression;Trevor;HalfCloseEyes
+speak;Trevor;Not that I really wanted to in the first place.
+expression;Masashi;NoSmile
+speak;Masashi;What was that?
+expression;Trevor;CloseEyes
+speak;Trevor;Ah, nothing.|{c:e;Trevor;NormalBlink}At any rate, I will be taking my leave. I am glad you enjoyed yourself, Lord Masashi.
+mirror_portrait;Trevor
+expression;Masashi;NoSmile
+move_portrait;Masashi;MidLeft
+speak;Masashi;Ah, wait!
+mirror_portrait;Trevor
+expression;Masashi;Smile
+speak;Masashi;We absolutely must do this again.
+speak;Trevor;What?! Lord Masashi, with all due respect,|we agreed that this is the only time we would do this together, did we not?
+expression;Masashi;NoSmile
+speak;Masashi;I know, but I cannot possibly let go of my best wingman. Please, Trevor!
+expression;Trevor;CloseEyes
+speak;Trevor;*sigh*{c:wait;100}{c:e;Trevor;NormalBlink} Alright, Lord Masashi. We may do this again.
+speak;Masashi;Excellent! Until next time then, Trevor.
+move_portrait;Masashi;OffscreenRight
+mirror_portrait;Trevor
+speak;Trevor;...;no_talk
+mirror_portrait;Trevor
+expression;Trevor;CloseEyes
+speak;Trevor;Do I tell him? Do I explain why I'm not suited to these ventures?|{c:e;Trevor;HalfCloseEyes}But if I do, it could ruin everything.|{c:e;Trevor;CloseEyes}Oh Medea, what am I gonna do?
+remove_all_portraits
+transition;close
+change_background;Plains
+transition;open
+add_portrait;Masashi;Right
+speak;Masashi;Trevor seemed so awkward and tense when we were out earlier.|{c:e;Masashi;CloseEyes}He may be new to this sort of thing, but I wonder if there's something else to it{tgm}...{tgm} Hm{tgm}...{tgm}|{c:e;Masashi;HalfCloseEyes}And why do I find him surprisingly attractive?|How come my{tgm}...{tgm} quiver gets hard whenever I'm around him?
+
+# Original script by Berserker Sam #

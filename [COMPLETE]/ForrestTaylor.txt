@@ -1,0 +1,178 @@
+C Support
+speak;Forrest;Taylor, about today's training--
+expression;Taylor;CloseEyes
+speak;Taylor;General Forrest, I admire the work ethic,|but does it look like I wanna talk about our last session?
+expression;Forrest;HalfCloseEyes
+speak;Forrest;It looks like you're ready to drink yourself into a stupor.
+expression;Taylor;NormalBlink,Smile
+speak;Taylor;Glad we're on the same page.{c:e;Taylor;CloseEyes,Smile} Now, if you'll excuse me{tgm}...
+expression;Forrest;NormalBlink
+bop_portrait;Forrest
+speak;Forrest;Ah, hold on. Perhaps I should join you.|{c:e;Forrest;HalfCloseEyes}You may need{tgm}...{tgm} supervision.
+expression;Taylor;NormalBlink,Smile
+speak;Taylor;I'm a big boy, General, no need to worry!|But you can still tag along if you want. The more, the merrier!|{c:e;Taylor;NoSmile}By the way, have you actually drank alcohol before?
+expression;Forrest;NormalBlink
+speak;Forrest;No, never.
+expression;Taylor;Smile
+speak;Taylor;Not a problem! We'll start you off easy to figure out your tolerance.|{c:e;Taylor;NoSmile}I don't want you going out of commission tomorrow morning.|{c:e;Taylor;CloseEyes}Explaining to Her Highness why her most trusted knight is having|the worst hangover of his life is something I DON'T want to do.
+speak;Forrest;I trust that you know what you're doing, Taylor.
+expression;Taylor;NormalBlink,Smile
+speak;Taylor;Of course I know what I'm doing!|Now, come on, let's head to the tavern! Drinks on me!
+unlock_support_rank;Forrest;Taylor;C
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;CastleInterior
+transition;open
+music;Guildmaster Wigglytuff
+multi_add_portrait;Forrest;Left;Taylor;Right
+speak;Taylor;General Forrest! Hey! You doing okay? You're looking more sour than usual.
+expression;Forrest;HalfCloseEyes
+speak;Forrest;Taylor, what happened on the night we went to the tavern?
+speak;Taylor;Oh. Uh. Why{tgm}...{tgm} do you ask{tgm}...?
+expression;Forrest;NormalBlink
+speak;Forrest;The women in town were giving me strange looks the last time I went out for errands.|{c:e;Forrest;HalfCloseEyes}I can only assume something{tgm}...{tgm} unsavory happened.|{c:e;Forrest;CloseEyes}I can hardly recall anything from that night, though. It's all a blur.
+expression;Taylor;CloseEyes
+speak;Taylor;It's probably best to let it stay a blur, buddy.|{c:e;Taylor;HalfCloseEyes}For your own peace of mind, I mean.
+expression;Forrest;NormalBlink
+speak;Forrest;Taylor, I fear my reputation is on the line here.|I need to know what happened.
+expression;Taylor;CloseEyes
+speak;Taylor;Don't say I didn't warn you.|{c:e;Taylor;NormalBlink}You see{tgm}...
+remove_all_portraits
+transition;close
+change_background;BlackBackground
+transition;open
+speak;;One explanation later...;StyleNid=hint;NumLines=1;no_sound
+transition;close
+change_background;CastleInterior
+transition;open
+multi_add_portrait;Forrest;Left;Taylor;Right
+expression;Forrest;CloseEyes
+speak;Forrest;Oh, dear Medea{tgm}...
+speak;Taylor;It wasn't as bad as it sounds! Really!|{c:e;Taylor;Smile}I mean, you were definitely enjoying yourself.|{c:e;Taylor;CloseEyes,Smile}And those ladies really liked it when you--
+expression;Forrest;NormalBlink
+bop_portrait;Forrest
+speak;Forrest;Stop stop stop no no no I don't want to hear anymore.
+expression;Taylor;NoSmile,NormalBlink
+speak;Taylor;Would me saying I was jealous make the situation any better?
+expression;Forrest;HalfCloseEyes
+speak;Forrest;Not in the slightest.
+unlock_support_rank;Forrest;Taylor;B
+end
+end_skip
+if;support_rank_nid == 'A'
+change_background;CastleInterior
+transition;open
+music;Guildmaster Wigglytuff
+multi_add_portrait;Forrest;Right;Taylor;OffscreenLeft
+expression;Forrest;CloseEyes
+speak;Forrest;*sigh* This is all too much{tgm}...
+move_portrait;Taylor;Left
+speak;Taylor;Whoa, got another bouquet, General? That's the third one this week!
+expression;Forrest;HalfCloseEyes
+speak;Forrest;Taylor, that tavern outing was a horrible idea.|{c:e;Forrest;NormalBlink}The women in town won't leave me be.|{c:e;Forrest;CloseEyes}First, it was the barmaid, then the general store's shopkeeper, then the baker{tgm}...{tgm}|{c:e;Forrest;NormalBlink}And then it just kept going! I can't take it anymore, Taylor!
+expression;Taylor;CloseEyes,Smile
+speak;Taylor;You're way too stressed about this.|{c:e;Taylor;NormalBlink,Smile}Just look at how popular you're getting! You're gonna get a wife in no time.
+expression;Forrest;CloseEyes
+speak;Forrest;First off, {e:"I already have a partner" if get_support_rank('Krista', 'Forrest') == 'S' or get_support_rank('Kai', 'Forrest') == 'S' or get_support_rank('Chell', 'Forrest') == 'S' or get_support_rank('Alex', 'Forrest') == 'S' or get_support_rank('Marina', 'Forrest') == 'S' or get_support_rank('Reem', 'Forrest') == 'S' or get_support_rank('Torgen', 'Forrest') == 'S' else "I'm not ready for marriage"}.|{c:e;Forrest;NormalBlink}Secondly, even if I {e:"didn't, this is not how I would want to meet them" if get_support_rank('Krista', 'Forrest') == 'S' or get_support_rank('Kai', 'Forrest') == 'S' or get_support_rank('Chell', 'Forrest') == 'S' or get_support_rank('Alex', 'Forrest') == 'S' or get_support_rank('Marina', 'Forrest') == 'S' or get_support_rank('Reem', 'Forrest') == 'S' or get_support_rank('Torgen', 'Forrest') == 'S' else "were, this is not how I want to meet my future partner"}.|{c:e;Forrest;HalfCloseEyes}Especially when they only find me attractive if I'm intoxicated.
+speak;Taylor;Oh, I'm sure it ain't like that! You've got a lot going for you as is.|{c:e;Taylor;CloseEyes,Smile}You're handsome, loyal, and strong. Anyone would want a husband like that.|{c:e;Taylor;NormalBlink,Smile}And being a flirty drunk is just the cherry on top.
+expression;Forrest;CloseEyes
+speak;Forrest;Taylor.
+speak;Taylor;But seriously though, this is really good for you!
+expression;Forrest;HalfCloseEyes
+speak;Forrest;How in Medea's name is this good?
+expression;Taylor;NoSmile
+speak;Taylor;Lemme put it into perspective for you.|You're so dedicated to training and serving the royal family.|{c:e;Taylor;Smile}Admirable? Sure!|{c:e;Taylor;NoSmile}But that also means you don't set aside time for yourself outside the castle.
+expression;Forrest;NormalBlink
+speak;Forrest;And{tgm}...?
+speak;Taylor;You gotta let yourself live beyond your duties, General.|It's good for the soul!
+speak;Forrest;What do you mean?
+expression;Taylor;Smile
+speak;Taylor;Let me ask you this. Wasn't that night at the tavern fun?
+speak;Forrest;From what little I remember, it was.
+speak;Taylor;Exactly! Expanding your world and experiencing new things does wonders!|And that can all start by meeting new people.
+expression;Forrest;CloseEyes
+speak;Forrest;Hm{tgm}...
+expression;Taylor;NoSmile
+speak;Taylor;I'm not saying you gotta drink 'til you pass out every night to do that.|It can be something small like striking up a conversation with the shopkeeper the|next time you do errands.|{c:e;Taylor;Smile}Or flirting back the next time you get a gift from one of the girls in town.
+expression;Forrest;HalfCloseEyes
+speak;Forrest;I am NOT doing that.
+expression;Taylor;CloseEyes,Smile
+speak;Taylor;Haha! Fair enough.
+expression;Forrest;NormalBlink
+speak;Forrest;I could try your first suggestion, though.
+expression;Taylor;NormalBlink,Smile
+speak;Taylor;That's what I like to hear!|{c:e;Taylor;NoSmile}Anyway, you've obviously had a long day. You know what you need?
+expression;Forrest;HalfCloseEyes
+speak;Forrest;If you're going to suggest alcohol, I swear to Medea--
+expression;Taylor;Smile
+bop_portrait;Taylor
+speak;Taylor;You got it! To the tavern we go!
+expression;Forrest;CloseEyes
+speak;Forrest;I REFUSE.
+unlock_support_rank;Forrest;Taylor;A
+end
+end_skip
+if;support_rank_nid == 'S'
+change_background;Fireplace
+transition;open
+music;Lyn's Desire
+multi_add_portrait;Forrest;Right;Taylor;Left
+expression;Taylor;Smile
+speak;Taylor;Finally warmed up to the occasional tavern outing, huh, General?
+expression;Forrest;CloseEyes,Smile
+speak;Forrest;Hmm, not exactly.|{c:e;Forrest;NormalBlink,Smile}I'd say that it's more I'm enjoying my time with you, Taylor. With drinks or not.
+speak;Taylor;Ha! I'm glad to hear that. I'm really enjoying your company too.|It helps that you've loosened up a bit once we got this ball rolling.
+expression;Forrest;CloseEyes,Smile
+speak;Forrest;I suppose I have.
+speak;Taylor;How about we celebrate with another round?
+expression;Forrest;NormalBlink,Smile
+speak;Forrest;An excuse for more drinks? I suppose I don't mind. Go ahead, Taylor.
+bop_portrait;Taylor
+speak;Taylor;Hey, barkeep! Another round for me and my buddy here!
+remove_all_portraits
+transition;close
+change_background;BlackBackground
+transition;open
+speak;;Several drinks later...;StyleNid=hint;NumLines=1;no_sound
+transition;close
+change_background;Fireplace
+transition;open
+add_portrait;Forrest;Right;;HalfCloseEyes;no_block
+add_portrait;Taylor;Left
+speak;Taylor;General? You good?
+expression;Forrest;CloseEyes,Smile
+speak;Forrest;You're *hic!* a good guy, Taylor.
+speak;Taylor;Uh-huh?
+expression;Forrest;HalfCloseEyes,Smile
+speak;Forrest;I like you a lot. *hic!*
+speak;Taylor;Well, I like you too. You're a great comrade.
+expression;Forrest;CloseEyes,Smile
+speak;Forrest;Nah, nah, it's more than that. It's wayyyy more. *hic!*
+expression;Taylor;HalfCloseEyes
+speak;Taylor;Uh, General? I think you've had too many--
+expression;Forrest;NormalBlink,NoSmile
+move_portrait;Forrest;MidLeft
+expression;Forrest;CloseEyes
+expression;Taylor;NormalBlink
+speak;Taylor;Mnn?!
+expression;Forrest;HalfCloseEyes,Smile
+speak;Forrest;I really really *hic!* like ya, Taylor.
+speak;Taylor;G-General, I'm flattered. Really, I am.|But, you sure you wanna do this in public?
+speak;Forrest;Forget 'bout them.
+expression;Taylor;CloseEyes
+speak;Taylor;Yeahhhh{tgm}...{tgm} You know what, let's just go ba--
+expression;Taylor;NormalBlink
+bop_portrait;Taylor
+speak;Taylor;Ah!
+speak;Forrest;Gotchu~
+speak;Taylor;G-General{tgm}...!{c:e;Taylor;CloseEyes} Not in front of the ladies, come on!
+speak;Forrest;You're *hic!* cute when you blush~
+bop_portrait;Forrest
+expression;Taylor;HalfCloseEyes
+speak;Taylor;Hey, where's that hand goi--
+expression;Taylor;NormalBlink
+bop_portrait;Taylor
+speak;Taylor;A-Ah?!
+expression;Taylor;CloseEyes
+speak;Taylor;Oh dear Medea, this better not awaken something in me.

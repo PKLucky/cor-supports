@@ -1,0 +1,12 @@
+C Support
+Lucy: Mr Masashi?
+Masashi: Ah, Lucy what can I do for you?
+Lucy: You got a boo-boo in that last fight, I was goint to heal it for you before it festers or something
+Masashi: Thank you Lucy but it’s nothing. Tis but a scratch
+Lucy: Mamma always got mad whenever Pappa said that. Usually when he got hurt real bad, mamma wanted to heal him and he was being obstinate about it.
+Masashi: I see, well I’m sure your mom and dad love each other very much
+Lucy: Mr. Masashi why do guys lie to girls?
+Masashi: Errrr…..I’m not sure I understand could you clarify what you mean?
+Lucy: Why do guys say “It is ONLY a SLIGHT SCRATCH FAIR LADY WORRY NOT” or some ridiculous statement
+Masashi: Well…hmmm…..that is a very good question Miss Lucy
+# Original script by Berserker Sam #

@@ -1,0 +1,38 @@
+C Support
+Kiraz: Oh uhm hi there.
+Cole: You must be Ms. Kiraz.
+Kiraz: No need to be so nice, silly.
+Cole: Oh-uh, sorry. It’s just that you’re slightly older than me and I was taught to be as nice as possible when first meeting someone.
+Kiraz: Slightly older, it's fine I don't need to be treated like… royalty or something.
+Cole: You weren’t in that prison for too long were you?
+Kiraz: (This line can be decided by PK)
+Cole: Oh good you weren’t in there for too long./ Oh that’s terrible.
+Kiraz: Let’s move on from that. I haven’t seen a group as big as yours. It’s pretty cool.
+Cole: Yeah I guess.. All the people are pretty nice and cool.
+Kiraz: Then I have to hope that they’re as cool as you then. See you.
+Cole: Bye.
+# Original script by Blade of Light 12 #
+
+B Support
+Cole: Greetings again Mi- Kiraz!
+Kiraz: Hello again Cole.
+Cole: How was talking to everyone?
+Kiraz: It was mostly nice. I’d rather not get into the bad ones right now.
+Cole: I understand. I wanted to ask you something if you don’t mind
+Kiraz: No I don't mind, what is it?
+Cole: I want to know what Dark Magic is like. I asked Mr. Parker but he doesn’t really know much, he said the books were heavy.
+Kiraz: Well Dark Magic is very strong but you could say it has its own personality and if used incorrectly it can take over a person and control them making them dependent on it and its power causing them to become power hungry often hurting others for what they want. What I mean is that it requires a lot of focus, you can’t let it read you.
+Cole: So you need a lot of focus, for blocking your mind and holding the book too.
+Kiraz: Well yes, you have to keep yourself in enough to use it but not let it take control. Even then going against it isn’t any better. some people have nightmares after being hit by it. But enough about that, have you seen any plays? I love them.
+Cole: I’ve seen a few, how many have you seen?
+Kiraz: I like to see as many of them as I can. They make me feel like I’m a part of something, it sounds weird I know.
+Cole: It’s fine, I do cringe whenever they get Magic wrong though.
+Kiraz: Don’t let that get to you, if you do you won’t be able to enjoy the play.
+Cole: Miss Kir-
+Kiraz: Come on, let yourself go sometimes.
+Cole: I- I ok maybe we could watch a play together sometime.
+Kiraz: Are there any nearby?
+Cole: I think I could get us tickets.
+Kiraz: Yes! I can’t wait. Thank you, also sorry for changing the topic.
+Cole: Ah no it's fine I get it.
+# Original script by Blade of Light 12 #

@@ -1,0 +1,99 @@
+C Support
+speak;Chell;On laundry duty today, Forrest?
+speak;Forrest;Yes, I am. Was there something you needed?
+speak;Chell;I finished gathering firewood, so I wanted to see if you needed assistance.
+expression;Forrest;Smile
+speak;Forrest;That would be much appreciated. Thank you, Chell.
+expression;Chell;Smile
+speak;Chell;It is my pleasure.|{c:e;Chell;NoSmile}One moment, isn't that Princess Krista's blouse?|I didn't know you took care of her laundry as well.
+expression;Forrest;NoSmile
+speak;Forrest;I typically don't. That's Felicity's job.|She's busy catching up on her other duties, so I'm taking over for her.
+speak;Chell;Is that so?|And you don't feel awkward handling a woman's clothing?
+expression;Forrest;CloseEyes
+speak;Forrest;The way you phrased that made me feel more awkward about it than|me actually doing it.|{c:e;Forrest;NormalBlink}But in all seriousness, no.{br}I don't.|I had to take over for Felicity a few times over the years,|and it was embarrassing for a while.|But ultimately, it was something I got used to.
+speak;Chell;I see{tgm}...
+speak;Forrest;Is there something on your mind?
+speak;Chell;Nothing in particular.|It's just with how well you perform your duties around the castle,|I think you'd make a good husband one day.
+speak;Forrest;I{tgm}...{tgm} Pardon?
+bop_portrait;Chell
+speak;Chell;I apologize. That did not come out as I intended.|I didn't mean to imply that you and I would{tgm}...
+expression;Forrest;Smile
+speak;Forrest;It's alright. I'll take it as a compliment.
+unlock_support_rank;Forrest;Chell;C
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;InsideCastle
+transition;open
+music;Respite in Battle
+multi_add_portrait;Forrest;Left;Chell;Right
+speak;Chell;Forrest, have you thought about having children one day?
+speak;Forrest;What's with this sudden question?|Wait, is this related to our discussion the other day?
+speak;Chell;Yes, it is, actually.|So, has it ever crossed your mind?
+speak;Forrest;It hasn't.|Well, I mean, it has, but{tgm}...
+speak;Chell;You'd want Her Highness to be the mother?
+speak;Forrest;Chell, don't say such things out loud! It's not proper.
+expression;Chell;HalfCloseEyes
+speak;Chell;Even if it's true?
+speak;Forrest;Yes, even if it's--|{c:e;Forrest;HalfCloseEyes}{tgm}...{tgm} How dare you.
+expression;Chell;NormalBlink
+speak;Chell;Allow me to be frank, but everyone and their mother knows you have feelings for|Princess Krista.
+expression;Forrest;CloseEyes
+speak;Forrest;Has it been that obvious?
+expression;Chell;CloseEyes
+speak;Chell;Yes. It has been that obvious for years.|{c:e;Chell;NormalBlink}Pardon me for being overly critical, but it's to the point where it's almost pitiful.
+expression;Forrest;NormalBlink
+speak;Forrest;Your words wound me, Chell.|Though, I suppose this is something I needed to hear.
+speak;Chell;There is more to life than her, you know.
+speak;Forrest;That is easy for you to say.|{c:e;Forrest;CloseEyes}Protecting Her Highness, staying by her side{tgm}...{tgm}|This life with her is all I've ever known, Chell.|{c:e;Forrest;NormalBlink}I cannot stray from it so easily.
+speak;Chell;But what if you could?|What if one day, you were no longer were duty-bound to her?
+speak;Forrest;That's{tgm}...{tgm} I can't even begin to imagine such a life.
+speak;Chell;Maybe you should.|There could be a time when she isn't here.|You never know what could happen in the future.
+expression;Forrest;CloseEyes
+speak;Forrest;A time when she isn't here{tgm}...
+unlock_support_rank;Forrest;Chell;B
+end
+end_skip
+if;support_rank_nid == 'A'
+change_background;CastleInterior
+transition;open
+music;Respite in Battle
+multi_add_portrait;Forrest;Left;Chell;Right
+speak;Chell;Forrest? Do you mind if I ask you something?
+speak;Forrest;Go ahead.
+speak;Chell;Do you think I would make a good mother?
+speak;Forrest;Still on that train of thought?|What brought this on specifically?
+speak;Chell;I was thinking about Lin.|{c:e;Chell;CloseEyes}I can't help but think I could have done better.
+speak;Forrest;Chell, you're her sister. Not her mother.|What more could you have done?
+expression;Chell;NormalBlink
+speak;Chell;I know, but ever since Mother and Father were gone, I had to be the one there for her.|Was I too tough on her? Did I say something wrong? I--
+speak;Forrest;Chell, stop. Don't beat yourself up over this.|You tried your best given the circumstances.|{c:e;Forrest;CloseEyes}You were young.|And the pain of losing a mother not only affected her, but you as well.|{c:e;Forrest;NormalBlink}You had it just as hard, if not harder than she did.|No one should blame you for her leaving. Especially not yourself.
+speak;Chell;Forrest{tgm}...
+expression;Forrest;NormalBlink
+speak;Forrest;You're a strong woman, Chell.|Your future children would be lucky to have a mother like you.|And you won't be alone in raising them either.|Your future husband would be there by your side.
+speak;Chell;I{tgm}...{tgm} Yes, you're right.|Thank you, Forrest.
+unlock_support_rank;Forrest;Chell;A
+end
+end_skip
+if;support_rank_nid == 'S'
+change_background;CastleInterior
+transition;open
+music;Lyn's Desire
+multi_add_portrait;Forrest;Left;Chell;Right
+speak;Forrest;Chell, may I speak to you for a moment?
+speak;Chell;Yes? What is it?
+expression;Forrest;CloseEyes
+speak;Forrest;I{tgm}...{tgm} Oh, Medea, this is nerve-wracking.
+speak;Chell;I've never seen you like this before.|What's gotten you so nervous?
+expression;Forrest;NormalBlink
+speak;Forrest;I just{tgm}...{tgm} Allow me to be frank with you.|I said before that your future husband would support you in raising a family.|When I told you that, I never imagined I would refer to myself.
+speak;Chell;Wait, what are you trying to say?
+speak;Forrest;I've considered my options, and I believe this path is best for me.|You were right. There is more to life than serving Her Highness.|Chell, you've opened my eyes to a world I have not seen before,|and I will forever be thankful for that.|Would you{tgm}...{tgm} be willing to expand my world further?
+bop_portrait;Chell
+speak;Chell;That's{tgm}...{tgm} a ring?! Forrest{tgm}...!
+speak;Forrest;I-Is that a "yes"?
+expression;Chell;Smile
+speak;Chell;Absolutely! Oh, Forrest, of course I'll marry you.
+speak;Forrest;Chell, I{tgm}...{tgm} Please be patient with me on this.|This{tgm}...{tgm} This is all very new to me.
+speak;Chell;We're in this together. You said so yourself.|I'll support you as long as you do the same for me.
+speak;Forrest;I{tgm}...{tgm} Yes. Of course.|{c:e;Forrest;CloseEyes,Smile}Thank you.

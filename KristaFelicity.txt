@@ -1,0 +1,88 @@
+C Support
+speak;Krista;Sorry I'm late, Felicity. I had way more stuff to do today than I thought.|{c:e;Krista;Smile}Anyway, ready to do the shopping together?
+speak;Felicity;No need, Your Highness. I had finished the shopping this morning on my own.
+speak;Krista;Oh! You've been doing that a lot lately, huh?|{c:e;Krista;Smile,CloseEyes}Not that I mind, of course.|{c:e;Krista;Smile,NormalBlink}It's good to see you getting more used to dealing with crowds.
+speak;Felicity;Actually, I arrived at the marketplace early enough when it was mostly quiet.
+expression;Krista;NoSmile
+speak;Krista;Oh, really?|{c:e;Krista;Smile}Still, thanks for all your help, Felicity. Just don't push yourself too hard, okay?|I know that dealing with people can be tough sometimes.
+expression;Felicity;HalfCloseEyes
+speak;Felicity;...;no_talk
+expression;Krista;NoSmile
+speak;Krista;Something wrong?
+expression;Felicity;CloseEyes
+speak;Felicity;It's{tgm}...{tgm} It's nothing.|{c:e;Felicity;NormalBlink}At any rate, I have more chores to attend to. If you'll excuse me{tgm}...
+mirror_portrait;Felicity
+move_portrait;Felicity;OffscreenLeft
+expression;Krista;HalfCloseEyes
+speak;Krista;I wonder what that was about.
+
+B Support
+[]
+speak;Maid1;She's so shameless too.|What makes her think she can be close to Her Highness like that?|She thinks she's so subtle,|brushing shoulders and "innocently" asking to hold hands with the Princess.|The nerve!
+speak;Maid2;I know, right? Oh, and did you hear?|Apparently some of Her Highness' garments had gone missing during the last laundry day.
+expression;Maid2;HalfCloseEyes,Smile
+speak;Maid2;Guess who was on duty?
+speak;Maid1;*Gasp!* No way!
+expression;Maid2;CloseEyes,Smile
+speak;Maid2;Mmhmm. Trisha told me all about it.|{c:e;Maid2;HalfCloseEyes,NoSmile}Once a thief, always a thief, I tell you.|Her Highness should just toss her out to the streets where she belongs--
+speak;Krista;Ahem.
+expression;Maid2;NormalBlink
+bop_portrait;Maid2
+speak;Maid2;Eep!
+move_portrait;Maid1;FarLeft;no_block
+move_portrait;Maid2;MidLeft
+mirror_portrait;Maid2
+move_portrait;Krista;Right
+speak;Maid2;Y-Your Highness! Was there something you needed?
+speak;Krista;Oh, nothing in particular.|{c:e;Krista;HalfCloseEyes}But, Glenda, aren't you supposed to be scrubbing the floors in the west wing?
+speak;Maid1;Um{tgm}...{tgm} I{tgm}...
+speak;Krista;And Helen, aren't you supposed to be dusting in the main hall?
+speak;Maid2;Well, that's--
+speak;Maid1;O-Our apologies, Your Highness!
+speak;Maid2;We'll be on our way now.
+expression;Krista;NormalBlink
+speak;Krista;Before you leave, one more thing.
+speak;Maid1;Y-Yes?
+speak;Krista;Please remind the other maids that during THAT time of the month to|treat the heavily soiled clothes properly and DON'T mix them in with the normal loads.|{c:e;Krista;HalfCloseEyes,Smile}Felicity has done SUCH a good job with that, so you don't need to tell her.|In fact, let her know that she's been doing a GREAT job around the castle overall.
+expression;Maid2;HalfCloseEyes
+speak;Maid2;{tgm}...{tgm} Y-Yes, Your Highness.|{c:e;Maid2;NormalBlink}Now, if you'll please excuse us{tgm}...
+mirror_portrait;Maid1;no_block
+mirror_portrait;Maid2
+move_portrait;Maid1;OffscreenLeft;no_block
+move_portrait;Maid2;OffscreenLeft
+multi_remove_portrait;Maid1;Maid2
+expression;Krista;CloseEyes,NoSmile
+speak;Krista;*sigh* Some people{tgm}...{tgm}|{c:e;Krista;HalfCloseEyes}Hm{tgm}...{tgm}|{c:e;Krista;NormalBlink}Felicity, you can come out now.|I know you're still around here somewhere.
+move_portrait;Felicity;Left
+speak;Felicity;You didn't need to do that, Your Highness.
+speak;Krista;So, you heard all that?
+speak;Felicity;Enough to know their thoughts on me haven't changed at all.
+speak;Krista;Do the other maids always talk behind your back like this?
+speak;Felicity;It doesn't matter if they do or not.|And while I appreciate your little stunt earlier,|things would only get worse if you interfere more than you already have.
+speak;Krista;What do you mean?
+expression;Felicity;CloseEyes
+speak;Felicity;They'd twist the situation to make it look like I'm currying favor with you and|further feed into their negative perceptions of me.|{c:e;Felicity;NormalBlink}Let them believe what they want to believe, Your Highness.|You know me for who I am, and that's all that matters to me.
+speak;Krista;But still, it's cruel of them to hate you and not even try to get to know you.
+speak;Felicity;Some people will just hate you no matter what you do, Your Highness.|And no amount of persuasion will change their mind.|{c:e;Felicity;CloseEyes}I learned that a long time ago.
+expression;Krista;HalfCloseEyes
+speak;Krista;{tgm}...{c:e;Krista;NormalBlink}{tgm} Felicity?
+expression;Felicity;NormalBlink
+speak;Felicity;Yes?
+speak;Krista;You can depend on me, you know?|If things get tough, or you just need someone to listen, I'll be here. Okay?
+expression;Felicity;CloseEyes,Smile
+speak;Felicity;{tgm}...{tgm} Ha.|{c:e;Felicity;HalfCloseEyes,Smile}If only you could return the favor just as easily, Your Highness.
+speak;Krista;Huh?
+expression;Felicity;NoSmile,HalfCloseEyes
+speak;Felicity;You know exactly what I'm talking about.|{c:e;Felicity;NormalBlink}Now, if you'll excuse me, I must be getting back to my chores.
+mirror_portrait;Felicity
+move_portrait;Felicity;OffscreenLeft
+expression;Krista;HalfCloseEyes
+speak;Krista;{tgm}...{tgm} She knows.|{c:e;Krista;CloseEyes}Dammit, of course she knows!|{c:e;Krista;NormalBlink}But if that's the case, why hasn't she told me?
+
+S Support
+Krista: Felicity, you knew all along? About Ervan, I mean.
+Felicity: Yes, I did.
+Krista: And all that time, you said nothing. But why?
+Felicity: You always had others’ best interests at heart, Your Highness. I knew you wouldn't do any harm to him out of malice. But you always did let your emotions lead your actions.
+Krista: Y-Yeah…
+Felicity: I never thought less of you for what you did.

@@ -1,0 +1,160 @@
+C Support
+speak;Krista;Trevor! Just the man I wanted to see.
+speak;Trevor;Is there something I could assist you with, Your Highness?
+speak;Krista;Yup! I got a huge favor to ask.|It's something that's been on my mind for literal years.
+expression;Trevor;Smile
+speak;Trevor;Intriguing! Whatever could it be?
+expression;Krista;NoSmile
+speak;Krista;Could you teach me how to do magic?
+expression;Trevor;NoSmile
+speak;Trevor;I{tgm}...{tgm} suppose? It is not that simple, however.|Do you have any innate magical potential to begin with?
+speak;Krista;See, that's the thing. My mother was a priestess from Foliaga.|So you'd think that would mean I could do magic myself.
+speak;Trevor;I am assuming that is not the case?
+expression;Krista;CloseEyes
+speak;Krista;Not even close!|{c:e;Krista;NormalBlink}I can handle enchanted swords just fine, but that's as far as I can go.|{c:e;Krista;HalfCloseEyes,Smile}But{tgm}...
+speak;Trevor;But?
+expression;Krista;NormalBlink,NoSmile
+speak;Krista;I wanna test a theory. I'm thinking maybe I'm just a late bloomer.|And here's where you come in with this little experiment.
+speak;Trevor;I will guide you through the basics of magic and see if something happens?
+expression;Krista;Smile
+speak;Krista;Exactly! So, you in?
+expression;Trevor;Smile
+speak;Trevor;I don't see why not. This could prove to be an enlightening experience.
+speak;Krista;Great! Just lemme know when you're free then we can get this rolling.
+unlock_support_rank;Krista;Trevor;C
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;CastleBack
+transition;open
+music;Guildmaster Wigglytuff
+multi_add_portrait;Krista;Left;Trevor;Right
+speak;Krista;Alright, you ready?
+speak;Trevor;I believe so. I was thinking we should start with a simple fire spell.|Fire is the easiest element to control as well as the easiest to monitor.
+expression;Krista;Smile
+speak;Krista;Got it! So, just gotta read from a tome and do the thing?
+expression;Trevor;CloseEyes,Smile
+speak;Trevor;Oh, if only it were that simple.|{c:e;Trevor;NormalBlink,NoSmile}Remember what I said about innate magic ability?|That applies here.|A tome does nothing if there is no energy to work with.|Think of tomes as amplifiers of one's inner magic.
+expression;Krista;CloseEyes,NoSmile
+speak;Krista;An amplifier, huh{tgm}...?
+speak;Trevor;Yes, Your Highness?
+expression;Krista;NormalBlink
+speak;Krista;Ah, nothing.|It's just that you reminded me of something an old friend of mine told me a long time ago.|She said something similar to that when explaining magic to me,|if not that exact thing word for word.
+speak;Trevor;Oh{tgm}...?{tgm} Who was this friend of yours?
+speak;Krista;House Valoria's daughter.|She was the one who was supposed to teach me magic in the first place.|Y'know, if magic was actually passed down to me.|It's their duty to teach the Medean royal family's heir magic stuff.
+expression;Trevor;HalfCloseEyes
+speak;Trevor;I{tgm}...{tgm} see{tgm}...
+expression;Krista;NormalBlink
+speak;Krista;I hope she's doing well. It's been so long since I last saw her.
+expression;Trevor;NormalBlink
+speak;Trevor;I{tgm}...{tgm} I'm sure she is, Your Highness.
+speak;Krista;You doing okay, Trevor? You got quiet all of a sudden.
+music;Silent Ground
+speak;Trevor;Worry not. I am quite alright, Your Highness.|Although, I would like to ask something about House Valoria's heir.|If you do not mind, of course.
+speak;Krista;Go for it.
+speak;Trevor;At the time when she did try tutoring you in magic, what was she like?|What did you think of her?
+expression;Krista;Smile,HalfCloseEyes
+speak;Krista;What, got a crush on her or something?
+bop_portrait;Trevor
+speak;Trevor;Your Highness, please! I feel nothing of the sort!
+expression;Krista;Smile,NormalBlink
+speak;Krista;Haha! Sorry, just wanted to tease ya.|{c:e;Krista;NoSmile}But really, I liked her a lot. She was my best friend.|I didn't really have a lot of friends my age growing up.|{c:e;Krista;CloseEyes,Smile}Besides Prince Ervan and his brother, I mean.|{c:e;Krista;NormalBlink,NoSmile}When everyone noticed that magic wasn't a thing for me,|House Valoria stopped sending their daughter to the castle.|{c:e;Krista;CloseEyes}When Mother and Father told me she wouldn't be coming anymore, I couldn't stop crying.
+speak;Trevor;Your Highness{tgm}...
+expression;Krista;NormalBlink
+speak;Krista;It's okay. I got over it eventually.
+speak;Trevor;Do you still think of her?
+speak;Krista;Yeah, I do.|Sometimes I wonder how much things would be different if magic came naturally to me.|{c:e;Krista;Smile}She'd probably be at my side along with Forrest and everyone else.
+expression;Trevor;HalfCloseEyes
+speak;Trevor;...;no_talk
+expression;Krista;NoSmile
+speak;Krista;Something on your mind, Trevor?
+expression;Trevor;NormalBlink
+speak;Trevor;Ah, no. At any rate, shall we continue with the lesson?
+expression;Krista;Smile
+speak;Krista;Yeah! So, fire, huh?
+expression;Trevor;Smile
+speak;Trevor;Yes. Here is how we shall do this{tgm}...
+unlock_support_rank;Krista;Trevor;B
+end
+end_skip
+if;support_rank_nid == 'A'
+change_background;CastleBack
+transition;open
+music;Silent Ground
+multi_add_portrait;Krista;Left;Trevor;Right
+expression;Krista;CloseEyes
+speak;Krista;Man, still nothing{tgm}...
+speak;Trevor;Perhaps we should try something else?|Like you said, you may just need some time. Let us try again tomorrow--
+expression;Krista;NormalBlink
+speak;Krista;Trevor, it's okay. I think we should stop here.
+speak;Trevor;Your Highness?
+speak;Krista;I probably wasn't born with magical abilities, so I don't think this is gonna go anywhere.|{c:e;Krista;Smile}Thanks for trying this with me, though, Trevor.
+expression;Trevor;HalfCloseEyes
+speak;Trevor;...;no_talk
+expression;Krista;NoSmile
+speak;Krista;H-Hey, no need to look so down! It's not a big deal--
+expression;Trevor;NormalBlink
+speak;Trevor;Your Highness{tgm}...{c:e;Trevor;CloseEyes}{tgm} No. Krista.|{c:e;Trevor;NormalBlink}I apologize. I have failed you years ago, and I have failed you now.
+speak;Krista;Huh? What are you talking about?
+speak;Trevor;All my life, I could not meet anyone's expectations.|My family turned its back on me. My duty as the Valoria scion was unfulfilled.|Then fate chose to bring me back to you.
+speak;Krista;Whoa, whoa, whoa! Slow down there!|Trevor, you can't be suggesting{tgm}...{tgm} Th-There's no way{tgm}...
+expression;Trevor;CloseEyes
+speak;Trevor;It is as you suspect.
+speak;Krista;All this time, YOU were House Valoria's daughter?!
+expression;Trevor;NormalBlink
+speak;Trevor;I stripped myself of that identity the moment I left home six months ago.|I thought I was done with the past. And yet, it has come back to haunt me.|For a moment, I had the hope things would turn out differently.|That I could redeem myself of at least one failure.|{c:e;Trevor;CloseEyes}I was wrong. So, so wrong.
+speak;Krista;Trevor{tgm}...
+expression;Trevor;NormalBlink
+speak;Trevor;I am a fool to think anything in my life would turn out right for me!|Does Medea just want me to suffer?|To torment me with reminders of my shortcomings?|This cursed past of mine... why can I not leave it all behind{tgm}...?{tgm}|{c:e;Trevor;CloseEyes}It is all so agonizing! Oh, Medea, what have I done to deserve this?!
+speak;Krista;Trevor, stop that right now!
+expression;Trevor;NormalBlink
+speak;Trevor;K-Krista?
+speak;Krista;Are you even hearing yourself? Saying all those things{tgm}...{tgm}|That's not the Trevor I know!
+speak;Trevor;But--
+expression;Krista;CloseEyes
+speak;Krista;No "buts"!|{c:e;Krista;NormalBlink}Trevor, listen to me. You didn't fail me in the slightest.|Like I said before, I missed you and kept thinking about you.|{c:e;Krista;Smile}And here you are! You're back!|It's all I could have ever wanted.|{c:e;Krista;NoSmile}The only thing I wish was that I knew it was you sooner.
+speak;Trevor;Krista{tgm}...{tgm} I{tgm}...{tgm} I am so sorry{tgm}...
+speak;Krista;You don't have to apologize for anything.|It isn't your fault things didn't turn out the way people expected.|{c:e;Krista;CloseEyes}It's nobody's fault. Sometimes life is unfair like that.|{c:e;Krista;NormalBlink}Despite all that, you chose to shape your own future.|{c:ex;Krista;Smile}And I think that's amazing, Trevor. You're not a failure.|You never were.
+expression;Trevor;CloseEyes
+speak;Trevor;Even after all this time, you choose to be kind to me.|I do not deserve this. And yet{tgm}...{c:e;Trevor;NormalBlink}{tgm} I thank you.|{c:e;Trevor;Smile}If you believe in me, perhaps I can start believing in myself too.
+unlock_support_rank;Krista;Trevor;A
+end
+end_skip
+if;support_rank_nid == 'S'
+change_background;CastleInterior
+transition;open
+music;Lyn's Desire
+multi_add_portrait;Krista;Left;Trevor;Right
+speak;Trevor;Your Highness--I mean, Krista.|{c:e;Trevor;HalfCloseEyes}I{tgm}...{tgm} I mean{tgm}...{tgm} Erm{tgm}...
+speak;Krista;You don't gotta be formal around me if you don't want to, Trev.|{c:e;Krista;Smile}Now that I know who you are, I think it would be nice if we could talk to each other|like we did when we were kids, y'know?
+expression;Trevor;NormalBlink
+speak;Trevor;Ah, yes. Of course. You have a point.
+expression;Krista;NoSmile
+speak;Krista;So go ahead and loosen up already!|You look like you're gonna collapse at any moment.
+speak;Trevor;Sorry, I just{tgm}...{tgm} Krista, there's something I need to say.|Something super important!
+speak;Krista;What's up?
+speak;Trevor;Krista, I gotta be honest with you.|I{tgm}...{tgm} I've loved you for as long as I can remember.|When my family introduced me to you, I fell in love at first sight.|You were just so pretty and when I actually got to know you,|I couldn't help but fall for you more.
+speak;Krista;H-Huh? Trevor, this is really sudden!|What brought this on?
+expression;Trevor;CloseEyes
+speak;Trevor;I did a lot of thinking, and I knew I had to tell you at some point.|{c:e;Trevor;HalfCloseEyes}I knew I couldn't back then. Nothing would've ever happened between us.|You were to be engaged to a Fuegan noble. That's how things were supposed to go.|{c:e;Trevor;CloseEyes}And even then, I was a girl. You had to produce an heir down the line.
+speak;Krista;Trevor{tgm}...
+expression;Trevor;HalfCloseEyes
+speak;Trevor;Even now, I think that what I'm about to do is stupid.|{c:e;Trevor;NormalBlink}But I have to try! If I don't, I'll never live it down.
+speak;Krista;"What you're about to--
+bop_portrait;Krista
+speak;Krista;Trevor, is that a ring?!
+speak;Trevor;Krista, I{tgm}...{tgm} I can't see myself as a failure any longer.|This is the final thing I have failed to do: tell you how I truly felt about you.|{c:e;Trevor;CloseEyes}Accepting me, rejecting me{tgm}...{tgm} It doesn't matter to me anymore!|{c:e;Trevor;NormalBlink}Even being by your side merely as your retainer will be enough, if it comes to that.
+expression;Krista;HalfCloseEyes
+speak;Krista;Trevor, stop right there.
+speak;Trevor;K-Krista?
+expression;Krista;NormalBlink
+speak;Krista;That is no way to do a proper marriage proposal.|Don't set yourself up for a rejection like that!|{c:e;Krista;Smile}Keep your head high and propose to me like you really mean it, lover boy!
+speak;Trevor;You know what? You're right!
+bop_portrait;Trevor
+expression;Trevor;CloseEyes
+speak;Trevor;Ahem!|{c:e;Trevor;NormalBlink}Krista, I've loved you for the longest time.|I've forged my own path in this life,|and I'd be overjoyed if you chose to walk this path alongside me.|So then{tgm}...{tgm} will you marry me, Krista?
+expression;Krista;CloseEyes,Smile
+speak;Krista;Now THAT'S what I call a proposal.
+speak;Trevor;Um, does that mean "yes", or{tgm}...?
+expression;Krista;NormalBlink,Smile
+speak;Krista;It sure does!

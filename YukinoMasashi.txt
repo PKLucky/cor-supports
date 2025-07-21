@@ -1,0 +1,148 @@
+C Support [REQUIRES REVISION]
+speak;Yukino;Argh, it's him.;;;thought_bubble
+expression;Masashi;Smile
+speak;Masashi;Greetings, I couldn't help but notice your beautiful long blue hair.|What conditioner do you use?
+expression;Yukino;CloseEyes
+speak;Yukino;What do I say to have him leave me alone?;;;thought_bubble
+expression;Yukino;NormalBlink
+speak;Yukino;First of all, that's none of your business--
+expression;Masashi;NoSmile
+speak;Masashi;Oh, sorry, but where'd you learn to use a sword? I noticed it's covered?
+expression;Yukino;HalfCloseEyes
+speak;Yukino;The clothes didn't give it away?
+speak;Masashi;N-No? It's just that I'd thought you'd be using a bow?
+speak;Yukino;Ah, you mean like you?
+expression;Yukino;CloseEyes
+speak;Yukino;*sigh*
+speak;Masashi;Oh shoot, sorry. I didn't mean that.
+expression;Yukino;NormalBlink
+speak;Yukino;Is that so? What were you doing in that house?
+speak;Masashi;I-I needed to t-talk to someone.
+expression;Yukino;HalfCloseEyes,Smile
+speak;Yukino;Really? Was it just that?
+speak;Masashi;I-I I'm sorry!
+mirror_portrait;Masashi
+move_portrait;Masashi;OffscreenLeft
+expression;Yukino;NormalBlink,NoSmile
+speak;Yukino;He's interesting{tgm}...{tgm}|I hope he's not as bad as he presents himself.
+unlock_support_rank;Yukino;Masashi;C
+# Original script by Blade of Light 12 #
+
+B Support
+speak;Masashi;It's taking a while to look archery resources.
+bop_portrait;Masashi
+speak;Masashi;Huh? Emi?
+move_portrait;Masashi;MidRight
+mirror_portrait;Yukino
+bop_portrait;Masashi
+move_portrait;Masashi;Right
+speak;Masashi;Oh--Uh--
+expression;Masashi;Smile
+speak;Masashi;How have you been on this wondrous day?
+expression;Yukino;HalfCloseEyes
+speak;Yukino;Ah, you again. 
+speak;Masashi;The water is as cool as your eyes.
+expression;Yukino;CloseEyes
+speak;Yukino;Ugh{tgm}...
+expression;Yukino;NormalBlink
+speak;Yukino;Do you know how to do anything else?
+expression;Masashi;NoSmile
+speak;Masashi;I was looking for a spot to do archery practice.
+expression;Yukino;HalfCloseEyes
+speak;Yukino;Sure. Of course you were.
+speak;Masashi;Look, I'm sorry.|I-I was gathering wood to be exact. Maybe some more hay too.
+expression;Yukino;CloseEyes
+speak;Yukino;Seriously, why are you like this!?
+expression;Yukino;NormalBlink
+speak;Yukino;Other than archery, can't you do anything other than annoy women?
+speak;Masashi;Wh-Wha--? I-I just{tgm}...!{tgm}|E-Emi, I didn't mean to--!
+speak;Yukino;What the hell is up with you?!|You have some other girl on your mind now too?!
+expression;Masashi;CloseEyes
+speak;Masashi;No, I'm sorry. I-I haven't s-seen her in over--
+speak;Yukino;Really. Then think, why haven't seen her?
+expression;Masashi;NormalBlink
+speak;Masashi;I-I said{tgm}...{tgm} Emi{tgm}...
+expression;Masashi;CloseEyes
+speak;Masashi;I'M SORRY!
+expression;Masashi;NormalBlink
+speak;Masashi;I-I sh-should go!
+mirror_portrait;Masashi
+bop_portrait;Yukino
+speak;Yukino;Wait, I'm not done here!
+move_portrait;Yukino;MidRight
+remove_all_portraits
+transition;close
+#change_background;YukinoMasashiB
+change_background;BlackBackground
+transition;open
+sound;magicwater06
+speak;Masashi;AH!
+speak;Yukino;A-Ah, dear Merin it's c-cold...!
+speak;Masashi;S-Sorry about this, and sorry for mistaking you for h-her.
+speak;Yukino;(His face, it might just be the cold but he was looking like this earlier.)|(Sadness and fear, feelings and faces I know all too well.)
+speak;Yukino;Let's get out before we freeze.
+speak;Masashi;O-Okay...?
+transition;close
+change_background;Plains
+transition;open
+multi_add_portrait;Yukino;Left;Masashi;Right
+expression;Yukino;HalfCloseEyes
+speak;Yukino;...;no_talk
+expression;Yukino;NormalBlink
+speak;Yukino;Look, about earlier--
+expression;Masashi;CloseEyes
+speak;Masashi;I-I'M SORRY!! 
+mirror_portrait;Masashi
+move_portrait;Masashi;OffscreenRight
+expression;Yukino;CloseEyes
+speak;Yukino;I'm going to need some answers now that |I know he's not as bad as he presents himself.
+expression;Yukino;CloseEyes,Smile
+speak;Yukino;Certainly better than how HE was.
+unlock_support_rank;Yukino;Masashi;B
+# Original script by Blade of Light 12 and PKLucky #
+
+A Support [REQUIRES REVISION]
+(Masashi is in his quarters in the middle of getting dressed, he is shirtless)
+Masashi: (Damn, what do I do? I have to apologize.  Someone's coming)
+Yukino: Oh- Sorry didn't mean to walk in on you, Anyway I'd like to apologize for the other day.
+Masashi: Greetings… Y-you have nice muscles. Your elegance on the field is unmatched.
+Yukino: Okay, thank you. You have a nice back.
+Masashi: Uh- You're charmi-
+Yukino: Alright, I have question… Why are you obsessed with women? 
+Masashi: And gra-
+Yukino: Answer the question, Stunner.
+Masashi: Wha- Alright, so my earliest memories were with my Governess, she was the person I spent the most time with before-. She was very smart and- and, What words do I used to describe her? 
+Yukino: Words you hopefully haven't used before..
+Masashi: Well, She reminded me of you- kind of. When I was 8 she gave me a kiss- On the cheek because I performed perfectly on a test. I still have an exact memory of it. 4 years later, I still kept getting kisses and it led to me confessing to her. She was shocked, but looking back.. I think it was because of something more malicious. She ran away, like she knew she did something wrong. I was very upset so I wasn't sure how to handle it. So why are you so grumpy?
+Yukino: My ex-husband, he seemed nice at first, but when we got married his Facade changed. It started with him just slapping my face. Then he would grab me, his nails digging into my skin. Not to mention how many times he’d come home drunk late at night with a bottle in his hand. And how he’d strike me with said bottle. He liked using me as a practice dummy to say the least. When I had our daughter he got even worse, when she turned four he tried to kill her, I had to protect her.
+Masashi: You ki-- Is your daughter okay? I'd be proud to have a mother like you, I bet she is.
+Yukino: Her name was Suno. She died four years ago, At eight years old. 
+Masashi: Oh, I'm sorry. I shouldn't have asked. Also, I'll make sure you won't get charged.
+Yukino: Thank you. He was always good at putting up a mask when in public. But yes I am sorry for the other day.
+Masashi: You're welcome, now can I please get dressed?
+Yukino: Sure.
+# Original script by Blade of Light 12 #
+
+S Support
+Yukino: (Oh it's Masashi, He's actually pretty charming when he's not playing façade. Hold on. I have an idea.)
+Masashi: Oh hey Yukino! How are you?
+(Yukino gets closer to Masashi, very close)
+Yukino: Doing pretty good now that you're here, Stunner.
+Masashi: Uhhh, Y-Yukino? What are you doing?
+Yukino: Just wanted to see that cute face of yours up close. That’s not a problem, is it?
+Masashi: Is th-this a- nor- please- Are you doing this to get back at me?
+Yukino: Well~ maybe a bit. But you are rather cute once you reveal your true self.
+Masashi: Then… YukinoYou'reSoCoolAndAwesome… AndIWantToTalkToYouMore.
+Yukino: You're not so bad yourself, Stud.
+Masashi: Well, th-thank you. I-
+(Yukino aggressively kisses Masashi)
+Yukino: Thank you as well. Now if you permanently stop the act then we'll be all set.
+Masashi: B-bu-
+Yukino: Forget about Emi, you can abandon that act. 
+Masashi: What I was going to say was I feel more than just a noble now.
+Yukino: “More than just a noble,” hm? Perhaps you could show me what exactly that means sometime~
+Masashi: I-I'm not sure.. -certain if we should be talking abou-about this now. Maybe- maybe…once we go back to camp.
+(CG ends)
+Masashi: So, You want to do some target practice?
+Yukino: Absolutely. But be careful. I won't be going easy on you if we duel.
+# Original script by Blade of Light 12 and PKLucky#

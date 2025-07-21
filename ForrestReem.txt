@@ -1,0 +1,28 @@
+C Support
+Reem: Sir Forrest?
+Forrest: Ah Lady Reem. Can I be of service?
+Reem: We need to talk.
+Forrest: Is something wrong? 
+Reem: Yes something is wrong. You know exactly what’s wrong Forrest we need to discuss the bull in the china shop.
+Forrest: I fail to see what could possibly be wrong Lady Reem
+Reem: Forrest…….you have changed. A lot. You have always been a serious man but ever since Prince Ervan died you have thrown yourself full into your knightly duties and ONLY your knightly duties nothing else this isn’t good for you Forrest.
+Forrest: A knight has no time or place for frivolities lady Reem
+Reem: Then what of Sir Taylor and his…….habits? What of Lady Alex and her fondness of teas and reading? There are countless knights Forrest who are both a knight and still have interests outside being a knight. You have lost part of yourself, you used to study magic.
+Forrest: Things have changed Lady Reem now if that is all?
+Reem:.....sigh….for now yes Foreest (both leave)
+# Original script by Berserker Sam #
+
+B Support(?)
+Forrest: Reem, we can’t go back to how things were before.
+Reem: And why not?! You’ve been so distant since that day. We told each other everything, and now it’s like I don’t even know who you are anymore.
+Forrest: And I believe things should stay that way.
+Reem: What?
+Forrest: Nothing can ever happen between us, Reem. It has always been that way, and we both knew that.
+Reem: But…
+Forrest: This is even more true now. It goes beyond our respective duties. It’s…
+Reem: Forrest…?
+Forrest: I’m sorry. I truly am sorry, Reem. But I cannot say any more. For both our sakes.
+
+A Support
+Reem: I've always loved your smile.
+Forrest: A-Am I smiling right now? I didn't notice.

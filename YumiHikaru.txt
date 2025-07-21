@@ -1,0 +1,42 @@
+C Support
+Yumi: (Oh it’s a priest- Wait, Maybe I could get some information.) Sup- Hello!
+Hikaru: Good Morning. What purpose have you come to see me?
+Yumi: (There’s no way this is this easy.) What’s it like being a-uh- A Worshipping of Merin- The Merin Church?
+Hikaru: I can answer that.
+Yumi: Ah, thank you.
+Hikaru: Okay, first of all Oathbreaking will not get you anywhere.
+(Some hours later)
+Hikaru: And it was called Merin. Anything else? (She’s fallen asleep.)
+Yumi: Oh- Oh, yeah that’s nice. (That was boring. Maybe I should do something else.)
+Hikaru: Are you okay? You seem like you weren’t paying attention
+Yumi: (moves around Hikaru)  Oh I’m fine, I was paying attention. If… we can talk some other time, there’s some more stuff I’d like to talk about- ButNotNow! (If I have to spend another half hour here I’m gonna go mad.)
+Hikaru: Farewell. (Sighs) (What am I going to do?)
+# Original script by Blade of Light 12 #
+
+B Support
+Hikaru: You forgot your book. 
+Villager: Thank you
+Hikaru: You’re welcome.
+Yumi: Oh hey Hiki~~ how are you? (steals the book from the villager)
+Hikaru: Eh? Give that back!
+Villager: Oh, thanks again. I didn’t know she was there.
+(Villager actually leaves)
+Yumi: So we were going to talk about something, right?
+Hikaru: Yes-
+Yumi: Good. (Moves closer) Let’s go to the pub, It’ll be fun Hiki~.
+Hikaru: I’m sorry, If I go I might-
+Yumi: (Moves his arm onto her chest) That stuff isn’t important~! (And it’s rather boring too.)
+Hikaru: I apologize the answer is still no.
+Yumi: If you do I’ll promise I’ll listen to more of your worship.
+Hikaru: Stop this. Or else I’ll have to silence you.
+Yumi: Oh~ Silence me? Well I woul-
+Villager: Just thought I’d thank again, this is the Fourth time I’d- Nevermind.
+(The Villagers appearance causes Yumi to let go of Hikaru)
+Yumi: (Damn it! I’m getting nowhere right now.) Don’t worry I’ll be going. (Yumi leaves)
+Hikaru: No, thank you. (Something has to be done about her.)
+# Original script by Blade of Light 12 #
+
+A Support
+Yumi: I’d (moves in closer) like to know what it’s like working for a noble. 
+Hikaru: Well, he’s not a foolish as he seems. I don’t know why he’s like this
+# Original script by Blade of Light 12 #

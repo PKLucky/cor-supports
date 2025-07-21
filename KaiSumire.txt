@@ -1,0 +1,31 @@
+C Support
+speak;Kai;Sumireee! Wakey-wakey!
+bop_portrait;Sumire
+speak;Sumire;Huh? Wha?|{c:e;Sumire;Smile}Oh, Kai! Mornin'.
+expression;Kai;CloseEyes,Smile
+speak;Kai;It's three in the afternoon, but who's keeping track, am I right?
+expression;Sumire;NoSmile
+speak;Sumire;It's already--? Oh, no!|I was supposed to help organize the armory today!
+expression;Kai;NormalBlink,Smile
+speak;Kai;No need to worry about it. I took over for you.
+expression;Sumire;Smile
+speak;Sumire;Really? Thanks a million, Kai.|I owe ya--
+expression;Sumire;NoSmile
+bop_portrait;Sumire
+speak;Sumire;W-Wait, I mean{tgm}...!
+expression;Kai;HalfCloseEyes,Smile
+speak;Kai;Hm~? Were you about to say "I owe you one"?
+speak;Sumire;Nope! Nuh-uh!|I didn't finish my sentence. It doesn't count!
+expression;Kai;NormalBlink,Smile
+speak;Kai;The sentiment is there. It definitely counts.
+speak;Sumire;Well, I'm still not gonna do anything you say. No, sir!
+expression;Kai;HalfCloseEyes,Smile
+speak;Kai;I dunno, Sumire. I'm not the type of guy who does things for free.
+speak;Sumire;And I'm not the type of girl who blindly follows orders.|Even if it's something a friend asked me to do.
+expression;Kai;CloseEyes,Smile
+speak;Kai;Can't deny that.{c:e;Kai;NormalBlink,Smile}With that in mind, you don't have to worry about a thing, Sumire.|I'm not gonna ask anything out of you.|{c:e;Kai;HalfCloseEyes,Smile}This time.
+speak;Sumire;"This time" he says{tgm}...
+expression;Kai;NormalBlink,Smile
+speak;Kai;Anyway, you'd better wake up on time tomorrow.|Because I won't be this generous next time.
+expression;Sumire;Smile
+speak;Sumire;Yeah, yeah.

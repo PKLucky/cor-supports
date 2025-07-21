@@ -1,0 +1,24 @@
+C Support
+speak;Sam;Oh, hi! WOW! You're hot!
+speak;Reem;Umm{tgm}...{tgm} thank you?|You really shouldn't just blurt things out like that. It's{tgm}...{tgm} improper.
+speak;Sam;Sorry. I've always admired wyvern riders, and you have a gorgeous complexion.
+speak;Reem;Thank you, but could we get away from my looks? Please?
+speak;Sam;Sure. Sorry.
+speak;Reem;It's not you, it's just{tgm}...{c:e;Reem;CloseEyes}{tgm} It's a personal matter.
+speak;Sam;Care to indulge me at all?
+expression;Reem;NormalBlink
+speak;Reem;Forrest used to compliment me when he and Princess Krista would come to visit Fuegsol.
+speak;Sam;I didn't know you and he were close. I'm sorry.|I wasn't trying to cause any rifts.
+speak;Reem;We're not. At least, not anymore.|{c:e;Reem;CloseEyes}I think?|{c:e;Reem;HalfCloseEyes}It's{tgm}...{tgm} complicated.|{c:e;Reem;NormalBlink}I'm not sure where we stand, and he's not the easiest to reason with.|But, let's change subjects.|You said you admired wyvern riders. Why?
+speak;Sam;Ballads and stories made them out to be a terror to behold,|almost like they were beyond human.|And when I see you and Prince Khalid soar across the battlefield, it's spectacular!
+expression;Reem;Smile
+speak;Reem;I could take you for a ride sometime if you like.
+expression;Sam;HalfCloseEyes
+speak;Sam;{tgm}...{tgm} I'll think about it.
+expression;Reem;NoSmile
+speak;Reem;Something wrong?
+expression;Sam;CloseEyes
+speak;Sam;Just not sure if I would like not being on the ground is all.
+expression;Reem;Smile
+speak;Reem;You'll be fine, trust me.
+# Original script by Berserker Sam #

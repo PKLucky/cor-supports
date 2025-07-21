@@ -1,0 +1,22 @@
+C Support
+speak;Joshua;'Sup, bro!
+expression;Sam;Smile
+speak;Sam;What's up, bro!
+speak;Joshua;Cool beard, brother!
+speak;Sam;Thanks, man. Yours is awesome too.
+speak;Joshua;Thanks, bro. Nice axe.
+speak;Sam;Nice sword. Do you always carry that massive thing around?
+speak;Joshua;Folks kept asking me to shave until I started carrying Old Iron around.|What about you? Do you always carry that axe around?
+speak;Sam;People would start asking me to shave if I didn't.
+expression;Joshua;Smile,CloseEyes
+speak;Joshua;Ha ha ha ha!
+expression;Sam;Smile,CloseEyes
+speak;Sam;Ha ha ha ha!
+expression;Joshua;Smile,NormalBlink
+speak;Joshua;Want to go train?
+expression;Sam;Smile,NormalBlink
+speak;Sam;Sure! What are we training today?
+speak;Joshua;Arms. Every day is arm day.
+speak;Sam;Cool! Let's go!
+(Sam and Joshua leave the scene.)
+# Original script by Berserker Sam #

@@ -1,0 +1,27 @@
+C Support
+speak;Forrest;Excellent lance work, Michael. Very impressive.
+bop_portrait;Michael
+mirror_portrait;Michael
+speak;Michael;Oh, Sir Forrest! Th-Thank you very much.|How long were you standing there for?
+expression;Forrest;NoSmile
+speak;Forrest;Not for too long. However, I can see that your technique is serviceable.|This is due to your training with Foliaga's Holy Knights, I assume?
+speak;Michael;That's right.
+speak;Forrest;It's a huge decision to become a knight in the first place.|What drove you to pursue this?
+expression;Michael;Smile
+speak;Michael;The stories, sir.|Knights always helped and protected the needy and downtrodden.|It made me want to do my part.
+expression;Forrest;Smile
+speak;Forrest;Commendable. I had no such lofty aspirations, myself.|I simply followed my father's footsteps.|{c:e;Forrest;NoSmile}Although, Michael, I must ask.|Are you prepared to die as a knight?
+expression;Michael;NoSmile
+bop_portrait;Michael
+speak;Michael;I'm sorry, sir, what?
+speak;Forrest;We are knights, Michael. We protect the realm and our liege with no hesitation.|{c:e;Forrest;CloseEyes}However, we are expendable.
+expression;Michael;HalfCloseEyes
+speak;Michael;...;no_talk
+expression;Forrest;NormalBlink
+speak;Forrest;So, I ask again.|Are you willing to die in the name of your country, Michael?
+expression;Michael;CloseEyes
+speak;Michael;I{tgm}...{tgm} I had not considered that, sir.|{c:e;Michael;NormalBlink}In the stories, the knights never died.|They slay dragons and rescue villagers with no trouble at all.
+speak;Forrest;This isn't a story Michael. Real life does not fall into such ideals.
+speak;Michael;I know, sir. It's just the prospect hadn't settled in.|I guess with comrades and other knights,|I thought I would be able to return home again.
+speak;Forrest;I advise that you put more thought into the decision you have made, Michael.|You must be sure you are prepared for the road ahead.
+# Original script by Berserker Sam #

@@ -1,0 +1,148 @@
+transition;close
+if;support_rank_nid == 'C'
+change_background;Plains
+transition;open
+music;Girl of the Plains
+add_portrait;Tsurugi;Left;;Smile;mirror;no_block
+add_portrait;Kai;OffscreenRight
+speak;Tsurugi;Let's see{tgm}...{tgm} So this pack of merchandise is going{tgm}...
+bop_portrait;Tsurugi
+speak;Tsurugi;That way!
+mirror_portrait;Tsurugi
+speak;Tsurugi;Or, wait, was that town down this road?{c:e;Tsurugi;CloseEyes} Hm{tgm}...
+move_portrait;Kai;Right
+expression;Kai;Smile
+speak;Kai;Hey, Tsurugi. Looking a little lost there.
+expression;Tsurugi;NormalBlink,Smile
+speak;Tsurugi;Oh, Mister Kai! Fancy seeing you here.|What might you be up to?
+speak;Kai;Nothing in particular, just passing through.|But looks like you need a little help there.
+expression;Tsurugi;NoSmile
+speak;Tsurugi;Uh, yes, actually.|I have this delivery to make, but I don't remember how to get to this town.
+expression;Kai;HalfCloseEyes,Smile
+speak;Kai;Well, it'll help if you hold the map right-side up.
+speak;Tsurugi;Wha?
+bop_portrait;Tsurugi
+speak;Tsurugi;O-Oh!|{c:e;Tsurugi;Smile,HalfCloseEyes}Haha{tgm}...{tgm} Whoops.
+expression;Kai;NormalBlink,Smile
+speak;Kai;So, you'd take that road, follow it for about half a mile,|turn left at the fork, and there you are.
+expression;Tsurugi;NormalBlink,Smile
+speak;Tsurugi;Thank you very much, Mister Kai.|I was never really good at reading maps or navigation in general.
+expression;Kai;NoSmile
+speak;Kai;Huh. Makes me wonder how you make those deliveries on time.
+expression;Tsurugi;HalfCloseEyes,Smile
+speak;Tsurugi;Haha, well about that{tgm}...
+expression;Kai;Smile,CloseEyes
+speak;Kai;{tgm}...{tgm} I see.|{c:e;Kai;NormalBlink,NoSmile}Maybe I should accompany you. Just to make sure you don't get lost.
+expression;Tsurugi;NormalBlink,Smile
+speak;Tsurugi;I'd really appreciate that. Thank you, Mister Kai!|You're still as kind as I remember.
+if;{v:KaiTsurugiCh18} == True
+speak;Kai;You're acting like we've met before again.|Have we, Tsurugi?
+else
+speak;Kai;Hm? What are you talking about?
+end
+expression;Tsurugi;NoSmile
+speak;Tsurugi;Oh, uh, I-I mean--Anyway, let's get going!
+mirror_portrait;Tsurugi
+move_portrait;Tsurugi;OffscreenLeft
+speak;Kai;{e:'Still no straight answer.' if {v:KaiTsurugiCh18} == True else 'Wonder what he was going on about just now?'}|{c:e;Kai;CloseEyes}Man, I'd better catch up to him, though. He might get lost again.
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;CastleInterior
+transition;open
+music;Girl of the Plains
+add_portrait;Tsurugi;Left;;Smile
+speak;Tsurugi;Let's see, we'll put this book in this pocket, then--
+expression;Tsurugi;NoSmile
+bop_portrait;Tsurugi
+speak;Tsurugi;Whoops!
+add_portrait;Kai;OffscreenRight
+move_portrait;Kai;Right
+expression;Kai;Smile
+speak;Kai;Dropped this.
+expression;Tsurugi;Smile
+speak;Tsurugi;Oh, Mister Kai, thank you!
+speak;Kai;That book looked rather interesting.|A collection of Merinese folktales, was it?
+speak;Tsurugi;Yes! There's one folktale in here that's an absolute favorite of mine.|It's commonly called "The Crane's Gift". Have you heard of it?
+expression;Kai;NoSmile,CloseEyes
+speak;Kai;Hm{tgm}...{tgm} Possibly.|{c:e;Kai;NormalBlink}Is it the one where a farmer nurses an injured crane back to health and|the crane transforms into a beautiful woman?
+speak;Tsurugi;Yup, that's it!|I know that some versions of the tale have it so that the crane gives|the farmer expensive cloth made from her feathers in exchange for his kind gesture,|but I'd say my favorite iteration is when the crane marries the farmer.|It's quite romantic.
+expression;Kai;Smile
+speak;Kai;Heh, into the sappy stuff, aren't ya, Tsurugi?
+expression;Tsurugi;NoSmile
+speak;Tsurugi;"Sappy"?!|{c:e;Tsurugi;CloseEyes}I mean, you're not wrong, I suppose.|{c:e;Tsurugi;HalfCloseEyes}But, there's more to it than that.
+speak;Kai;Oh? What, you wanna have a crane for a wife?
+expression;Tsurugi;CloseEyes
+speak;Tsurugi;Mister Kai, please stop twisting my words!|{c:e;Tsurugi;NormalBlink}And it's not that, it's more like--
+bop_portrait;Tsurugi
+speak;Tsurugi;Ah, no, I shouldn't say{tgm}...
+expression;Kai;Smile
+speak;Kai;Well, now you got me curious, Tsurugi.
+expression;Tsurugi;CloseEyes
+speak;Tsurugi;Oh no no no I shouldn't have let my mouth run like that!|Why do you have this effect on me?{c:e;Tsurugi;HalfCloseEyes}If we keep up this conversation, I might end up saying that we--
+expression;Tsurugi;CloseEyes
+speak;Tsurugi;Agh, not again!!|{c:e;Tsurugi;NormalBlink}I have to go! Sorry, Mister Kai!!
+mirror_portrait;Tsurugi
+move_portrait;Tsurugi;OffscreenLeft
+expression;Kai;NoSmile
+speak;Kai;Every time I talk to this guy, the more weird he gets, I swear{tgm}...{tgm}|{c:e;Kai;CloseEyes,Smile}Heh. Not that I'm complaining.{c:e;Kai;NormalBlink,Smile} I'd go so far as to say it's his charm point.
+
+A Support
+Tsurugi: Thanks again for coming with me for these delivery runs, Mister Kai. It’s been helping a lot!
+Kai: No problem. We just gotta keep going down this road, then– !! Tsurugi! Behind me!
+Tsurugi: Wh–
+()
+[]
+Kai: You okay, Tsurugi?
+Tsurugi: Y-Yes. Thank you, Mister Kai. If you weren’t here, I…
+Kai: Don’t even worry about it. I’m a mercenary by trade. It’s what I do.
+Tsurugi: I know, but I can defend myself. Really, I swear! I-I just… got scared.
+Kai: Hey. Don’t feel like you have to push yourself. I'm gonna be here for you, Tsurugi.
+Tsurugi: Mister Kai, thank you, but… 
+Kai: Hm?
+Tsurugi: N-Never mind. I almost let my mouth run again.
+Kai: Heh. You know, I COULD figure out what you're hiding, but I like seeing you get flustered from almost spilling the beans.
+Tsurugi: H-Huh?!
+Kai: Yeah, like that.
+Tsurugi: I… You… Mister Kai, please!
+
+A+ Support
+speak;Tsurugi;Mister Kai, about{tgm}...
+expression;Tsurugi;CloseEyes
+speak;Tsurugi;Well, I'm sure you know what I want to say.
+speak;Kai;Yeah. You being a crane shifter, and all that?
+expression;Tsurugi;HalfCloseEyes
+speak;Tsurugi;Y-Yes{tgm}...
+speak;Kai;And?
+expression;Tsurugi;NormalBlink
+bop_portrait;Tsurugi
+speak;Tsurugi;What do you mean, "and"?|Aren't you at least upset that I hid that from you?
+speak;Kai;Not particularly.|It's understandable why you wouldn't want that fact out in the open.|{c:e;Kai;Smile}If anything, it makes me curious about something.
+expression;Tsurugi;HalfCloseEyes
+speak;Tsurugi;No offense, Mister Kai, but you're always curious about something.
+expression;Kai;CloseEyes,Smile
+speak;Kai;Heh, fair enough.|{c:e;Kai;NormalBlink,NoSmile}But as I was saying, I started thinking about that one folktale. "The Crane's Gift".|Now, correct me if I'm wrong, but I assume you like it so much because|you experienced something similar to the story, didn't you?
+expression;Tsurugi;CloseEyes,Smile
+speak;Tsurugi;Right you are, Mister Kai. That's exactly it.
+expression;Kai;CloseEyes,Smile
+speak;Kai;So close to living out an actual fairy tale, aren't you, Tsurugi?
+expression;Tsurugi;HalfCloseEyes,NoSmile
+speak;Tsurugi;Oh come on, don't tease me like that{tgm}...
+expression;Kai;NormalBlink,Smile
+speak;Kai;Sorry, sorry.|But seriously, I gotta ask: who was the "farmer" who helped you?
+expression;Tsurugi;NormalBlink
+speak;Tsurugi;It{tgm}...{tgm} It was you, Mister Kai.
+expression;Kai;NoSmile
+bop_portrait;Kai
+speak;Kai;I'm sorry, what?
+speak;Tsurugi;It was a few years ago, but considering what form I was in,|I wouldn't be surprised if you didn't realize it was me.
+speak;Kai;"Your form," huh{tgm}...?{tgm}|{c:e;Kai;CloseEyes}You know, now that you mention it,|I do remember there being a crane with|a broken wing resting in the castle garden by the pond{tgm}...{tgm}|{c:e;Kai;NormalBlink}You're saying that was you this entire time?
+speak;Tsurugi;Yes. I wanted to repay you back then, but I had to hurry back home before I could.|{c:e;Tsurugi;Smile}And now, I finally get to see you again.|You're still as kind as I remember, Mister Kai.
+expression;Kai;CloseEyes,Smile
+speak;Kai;Heh, seems like every part of my past is catching up to me. Even this.{c:e;Kai;HalfCloseEyes,Smile}I guess this is what I get for running away from it.
+expression;Tsurugi;HalfCloseEyes
+speak;Tsurugi;...;no_talk
+expression;Kai;NormalBlink,Smile
+speak;Kai;Hey, I'm not saying I hated everything about my past.|I'm glad I could help you back then, Tsurugi. You seem well off now.|It's good to see you again. Really.
+expression;Tsurugi;NormalBlink
+speak;Tsurugi;Mister Kai{tgm}...{c:e;Tsurugi;CloseEyes,Smile}{tgm} Thank you.|{c:e;Tsurugi;NormalBlink,Smile}I'm only here now because of you.

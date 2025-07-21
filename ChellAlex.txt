@@ -1,0 +1,43 @@
+B Support
+speak;Chell;Mother{tgm}...{tgm} Father{tgm}...{tgm} Am I doing things right?{e:"|It's been two years and Lin is still gone. I don't know if she's safe or not." if game.get_unit('Lin').team != 'player' else ''}
+end
+speak;Chell;I've failed you both{tgm}...
+add_portrait;Alex;OffscreenRight
+move_portrait;Alex;Right
+speak;Alex;You haven't failed anyone, Chell.
+expression;Chell;NormalBlink
+bop_portrait;Chell
+mirror_portrait;Chell
+speak;Chell;Oh, it's you, Alex. You surprised me.
+speak;Alex;Are you alright?
+speak;Chell;Yes. I am.
+expression;Alex;HalfCloseEyes
+speak;Alex;Chell, you shouldn't keep it all inside.|{c:e;Alex;NormalBlink}I can't imagine what you're going through right now,|but you have to acknowledge how you feel.
+expression;Chell;HalfCloseEyes
+speak;Chell;Alex, I{tgm}...{tgm}{c:e;Chell;CloseEyes} N-No{tgm}...{tgm} No, I'm not alright!|{c:e;Chell;NormalBlink}Lin went off to Medea knows where,|Sam has been gone for eight whole years,|I lost my parents{tgm}...{tgm}|{c:e;Chell;CloseEyes}If they hadn't died, if he had been around, maybe Lin would have stayed.
+expression;Alex;CloseEyes
+speak;Alex;You can't dwell on "maybe"s and "what if"s, Chell.|{c:e;Alex;NormalBlink}Not when there is still the present moment to keep your focus on.|Here, I brought some flowers for your parents' tombstones.
+expression;Chell;HalfCloseEyes
+speak;Chell;Th-Thank you, Alex{tgm}...{tgm}|{c:e;Chell;NormalBlink}I know this is asking for a lot, but could you stay with me for a little while?|I don't want to be alone right now.
+speak;Alex;Of course.
+# Original script by Berserker Sam #
+
+A Support
+Alex: Ah, Chell. I had a feeling you would be here.
+Chell: Alex…
+
+Alex: What are you going to do Chell?
+Chell: About?
+Alex: You know what I’m talking about, he’s been in the mountains, killing bandits, taking the law into his own hands. You’re a knight. It should have been the knights to route up those bandits.
+Chell: I know
+Alex What are you going
+Chell: I don’t know!!!!........I don’t like that he left and he could have died so many times but…..
+Alex: But?
+Chell: Oh Medea forgive me. I’m GLAD he killed them Alex! Mother and father’s deaths were not unavenged! Their killers died! And I will not apologize for that.
+Alex: Chell…..you can’t blame yourself, your anger is understandable but you need to forgive yourself. Let go of your guilt, someone had to step in and take care of your sisters. Who else was going to do it? You did the best you knew how to do. Lin will return one day, she is angry at her parents’ killers. You are a lot like your mother to your credit but it is why Lin left…..at least that’s what I suspect.
+Chell: I need to return to the castle, there’s duties I need to attend to
+Alex: Of course likewise
+Chell: Alex?
+Alex: Yes Chell?
+Chell: Thank you. You’ve been my words of wisdom and a friend I could trust many times over the years.
+# Original script by Berserker Sam #

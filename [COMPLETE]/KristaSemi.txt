@@ -1,0 +1,117 @@
+C Support
+speak;Krista;Hey, Semi! How're you doing today?
+speak;Semi;...;no_talk
+speak;Krista;So, uh, wanna hang out or something?
+expression;Semi;CloseEyes
+speak;Semi;...;no_talk
+speak;Krista;We could sit around in the courtyard.|Or maybe have some quiet time in the library?
+bop_portrait;Krista
+speak;Krista;Or! We could eat at the dining hall!|I heard the cooks got some really good mutton today!
+expression;Semi;NormalBlink
+mirror_portrait;Semi
+speak;Semi;Can't you go bother someone else?!
+speak;Krista;And the boy speaks! It's a miracle!|{c:e;Krista;NoSmile}My offers still stand, by the way.
+expression;Semi;HalfCloseEyes
+speak;Semi;I'll use small words so you can understand.{c:w;100}{c:e;Semi;NormalBlink} No.
+expression;Krista;HalfCloseEyes,Smile
+speak;Krista;Technically, that was only one small word.
+expression;Semi;CloseEyes
+speak;Semi;For the love of{tgm}...{tgm}|{c:e;Semi;NormalBlink}Why the hell do you want to spend time with me so badly?
+expression;Krista;NoSmile,NormalBlink
+speak;Krista;Well, since we're working together and all,|I figured we could try to be friends?|{c:e;Krista;HalfCloseEyes}Since--let's be real--you've been hostile to me ever since we met.
+speak;Semi;Oh, so you finally notice.
+expression;Krista;NormalBlink
+speak;Krista;Look, I just wanna know why.|I haven't done anything to you.
+speak;Semi;It doesn't matter if you did anything or not.|Just leave me alone.
+mirror_portrait;Semi
+move_portrait;Semi;OffscreenLeft
+move_portrait;Krista;MidRight
+speak;Krista;Semi, wait! {tgm}{c:wait;100}...{c:e;Krista;CloseEyes}{tgm}{br}What's his problem?
+unlock_support_rank;Krista;Semi;C
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;CastleInterior
+transition;open
+music;Respite in Battle
+multi_add_portrait;Semi;Left;Krista;Right
+expression;Krista;Smile
+speak;Krista;Hi, Semi!
+speak;Semi;How many times have I told you to leave me alone?
+expression;Krista;NoSmile
+speak;Krista;I can probably count how many on both hands.
+speak;Semi;The correct answer is too many.
+expression;Krista;CloseEyes
+speak;Krista;And yet nothing has changed.|{c:e;Krista;HalfCloseEyes,Smile}Semi, my friend-not-friend, we have reached a standstill.
+expression;Semi;CloseEyes
+speak;Semi;Ugh{tgm}...{c:e;Semi;NormalBlink}{tgm} Look, if I tell you why I don't like you, will you leave me alone?
+expression;Krista;NormalBlink,NoSmile
+speak;Krista;Can't guarantee it, but I might if the reason sounds valid.
+speak;Semi;Alright. Don't expect me to pull any punches here.
+speak;Krista;Not like you ever did with me in the first place.|Go for it. I can take it.
+expression;Semi;CloseEyes
+speak;Semi;Don't say I didn't warn you.|{c:e;Semi;NormalBlink}So, I lived with my mother for most of my life here in Medeas.|We lived out in the countryside.|She was a weaver and sold the tapestries she made to keep us fed.
+speak;Krista;What about your father?
+speak;Semi;He left us before I was even born. My mother never talked about him beyond that.|{c:e;Semi;CloseEyes}My mother{tgm}...{tgm} She was all I had.
+speak;Krista;{tgm}...{tgm} What happened to her?
+expression;Semi;NormalBlink
+speak;Semi;Arrested for blasphemy.
+speak;Krista;What?
+speak;Semi;You heard me.|Thrown in the dungeons just because one of her tapestries depicted Medea wrong.|I know his body looked a little off,|but that shouldn't be something someone should be arrested for!
+speak;Krista;His body{tgm}...?
+expression;Semi;CloseEyes
+speak;Semi;It doesn't matter now.|{c:e;Semi;NormalBlink}Your family took my mother away from me for such a stupid reason!|I can never forgive any of you for this.|{c:e;Semi;CloseEyes}She was all I had and now she's gone.
+expression;Krista;HalfCloseEyes
+speak;Krista;Semi{tgm}...
+expression;Semi;NormalBlink
+speak;Semi;And that's it. Everything I loved was stripped from me.|And it's all your family's fault.|{c:e;Semi;HalfCloseEyes}There. Happy?
+speak;Krista;...;no_talk
+mirror_portrait;Semi
+move_portrait;Semi;OffscreenLeft
+expression;Krista;NormalBlink
+move_portrait;Krista;MidRight
+speak;Krista;Semi! {tgm}{c:e;Krista;HalfCloseEyes}...{tgm}|{c:e;Krista;NormalBlink}I'd better check out the dungeons.
+unlock_support_rank;Krista;Semi;B
+end
+end_skip
+if;support_rank_nid == 'A'
+change_background;CastleInterior
+transition;open
+music;Respite in Battle
+add_portrait;Krista;Right;no_block
+add_portrait;Semi;Left;mirror
+speak;Krista;Semi?
+expression;Semi;CloseEyes
+speak;Semi;...;no_talk
+speak;Krista;About your mother, I talked things over with the dungeon guards.|{c:e;Krista;Smile}Long story short, your mother's a free woman.
+expression;Semi;NormalBlink
+bop_portrait;Semi
+mirror_portrait;Semi
+speak;Semi;What?
+speak;Krista;Yup. They let her go.|I told them what you told me, and they let her go free.|{c:e;Krista;NoSmile}Unfortunately and unsurprisingly, your mother was in bad shape,|so I'm having our clerics look after her 'til she gets better.|{c:e;Krista;Smile}Once she's back on her feet, we're sending her back home.
+speak;Semi;You{tgm}...{tgm} You seriously did that?
+speak;Krista;Yeah, of course!|She shouldn't have been arrested in the first place.
+speak;Semi;Why bother going through all that trouble, though?|You did this for a complete stranger.|A complete stranger who allegedly was a criminal, no less.
+expression;Krista;NoSmile
+speak;Krista;It was the right thing to do.|And I can understand what you went through.|It's hard losing someone you love too soon.|{c:e;Krista;CloseEyes}I know the feeling too well.
+speak;Semi;...;no_talk
+expression;Krista;NormalBlink
+speak;Krista;Unlike me, you have an opportunity to see her again.|I wouldn't want to take that away from you.|{c:e;Krista;CloseEyes}I know this won't make up for the years she was gone,|but now you'll have something to go back to once this is all over.
+speak;Semi;...;no_talk
+expression;Krista;NormalBlink
+speak;Krista;Anyway, that's all I wanted to talk to you about.|See ya later.
+mirror_portrait;Krista
+move_portrait;Krista;FarRight
+move_portrait;Semi;MidLeft
+speak;Semi;Krista.
+mirror_portrait;Krista
+move_portrait;Krista;Right
+speak;Krista;H-Huh? Yeah?
+expression;Semi;Smile
+speak;Semi;{tgm}...{tgm} Thanks.
+expression;Krista;Smile
+speak;Krista;No big deal. That's what friends are for.
+expression;Semi;HalfCloseEyes,NoSmile
+speak;Semi;Don't push it.
+expression;Krista;CloseEyes,Smile
+speak;Krista;Sure, sure.

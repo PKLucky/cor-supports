@@ -1,0 +1,17 @@
+C/B(?) Support
+Hikaru: Your Highness, do you know of the Great Merin's relationship with the Great Medea?
+Krista: Other than them being siblings?
+
+A Support
+[]
+Krista: I'm only being nice because that's what I want everyone to see me as. It's what being the heir to the Medean throne means: being a peacekeeper, a leader, a moral compass. I… I know I'm none of those things. And it's only a matter of time until other people see that too.
+Hikaru: Hm… I believe I see the problem here, Your Highness. These expectations are a burden on someone who, despite having divine blood, is only human. You're a flawed individual, Your Highness, but isn't everyone?
+Krista: Hikaru…
+Hikaru: I believe that putting good out into the world is what makes a person good. The motivation behind the action doesn't matter, nor do any past actions discount your present efforts.
+Krista: But you don't know what I've done. It's not something that can be ignored.
+Hikaru: I do not know for what sins you seek repentance. But let me ask you this: if time were turned back, would you allow yourself to repeat that sin?
+Krista: No! Of course not!
+Hikaru: The Great Merin teaches us that just as the tides reshape the shoreline, each new day reshapes the man. In what way depends on the man. Your answer tells me everything I need to know, Your Highness. Do you understand?
+Krista: … Y-Yeah. I do. I'm not sure if I'm ready to accept that, though.
+Hikaru: I don't expect you to change your perspective right away. However, I hope that you do eventually. Until then, don't be afraid to seek me out for support. At risk of sounding conceited, I wouldn't mind if I were the Merin to your Medea.
+Krista: That's really kind of you, Hikaru. Thank you.

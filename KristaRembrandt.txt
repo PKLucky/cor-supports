@@ -1,0 +1,47 @@
+C Support
+speak;Rembrandt;...;no_talk
+move_portrait;Krista;Right
+speak;Krista;Hey, Rembrandt! I--{c:e;Krista;NoSmile}O-Oh.
+move_portrait;Krista;FarRight
+speak;Krista;...;no_talk
+speak;Rembrandt;...;no_talk
+expression;Rembrandt;NormalBlink
+mirror_portrait;Rembrandt
+speak;Rembrandt;You may come over, Your Highness.|I just finished.
+move_portrait;Krista;Right
+speak;Krista;Sorry about that.|I didn't realize you were performing the Fading Smoke ritual.
+speak;Rembrandt;It's alright.
+speak;Krista;Who were you paying respects to, if you don't mind me asking?
+speak;Rembrandt;Old comrades.
+speak;Krista;I see.
+speak;Rembrandt;If you would like, you may pay your respects to Prince Ervan as well.
+expression;Krista;HalfCloseEyes
+speak;Krista;I'm not sure if I{tgm}...{tgm} I mean, I just{tgm}...
+speak;Rembrandt;{tgm}...{tgm} Do you know the significance of this particular ritual, Your Highness?
+expression;Krista;NormalBlink
+speak;Krista;Hmm{tgm}...{tgm} vaguely.
+speak;Rembrandt;Each aspect of the Fading Smoke ritual represents an individual's life and death.|The bonfire itself is one's life, burning with warmth.|And the smoke that rises reflects how fleeting life is.|It rises into the air and dissipates as if it were never there.
+expression;Krista;HalfCloseEyes
+speak;Krista;Never there{tgm}...
+speak;Rembrandt;Though, there are signs that it had existed. Like the scent of wood smoke, for instance.|The bonfire itself also remains until it burns out.|Much like those who left us, there are still traces of them left behind.
+expression;Krista;NormalBlink
+speak;Krista;That's true.
+speak;Rembrandt;Even so, everything has to end eventually.|Like the bonfire, it must die out.|Eventually, you must let go.
+expression;Krista;CloseEyes
+speak;Krista;...;no_talk
+speak;Rembrandt;I will not tell you how to mourn over Prince Ervan's death, Your Highness.|However, you must remember you cannot hang onto him forever.
+expression;Krista;HalfCloseEyes
+speak;Krista;But I{tgm}...
+expression;Krista;CloseEyes
+speak;Krista;...
+
+B Support
+Krista: Quick question for you, Rembrandt. If you don't mind, of course.
+Rembrandt: Go ahead, Your Highness.
+Krista: What are Fuegan weddings like?
+Rembrandt: Why would you like to know?
+Krista: Just curious.
+Rembrandt: It has been many years since I have attended a wedding, but I do remember some general things. They usually take place during the evening. Both the bride and groom are dressed in ceremonial garb, typically adorned with the crimson feathers of a Fuegan hawk. [Insert more details here]
+Krista: Sounds nice.
+Rembrandt: Quite. Although, I'm sure tradition states that you and His Highness would have followed Medean wedding customs when the time came.
+Krista: O-Oh, uh. Yeah. Like I said, I was just curious. That's all.

@@ -1,0 +1,95 @@
+C Support
+speak;KristaShirtless;Hey, Chell!|I wasn't expecting to meet my favorite Pegasus knight here.
+expression;ChellShirtless;Smile
+speak;ChellShirtless;Heh. You say that to every knight in your service, but thank you.|I like to relax in the sauna after a good training session. 
+speak;KristaShirtless;Same here.|Your shoulders look great! I didn't realize how good they were.
+expression;ChellShirtless;CloseEyes
+speak;ChellShirtless;Please, Your Highness.|{c:e;ChellShirtless;NormalBlink}On that note, your back is looking good.|How is your swordsmanship with Kai going?
+speak;KristaShirtless;Going good! He's very quick with a blade.|Speaking of which, how's your axe training going?
+expression;ChellShirtless;Smile
+speak;ChellShirtless;It's going well. It must be where the shoulder muscles are coming from.|Anyway, if you ever want to train together, I'm at your service.|I'm sure we could learn a lot from each other. 
+speak;KristaShirtless;Sure! I'd like that.|Besides, I can see your thunder thighs in action.
+speak;ChellShirtless;Your thighs are pretty good as well, Your Highness. I'll see you next time.
+unlock_support_rank;Krista;Chell;C
+# Original script by Berserker Sam #
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;CastleInterior
+transition;open
+music;Girl of the Plains
+multi_add_portrait;Krista;Right;Chell;Left
+expression;Krista;Smile
+speak;Krista;Off to the sauna again, Chell?
+expression;Chell;Smile
+speak;Chell;Why, yes. Would you like to join me?
+speak;Krista;Yeah, I'd love to!
+remove_all_portraits
+transition;close
+change_background;Sauna
+transition;open
+multi_add_portrait;KristaShirtless;Right;ChellShirtless;Left
+speak;KristaShirtless;Man, I didn't think it'd be possible,|but I think you got even buffer since the last time we were in the sauna together.
+speak;ChellShirtless;Hm? I might be. I have been incorporating more meat into my diet.|And with all the extra training and practice spars, it's not too surprising.|{c:e;ChellShirtless;Smile}On that note, you've been getting more muscle definition as well.|Your back muscles especially.
+speak;KristaShirtless;Really?|I can't get a good look at them myself, so I'll take your word for it.
+speak;ChellShirtless;Speaking of training, still going well, I take it?
+expression;KristaShirtless;Smile
+speak;KristaShirtless;No complaints here!
+speak;ChellShirtless;That's good.|{c:e;ChellShirtless;NoSmile}You know, despite you switching teachers multiple times,|I can still see my father's influence on your technique.
+expression;KristaShirtless;NoSmile
+speak;KristaShirtless;Oh?
+speak;ChellShirtless;Your defensive maneuvers are similar to Forrest's.|And you've gotten more swift with the blade after Kai started to teach you.|However, the power you put into your swings was something my father|advised to you, wasn't it?
+expression;KristaShirtless;Smile
+speak;KristaShirtless;Sure was.|Ol' man Gibson always did say the best defense is a good offense.
+expression;ChellShirtless;CloseEyes,Smile
+speak;ChellShirtless;Yes, that sounds like something Father would say.
+expression;KristaShirtless;HalfCloseEyes,NoSmile
+speak;KristaShirtless;...;no_talk
+expression;ChellShirtless;NormalBlink,NoSmile
+speak;ChellShirtless;Your Highness?
+expression;KristaShirtless;NormalBlink
+speak;KristaShirtless;Gibson was a good man.|I still miss him, but it must be a lot tougher for you.
+speak;ChellShirtless;That is true. I miss him dearly.|But I cannot let that weigh down on me.|{c:e;ChellShirtless;CloseEyes}I won't allow it to.
+speak;KristaShirtless;Chell{tgm}...
+unlock_support_rank;Krista;Chell;B
+end
+end_skip
+if;support_rank_nid == 'A'
+change_background;CastleBackNight
+transition;open
+music;Silent Ground
+add_portrait;ChellShirtless;Left;mirror;no_block
+add_portrait;Krista;OffscreenRight
+expression;ChellShirtless;HalfCloseEyes
+speak;ChellShirtless;Father, why? Why did you have to die like that? You were so strong.|{c:e;ChellShirtless;CloseEyes}Sam tried to avenge you and he got some of them, but{tgm}...{tgm}|{c:e;ChellShirtless;NormalBlink}I will get stronger, Father. I will be strong enough to crush their skulls with my thighs.|I will stamp them into dust.
+bop_portrait;ChellShirtless
+speak;ChellShirtless;Hya! Hrah! Hoo-ah! I will kill them all!!
+move_portrait;Krista;Right
+speak;Krista;Chell? Was that you just now?
+speak;ChellShirtless;What?
+mirror_portrait;ChellShirtless
+speak;ChellShirtless;Oh, it's you, Your Highness. Pardon me. Let me get my shirt on.
+speak;Krista;There's no need. It's just us, and none of the men are around.|What are you doing training so late?|{c:e;Krista;HalfCloseEyes}And all that yelling earlier{tgm}...{tgm} I caught some of it, but{tgm}...
+expression;ChellShirtless;CloseEyes
+speak;ChellShirtless;I had a nightmare about that day and I couldn't go back to sleep.|{c:e;ChellShirtless;NormalBlink}Sometimes when I'm too angry or restless, I come here and train.|Really train. Holding nothing back.|But I get really sweaty and build up quite the heat,|so I only do training like this at night.
+expression;Krista;CloseEyes
+speak;Krista;You want those bandits killed, don't you?|{c:e;Krista;NormalBlink}It's not about justice. You want them dead and rotting somewhere, right?
+expression;ChellShirtless;CloseEyes
+speak;ChellShirtless;{tgm}...{tgm} Yes.|{c:e;ChellShirtless;HalfCloseEyes}I'm sad to say, but it's true.
+expression;Krista;NormalBlink
+speak;Krista;So, you getting as strong as you have, there's a drive behind it.
+expression;ChellShirtless;NormalBlink
+speak;ChellShirtless;Exactly.
+expression;Krista;CloseEyes
+speak;Krista;What I should do is reprimand you.|Tell you vengeance isn't the answer, blah, blah, blah.|{c:e;Krista;NormalBlink}I'm not gonna do that.
+speak;ChellShirtless;Why?
+expression;Krista;HalfCloseEyes
+speak;Krista;Because I understand.|How sometimes anger boils up inside you and you gotta let it out somehow.|{c:e;Krista;CloseEyes}It's hard to keep that sort of thing down. Especially when it's that intense.
+speak;ChellShirtless;Your Highness{tgm}...{e:"" if {v:TruthPlot} == True else "?"}
+expression;Krista;NormalBlink
+speak;Krista;All I ask is that you rethink your reasons for going after them.|Getting rid of evil-doers is good on paper,|but you gotta think about the motivation behind the act, too.|{c:e;Krista;HalfCloseEyes}I just don't want to let you lose yourself to your anger, Chell.|You might end up doing something you regret.
+speak;ChellShirtless;I{tgm}...{tgm} I understand, Your Highness.
+expression;Krista;NormalBlink
+speak;Krista;You don't have to come to any conclusions right away.|But when you feel like you're ready,|I'll be there to back you up no matter what you end up deciding to do.
+speak;ChellShirtless;Your Highness{tgm}...{tgm} Thank you.|I'll keep honing my strength until then.|{c:e;ChellShirtless;CloseEyes}One day, I will bring peace to my parents with no regrets.{c:e;ChellShirtless;NormalBlink}{c:wait;100} I swear it.
+# A Support Original script by Berserker Sam #

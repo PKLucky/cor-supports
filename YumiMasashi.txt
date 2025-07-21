@@ -1,0 +1,59 @@
+C Support:
+Yumi: The blade curves just right on this knife, but the hilt on this one’s way more sturdy. Hmm…
+Masashi: Oh, what dazzling loveliness has assaulted my visage?
+Yumi: And the perfect test subject for these beauties makes himself available. 
+Masashi: What is your name, my maiden?
+Yumi: It’s Yumi.
+Masashi: Yumi, the tallest and most elegant and graceful of bows. And I, dear maiden, am an expert on all things archery, for I–
+Yumi: Hold up, bucko! Did you just call me a “maiden”? As in a young girl?
+Masashi: Er, yes? Have I offended you… lass?
+Yumi: “Lass”!? Oh, we are WAY past the offending part, dog. Do I LOOK like a little girl to you? Do I?!
+Masashi: W-Well you are of a youthful appearance. Wait, why did you just pick up that knife? It’s a dangerous item for one so–
+Yumi: Come with me, you. We are having a lesson.
+Masashi: Wah! (how did this happen? I just thought I could have a nice talk with an elegant-looking girl someone who looks like she will grow to be an esteemed young lady)
+# Original script by Berserker Sam #
+
+B Support:
+Masashi: Where are you taking me, lass? If I’ve offended you in some way I–
+Yumi: Oh, we are WAY past offending me mister! Okay, this place is secluded enough. Do I seriously look like a young girl to you? Choose your next words carefully.
+Masashi: Well, you are very attractive and of a most elegant poise.
+Yumi: That is not the question. Do I look like a young girl to you?
+Masashi: … Yes?
+Yumi Okay, you asked for it. You have gone way too far now.
+Masashi: what is she doing? Madam, stop! At least warn me before undressing. I’ll just give you some privacy–
+Yumi: STOP! You stay right where you are and keep your eyes on me. I was hoping it wouldn’t come to this but for a blockhead like you, you are very dense.
+Masashi: Oh Merin, she’s taking her entire dress off! Oh my, why is she so… heavy chested?? Why are they so round and bouncy?! Oh, this woman is so crass!
+Yumi: Do THESE look like something a little girl would have?
+Masashi: Uhhh… N-No, not at all!
+Yumi: Does THIS look like something a child would have?
+Masashi: N-No! Oh Merin, why is she so curve heavy? Why is her…….so round?
+Yumi: I believe I’ve made my point. Now, I expect you to treat me with respect from here on out.
+Masashi: Of course, m-my deepest apologies, madam. Any slight was unintended. I’ll just be going now. (Tries to run but Yumi grabs him)
+Yumi: Now don’t you think that would be a shame and a waste of time? We’re alone in here. If I were to take your tunic off, we could have some fun~
+Masashi: (Why is it always the crass ones?) Ah- Nnn… Why, that’s a very kind offer, madam.
+Yumi: I’ll take that as a “yes”. Come closer, Masashi. (Turns him around as he tries to run again)
+Masashi: O-of course, dear Yumi.
+Yumi: Call me “Mistress Yumi.”
+Masashi: Y-yes, Mistress Yumi.
+Yumi: I could get used to this. Wonder what this oaf knows.
+# Original script by Berserker Sam #
+
+A Support
+(This is Blade and One thing I'm a bit stuck on is trying to describe Yumi moving around Masashi like a predator watching its prey)
+(Masashi wakes up naked after something happened)
+Masashi: Oh no, what have I gotten myself into? I-I should go.
+(Yumi gets her bra on and Grabs him hardly causing him to shake)
+Yumi: We're not done yet! There's some stuff I need to ask. (Damn his chest is pretty big. And his back too. He looks rather young himself, despite his hypocrisy I'd love to have more fun with him.)
+Masashi: W-what is on your mind? M-Mistress Yumi? (Moves back)
+Yumi: Well, when's your birthday? Let's Settle Who the child is. (She moves closer and grips him again but even harder.) I gave you something, it seems only fair~. And no, as much as you have a lovely chest that isn't enough.
+Masashi: M-my birthday is on… (Moves away again, anxiously breathing) It’s in the Sixth Month. Em- Mistress Yumi.
+Yumi: Go on. (Moves closer) Tell your Mistress more and we'll have some more fun~! (Notices Masashi trying to grab his clothes and picks them up with one hand and holds his face in the other.) Come on! You can do it!
+Masashi: I am 20 years old (breaths) Mistress Yumi.
+Yumi: (This Oaf is so cute, I could listen to him call me that all day and all night.) My Birthday is in the first month. That makes you, younger than me youngster.
+Masashi: I-I am- Sorry Mistress E- Yumi.
+Yumi: Good, now on your knees.
+Masashi: (Gets on knees represented by the flinch animation.) I-I understand Mistress Yumi.
+Yumi: Good boy~. Now just a kiss or a few and we can have fun again.
+Masashi: (No! No! No! Not her! NOT HER!)  (Grabs his clothes) I-I I can't stay, IHaveToGo! I'mSorry! (Masashi runs far away)
+Yumi: I might have went too far, but still. I'd like to do this again.
+# Original script by Blade of Light 12 #

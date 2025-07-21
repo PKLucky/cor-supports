@@ -1,0 +1,142 @@
+C Support
+speak;Ecco;Alright, I've gone through the numbers.|With Her Highness oh, so kindly providing rations, weapons, and all other essentials,|we've got an average of 5,000 gold to set aside for whatever.
+expression;Anil;Smile
+speak;Anil;[Not bad at all.]|[It's been a long time since we've had this big of a budget to work with.]
+speak;Ecco;Yup! You know what that means?
+expression;Anil;NoSmile
+speak;Anil;[Saving up for a rainy day for once?]
+speak;Ecco;Nope! We're gonna treat ourselves today, Anil!|We absolutely deserve it after all our hard work.
+expression;Anil;HalfCloseEyes
+speak;Anil;[Why am I not surprised?]
+expression;Ecco;CloseEyes,Smile
+speak;Ecco;Come on. Live a little!{c:e;Ecco;NormalBlink,Smile} You've been so focused on getting jobs done.|{c:e;Ecco;HalfCloseEyes,Smile}You're gonna die from stress before you're forty.
+expression;Anil;CloseEyes
+speak;Anil;[I don't think that's how that works.]
+expression;Ecco;CloseEyes,Smile
+speak;Ecco;Trust me.|If you don't let yourself indulge in the good things in life,|you're gonna end up regretting it later.|{c:e;Ecco;Smile,NormalBlink}Speaking of indulging,|there's this bakery in town that looked like it had the most delicious pies and tarts.|And you're gonna try them with me whether you want to or not!
+expression;Anil;NormalBlink
+speak;Anil;[Fine, fine. Let's go.]
+unlock_support_rank;Ecco;Anil;C
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;CastleInterior
+transition;open
+music;Guildmaster Wigglytuff
+multi_add_portrait;Ecco;Left;Anil;Right
+expression;Ecco;Smile
+speak;Ecco;Anil! We got paid today, and you know what that means!
+speak;Anil;[Another day to splurge, I'm guessing?]
+speak;Ecco;You know it! Lemme just get my coin pouch then we can--
+expression;Ecco;NoSmile
+bop_portrait;Ecco
+speak;Ecco;H-Huh?
+speak;Anil;[What's wrong?]
+speak;Ecco;No, no, no, no. You can't be serious{tgm}...!{tgm}|My pack's got a hole in it, and my coin pouch isn't in it. And--
+speak;Anil;[Calm down. We'll just retrace our steps.]|[I'm sure we can find it.]
+speak;Ecco;R-Right.
+remove_all_portraits
+transition;close
+change_background;CastleBack
+transition;open
+multi_add_portrait;Ecco;Left;Anil;Right
+expression;Ecco;Smile
+speak;Ecco;Found it! Man, that's a relief.
+speak;Anil;[Good. Ready to go on your shopping spree, then?]
+expression;Ecco;NoSmile,HalfCloseEyes
+speak;Ecco;Erm{tgm}...
+speak;Anil;[Something wrong?]
+expression;Ecco;NormalBlink
+speak;Ecco;Um, n-no, I{tgm}...{tgm}|I just remembered I got other stuff to do today! Gotta go!
+move_portrait;Ecco;OffscreenRight
+bop_portrait;Anil
+mirror_portrait;Anil
+speak;Anil;??
+transition;close
+change_background;OutsideFort
+transition;open
+add_portrait;Ecco;Left
+music;Silent Ground
+speak;Ecco;Come on, come on{tgm}...{tgm} My Tiger Amulet has to be here somewhere{tgm}...{tgm}|{c:e;Ecco;CloseEyes}It can't be lost. It just can't{tgm}...!{tgm}|{c:e;Ecco;HalfCloseEyes}Maybe I should just{tgm}...{tgm} leave it be?
+unlock_support_rank;Ecco;Anil;B
+end
+end_skip
+if;support_rank_nid == 'A'
+change_background;CastleInterior
+transition;open
+music;Respite in Battle
+multi_add_portrait;Ecco;Left;Anil;Right
+speak;Anil;[Hey, Ecco. This is yours, right?]
+expression;Ecco;Smile
+speak;Ecco;My Tiger Amulet! Anil, thank you, thank you, thank you!|Where did you find this?
+speak;Anil;[Turns out it fell out of your pack while we were at the bakery the other day.]
+expression;Ecco;NoSmile
+speak;Ecco;The bakery? Man, I knew I should have checked there first.|But what were you doing there in the first place?
+speak;Anil;[You seemed anxious lately, so I wanted to get you something to cheer you up.]|[The baker recognized me, so she asked me to give the amulet back to you.]
+expression;Ecco;Smile
+speak;Ecco;Thanks again, Anil. This is a huge load off my mind.
+speak;Anil;[Well, you seem in good spirits now,]|[so I'll be taking this slice of cherry pie the baker gave me.]
+expression;Ecco;NoSmile
+speak;Ecco;You got cherry pie?! Let me have a bite!
+speak;Anil;[Nah, this is all for me.]|{c:e;Anil;HalfCloseEyes,Smile}[Besides, aren't you the one who said I should indulge myself?]
+expression;Ecco;CloseEyes
+speak;Ecco;Ugh, fine. Whatever.
+expression;Anil;NormalBlink,NoSmile
+speak;Anil;[Here, I'll let you have a bite if you tell me something.]
+expression;Ecco;NormalBlink
+speak;Ecco;What is it?
+speak;Anil;[Why weren't you honest about losing your Tiger Amulet from the start?]|[You know I would've helped you look for it.]
+expression;Ecco;HalfCloseEyes
+speak;Ecco;I know, but I didn't really know if I wanted to find it again or not.
+speak;Anil;?
+expression;Ecco;NormalBlink
+speak;Ecco;That amulet was given to me by the bishops back when I was a monk.|I'm not a devout follower of Oreg anymore,|so what was the point of keeping it around, right?
+speak;Anil;[Right?]
+expression;Ecco;CloseEyes
+speak;Ecco;But at the same time, it reminds me of all the friends I made back at the temple,|so it's still important to me.|{c:e;Ecco;HalfCloseEyes}I don't really know what to do with it{tgm}...
+speak;Anil;[Judging by your reaction when I returned it to you, I think the answer's pretty obvious.]
+expression;Ecco;NormalBlink
+speak;Ecco;Yeah, you're right. I'll have to keep it somewhere safer from now on.
+expression;Anil;Smile
+speak;Anil;[Good. For your honesty, here's your reward.]
+bop_portrait;Ecco
+speak;Ecco;Lemon tart?! You had this on you the entire time?
+expression;Anil;NoSmile
+speak;Anil;[Yeah. The baker gave me both.]|{c:e;Anil;Smile}[Just thought I'd mess with you a bit.]
+expression;Ecco;CloseEyes
+speak;Ecco;Ugh, you're the worst.|{c:e;Ecco;NormalBlink,Smile}But{tgm}...{tgm} thanks, Anil. Really.
+speak;Anil;[Of course.]
+unlock_support_rank;Ecco;Anil;A
+end
+end_skip
+if;support_rank_nid == 'S'
+change_background;CastleInterior
+transition;open
+music;Lyn's Desire
+multi_add_portrait;Ecco;Left;Anil;Right
+speak;Anil;[Here, I got you something.]
+speak;Ecco;Whoa, TWO lemon tarts? What's the occasion?
+expression;Anil;Smile
+speak;Anil;[We had some money saved up. I figured it could fit into the budget.]
+expression;Ecco;HalfCloseEyes,Smile
+speak;Ecco;Finally listening to my advice, huh?
+expression;Anil;CloseEyes,Smile
+speak;Anil;[Believe what you want to believe.]|{c:e;Anil;NormalBlink,NoSmile}[And that's not the only thing I got for you.]
+expression;Ecco;NormalBlink,NoSmile
+speak;Ecco;Oh? A ring?
+expression;Anil;Smile
+speak;Anil;...
+speak;Ecco;What are you looking at me like that for?
+bop_portrait;Ecco
+speak;Ecco;Wait a minute. Are you{tgm}...{tgm}|Oh, Oreg, are you serious?!
+speak;Anil;*nods*
+speak;Ecco;A-Anil, you can't just{tgm}...!
+expression;Anil;NoSmile
+speak;Anil;[Is that a "no"?]
+speak;Ecco;No, not at all! This was just really sudden.|{c:e;Ecco;HalfCloseEyes}I never expected you'd actually do this like{tgm}...{tgm} ever.
+speak;Anil;[Ecco, you're the one person I can see myself spending the rest of my life with.]|[I don't want to force you into anything, but with how long we've worked together...]|{c:e;Anil;Smile}[Well, you haven't left yet.]
+expression;Ecco;NormalBlink
+speak;Ecco;Why would I? You're important to me, y'know?
+expression;Anil;CloseEyes,Smile
+speak;Anil;[Still haven't gotten a proper "yes" yet.]
+speak;Ecco;Oh, just give me a second, alright?|{c:e;Ecco;CloseEyes}Ahem.|{c:e;Ecco;NormalBlink,Smile}Yes. I will marry you, Anil.

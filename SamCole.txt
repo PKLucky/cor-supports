@@ -1,0 +1,33 @@
+C Support
+speak;Cole;Let's see{tgm}...{tgm} Uh-huh{tgm}...{tgm} So that's how that works{tgm}...
+move_portrait;Sam;Right
+speak;Sam;Hey! You there! Kid!
+expression;Cole;NormalBlink
+bop_portrait;Cole
+mirror_portrait;Cole
+speak;Cole;Huh? What? Uh, yes{tgm}...?{tgm} May I help you?
+speak;Sam;What do you think you're doing?
+speak;Cole;Uh{tgm}...{tgm} Studying magic?
+expression;Sam;CloseEyes
+speak;Sam;See, that's your FIRST problem.|{c:e;Sam;NormalBlink}Magic is absolutely useless out there on the battlefield.
+speak;Cole;Huh? What are you talking about?|I've seen the mages in this army make great contributions in combat.
+speak;Sam;A REAL man goes out there and takes on his enemies head-on!|Only cowards use stinkin' MAGIC to fight their battles.
+speak;Cole;Mister Parker isn't a coward. He's one of the bravest people I know.
+expression;Sam;CloseEyes
+speak;Sam;Pfft-- Sure.|{c:e;Sam;NormalBlink}Look, kid, you need a new perspective on what it means to be a REAL man.|{c:e;Sam;Smile}And I can show you!
+expression;Cole;HalfCloseEyes
+speak;Cole;What.
+speak;Sam;To the training yard! I'm teaching you how to swing an axe!
+expression;Cole;NormalBlink
+speak;Cole;Huh? Wha--
+move_portrait;Sam;FarLeft
+mirror_portrait;Sam
+move_portrait;Cole;OffscreenRight;no_block
+move_portrait;Sam;OffscreenRight
+speak;Cole;WAIT!
+
+B Support
+Sam: Come on, Cole! Put your back into it!
+Cole: M-Mister Sam, I-I… I don’t think… I can take anymore… My arms feel like they’re gonna fall off…!
+Sam: That's why you gotta lift with the LEGS. I keep telling you this!
+Cole: Urghhhhhh...

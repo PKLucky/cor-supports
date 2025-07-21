@@ -1,0 +1,279 @@
+C Support
+speak;Taiga;Yo! Xiang! Mind helping me with something?|It's something only you can do.
+speak;Xiang;I suppose. For what do you need my assistance?
+speak;Taiga;There's no time to explain, just follow me!
+mirror_portrait;Taiga
+move_portrait;Taiga;OffscreenRight
+bop_portrait;Xiang
+speak;Xiang;Ah, wait!
+move_portrait;Xiang;OffscreenRight
+transition;close
+change_background;Fireplace
+transition;open
+multi_add_portrait;Xiang;FarLeft;Taiga;MidLeft;Man1;MidRight;Man2;FarRight
+expression;Taiga;Smile
+speak;Taiga;Hey guys! I'm back!
+speak;Man1;Oh, Taiga. Here to lose all your gold again?
+speak;Taiga;Not this time! I got a lucky charm on me.|Right, Xiang?
+speak;Xiang;Are you referring to me?
+speak;Man2;Not like it's gonna make a difference.|Here, let's deal you in.
+expression;Taiga;NoSmile
+bop_portrait;Taiga
+mirror_portrait;Taiga
+speak;Taiga;<brown>Aw, dammit. This hand's total garbage.|Xiang, what should I do?</>
+speak;Xiang;<brown>Pardon?</>
+speak;Taiga;<brown>You can see what the next cards are in the deck, right?|So, what should I keep?</>
+expression;Xiang;HalfCloseEyes
+speak;Xiang;<brown>This is the reason for bringing me here?</>
+bop_portrait;Man1
+speak;Man1;Hey, what are you two whispering about?!|Get on with it, Taiga.
+expression;Xiang;NormalBlink
+mirror_portrait;Taiga
+speak;Taiga;Alright, alright! Don't rush me, old man!
+remove_all_portraits
+transition;close
+change_background;BlackBackground
+transition;open
+speak;;A few rounds later...;StyleNid=hint;NumLines=1;no_sound
+transition;close
+change_background;Fireplace
+transition;open
+multi_add_portrait;Xiang;FarLeft;Taiga;MidLeft;Man1;MidRight;Man2;FarRight
+expression;Man2;CloseEyes,Smile
+speak;Man2;Well, Taiga, looks like you're completely broke. Again.
+expression;Taiga;CloseEyes
+speak;Taiga;Oh, shut it.
+mirror_portrait;Taiga
+speak;Taiga;Come on, Xiang. Let's get out of here.
+speak;Xiang;Alright.
+remove_all_portraits
+transition;close
+change_background;Town
+transition;open
+multi_add_portrait;Taiga;Right;Xiang;Left
+expression;Taiga;CloseEyes
+speak;Taiga;Argh, that was a disaster!|You didn't help me at all!
+speak;Xiang;How am I supposed to help you when I had no idea what was going on?
+expression;Taiga;NormalBlink
+speak;Taiga;Wait, you don't know how to play poker?
+speak;Xiang;No?
+speak;Taiga;What?!{c:e;Taiga;CloseEyes} Aw, Merin, so THAT was the problem!|{c:e;Taiga;HalfCloseEyes}Guess I probably should have asked first.
+speak;Xiang;That would have been a wise decision, yes.
+expression;Taiga;NormalBlink
+speak;Taiga;Alright, alright. I'm gonna teach you poker.|{c:e;Taiga;Smile}And next time, we'll show those geezers what we're made of!
+speak;Xiang;Okay?
+unlock_support_rank;Xiang;Taiga;C
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;House2
+transition;open
+music;Guildmaster Wigglytuff
+multi_add_portrait;Xiang;Left;Taiga;Right
+speak;Taiga;Alright, let's review.|Name off each hand, highest to lowest!
+speak;Xiang;Royal Flush, Straight Flush,{br}Four of a Kind, Full House,|Flush, Straight, Three of a Kind, Two Pair, Pair, High Card.
+speak;Taiga;Now the suits, highest to lowest.
+speak;Xiang;Spades, Hearts, Diamonds, Clubs.
+speak;Taiga;And the highest ranked cards are?
+speak;Xiang;Aces.
+expression;Taiga;Smile
+speak;Taiga;Aw yeah, we're definitely ready now!|To the gambling hall!
+transition;close
+change_background;Fireplace
+transition;open
+multi_add_portrait;Xiang;FarLeft;Taiga;MidLeft;Man1;MidRight;Man2;FarRight
+expression;Taiga;Smile
+speak;Taiga;Guess who's back?
+speak;Man1;So, Taiga's back with her "lucky charm," huh?
+speak;Taiga;She's super lucky now! We're gonna win big today!
+speak;Man2;We'll see about that.
+mirror_portrait;Taiga
+speak;Taiga;<brown>So, what do you think?</>
+speak;Xiang;<brown>Discarding two of your cards has a high chance of winning this round.</>
+speak;Taiga;<brown>Okay, but which ones should I lose?</>
+speak;Xiang;<brown>I don't know.</>
+bop_portrait;Taiga
+speak;Taiga;<brown>What do ya mean you don't know?!</>
+speak;Man1;Ha! Your lucky charm having trouble there, Taiga?
+mirror_portrait;Taiga
+speak;Taiga;Shut your trap! Just give me a sec here, alright?!
+remove_all_portraits
+transition;close
+change_background;BlackBackground
+transition;open
+multi_add_portrait;Xiang;FarLeft;Taiga;MidLeft;Man1;MidRight;Man2;FarRight
+expression;Man2;Smile
+speak;Man2;So this is what you call "winning big," Taiga?
+expression;Taiga;HalfCloseEyes
+speak;Taiga;You all can screw off.|{c:e;Taiga;NormalBlink}Let's go, Xiang.
+remove_all_portraits
+transition;close
+change_background;Town
+transition;open
+multi_add_portrait;Taiga;Right;Xiang;Left
+speak;Taiga;What the hell was that?!|That was even worse than last time!|I thought you could see the future.
+speak;Xiang;I can see the future, but not its exact outcomes.|I can only see where the paths lead.
+speak;Taiga;You could have told me that earlier.
+speak;Xiang;You never asked.
+expression;Taiga;HalfCloseEyes
+speak;Taiga;{tgm}...{tgm} Okay.|{c:e;Taiga;NormalBlink}I know we can actually win next time.|We just gotta figure out what your powers are trying telling us.|{c:e;Taiga;Smile}So, once we figure out a system, we'll win for sure!
+speak;Xiang;Alright.
+if;{v:XiangTaigaB} != True
+sound;Item
+alert;Xiang gained 1 SKL!
+change_stats;Xiang;SKL,1
+game_var;XiangTaigaB;True
+end
+unlock_support_rank;Xiang;Taiga;B
+end
+end_skip
+if;support_rank_nid == 'A'
+change_background;House2
+transition;open
+music;Guildmaster Wigglytuff
+multi_add_portrait;Xiang;Left;Taiga;Right
+speak;Taiga;Okay, so, what about this hand?
+speak;Xiang;Discard three cards.
+speak;Taiga;If it's three cards, then maybe it's a Full House?|I've already got a pair of threes here. Let's see{tgm}...
+bop_portrait;Taiga
+expression;Taiga;Smile
+speak;Taiga;Hey, a Four of a Kind! Even better!|{c:e;Taiga;NoSmile}Okay, Xiang, I think we got it down this time.|We'll really show 'em what we've got now!
+remove_all_portraits
+transition;close
+change_background;Fireplace
+transition;open
+multi_add_portrait;Xiang;FarLeft;Taiga;MidLeft;Man1;MidRight;Man2;FarRight
+expression;Taiga;Smile
+speak;Taiga;Yo!
+speak;Man1;Ready to empty your coin pouch?
+speak;Taiga;Not this time, old man! Third time's the charm.
+speak;Man2;I'm all for some easy gold. Let's deal you in, Taiga.
+mirror_portrait;Taiga
+speak;Taiga;<brown>So?</>
+speak;Xiang;<brown>Discard two cards.</>
+expression;Taiga;CloseEyes
+speak;Taiga;If it's two cards, then it's probably a Straight.|We've got a five, six, and seven here already.|A bit weak, but it's our best option here.;StyleNid=thought_bubble
+mirror_portrait;Taiga
+speak;Taiga;Gonna discard these two.
+speak;Man2;Alright. Here are your new cards.
+expression;Taiga;HalfCloseEyes
+speak;Taiga;Straight with a High Card of nine. Not bad.;StyleNid=thought_bubble
+speak;Man1;Discarding three.
+speak;Man2;Okay. Time to show your hands.
+expression;Taiga;NormalBlink
+speak;Taiga;Straight.
+speak;Man1;Argh{tgm}...{tgm} Two Pair.
+speak;Man2;Pair of queens.
+bop_portrait;Taiga
+expression;Taiga;Smile
+speak;Taiga;Hell yeah! Suck on that!
+speak;Man1;Oh, pipe down. You won one hand. So what?
+speak;Taiga;I'm tellin' ya, my lucky charm's the best.|Right, Xiang?
+speak;Xiang;Mmhm.
+speak;Man2;Alright, alright. Place your antes, you two.
+remove_all_portraits
+transition;close
+change_background;BlackBackground
+transition;open
+speak;;A few rounds later...;StyleNid=hint;NumLines=1;no_sound
+transition;close
+change_background;Fireplace
+transition;open
+multi_add_portrait;Xiang;FarLeft;Taiga;MidLeft;Man1;MidRight;Man2;FarRight
+expression;Taiga;CloseEyes,Smile
+speak;Taiga;And that brings me up to 10,000 gold.
+speak;Man1;I can't believe this!
+speak;Man2;You have to be cheating!
+expression;Taiga;NormalBlink,Smile
+speak;Taiga;Nope, not in the slightest.|No cards up our sleeves, no mirrors, no nothing.|Just me and my lucky charm.
+expression;Xiang;Smile
+speak;Xiang;It's the truth.
+speak;Man1;Grr{tgm}...
+speak;Taiga;Anyway, good game, boys.|Me and Xiang are gonna head home. 'Til next time!
+remove_all_portraits
+transition;close
+change_background;Town
+transition;open
+multi_add_portrait;Taiga;Right;Xiang;Left
+expression;Taiga;Smile
+speak;Taiga;We did it, Xiang! All our hard work finally paid off.|So, how do you wanna celebrate?
+speak;Xiang;Why are you asking me?
+speak;Taiga;Don't be so modest!|If it weren't for your powers, we wouldn't be rolling in gold right now.
+speak;Xiang;That is not completely true.|You were the one who chose what cards to keep per round.|Your knowledge of poker helped too.
+expression;Taiga;NoSmile
+speak;Taiga;Y'know, you have a point.|Still, I've been asking a lot outta you this entire time.|I think you should take the helm on this one.
+expression;Xiang;Smile
+speak;Xiang;In that case, could we play poker together? No stakes, just for fun.
+expression;Taiga;Smile
+speak;Taiga;Ha! You really liked all that, huh?|{c:e;Taiga;NoSmile}But that's unfair, don't you think?|You're the one who can see the future here.
+expression;Xiang;NoSmile
+speak;Xiang;As I have said before, I cannot see the exact outcomes.|You have more practical experience with the game,|so you can logically figure out what could be a better hand.|I would say we are evenly matched.
+expression;Taiga;CloseEyes
+speak;Taiga;Hm{tgm}...{tgm} Never thought about it that way.
+expression;Taiga;NormalBlink,Smile
+bop_portrait;Taiga
+speak;Taiga;Alright, that settles it! You're on, Xiang!
+if;{v:XiangTaigaA} != True
+sound;Item
+alert;Both participants gained 1 SKL!
+change_stats;Xiang;SKL,1
+change_stats;Taiga;SKL,1
+game_var;XiangTaigaA;True
+end
+unlock_support_rank;Xiang;Taiga;A
+end
+end_skip
+if;support_rank_nid == 'S'
+change_background;House2
+transition;open
+music;Lyn's Desire
+multi_add_portrait;Xiang;Left;Taiga;Right
+expression;Taiga;Smile
+speak;Taiga;Hey, Xiang! Up for another game of poker?
+expression;Xiang;Smile
+speak;Xiang;I always am, Taiga.
+speak;Taiga;Awesome! And let's make this one a real high-stakes game.
+expression;Xiang;NoSmile
+speak;Xiang;Er, what does that entail exactly?
+speak;Taiga;If I win, then you gotta marry me. If you win, I gotta marry you!
+expression;Xiang;HalfCloseEyes
+speak;Xiang;{tgm}...{tgm} Wait. Doesn't that mean--
+bop_portrait;Taiga
+speak;Taiga;Don't think about it too hard!|Come on, I'll get the deck shuffled then we can start. Best three hands out of five.
+expression;Xiang;CloseEyes
+speak;Xiang;*sigh* Alright, alright.
+remove_all_portraits
+transition;close
+change_background;BlackBackground
+transition;open
+speak;;A few games of poker later...;StyleNid=hint;NumLines=2;no_sound
+transition;close
+change_background;House2
+transition;open
+multi_add_portrait;Xiang;Left;Taiga;Right
+expression;Taiga;CloseEyes
+speak;Taiga;And that's another loss for me.|{c:e;Taiga;NormalBlink}Looks like you win my hand in marriage, Xiang.
+expression;Xiang;Smile
+speak;Xiang;Well-played, Taiga.
+expression;Taiga;Smile
+speak;Taiga;Wanna know the best part? I got a ring ready right here!|So you don't have to worry about getting one yourself.
+expression;Xiang;NoSmile
+speak;Xiang;So, you were planning on winning?
+expression;Taiga;NoSmile
+speak;Taiga;That was the idea, yeah. But since you won, you gotta do it.
+speak;Xiang;You sound so disappointed.
+expression;Taiga;CloseEyes
+speak;Taiga;Of course I am!|{c:e;Taiga;HalfCloseEyes}I gotta be the one married to you, not the other way around{tgm}...
+expression;Xiang;HalfCloseEyes
+speak;Xiang;{tgm}...{tgm} Taiga.
+expression;Taiga;NormalBlink
+speak;Taiga;Yeah?
+speak;Xiang;Could you please repeat the stakes of the game for me one more time?
+speak;Taiga;If I win, you marry me, and if you win, I marry you.
+expression;Xiang;CloseEyes
+speak;Xiang;Now, just{tgm}...{tgm} Think about what you just said.
+expression;Xiang;NormalBlink
+expression;Taiga;CloseEyes
+speak;Taiga;{tgm}...{c:e;Taiga;NormalBlink}{tgm} Oh.{tgm}|....{tgm} OH.|{c:e;Taiga;Smile}OH!! I WON A WIFE!
+expression;Xiang;CloseEyes,Smile
+speak;Xiang;There we go.

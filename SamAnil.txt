@@ -1,0 +1,74 @@
+C Support
+speak;Sam;Anil! Hey!
+mirror_portrait;Anil
+speak;Anil;?
+bop_portrait;Anil
+speak;Anil;!!
+mirror_portrait;Anil
+move_portrait;Anil;OffscreenLeft
+bop_portrait;Sam
+speak;Sam;What the--?! Hey, come back!
+move_portrait;Sam;OffscreenLeft
+remove_all_portraits
+transition;close
+change_background;Garden
+transition;open
+multi_add_portrait;Sam;OffscreenRight;Anil;OffscreenRight
+move_portrait;Sam;Right
+expression;Sam;CloseEyes
+speak;Sam;*huff* *huff*|{c:e;Sam;NormalBlink}Anil, where are you?!|Krista needs you for something!|{c:e;Sam;CloseEyes}Man, not here either{tgm}...{tgm}|{c:e;Sam;NormalBlink}Anil!!
+move_portrait;Sam;OffscreenLeft
+mirror_portrait;Sam
+move_portrait;Anil;FarRight
+speak;Anil;...
+move_portrait;Anil;Right
+expression;Anil;HalfCloseEyes
+speak;Anil;Whose bright idea was it to recruit the Prowling Tiger into this army?|{c:e;Anil;CloseEyes}Oh, Oreg, he's even bigger than the rumors say...;StyleNid=thought_bubble
+move_portrait;Sam;Left
+speak;Sam;Found you!
+expression;Anil;NormalBlink
+bop_portrait;Anil
+speak;Anil;!!!
+mirror_portrait;Anil
+move_portrait;Anil;OffscreenRight
+speak;Sam;Get back here, you!!
+move_portrait;Sam;OffscreenRight
+unlock_support_rank;Sam;Anil;C
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;CastleInterior
+transition;open
+music;Guildmaster Wigglytuff
+multi_add_portrait;Anil;Left;Sam;Right
+speak;Sam;Anil, we need to talk.|{c:e;Sam;HalfCloseEyes}Er. Sign. Or, uh{tgm}...{tgm}|{c:e;Sam;NormalBlink}Look, you know what I mean!
+speak;Anil;[Nope.]
+expression;Sam;NormalBlink
+speak;Sam;What do you mean "nope"?!|Look, I just wanna know why you've been avoiding me.
+speak;Anil;[There is no way I'm going to get along with the Prowling Tiger.]
+speak;Sam;Uh, the prowling what now?
+speak;Anil;[The Prowling Tiger!]|[The infamous mercenary who's been killing bandits up and down southern Oregot.]
+speak;Sam;Alright, hold it, hold it, hold it!|I have SO many questions.|First off, people have heard about me?|They have a NICKNAME for me??
+speak;Anil;[What did you expect?]|[You've taken out thousands of bandit camps the last five years at least!]
+speak;Sam;Hundreds? Maybe. But THOUSANDS?|Someone out there's exaggerating things.|And what was that about being a mercenary?|Sure, there was some mercenaries who taught me stuff, but that was it.
+speak;Anil;[So you at least admit to killing a mass number of bandits?]
+speak;Sam;Yeah, but it's not like I wanted to be famous for it.|I had my own reasons for doing what I had to do.
+speak;Anil;[Like what?]|[Money? Enacting justice?]
+music_clear
+music;Silent Ground
+expression;Sam;CloseEyes
+speak;Sam;Protecting someone.
+speak;Anil;?
+expression;Sam;NormalBlink
+speak;Sam;Bandits kidnapped Krista years ago.|I couldn't let that happen ever again.
+speak;Anil;...
+speak;Sam;Not just her either.|Everyone I love will not get hurt by bandits again.|{c:e;Sam;HalfCloseEyes}Not on my watch.
+speak;Anil;[Just be thankful you didn't make your way up north.]|[Because if you pulled the same thing there,]|[you'd have bandits out for vengeance against you too.]|{c:e;Anil;HalfCloseEyes}[And one of those bandits could've been me.]
+expression;Sam;NormalBlink
+speak;Sam;What?
+expression;Anil;NormalBlink
+speak;Anil;[We're done here. Bye.]
+mirror_portrait;Anil
+move_portrait;Anil;OffscreenLeft
+bop_portrait;Sam
+speak;Sam;Now, hold on!|{tgm}{c:e;Sam;CloseEyes}...{tgm} So, he used to be a bandit, huh?

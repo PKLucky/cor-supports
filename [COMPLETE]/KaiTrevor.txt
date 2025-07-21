@@ -1,0 +1,228 @@
+C Support
+speak;Kai;Trevor, there you are.|Mind if I ask you about something?
+expression;Trevor;Smile
+speak;Trevor;Kai, my brother in arms, you may ask me anything your heart desires.
+speak;Kai;Great. Just to confirm, Princess Krista hired you around six months ago?
+speak;Trevor;Why, yes! Only two months after your employment, if memory serves.
+speak;Kai;I see. With that in mind, your prowess with magic piqued my interest.
+speak;Trevor;You flatter me so, Kai!|{c:e;Trevor;NoSmile}But, I have a feeling that this is where the praise ends.
+expression;Kai;CloseEyes,Smile
+speak;Kai;And you'd be right.|{c:e;Kai;NormalBlink,NoSmile}You see, I've heard rumors that House Valoria's only child has gone missing.|{c:e;Kai;HalfCloseEyes}And has been missing for around six months.
+speak;Trevor;I see. Go on.
+expression;Kai;NormalBlink
+speak;Kai;Being a magic prodigy yourself,|I'm sure you'd know about the most powerful mage family in Medeas, wouldn't you?
+speak;Trevor;Well{tgm}...{tgm} of course! Now, Kai, excuse me for being presumptuous,|but I am not the missing Valoria heir of which you speak.|For the Valoria family only had a daughter, not a son.|It would be impossible for it to be me.
+speak;Kai;Huh. Well, that's news to me.|Sorry about the assumptions, Trevor.|I guess I'll have to go back to the drawing board for this one.
+speak;Trevor;It is quite alright, my friend.|I would love to chat more, but I must get to my studies.|{c:e;Trevor;Smile}Do not get too caught up in the rumor mill, now.
+mirror_portrait;Trevor
+move_portrait;Trevor;OffscreenRight
+speak;Kai;Well, that trail has gone cold.{c:e;Kai;CloseEyes} Hm{tgm}...{tgm}|{c:e;Kai;HalfCloseEyes}Why do I have this nagging feeling that there's more to this story?
+unlock_support_rank;Kai;Trevor;C
+end
+end_skip
+if;support_rank_nid == 'B'
+change_background;Town
+transition;open
+music;Girl of the Plains
+multi_add_portrait;Kai;Left;Man3;Right
+speak;Man3;Here's that sketch you wanted, sir.|Is that all you needed?
+expression;Kai;Smile
+speak;Kai;Yes, thank you. And here's your payment.|Thank you again for your assistance.
+remove_all_portraits
+transition;close
+change_background;VillageGate
+transition;open
+multi_add_portrait;Kai;OffscreenRight;Trevor;OffscreenLeft
+move_portrait;Kai;Right
+expression;Kai;HalfCloseEyes
+speak;Kai;Now, let's see here{tgm}...{tgm} That's what the young Valoria scion looks like, hm?|Her face{tgm}...{tgm}|{c:e;Kai;NormalBlink,Smile}Heh, if I didn't know any better, I'd say she looks just like--
+music;Guildmaster Wigglytuff
+move_portrait;Trevor;Left
+expression;Trevor;Smile
+speak;Trevor;Ah, Kai, my brother in arms! Fancy seeing you here.
+expression;Kai;NoSmile
+speak;Kai;Trevor? What are you--
+bop_portrait;Kai
+speak;Kai;!!;no_talk
+expression;Trevor;NoSmile
+speak;Trevor;Is something the matter, Kai? You look like you've seen a ghost.
+speak;Kai;It's{tgm}...{tgm} It's nothing.|{c:e;Kai;CloseEyes}Ahem.|{c:e;Kai;NormalBlink}As I was saying, what are you doing in town?
+expression;Trevor;Smile
+speak;Trevor;Why, I am out doing errands for Princess Krista.|Would you care to join me?
+speak;Kai;Actually, I'm busy with my own stuff. Maybe some other time?
+speak;Trevor;So it shall be. I will not keep you any longer.|So long!
+move_portrait;Trevor;OffscreenRight
+mirror_portrait;Kai
+music;Silent Ground
+speak;Kai;{tgm}...{tgm} Could Trevor actually be{tgm}...?{tgm}|{c:e;Kai;CloseEyes}No, I must be going crazy. There's no way{tgm}...
+transition;close
+change_background;Town
+transition;open
+add_portrait;Trevor;OffscreenLeft
+move_portrait;Trevor;Left
+speak;Trevor;Kai was acting really weird just now.|{c:e;Trevor;CloseEyes}Did he figure me out{tgm}...?{tgm}|{c:e;Trevor;NormalBlink}No, of course not. Just keep doing what you're doing, Trevor.|You've kept suspicions off yourself for this long, after all.
+unlock_support_rank;Kai;Trevor;B
+end
+end_skip
+if;support_rank_nid == 'A'
+change_background;CastleInterior
+transition;open
+music;Guildmaster Wigglytuff
+multi_add_portrait;Kai;Left;Trevor;OffscreenRight
+speak;Kai;With all this evidence, I am now almost one hundred percent sure about my theory.|All I need to do now is confront Trevor about it.
+move_portrait;Kai;Right
+bop_portrait;Kai
+expression;Kai;Smile
+speak;Kai;G'morning, Trevor. It's Kai.|Can we talk?
+speak;Trevor;A-Ah, yes!|One... One moment, please!
+speak;Kai;Sorry, did I catch you at a bad time?
+speak;Trevor;Nah, everything's a-okay!|I-I mean, just... uh... Gimme a sec, alright??
+expression;Kai;CloseEyes
+speak;Kai;... Did he just say "a-okay"?|{c:e;Kai;HalfCloseEyes}Yeah, something's not right here.;StyleNid=thought_bubble
+expression;Kai;NormalBlink
+speak;Kai;Y'know, this can wait 'til later--
+speak;Trevor;Nah, nah, it's cool! I'll be out in a jiff!
+speak;Kai;Did you just say "in a ji--
+move_portrait;Kai;Left;no_block
+move_portrait;Trevor;Right
+speak;Trevor;Hi. Hello. Yes.{c:e;Trevor;CloseEyes} Ahem.|{c:e;Trevor;Smile}Kai, my brother in arms, how are you on this fine morning?|Quite breezy today, isn't it?
+expression;Kai;HalfCloseEyes
+speak;Kai;...;no_talk
+expression;Trevor;NoSmile
+speak;Trevor;Is something wrong?
+expression;Kai;CloseEyes
+speak;Kai;{tgm}...{tgm} You're not wearing any pants.
+speak;Trevor;...;no_talk
+mirror_portrait;Trevor
+move_portrait;Trevor;OffscreenRight
+speak;Trevor;I'll be right back--
+expression;Kai;HalfCloseEyes
+speak;Kai;*sigh*|By Merin, this was NOT how I wanted to confirm my suspicions.
+expression;Kai;NormalBlink
+move_portrait;Kai;Right
+bop_portrait;Kai
+speak;Kai;Trevor, after you get dressed, can we talk?|We can do it in your quarters if you prefer.
+speak;Trevor;...|Alright.
+transition;close
+change_background;Bedroom
+transition;open
+music;Silent Ground
+multi_add_portrait;Kai;Left;Trevor;Right
+expression;Trevor;CloseEyes
+speak;Trevor;Please don't tell anyone.
+speak;Kai;Relax, I won't.|The thought didn't even cross my mind.
+expression;Trevor;NormalBlink
+speak;Trevor;Then, why bother looking into this in the first place?
+speak;Kai;Just wanted to satisfy my own curiosity. You know how it is.
+expression;Trevor;CloseEyes
+speak;Trevor;For once, I wish that wasn't the case.|{c:e;Trevor;HalfCloseEyes}There was a reason why I didn't want this coming out, y'know.
+speak;Kai;Trevor, I'm really sorry. I didn't mean to invade on something so private.|I didn't realize it WAS a private matter for you.
+expression;Trevor;CloseEyes
+speak;Trevor;...;no_talk
+speak;Kai;Do you mind if I ask you one last thing?
+speak;Trevor;I'm not gonna feed your curiosity more than I already have.
+speak;Kai;Trevor, please. I really am sorry that I hurt you.|I had no idea this was a sensitive topic for you. Please understand that.|You're my friend, and I would never intentionally cause you grief.
+expression;Trevor;HalfCloseEyes
+speak;Trevor;{tgm}...{c:e;Trevor;NormalBlink}{tgm} What did you want to ask?
+speak;Kai;Why all of this hiding?|Were things in House Valoria not to your liking?
+speak;Trevor;Ha! "Hiding"? Kai, this is the most unconcealed I've been in my entire life.|"Heir to House Valoria" was the disguise. Not "Trevor".|"Trevor, loyal retainer to Princess Krista" has been my true self all along,|even if it took me a long time to realize it.
+expression;Kai;CloseEyes
+speak;Kai;Hmm{tgm}...
+speak;Trevor;Wh-What?
+expression;Kai;NormalBlink
+speak;Kai;If that's how it is, then that's how it is.|You're Trevor. Always have been, always will.
+speak;Trevor;Kai{tgm}...
+speak;Kai;I never actually knew you in your previous life, so I got nothing to compare to anyway.|I can imagine that it was tough for you back then, though.|Having to pretend to be someone else and all.
+expression;Trevor;CloseEyes
+speak;Trevor;Yes, it was a miserable existence.|But when Her Highness found me half a year ago{tgm}...{tgm} When she accepted me for who I was{tgm}...{tgm}|{c:e;Trevor;NormalBlink}That was the happiest moment in my life. I'll never forget that.
+expression;Kai;Smile
+speak;Kai;You're definitely doing well now. I can tell.|And I prefer a happy Trevor over a sad one any day.
+speak;Trevor;Haha{tgm}...{tgm} Thank you.|That means a lot.
+speak;Kai;Of course. You're my friend.{c:e;Kai;CloseEyes,Smile}{br}And my brother in arms.
+expression;Trevor;Smile
+speak;Trevor;As are you, Kai. As are you.
+unlock_support_rank;Kai;Trevor;A
+end
+end_skip
+if;support_rank_nid == 'S'
+change_background;InsideCastle
+transition;open
+music;Lyn's Desire
+add_portrait;Trevor;Left;;HalfCloseEyes;mirror;no_block
+add_portrait;Kai;OffscreenRight
+speak;Trevor;...;no_talk
+move_portrait;Kai;Right
+expression;Kai;Smile
+speak;Kai;Something up, Trev?
+expression;Trevor;NormalBlink
+mirror_portrait;Trevor
+speak;Trevor;K-Kai! You startled me.
+speak;Kai;Heh, sorry. Anyway, my question?
+expression;Trevor;CloseEyes
+speak;Trevor;I can't stop thinking about what happens after all{tgm}...{tgm} this.|{c:e;Trevor;HalfCloseEyes}Will we still be employed by the royal family? Her Highness might not{tgm}...
+expression;Kai;CloseEyes,NoSmile
+speak;Kai;I dunno about you, but I'm outta here no matter what happens afterward.
+expression;Trevor;NormalBlink
+speak;Trevor;C-Come again?
+expression;Kai;NormalBlink
+speak;Kai;I'm a mercenary, remember? And I'd say my job here's almost done.
+speak;Trevor;That is one way to put it, I suppose.
+speak;Kai;And even if I wasn't a mercenary,|Merinas would be hunting me down and arresting me for treason.|{c:e;Kai;Smile}I wouldn't wanna make myself an easy target, y'know?
+expression;Trevor;HalfCloseEyes
+speak;Trevor;I{tgm}...{tgm} I see.
+expression;Kai;NoSmile
+speak;Kai;Come on, don't make such a long face.|This was gonna happen eventually, Trev. You know that.
+expression;Trevor;NormalBlink
+speak;Trevor;Yes, but that does not make it hurt any less.|Did our time together mean nothing to you?
+expression;Kai;CloseEyes
+speak;Kai;Trev, in case you haven't noticed, I don't stay attached to people.|{c:e;Kai;NormalBlink}You're no different.
+speak;Trevor;But what about what you said before? We are friends, are we not?
+expression;Kai;CloseEyes
+speak;Kai;{tgm}...{tgm} Slip of the tongue.
+expression;Trevor;HalfCloseEyes,Smile
+speak;Trevor;Says the man who has given me a nickname on a whim.
+expression;Kai;NormalBlink
+speak;Kai;Another slip of the tongue.
+expression;Trevor;CloseEyes,Smile
+speak;Trevor;And here I thought you were more tight-lipped.
+expression;Kai;CloseEyes,Smile
+speak;Kai;I don't loosen my lips or my tongue for just anyone, you know.|{c:e;Kai;HalfCloseEyes,NoSmile}And you shouldn't either,{c:wait;100} Valoria.
+expression;Trevor;HalfCloseEyes,NoSmile
+speak;Trevor;{tgm}...{tgm} Just what are you trying to say?
+expression;Kai;NormalBlink
+speak;Kai;You trusted me this entire time to keep your secret.|Do you believe that to be a wise decision?
+expression;Trevor;NormalBlink
+speak;Trevor;Yes. I do.
+speak;Kai;Oh?
+speak;Trevor;You would have done something with this information by now.|Force me back to my family, inform Her Highness of my true identity{tgm}...{tgm}|And yet here we are with nothing changed.
+expression;Kai;Smile,CloseEyes
+speak;Kai;Heh. All very true, Trev.
+bop_portrait;Trevor
+speak;Trevor;Huh? What was the point of all that?
+expression;Kai;NormalBlink,Smile
+speak;Kai;Just a little test to see if you've got a good read on me after all this time.|You passed, by the way.
+expression;Trevor;CloseEyes
+speak;Trevor;Could you please be straightforward for once?
+speak;Kai;Sure I can, on one condition.
+expression;Trevor;NormalBlink
+speak;Trevor;Which is?
+speak;Kai;Just relax when it's just us.|No need to use that extensive vocabulary around me.|It's gotta be exhausting for you.
+speak;Trevor;I{tgm}...{tgm} I can try.
+speak;Kai;Good. In fact, I can make the transition easier on you, if you want.
+speak;Trevor;Huh? How?
+expression;Kai;HalfCloseEyes,Smile
+speak;Kai;By loosening your lips.
+speak;Trevor;What do you mean by--
+remove_all_portraits
+transition;close
+change_background;KaiTrevorS
+transition;open
+speak;Trevor;Mn?!!
+speak;Kai;Aw, you're blushing.
+speak;Trevor;Did you just{tgm}...?!
+speak;Kai;What? Never been kissed before?
+speak;Trevor;I{tgm}...{tgm} N-No{tgm}...
+speak;Kai;I can be your first in other ways too, if you'll let me, Trev.
+speak;Trevor;Wait wait wait stop stop stop that's going way too fast!!
+speak;Kai;Oh? You knew what I meant by that? I guess you're not as innocent as I thought--
+speak;Trevor;CEASE!!
