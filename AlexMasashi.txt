@@ -13,7 +13,7 @@ Masashi: ANYWAY, as I was trying to say, I wasn't expecting to see you here, Ale
 Alex: Oh, do you come here often?
 Masashi: N-No, not particularly. I just happened to be passing through, and--
 Merchant: He comes here nearly every day, madam. By the way, here's your matcha leaves.
-Alex: Thank you. Could you set those aside for now? I’d like to keep browsing. You have an excellent selection of tea and herbs. I don't often see such an assortment.
+Alex: Thank you. Could you set those aside for now? I'd like to keep browsing. You have an excellent selection of tea and herbs. I don't often see such an assortment.
 Merchant: Certainly! Keep browsing.
 Masashi: Matcha tea? I never would have expected a girl from Medeas to be familiar or be interested in it.
 Alex: I like reading about different types of teas, so I knew of it, at least. I tried it for the first time when we stopped in Gintoki City, actually. It's very good. So, why do you come here every day, Masashi?
@@ -21,6 +21,6 @@ Masashi: Oh, you know, just to make sure the healers and such have the herbs the
 Merchant: He comes to whisper sweet nothings to me. Something about how I "put even the beauty of the sun to shame."
 Alex: Oh? Am I interrupting something, then?
 Masashi: Er, well--No! Absolutely nothing! But since I am here anyway, I may as well compliment such a pretty merch--
-Alex: And I'm NOT pretty? Come on, Masashi. I'm standing right here!
+Alex: And I'm NOT pretty? Come on, Masashi. I'm standing right here.
 Masashi: I never said that!!
 # Original script by Berserker Sam #

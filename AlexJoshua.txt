@@ -21,32 +21,38 @@ Alex: What a strange man. What are these books? "10 Lifts for Life", "Meat Makes
 # Original script by Berserker Sam #
 
 B Support
-
-Joshua- Hyah! Huah! You'll go down sooner or later George!
-Alex- Hmm, Joshua's opponent is quite large and heavily armored...oh dear. That looked like it hurt and he's already bleeding as it is. Why did I think coming here was a good idea again. Oh thank Medea looks like it's an intermission of sorts maybe I can check on Joshua
-Joshua Heh, he's a tough one alright.
-??? Joshua? Are you alright?
-Joshua Who? Oh hello Alex yes I'm alright just a couple scratches
-Alex Good to hear I was concerned that blow looked ba....JOSHUA!
-Joshua What?
-Alex This is NOT just a scratch, you are bleeding profusely from several lacerations, you have a few nasty contusions.
-Joshua Eh? Sorry I'm not a medic Alex what was all that.
-Alex Sigh. You have big boo-boo, big boo-boo bleed lots.
-Joshua So? Just patch it up to stop the bleeding. Some rags and cloth and I'll be good to go
-Alex: Oh no you don't!
-Joshua: What? That would work right?
-Alex: That's not how that works. You are going to sit there while I wash and sanitize those wounds, you need stitches mister! 
+Joshua: Hyah! Huah! You'll go down sooner or later, George!
+Alex: Joshua's opponent is quite large and heavily armored. ... Oh dear. That looked like it hurt, and he's already bleeding as it is. Why did I think coming here was a good idea again? Oh thank Medea, looks like there's an intermission. Maybe I can check on Joshua.
+(Scene transitions to the medical bay of the arena.)
+Joshua: Heh, he's a tough one alright.
+Alex: Joshua? Are you alright?
+Joshua: Who? Oh, hello, Alex. Yeah, I'm alright. Just a couple scratches.
+Alex: Good to hear. I was concerned. That blow looked ba--Joshua!
+Joshua: What?
+Alex: This is NOT just a scratch! You are bleeding profusely from several lacerations. And look at all of these contusions!
+Joshua: Eh? Sorry, I didn't understand a word you just said.
+Alex: *sigh* You have big boo-boo. Big boo-boo bleed lots.
+Joshua: Alex, I may be losing blood, but the ol' thinker can still know words good.
+Alex: Joshua.
+Joshua: Just patch it up to stop the bleeding. Get some rags and cloth on there, and I'll be good to go!
+Alex: Oh no, you don't!
+Joshua: What? That would work, right?
+Alex: No, that would make things worse. You are going to sit there while I wash and sanitize those wounds. You need stitches, mister! 
 Joshua: Can't you just wrap some bandages?
-Alex: I could...but I'm not going to. Don't worry you're in good hands.
+Alex: I could, but I'm not going to. Don't worry. You're in good hands.
 Joshua: The next round starts in two minutes!
-Alex: Too bad, you'll have to miss it.
-Joshua: Why is she smiling? I don't like this....Alex are all those herbs really necessary?
-Alex: Yes. Time Passes
+Alex: Too bad. You'll have to miss it.
+Joshua, thinking: Why is she smiling? I don't like this...
+Joshua: Alex are all those herbs really necessary?
+Alex: Yes. Now take that shirt off
+Joshua: What for?
+Alex: Well, I can't wash your wounds with your shirt still on, can I?
+(Some time later...)
 Joshua: You're going to stick a needle and thread in me?
-Alex: Yes I need to stitch the wounds up, I've cleaned your wounds so they should heal well also the salves I applied will help as well.
-Joshua: You're....going to stick a NEEDLE in me?
-Alex: Yes, don't tell me you're afraid of a little needle and thread.
+Alex: Yes, I need to stitch the wounds up. I've already cleaned them, so they should heal well. The salves I applied will help too.
+Joshua: You're.... going to stick a NEEDLE in me?
+Alex: Again, yes. Don't tell me you're afraid of a little needle and thread.
 Joshua: I never said that.
-Alex: So it's ok then? Good to know
+Alex: So, it's okay, then? Good to know.
 Joshua: I NEVER SAID THAT EITHER!
 # Original script by Berserker Sam #
