@@ -18,4 +18,25 @@ Masashi: Please, say no more. I completely understand.
 Tsubaki: You do?
 Masashi: I see that my reputation has preceded me. But I assure you that there will be none of that today.
 Tsubaki: R-Really?
-Masashi: I would like to get to know you more, Lady Tsubaki. Truly. 
+Masashi: I would like to get to know you more, Lady Tsubaki. Truly.
+
+B Support
+Masashi: Lady Tsubaki!
+Tsubaki: (Oh no, not him again.) I have something I need to do-
+Masashi: Wait, I'm sorry for how I acted the other day.
+Tsubaki: Huh?
+Masashi: It was my having your-  It was my first time seeing you in person- I wasn't allowed to talk or even meet up with you before.
+Tsubaki: (Gee, wonder why.) Consideri- Why weren't you allowed to see me? Other than my father having your head?
+Masashi: Th-there's another reason. Someone from my childhood.
+Tsubaki: And why did they want you away from me?
+Masashi: I cannot remember, I do not even know what it could have been.
+Tsubaki: Hm.. How long have you been like this?
+Masashi: Since I was thirteen years of age.
+Tsubaki: Come to think of it, I think I saw you talking to someone when I was seven, a woman in her twenties. How old were you then?
+Masashi: I was most likely nine years of age- (A woman? It's probably her.) The big thing I remember hearing about you before I was twelve was an arranged marriage. Of course I knew about you- I? I wasn't allowed to mention you at all.
+Tsubaki: Did your parents tell you to not mention me?
+Masashi: No, my parents were almost never around, the person who took care of me- I- Forgive me, think I should take leave.
+Tsubaki: You mean that- Wait come back!
+(Masashi runs off)
+Tsubaki: That's strange, I remember our fathers being on rather good terms, before- wait a minute.
+# Original script by Blade of Light 12 #
