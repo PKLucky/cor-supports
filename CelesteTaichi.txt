@@ -72,13 +72,19 @@ Taichi: My dad was no slouch either. Like I said, he taught me axes too. He was 
 Celeste: Wow. I don't even know who my dad is. My mom said he left before I was born and that he had green hair and green eyes. ... Hey, wait, you kept saying "was." Is your dad...?
 Taichi: Yeah. A few years after Haruki was born, my dad started fighting in the arena again to bring back more money back home. Things were great. My mom was still teaching me axes and my dad told me and Haruki all about his victories in the arena. Then... ...
 Celeste: Taichi...
-Taichi: I remember that day when one of the militia men knocked on our door. . After that, my mom retired and started becoming more protective of us. I knew then I had to step up and take care of Haruki too. But that meant that I had to train myself more and more. Haruki was and probably feels like he's being cramped.
-Celeste: Sounds a bit like my friends mom, he probably feels cramped because actually seen the version of your mom before your dad died so he probably not as timid as my friend.
-Taichi: Do you ever wonder about your dad? Sorry for asking.
-Celeste: Sometimes, maybe more now because I'm worried about my mom. But I don't really like him because he left my mom (please rewrite the last sentence into a way Celeste would say). 
-Taichi: You seem less tired now.
+Taichi: I remember that day when one of the militia men knocked on our door. Mom didn't want me in the room when they were talking, but I heard everything. Some sore loser from the arena killed my dad. He was supposed to be home for my birthday the next day...
+Celeste: ...
+Taichi: After that, my mom retired and started becoming more protective of us. I knew then I had to step up and take care of Haruki too. But that meant that I had to train myself more and more.
+Celeste: ...
+Taichi: *sigh* Sorry, that was all a real downer, huh?
+Celeste: Don't worry about it. It's nice that you at least have some good memories of your dad.
+Taichi: Yeah... How about your dad? Do you ever wonder about him?
+Celeste: Sometimes. Maybe more now because I'm worried about my mom. I never knew him, but if he left Mom, then I don't think he's a good person.
+Taichi: Celeste...
+Celeste: Aw, don't give me that look. I'll be fine. Like I said, I never the knew the guy. If I ever met, he'd be just some stranger.
+Taichi: I guess you have a point.
 Celeste: You're interesting.
-Taichi: That has nothing to do with what I said.
-Celeste: Could you tell me some haply stories with your parents?
-Taichi: Well there was that time when I lifted up my mom's axe, I was two years old and I guess I thought her wielding it around was cool so I picked it up and she and dad started laughing, but eventually I lifted …
+Taichi: Hm? Where'd that come from?
+Celeste: Your parents are pretty cool. Got any more stories about them?
+Taichi: Well, there was that time when I was two and tried lifting my mom's axe. My dad was laughing so hard and...
 # Original Script by Blade of Light 12 #
