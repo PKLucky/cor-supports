@@ -1,66 +1,78 @@
 C Support
-Celeste: That last battle was really intense, but it was nothing I couldn't handle! Hiht! Hiya! Ssshhhhah!
-Taichi: It’s so dark… Whatever not much difference than what I'm used to, just too much trees.
-(Celete throws the axe the to a tree)
+Celeste: That last battle was really intense, but it was nothing I couldn't handle! Hup! Hiya! Shah!
+Taichi: It's so dark... Whatever, not much different than what I'm used to, just more trees.
+(Celeste throws the axe to a tree.)
 Taichi: Woah! Be careful where you swing that!
-Celeste: Sorry, wasn't trying to hit you.
+Celeste: Sorry! Wasn't trying to hit you.
 Taichi: Why are you practicing at night?
-Celeste: I got to be prepared for anything, a bad guy could come and attack during the night. It also allows my eyes to see better in the dark. Not just in the night, but caves too!
-Taichi: Sorry to say but it seems to not be working that well since you nearly hit me.
-Celeste: Well-! I wasn't expecting to see you! And haven't done this enough.
-Taichi: Shh. Lower your voice. People are sleeping… Maybe you should do more night walking. I'll help, I've done night shopping.
-Celeste: Oh, sorry I should be more quiet, it is night after all. But I already have Night experience.
-Taichi: Is your Night experience sneaking out and running out for 20 minutes and getting caught by your mom?
-Celeste: Eh! (Smacks herself to keep herself quiet) How do you know?
-Taichi: That's what my brother did when he was… How old are you?
-Celeste: I'm 17 and looking at you, you don't seem that much older than me.
-Taichi: Oh, sorry he's 14 and noticeably shorter than you.
-Celeste: That's it! A week from now, outside some ruins, at noon. We'll duel. Do you accept?
+Celeste: I gotta be prepared for anything. A bad guy could come and attack during the night. It also allows my eyes to see better in the dark. Not just in the night, but caves too!
+Taichi: Sorry to say, but it seems to not be working that well since you nearly hit me.
+[THE FOLLOWING LINES NEED REVISION]
+	Celeste: Well, I wasn't expecting to see you! And haven't done this enough.
+	Taichi: Shh. Lower your voice. People are sleeping. Maybe you should do more night walking. I'll help, I've done night shopping.
+	Celeste: Oh, sorry I should be more quiet, it is night after all. But I already have Night experience.
+	Taichi: Is your Night experience sneaking out and running out for 20 minutes and getting caught by your mom?
+	Celeste: Eh! (Smacks herself to keep herself quiet) How do you know?
+	Taichi: That's what my brother did when he was… How old are you?
+	Celeste: I'm 17 and looking at you, you don't seem that much older than me.
+	Taichi: Oh, sorry he's 14 and noticeably shorter than you.
+	[PLACEHOLDER]
+	Celeste: That's it! A week from now, outside some ruins, at noon. We'll duel. Do you accept?
+[END REVISION SECTION]
 Taichi: Sure.
-Celeste: See ya!
-Taichi: Wai- 
+Celeste: Awesome! See ya then! 
+Taichi: Wait- 
 (Celeste leaves)
-Taichi: (Well, It seems like I'm watching two kids now.)
+Taichi, thinking: Well, it seems like I'm watching two kids now.
 # Original Script by Blade of Light 12 #
 
 B Support
-Celeste: So you're here.
+Celeste: So, you're here.
 Taichi: We arrived at the same time.
 Celeste: Have anything to say before we throw axes?
 Taichi: I think we should probably delay this because we forgot to get wood for the army.
-Celeste: Wait. Oh darn! How could I have forgotten!
+Celeste: Wait. Oh, darn! How could I have forgotten!
 Taichi: Have you been focused on this battle all week?
-Celeste: Well- I- Yes I was super hyped for this and it mmmight have taken up a lot of my week?
+Celeste: Well, I... Yes. I was super hyped for this and it mmmight have taken up a lot of my week?
 Taichi: That's not good. We should probably get wood now.
 Celeste: On it!
-(They go to the forest)
-Celeste: -And how about you, how much have you been thinking of this battle?
-Taichi: Not much really, I was taking care of stuff around camp.
-Celeste: (chops down a tree) Then how did you remember the duel?
-Taichi: I remember it yesterday and was wondering how I should fight you.
-Celeste: (So what he's saying is? He hasn't been practicing, maybe we shouldn't duel today.) You don't have to worry about the duel today.
-Taichi: (Chops another tree) Why not? You were excited about this all week?
-Celeste: It doesn't seem fair, and plus we don't have enough time to warm up.
+(They go to the forest.)
+Celeste: ... And how about you, how much have you been thinking of this battle?
+Taichi: Not much, really. I was taking care of stuff around camp.
+(Celeste chops down a tree.)
+Celeste: Then, how did you remember the duel?
+[THE FOLLOWING LINES NEED REVISION]
+	Taichi: I remembered it yesterday and was wondering how I should fight you.
+	Celeste: (So what he's saying is? He hasn't been practicing, maybe we shouldn't duel today.) You don't have to worry about the duel today.
+[END REVISION SECTION]
+(Taichi chops down a tree.)
+Taichi: Why not? You were excited about this all week.
+Celeste: It doesn't seem fair. Plus, we don't have enough time to warm up.
 Taichi: This is our warm up.
-Celeste: No, we're both strong but we still have more trees to chop down and after that we have to carry the wood back to base.
+Celeste: No, we're both strong, but we still have more trees to chop down. And after that, we have to carry the wood back to base.
 Taichi: Are you sure?
-Celeste: (Chops tree) You're not a bad guy, and when in a friendly battle. We gotta play fair. 
+(Celeste chops down another tree.)
+	Celeste: You're not a bad guy, and when in a friendly battle, we gotta play fair. [REVISE]
 Taichi: Alright, I think that's enough wood. Let's get back to base.
 # Original Script by Blade of Light 12 #
 
 A Support
-Celeste: (Breathing, please decide what noise to do for breathing) Who won?
-Taichi: (Also breathing) I don't know. Where did you learn how to use an axe?
-Celeste: My mom taught me, she is- w- is! one of the Holy Knight of Foliaga. She's pretty cool and also taught me a lot more thing too.
-Taichi: Didn't she scold you for going out at night?
-Celeste: I was 8, and it wasn't even that I was out at night. It was because I didn't ask.
-Taichi: Where is your mom?
-Celeste: I-I don't know? I haven't seen her since I fled from Florene Village.  (She tries to dodge this clearly uncomfortable question) Did your mother also teach you how to use axes?
-Taichi: Yes, back before she had me and my brother she was a very well known warrior, not just with Axes but with Swords too. 
-Celeste: Woah! That's cool we both have cool moms!
-Taichi: Hold on, my dad was also no slouch either he was a Gladiator and had a very good victory count. Then he met my mom and then they had a duel. Couldn't decide who came out on top. They got married 6 months after that and 4 years after that they had me and for years after that they had my brother Haruki.
-Celeste: I don't know who my dad is. I'll I know is that my mom said he left before I was born and that he had Green hair and Green Eyes. Please tell me more.
-Taichi: When I was 5 both my parents started training me in Axes but two years later my dad went back to being a Gladiator, he was still there for us though but it was just my mom teaching me axes. Before my Twelfth Birthday… My dad was killed, one of the people he defeated from what I heard after that my mom retired and started becoming more protective of us. I knew then I had to step up and take care of Haruki too. But that meant that I had to train myself more and more. Haruki was and probably feels like he's being cramped.
+Celeste: *Huff huff* Who won?
+Taichi: *Huff* I don't know. *Huff* Let's just call it a draw for now.
+Celeste: No way...! *Huff* We gotta decide a winner!
+Taichi: We can do another round later. I'm exhausted. Aren't you?
+Celeste: Hmm... Okay, fine.
+Taichi: So, where did you learn how to use an axe?
+Celeste: My mom taught me. She is-- Was-- Is! One of the Holy Knights of Foliaga. She's pretty cool and taught me a lot of other things too.
+Taichi: What happened to your mom?
+Celeste: I-I don't know. I haven't seen her since I fled from Florene Village. Did your mother also teach you how to use axes?
+Taichi: Yeah. When I was five, both my parents started training me in axes. My mom was a famous warrior back in the day. Not just with axes but with swords too.
+Celeste: Woah, that's cool! We both have cool moms!
+Taichi: My dad was no slouch either. Like I said, he taught me axes too. He was a gladiator with a long win streak under his belt. He met my mom at the arena where they dueled each other. The match ended in a draw, and they got married some time after that.
+Celeste: Wow. I don't even know who my dad is. My mom said he left before I was born and that he had green hair and green eyes. ... Hey, wait, you kept saying "was." Is your dad...?
+Taichi: Yeah. A few years after Haruki was born, my dad started fighting in the arena again to bring back more money back home. Things were great. My mom was still teaching me axes and my dad told me and Haruki all about his victories in the arena. Then... ...
+Celeste: Taichi...
+Taichi: I remember that day when one of the militia men knocked on our door. . After that, my mom retired and started becoming more protective of us. I knew then I had to step up and take care of Haruki too. But that meant that I had to train myself more and more. Haruki was and probably feels like he's being cramped.
 Celeste: Sounds a bit like my friends mom, he probably feels cramped because actually seen the version of your mom before your dad died so he probably not as timid as my friend.
 Taichi: Do you ever wonder about your dad? Sorry for asking.
 Celeste: Sometimes, maybe more now because I'm worried about my mom. But I don't really like him because he left my mom (please rewrite the last sentence into a way Celeste would say). 

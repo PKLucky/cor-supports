@@ -1,19 +1,20 @@
 C Support [REQUIRES REVISION]
-Yukino, thinking: Argh, it's him.
-Masashi: Greetings, I couldn't help but notice your beautiful long blue hair. What conditioner do you use?
-Yukino, thinking: What do I say to have him leave me alone?
-Yukino: First of all, that's none of your business--
-Masashi: Oh, sorry, but where'd you learn to use a sword? I noticed it's covered?
-Yukino: The clothes didn't give it away?
-Masashi: N-No? It's just that I'd thought you'd be using a bow?
-Yukino: Ah, you mean like you? *sigh*
-Masashi: Oh shoot, sorry. I didn't mean that.
-Yukino: Is that so? What were you doing in that house?
-Masashi: I-I needed to t-talk to someone.
-Yukino: Really? Was it just that?
-Masashi: I-I I'm sorry!
-(Masashi leaves the scene.)
-Yukino: He's interesting... I hope he's not as bad as he presents himself.
+(Yukino sees Masashi leaving a house)
+Yukino: (Argh, it’s him.)
+Masashi: Oh- hello I wasn't expecting to see you.what conditioner do you use?
+Yukino: (What do I say to have him leave me alone?) First of all, that’s none of your business-
+Masashi: I'm sorry, it's just that you look like someone I knew.
+Yukino: Sure I do, bet I'm not the first person you've said that to.
+Masashi: N-no, I really mean it. And I just want to say thank you for sparing me, I know it was because I was needed for information but still. 
+Yukino: Wasn't the demand for your life, never speaking to me again? Or do you (moves closer to Masashi) Wanna see some sword skills?
+Masashi: Oh shoot, sorry. I want to make up for our first meeting, I-I want to kn-know more about you.
+Yukino: Don't worry I'm not gonna kill you, but I'm not kidding about my sword skills.
+Masashi: I-I'll show off my bow skills too.
+Yukino: Oh I'd like to see them? (slightly smiling, touches him)
+Masashi: I-I I’m sorry!
+(Masashi leaves)
+Yukino: He's interesting… I hope he's not as bad as he presents himself.
+
 # Original script by Blade of Light 12 #
 
 B Support (Might need revisions depending on how heavily revised the C Support is)

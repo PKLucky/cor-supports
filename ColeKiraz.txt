@@ -35,4 +35,4 @@ Kiraz: Are there any nearby?
 Cole: I think I could get us tickets.
 Kiraz: Yes! I can’t wait. Thank you, also sorry for changing the topic.
 Cole: Ah no it's fine I get it.
-# Original script by Blade of Light 12 #
+# Original script by Blade of Light 12 and StarPlush #
