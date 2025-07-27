@@ -9,6 +9,8 @@ Sam: See, that's your FIRST problem. Magic is absolutely useless out there on th
 Cole: Huh? What are you talking about? I've seen the mages in this army make great contributions in combat.
 Sam: A REAL man goes out there and takes on his enemies head-on! Only cowards use stinkin' MAGIC to fight their battles.
 Cole: Mister Parker isn't a coward. He's one of the bravest people I know.
+Sam: And THAT is your second problem. Mister Parker--as you call him--is a sissy. You don't want to be a sissy, do you?
+Cole: N-no? But Mister Parker says that the more we understand magic, the more it will benefit us. Maybe we could even have water appear in tubs without walking to the well.
 Sam: Pfft-- Sure. Look, kid, you need a new perspective on what it means to be a REAL man. And I can show you!
 Cole: What.
 Sam: To the training yard! I'm teaching you how to swing an axe!
@@ -19,5 +21,12 @@ Cole: WAIT!
 B Support
 Sam: Come on, Cole! Put your back into it!
 Cole: M-Mister Sam, I-I... I don't think... I can take anymore... My arms feel like they’re gonna fall off...!
-Sam: That's why you gotta lift with the LEGS. I keep telling you this!
-Cole: Urghhhhhh...
+Sam: You're trying to control it too much. You miss the dummy and you immediately try to pull your attack back.
+Cole: But...I was trying to correct my mistake
+Sam: Don't worry about being perfect it's only the first day. You have to flow with the axe, follow it's momentum. If your first swing misses flow into another.
+Cole: It feels like just winging it until it works.
+Sam: That's why you have to keep swinging don't correct every single misses swing. I keep telling you this!
+Cole: Urghhhh...
+Sam: Look you're trying but you need to allow yourself to make mistakes no one expects you to be perfect on your first try. Allow yourself to make mistakes and improve
+Cole: You want me to mess up Mr Sam?
+Sam: No I'm not saying that but mistakes happen, if you need to make mistakes on your way to mastery it's ok

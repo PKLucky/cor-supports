@@ -1,27 +1,25 @@
 C Support
 Celeste: That last battle was really intense, but it was nothing I couldn't handle! Hup! Hiya! Shah!
-Taichi: It's so dark... Whatever, not much different than what I'm used to, just more trees.
+Taichi: It's so dark... Whatever, not much different than what I'm used to. Just more trees.
 (Celeste throws the axe to a tree.)
 Taichi: Woah! Be careful where you swing that!
 Celeste: Sorry! Wasn't trying to hit you.
 Taichi: Why are you practicing at night?
 Celeste: I gotta be prepared for anything. A bad guy could come and attack during the night. It also allows my eyes to see better in the dark. Not just in the night, but caves too!
 Taichi: Sorry to say, but it seems to not be working that well since you nearly hit me.
-[THE FOLLOWING LINES NEED REVISION]
-	Celeste: Well, I wasn't expecting to see you! And haven't done this enough.
-	Taichi: Shh. Lower your voice. People are sleeping. Maybe you should do more night walking. I'll help, I've done night shopping.
-	Celeste: Oh, sorry I should be more quiet, it is night after all. But I already have Night experience.
-	Taichi: Is your Night experience sneaking out and running out for 20 minutes and getting caught by your mom?
-	Celeste: Eh! (Smacks herself to keep herself quiet) How do you know?
-	Taichi: That's what my brother did when he was… How old are you?
-	Celeste: I'm 17 and looking at you, you don't seem that much older than me.
-	Taichi: Oh, sorry he's 14 and noticeably shorter than you.
-	[PLACEHOLDER]
-	Celeste: That's it! A week from now, outside some ruins, at noon. We'll duel. Do you accept?
-[END REVISION SECTION]
-Taichi: Sure.
-Celeste: Awesome! See ya then! 
-Taichi: Wait- 
+Celeste: Well, I wasn't expecting to see you! But besides that, it just means I need more practice!
+Taichi: Shh! Lower your voice. Everyone all the way back at camp can probably hear you with how loud you're yelling.
+Celeste: Ah! You're right! Whoops, I yelled again! Wait--
+(Taichi puts a hand over Celeste's mouth.)
+Celeste: Mm!
+Taichi: And I'm stopping you there. Man, what are you, twelve?
+Celeste: Hey, I'm wayyy more mature than that. I'm seventeen!
+Taichi: With how you're acting, you might as well be that young. Heck, I bet when you were actually twelve, your mom caught you sneaking out at night because of how loud you got.
+Celeste: *gasp!* How'd you know?
+Taichi: Honestly, I was joking with that. You're just like my brother Haruki. He'd do stuff like that all the time. Actually, he still does. Heh, I guess fourteen isn't all that different from twelve.
+Celeste: Hey, what's that supposed to mean?! That's it! One week from today at high noon, we duel! We'll see who's the immature one here.
+Taichi: Wait, what--
+Celeste: Prepare yourself!
 (Celeste leaves)
 Taichi, thinking: Well, it seems like I'm watching two kids now.
 # Original Script by Blade of Light 12 #
@@ -33,7 +31,7 @@ Celeste: Have anything to say before we throw axes?
 Taichi: I think we should probably delay this because we forgot to get wood for the army.
 Celeste: Wait. Oh, darn! How could I have forgotten!
 Taichi: Have you been focused on this battle all week?
-Celeste: Well, I... Yes. I was super hyped for this and it mmmight have taken up a lot of my week?
+Celeste: Well, I... Yes. I was super hyped for this and it miiiight have taken up a lot of my week?
 Taichi: That's not good. We should probably get wood now.
 Celeste: On it!
 (They go to the forest.)
@@ -81,10 +79,30 @@ Celeste: Don't worry about it. It's nice that you at least have some good memori
 Taichi: Yeah... How about your dad? Do you ever wonder about him?
 Celeste: Sometimes. Maybe more now because I'm worried about my mom. I never knew him, but if he left Mom, then I don't think he's a good person.
 Taichi: Celeste...
-Celeste: Aw, don't give me that look. I'll be fine. Like I said, I never the knew the guy. If I ever met, he'd be just some stranger.
+Celeste: Aw, don't give me that look. I'll be fine. Like I said, I never the knew the guy. If I ever met him, I wouldn't care. He'd be just some stranger.
 Taichi: I guess you have a point.
-Celeste: You're interesting.
-Taichi: Hm? Where'd that come from?
-Celeste: Your parents are pretty cool. Got any more stories about them?
+Celeste: But hey, your parents are pretty cool. Got any more stories about them?
 Taichi: Well, there was that time when I was two and tried lifting my mom's axe. My dad was laughing so hard and...
-# Original Script by Blade of Light 12 #
+# Original script by Blade of Light 12 #
+
+S Support
+Celeste: You! (Throws axe at a target) Take that!
+Taichi: Nice shot, better than the previous one.
+Celeste: This time I had a target-
+Taichi: That you could see.
+Celeste: Mrmphphph. I hit it on the Mark! That's the important thing.
+Taichi: (smiling) How many hits can you get?
+Celeste: More than you. 
+Taichi: Then let's test it. 5 hits for each of us
+(10 axe throws later)
+Celeste: Told ya I'd get more than you!
+Taichi: You got one more than me. We're closer than you think.
+Celeste: Then we'll make a great team against the forces of evil!
+Taichi: (Let's see if we have gotten better) How about another duel? If I win we go on a date. If you wi-
+Celeste: Then you join me, in the great mission to fight crime and the forces of evil!
+Taichi: Same place?
+Celeste: It would be only fair wouldn't it? Race ya there!
+Taichi: If we race there we'll be too tired for the actual duel.
+Celeste: Sorry, was pulling your leg.
+Taichi: Sure you were.
+# Original script by Blade of Light 12 #
