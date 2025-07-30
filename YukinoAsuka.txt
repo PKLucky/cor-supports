@@ -1,0 +1,35 @@
+C Support
+Yukino: (She must be a ninja, must be careful then.)
+Asuka: (Dodges attack) Wait.
+Yukino: Huh?
+Asuka: Aren't you a part of Lady Krista's army?
+Yukino: So you are too? Sorry I wasn't sure if you were a spy.
+Asuka: I still am it's just that Emperor Samegoro is…
+Yukino: I see, considering that we'll be working with each for the Foreseeable Future. I already know your title so tell me your name.
+Asuka: I am Asuka.
+Yukino: (Considering that she's a ninja for the Emperor I don't think saying I'm a bandit would be the best thing.) I am Yukino of- of Shizukawa village.
+Asuka: Alright, why have you come to see me?
+Yukino: I want to learn the way of the ninja. Please teach me.
+Asuka: … Okay. Come back here another day and we'll start. (Asuka leaves)
+Yukino:(Yes! I've always wanted to be a Ninja. That stopped when I married him.)
+# Original script by Blade of Light 12 #
+
+B Support
+Yukino:So ninjas train with weights?
+Asuka:It helps with stealth, so that way we're even faster.
+Yukino:That's awe- I have taken intense sword training but we never used weights.
+Asuka: (Moving around Yukino) The consequences for dropping them are disastrous, but considering your sword training I think you can handle it. But you should still be careful.
+(Asuka ties Yukino to a chair)
+Asuka:And always be on guard!
+Yukino:Ergh! Fuck-
+Asuka:I'll do this again on another day. Anyway, The weights we usually start off with are 10 weight- 
+Yukino:Is this something that's usually done during training?
+Asuka: ... But considering you're actually escaping the ropes we'll double it. 
+Yukino: How tight are these ropes?
+Asuka:Very tight. Made with only the best material.
+Yukino:Could you let me go?
+Asuka:Got it.
+(Asuka unties Yukino)
+Yukino:There are four twenty weights here, how many weights do Ninja use?
+Asuka:Four exactly, one tied up to each limb. Let's start.
+# Original script by Blade of Light 12 #
