@@ -1,8 +1,8 @@
 C Support
-Chell: Lin, you look well. I’m happy to see that such is the case.
-Lin: … Sister, I’m not coming back home. When this is over, I’m returning to my mercenary work so don’t try to convince me to return……to the house.
-Chell: I wasn’t going to. I’m just happy you’re well. How is the mercenary life?
-Lin: Fine. It’s fine. Stop acting like you’re interested. You’re not. You just want me to return home. I already told you that is not happening.
+Chell: Lin, you look well. I'm happy to see that such is the case.
+Lin: Chell, I'm not coming back home. When this is over, I'm returning to my mercenary work, so don't try to convince me to return.
+Chell: I wasn't going to. I'm just happy you're well. How is the mercenary life?
+Lin: Fine. It's fine. Stop acting like you're interested. You're not. You just want me to return home. I already told you that is not happening.
 Chell: Lin, if being a mercenary is what you want, I’m not going to stop you. I’m just happy to see you well. And safe.
 Lin: See? You want me to return, I’m not going to. I’m going to check on my pegasus.
 (Lin leaves)

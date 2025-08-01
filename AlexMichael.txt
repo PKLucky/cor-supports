@@ -1,16 +1,18 @@
-C Support (Maybe replace mentions of Forrest with the Ch5 boss whose name is escaping me?)
+C Support
 Alex: Hi there. Michael, wasn't it?
 Michael: Yes, ma'am. Lady Alex, ma’am.
 Alex: Just call me Alex. Would you like some tea?
-Michael: Yes please, ma'am. ... Alex. This is good. Thank you.
-Alex: Glad you think so. Now, what inspired or drove you to become a knight?
+Michael: Yes please, ma'am. Er, Lady Alex.
+(Michael sips his tea.)
+Michael: ... This is good. Thank you.
+Alex: Glad you think so. Now, what inspired you to become a knight?
 Michael: The legends. In the stories, they always helped and defended people. I wanted to become like that.
-Alex: My parents were both knights, so it was only natural I would also become one. But I too always enjoyed those tales of the knights defending and protecting.
-Michael: Sir Forrest says that war isn't like the stories. Sometimes the hero doesn’t come back.
-Alex: I see... Sadly, that can be the case. That said, I see nothing wrong with reading those stories and being inspired them. Many people look to songs, poetry, ballads, and tales to inspire and push them to greatness. Some believe that such tales of bravery help us achieve greatness of such magnitude far beyond what we would have done otherwise.
-Michael: You have a point. Thank you, Lady Alex.
-Alex: You’re very welcome, Michael.
-Michael: Is it alright if I come see you again? The tea is nice and it's nice having someone else who enjoys stories of knights. And, no disrespect meant, but Sir Forrest doesn't seem to understand.
-Alex: Of course. I'd like that. But let me just say don't judge him too harshly. He's extremely pragmatic, yes, but he also has to ensure the protection and safety of the royal family. If something happens to any of them the blame will fall on him.
-Michael: Oh... That doesn't seem fair, though. I suppose Forrest would say, "That's life, Michael. Things aren't always fair or how we think they should be."
-Alex: Hee-hee. Probably. More or less.
+Alex: My parents were both knights, so it was only natural I would also become one. But I, too, always enjoyed those tales of knights defending the helpless.
+Michael: My former commander, Captain Irving, always said that war isn't like the stories. And that I should "get those fantasies out of my head."
+Alex: I see... Sadly, that can be the case. That said, I see nothing wrong with reading those stories and being inspired by them. Many people look to songs, poetry, ballads, and tales to push them to greatness. Some believe that such tales of bravery help us reach heights of such magnitude far beyond what we would have done otherwise.
+Michael: You have a point. Thank you, Alex.
+Alex: You're very welcome, Michael.
+Michael: Is it alright if I come see you again? The tea is good and it's nice having someone else who enjoys stories of knights. Foliaga's Holy Knights weren't what I thought they were, but maybe they're not all like that?
+Alex: Of course. I'd like that. And, trust me, Michael, what you witnessed was a very unfortunate exception. I may be biased, but I have no doubt in my mind that Medeas' knights live up to how a knight should conduct themselves.
+Michael: Well, if they're anything like you, I can believe that.
+# Original script by Berserker Sam #
