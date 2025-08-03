@@ -1,0 +1,53 @@
+C Support
+[Premise: A simple introduction. Lin is training with her pegasus. Insert a little joke about how her pegasus is afraid of Masashi's bow or something.]
+
+B Support
+[Premise: Lin is on her way to town to do errands but is accosted by bandits along the way. Masashi steps in to stop them.]
+(Masashi draws his bow.)
+Masashi: Leave the girl alone.
+Ruffian 1: Oi, you think you can take us on, chump? Yer outnumbered three t' two!
+Masashi: I can if I have to. Best to surrender now. This arrow will be loosed eventually. Besides, it's getting a little hard holding this bow drawn.
+Ruffian 2: Ha! Big words for a runt like you--
+(Masashi fires the arrow.)
+Ruffian 2: AUGH!
+(The ruffian falls.)
+Masashi: Whoops. String must have slipped.
+Ruffian 3: What the?! Why you--
+(Masashi quickly draws another arrow and fires.)
+Ruffian 3: GAH!
+(The ruffian falls.)
+Ruffian 1: A-Ah...! I-I'm outta here--
+(Masashi fires an arrow.)
+Ruffian 1: GUH...!
+(The last ruffian falls.)
+Masashi: Whew... Miss Lin, are you alright?
+Lin: Uh, y-yeah.
+Masashi: Good. Those ruffians didn't do anything to you, did they?
+Lin: No, I'm okay. But, Masashi, that was... You were like a completely different person back there.
+Masashi: I apologize. You shouldn't have witnessed something so appalling. At any rate, you were heading to town, correct? I'll escort you the rest of the way.
+(Masashi leaves.)
+Lin: Damn, that was... He was... He's so cool! Masashi, wait up!
+
+A Support
+Lin: Masashi!
+Masashi: Hello, Miss Lin. Did you need something?
+Lin: I, uh, wanted to thank you for the other day. Y'know, that thing with the bandits and whatever. So, here.
+Masashi: Chocolates? Oh, Miss Lin, this is very kind of you, but--
+Lin: Just take them! This is embarrassing for me as is.
+Masashi: I can't, Miss Lin. I understand you put a lot of thought into this, but I really shouldn't accept this.
+Lin: H-Huh? But why not?
+Masashi: I don't want to take advantage of your feelings like this. And I don't want you to think that I reciprocate in any way.
+Lin: I... O-Oh...
+Masashi: Don't misunderstand! You're an upstanding young lady, Miss Lin. But, emphasis on "young." While I'm only a few years older than you, there's a boundary that shouldn't be crossed.
+Lin: But... I really like you...
+Masashi: I know, I know. I was in a similar position to you, actually.
+Lin: Huh?
+[]
+Lin: I see... Hey, can we at least just be friends? I really like you, Masashi. And not just in that sappy, romantic way either. I wanna keep hanging out with you and talking with you.
+Masashi: I...
+Lin: Look, if I get too clingy or all up in your business, just tell me off! I can take it! If you don't wanna date me, fine. I get it. In that case, I'm cool with being just friends as long as you are. Deal?
+Masashi: Miss Lin... Well, if you put it that way, alright. I'm fine with being friends.
+Lin: Awesome. Now, I'll be taking those chocolates back, thank you very much. I gotta find someone else who'll take 'em. I'm not really a fan of sweets.
+Masashi: If you don't have any ideas, I'm sure Princess Krista would be more than willing to take them off your hands.
+Lin: Oh, great idea! Thanks a lot, Masashi. See ya!
+Masashi: Of course. Until next time, Miss Lin.

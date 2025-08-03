@@ -1,16 +1,16 @@
 C Support
 Ecco: Hey, you! Over here.
 Joshua: Oh, hey there. Your name's Ecco, right?
-Ecco: Sure is. Now, here's the thing. I'm a mercenary. Sometimes there just aren’t any contracts around to take up and I need money.
-Joshua: Totally get it. My old man was a mercenary and I pick up a couple jobs here and there too. That said, does it look like I'm made of money to you? My parents always warned me about giving hand-outs.
+Ecco: Sure is. Now, here's the thing. I'm a mercenary. Sometimes there just aren't any contracts around to take up and I need money.
+Joshua: Totally get it. My old man was a mercenary, and I pick up a couple jobs here and there too. That said, does it look like I'm made of money to you? My parents always warned me about giving handouts.
 Ecco: Not what I was going for here, buddy. Man, what do you take me for? Some gold digger?
 Joshua: Not necessarily.
 Ecco: Anyway, I hear you're an arena fighter.
 Joshua: Yeah, I got the idea from my dad. He would supplement arena fights with his mercenary work.
 Ecco: Smart man. Anyway, I was wondering if you could get me in. I need a recommendation.
-Joshua: I don’t know about this. Arena fights can be rough. You never know who you'll be up against. You'll probably be fine against an armored opponent or someone who can use dark magic, but you can't guarantee you'll be up against someone like that every time.
+Joshua: I don't know about this. Arena fights can be rough. You never know who you'll be up against. You'll probably be fine against an armored opponent or someone who can use dark magic, but you can't guarantee you'll be up against someone like that every time.
 Ecco: Please, I can handle myself. I'm a big girl.
-Joshua: Really? You look small and slender to me
-Ecco: Tell you what. We spar, and if I win you need to get me into the arena.
+Joshua: Really? You look small and slender to me.
+Ecco: Tell you what. We spar, and if I win you, need to get me into the arena.
 Joshua: Sure, let's go.
 # Original script by Berserker Sam #
