@@ -14,7 +14,7 @@ Reem: I could take you for a ride sometime if you like.
 Sam: ... I'll think about it.
 Reem: Something wrong?
 Sam: Just not sure if I would like not being on the ground is all.
-Reem: You'll be fine, trust me.
+Reem: You'll be fine. Trust me.
 # Original script by Berserker Sam #
 
 B Support
