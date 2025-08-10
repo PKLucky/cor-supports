@@ -1,5 +1,4 @@
-Chell and Viola
-
+C Support
 Viola: Uh, Chell?
 Chell: Yes what is it Viola? You doing alright? You're Pegasus ok?
 Viola: Yes she and I are fine it's just...I was wondering..
@@ -22,3 +21,4 @@ Viola: Oh lots of things for instance-
 CHell: Nevermind, forget I asked just remember some thing are private and personal and while a good think are also not something you talk with just anybody.
 Viola: Like sex?
 Chell: ...Yes like sex...
+# Original script by Berserker Sam

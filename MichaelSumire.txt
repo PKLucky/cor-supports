@@ -1,0 +1,16 @@
+C Support
+Michael: Time for me to take watch, where is Sumire?..Is that snoring?
+Sumire: zzz....zzzz....
+Michael: Hello? Sumire? I'm here to take over a bed is more comfortable than leaning against a post
+Sumire: Huh? Whu? Who? Oh hello! I'm the guard on watch
+Michael: I know I was sent to take over so you can get some rest. I'm Michael by the way, wait you're a girl?
+Sumire: I sure am! Oh you're a knight too?
+Michael: Yes ma'am
+Sumire: Hee-hee you don't have to ma'am me
+Michael: Oh alright
+Sumire: You sure you don't want some company it gets lonely out here
+Michael: I'll be alright I got my armor on though if you want to stay and talk a little I don't mind
+Sumire: Ok! So Michael, why'd you become a knight?
+Michael: Knights are the best, I was inspired by the tales of Knights in legends!
+Sumire: Cool.
+# Original script by Berserker Sam #

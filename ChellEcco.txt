@@ -1,0 +1,89 @@
+C Support
+Chell: Oh, there you are, Ecco. I was looking for you.
+Ecco: Hey, Chell! What can I do for you?
+Chell: One of the soldiers in the army invited me to a walk in the public gardens. It might be a date? Maybe? I'm not exactly sure, to be honest.
+Ecco: Oh, you go, girl! It's definitely a date. Guys tend to be straightforward about that sort of thing.
+Chell: Really? Fascinating. I knew my intuition about you was correct.
+Ecco: Oh?
+Chell: The thing is, I need some help preparing for this date. As you can probably tell, I'm larger framed than most women. Most normal clothes don't fit too well, and armor isn't the most romantic attire.
+Ecco: Haha! I see. Well, I'm not petite, myself. Got quite the tush, actually. Anyway, you want some store recommendations, I'm guessing?
+Chell: Exactly.
+Ecco: You definitely came to the right girl. Time for a shopping spree!
+(Scene changes to town.)
+Ecco: Yoo-hoo! Oh, Joe!
+Merchant: Well, hi there, Ecco! What can I do for you today?
+Ecco: My friend here is looking for some clothes for a date.
+Merchant: Oh, fun! What sort of look are we going for here?
+Chell: I'd like something nice for the occasion. Something light and comfortable, but also alluring.
+Merchant: Hm... I have just the thing. One sec.
+(Merchant looks through his wares.)
+Merchant: Alright, how about this?
+Chell: Wh-What is that? That would hardly cover anything! Ecco, look at it!
+Ecco: I think it looks kind of cute.
+Merchant: See? She knows a good outfit when she sees one.
+Chell: My entire butt is going to be on display! The "bottoms" are not going to cover anything.
+Ecco: Oh, yeah, everyone definitely will see your butt. And your thighs too.
+Chell: That's not supposed to be a good thing, Ecco.
+Ecco: If you say so. Joe, I think she wants something a little more conservative than that.
+Merchant: You got it! Be right back.
+(The merchant leaves.)
+Chell: What was that thing?
+Ecco: Bikini armor. Duh!
+(The merchant comes back.)
+Merchant: Alright, how do these look?
+Ecco: Oh, these look cute!
+Chell: Ah, now this is more like it. Let's see here...
+(Several hours later...)
+Chell: That was fun, Ecco. You're fun to shop with.
+Ecco: Thanks! We should do this more often.
+Chell: Definitely. But what was with that first outfit?
+Ecco: Well, you did say you wanted something alluring.
+Chell: Yes, but I didn't mean... that. What does he take me for?
+Ecco: If it's any consolation, you would look mighty fine in a bikini. You have a good form. No shame in how you look.
+Chell: Ecco, please. I don't want the whole world seeing my butt... or other things.
+Ecco: Alright, alright. But yeah, this was fun. Let's go get some pie. I'm starved!
+Chell: Yes, let's. Now that you mention it, I'm getting hungry too.
+# Original script by Berserker Sam #
+
+Chell and Ecco
+
+Ecco: Chell! Hey Chell girl!
+Chell: What is it Ecco? What's going on?
+Ecco: Girl get this! There's a huge tournament going on at the arena! Fighters from all over are participating
+Chell: Sounds like fun, either to participate or to watch. I take it we're doing one or the other?
+Ecco: You got it! This a full scale alert! All systems go! It is time.
+Chell: Time for what Ecco? Why so dramatic
+Ecco: It is time...for
+Chell: Yes?
+Ecco: A SHOPPING SPREE!
+Chell: You could have just said that in the first place, alright I'm game
+Ecco: Oh no you're not!
+Chell: Huh?
+Ecco: Not dressed like that you're not! Think about it girl! Big tournament upcoming EVERYONE is going to be about and two lovely ladies are out shopping amidst all the chaos we gotta go in STYLE!
+Chell: It sounds like you want to make a scene
+Ecco: Of COURSE not! But we gotta dress to impress, some of the tournament fighters might be about, we gotta make an impression now to your dressing chambers
+A few hours later
+Black screen comments Ecco "No not good, no not that either, nope, nah it's gotta show your goods more. Come on Chell girl LIVE a little
+A few MORE hours later Ecco: Perfect, NOW it's time to hit the town!
+Chell: This outfit is
+Ecco: Gorgeous looking? Yep it sure is, you should wear outfits like that more
+Chell: I was going to say a bit on the indecent side
+Ecco: Nah it's fine besides us two lovely ladies have to break some hearts at the arena. We're going to get the competitors hoplessly in love with us and dash their dreams
+Chell: Why?
+Ecco: It'll be fun, guys fauning over us, gawking and staring. Besides it will get your lover boy jealous and maybe he'll get his act together and get you a ring.
+Chell: He's not my Lover boy
+Ecco: Then what is he?
+Chell: Well...uh....
+Ecco: Uh-huh. Exactly. Ah here we are
+Joe: Ah hello how can I help you ladies?
+Some aggressive haggling later and Ecco and Chell make their way to the arena
+Chell: Was all of that REALLY necessary Ecco?
+Ecco: Of course it was now to the arena. Know what we're doing?
+Chell: Not really
+Ecco: We're going to motivate the fighters, give them something to fight for.
+Chell: Is that why you insisted on a dress like...this?
+Ecco: Yup! I know what I'm doing.
+Fighting starts
+Ecco: Keep at it honey! You're doing great sweety!
+Chell: Do you know that fighter
+Ecco: Nah, but everyone loves someone to cheer you on

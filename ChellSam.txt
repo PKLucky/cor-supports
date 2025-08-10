@@ -25,3 +25,23 @@ Chell: I would love to. It's been too long.
 A Support
 Sam: ... Oh! You thought I was talking about your bo--
 Chell: Sam, please!
+
+Base Convo
+Sam: You're strong, Chell. Very strong. And your axe skills are nothing to look down at either.
+Chell: Seems we have two things in common then.
+Sam: What's that mean?
+(Chell moves closer.)
+Chell: Your chest is a LOT bigger than before. So are your arms.
+(Sam backs up a pace.)
+Sam: Uhhh... thanks? Anyway, why'd you keep using an axe?
+Chell: You left and father had died. I guess it was kind of a way to be connected to you. To practice with a weapon you were so fond of. Besides... father liked the axe a lot, too.
+Sam: He sure did. He was fast and smooth with how he wielded it. I remember seeing him deflect arrows with the blade of his axe.
+Chell: Yeah. (Smiles) Want to go train?
+Sam: Sure!
+Chell: Just give me a moment to put on my training clothes. It's hot today, so I'm going to wear something light. I'm thinking my shorts today.
+Sam: You mean the short ones?
+Chell: Yup, sure do.
+Sam: Exactly how short are they?
+Chell: Very. That's not going to be a... distraction, is it, Sam?
+Sam: Uhhhh... Define "distraction."
+# Original script by Berserker Sam #
