@@ -1,0 +1,107 @@
+C Support
+Taiga: Hey you! Mr Flirty!
+Masashi: Me? The name's Masashi miss...?
+Taiga: Oh right! I'm Taiga!
+Masashi: Nice to meet you Taiga. Now how can I help such a...distinct woman?
+Taiga: You're a guy right?
+Masashi: Of course I am. What kind of question is that?
+Taiga: Just making sure. You're so skinny I wasn't sure
+Masashi: Ouch. Also rude
+Taiga: Sorry Masashi. Anyway see there's this guy I like and with how often you flirt with the other women I thought maybe you could teach me
+Masashi: Teach you what exactly? I'm not following.
+Taiga: Teach me how to flirt! How do I seduce men!
+Masashi: I'm not sure I'm the best teacher for teaching you how to seduce men, I flirt with women Taiga not the men
+Taiga: It's still flirting though! How different could it be? Besides if you're a guy you understand men and would know how one should flirt with them
+Masashi: I don't even know where to start
+Taiga: So that's a no?
+Masashi: No-
+Taiga: Ah man! Why not?
+Masashi: Not what I meant Taiga I was going to say that your understanding on flirting with men vs women is flawed. You are right though that I would know how guys want to be flirted with. I'll try my best Taiga
+Taiga: Thanks Flir- Masashi
+Masashi: (Does she have to call me out like that?) Ok Taiga this guy that you like is he liked by a lot of other women or just a few?
+Taiga: Oh yeah tons of women like him, they're often flirting with him
+Masashi: Ah yeah you'll definantly want to win him over fast then if that's the case.
+Taiga: How do I do that Masashi?
+Masashi: Well a good way to start is by getting to know him, what he likes, dislikes. Compliments also work great in most cases. Don't these women compliment him?
+Taiga: Oh yeah they do!
+Masashi: Perfect! Just imitate some of the things you've heard them say. Should work fine
+Taiga: Ok!...Just one thing
+Masashi: What?
+Taiga: I like him a lot...but I'm kind of nervous about approaching him for these reason
+Masashi: Ha-ha. No worries we all get jitterish,...ok I'm going to let you in on a little secret, sometimes when a guy is nervous about talking to a girl he'll have a couple of drinks of wine or something to bolster his courage
+Taiga: Oh! Oh ok! Great idea! Have you ever done that?
+Masashi: Naturally I'm such an expert that I've never experienced such nerves but I have observed it many times...
+Taiga: Oh of course, yeah that makes sense. Should have known a smart guy like you wouldn't be nervous. Can I tell you how it goes?
+Masashi: Of course
+Taiga: Alright I'm gonna do it! Thanks Masashi
+Masashi: Hm You know she's a nice girl, a bit brutish but she's got a good heart. Now to have some tea with some proper ladies and madams...let's hope I don't get nervous like last time.
+# Original script by Berserker Sam #
+
+B:
+Taiga: Masashi! It didn't work
+Masashi: What happened
+Taiga: He just laughed at me
+Masashi: I'm sorry Taiga maybe you need a different approach. What did you say?
+Taiga: ...Well I called him a big hunk
+Masashi: A WHAT?
+Taiga: Oh and I called him Sugar Daddy and asked him if he had any sugar for little me, and I asked him that if he came to visit if he could bring a large sausage
+Masashi: Why would you ask that? Do you have any idea what that implies?
+Taiga: Uhhh...no? Could you explain
+Masashi: It's best if I don't. Did you have any drinks prior to this venture?
+Taiga: Yup! I sure did. Was a great idea!
+Masashi: How. Many. Drinks. Taiga
+Taiga: Uhhh...I lost count after the sixth
+Masashi: SIXTH!!!
+# Original script by Berserker Sam #
+
+
+
+#####
+
+C Support
+Masashi: (Hmm, the resources here are pretty good to make stronger arrows.)
+Taiga: Oh, hello bow dude. Making bows.
+Masashi: Oh! Uh- greetings Miss. NO! I was making arrows..
+Taiga: Oh, that's nice.
+Masashi: Forgive me for saying this b-but you're rather big.
+Taiga: Yeah, I do have a lot of muscle, have to use axes somehow. You know, despite your short body. You seem like you have muscle too.
+Masashi: Thank you miss-
+Taiga: Just Taiga. I think you're Kokorozashi right?
+Masashi: It’s Masashi.
+Taiga: Okay Mashi. Since you're a-
+Masashi: Archer. And forgive me but you're forgetting a-
+Taiga: Archer, could you teach me some Archer stuff?
+Masashi: Uh- sure.
+(Masashi quickly gets out his bow and fires at a target)
+Taiga: That's awesome!
+Masashi: When you put the arrow in and aim, don't-
+Taiga: Let me try.
+Masashi: Don't pull too hard.
+(Taiga breaks the bow)
+Taiga: Oh shoot I'm sorry. I'll gamble the money to repair it.
+Masashi: Don't worry. I have more.
+# Original script by Blade of Light 12 #
+
+B Support
+Masashi: Finally an apple. Just when I finished archery practice.
+Taiga: Hello again Mashi
+Masashi: Ah! …Greetings Taiga.
+Taiga: I've been wondering, I practiced Archer shooting but now I want to see how you do with axes.
+Masashi: Are you sure?
+Taiga: You bet I am! However the clothes you're wearing don't seem very axe friendly, that's why I wear this. It shows off my arms too. Let's see what you look like.
+Masashi: I-I understand. (Why do I have to take off my tunic?)
+(One stripping scene later)
+Taiga: Oh wow, I knew you had muscles but I wasn't expecting this much. You have a nice chest, nice abs, a very cool arms and that back! Oh that back is so good. It really is impressive despite your cute face and being on the short side. But let's see if your muscles help with using an axe. Here take this.
+Masashi: Wait-
+Taiga: Come on, you can do this.
+(Masashi takes the axe)
+Masashi: Ha! Hiht! Rah!
+Taiga: Doing good.
+Masashi: Shn!
+Taiga: Nice. Could you split this Log here?
+Masashi: HIIIIIYYYAAAA!
+(He splits the log)
+Taiga: Good job, you were shaking a little bit in the beginning, but you split the log perfectly. You should use axes more. You'll get more comfortable with it along the way!
+Masashi: (deep breath) Th-thank you Mis-
+Taiga: It's just Taiga, just because I'm teaching you doesn't mean we need any of that royal stuff.
+# Original script by Blade of Light 12 #

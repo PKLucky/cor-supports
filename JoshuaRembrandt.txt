@@ -1,0 +1,22 @@
+C Support:
+Joshua: Mr Rembrandt?
+Rembrandt: Hm? Oh, Joshua I believe
+Joshua: Yes sir, that's me
+Rembrandt: I'm not knight nor do I have any lordly titles. I'm just a soldier, nevermind with the titles, titles never got anyone anywhere. Just call me Rembrandt both of us are just soldiers in service to the princess of Medea.
+Joshua: Yes...Rembrandt...understood
+Rembrandt: Good man, now what did you want?
+Joshua: I was wondering if you would mind sparring with me. I've seen you train your strikes are immaculate. You never miss.
+Rembrandt: I could, but I'm hardly the swordsman I was, I'm not as fast as I once was.
+Joshua: That may be, but I'm not looking for the fastest. Simply a skilled swordsman whom I can learn from. Maybe also I can then master my father's techniques. He wrote it all down in this manual
+Rembrandt: Mind if I have a look at that?
+Joshua: Go ahead, here
+Rembrandt: Hmm...uh-huh....some standard stances....not bad...oh that's a good idea there...fascinating...Here you go Joshua, some excellent formations detailed there. Alright come at me, let me see what you can do
+Joshua: Ok. Hyah! rushes right past Rembrandt. Missed, you dodged nice
+Rembrandt: No I didn't or not exactly
+Joshua: Huh? Oh, you're right you are in the exact position as before what did you do?
+Rembrandt: Do that strike again, slowly this time so you can see what I did
+Joshua: Alright. Slowly moves towards Rembrandt and slowly past "Oh! Wow that's awesome! You tapped the side of my blade causing it to go off course and allowing you to completely avoid the strike
+Rembrandt: Indeed, your sword is massive so special parrying techniques are needed if one wishes to preserve their weapon. Shall we continue?
+Joshua: Let's
+(Consider allowing Joshua to get a point of skill from this and Rembrandt a point of strength to signify each learning from the other in their sparring.)
+# Original script by Berserker Sam #
