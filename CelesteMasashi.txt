@@ -4,37 +4,26 @@ Celeste: Miss Felicity said that we needed more firewood. So glad she asked me t
 Masashi: Goodness! What on earth is that child up to?
 (Masashi approaches Celeste.)
 Masashi: Excuse me, little lady?
-Celeste: Huh? Who are you? Wait, aren't you that arrow guy who's always talking to girls?
+Celeste: Huh? Wait, aren't you that arrow guy who's always talking to girls?
 Masashi: ... My name is Masashi, and I'm an archer, yes. And yes, I suppose I do talk to girls a lot. That is all beside the point. At any rate, what are you up to?
 Celeste: Miss Felicity needed some more firewood, so I got asked to do it. HOORAH! Chop!
-[THE FOLLOWING LINES NEED REVISION]
-	Masashi: Why wasn't Michael asked? Chopping wood is hard work fo……well it’s hard work can be really exhausting.
-	Celeste: Have you seen him use an axe before?
-	Masashi: No I can’t say I have
-	Celeste: Exactly CHOP!
-[END REVISION SECTION]
-Masashi: Still, you should use a more elegant weapon. Not a brutish weapon like an axe.
-	Celeste: And what would you suggest, mister? A sword? Everyone uses a sword but I’m the only girl with an axe..or I was until Taiga. Point still stands! [LINE NEEDS REVISION]
-Masashi: Swords are a fine weapon. But, no, little lady. I had the bow in mind
+Masashi: Still, wouldn't a more elegant weapon suit a young lady like yourself?
+Celeste: And what would you suggest, mister? A sword? Everyone uses a sword!
+Masashi: Swords are a fine weapon. But, no, little lady. I had the bow in mind.
 Celeste: A bow?
 Masashi: Absolutely. Truly a fine, elegant weapon that only the most gifted use.
 Celeste: Why do you say only the most gifted?
-[THE FOLLOWING LINES MAY NEED REVISION]
-	Masashi: How many archers are there in the army?
-	Celeste: Well, there's you and...
-	Masashi “Exactly.”
-	Celeste “Don’t use my own words against me mister! That’s mean.” (is smiling though)
-	Masashi “Wouldn’t dream of it. Shall I show you how to use a bow?
-[END POSSIBLE REVISION SECTION]
+Masashi: Very few possess the dexterous finesse to use one. Why, just look at this army. Most focus on martial weapons or the arcane arts, yet only a handful have learned to wield the bow, let alone master it.
+Celeste: Huh, you have a point.
+Masashi: So, what do you say? Would you like to learn?
 Celeste: Sure! Just as soon as I finish chopping this wood. CHOP!
 Masashi: Celeste, wait!
 Celeste: Huh?
-Masashi: Don't hit that piece you just split. With some work, that would make a great bow. Could I have it? I can fashion it into a bow for you.
+Masashi: Don't hit that piece you just split. With some work, that would make a great bow. Could I have it? I can fashion it into one for you.
 Celeste: Oh? Okay, go ahead.
-[THE FOLLOWING LINES NEED MINOR REVISION]
-	Masashi: Here before I go mind pulling the string on my bow? I want an idea how strong you are.
-	Celeste: I'm strong!
-	Masashi: Not like that. Bows are very different from lifting big logs or boulders.
+Masashi: And before I go, mind pulling the string on my bow? I want an idea how strong you are.
+Celeste: I'm plenty strong!
+Masashi: I can see that, however, bowstrings have to have 
 	Celeste “Oh, ok I’ll give it a try. Hurgh….hurgh. Why is such a slim piece of string so hard to pull?
 	Masashi “You did better than I thought you would. Thank you Celeste, I’ll catch up with you when I finish making a bow that you can draw.
 	Celeste “Ok mister! This sounds fun!
