@@ -1,0 +1,18 @@
+C Support
+Chell: Ah Captain Taylor off to the pub again?
+Taylor: Well no for once actually I was about to give Forrest a report on how the new recruits are shaping up. But now that you mention it that sounds like an EXCELLENT idea. Wanna join me?
+Chell: Heh, heh. Some other time perhaps just behave yourself
+Taylor: When have I ever gotten carried away I can handle my alchohol just fine I'll have you know!
+Chell: Oh? No discretions when you've been drinking?
+Taylor: Absolutely none at all
+Chell: What about the time you proposed to Krista's mom...with her father barely two feet away
+Taylor: A minor lapse in judgement
+Chell: You're lucky he let you walk away with your head attached
+Taylor: Speaking of heads remaining attached want to spar some?
+Chell: Sure!
+Taylor: What got you to pick up the axe anyway?
+Chell: When I lost my parents on that fateful day, dad always had an admiration for those who use axes. It's also a cheap weapon I guess I focused on learning how to use an axe as a way to stay connected to my father...Sam also liked the axe and he left after the funeral it may have been an unconscious way to stay connected to him too but I think it's more likely the former
+Taylor: Sorry I didn't mean to bring up a sensitive subject
+Chell: No worries, how about you Taylor why the axe specifically?
+Taylor: Honestly? I just love how an axe whistles through the air as I chop down on an enemy, also the axe is difficult to truly defend against. Even if you block you still feel the force of the impact it's almost like trying to block a hammer blow.
+# Original script by Berserker Sam #

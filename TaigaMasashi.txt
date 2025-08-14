@@ -44,7 +44,7 @@ Taiga: He just laughed at me
 Masashi: I'm sorry Taiga maybe you need a different approach. What did you say?
 Taiga: ...Well I called him a big hunk
 Masashi: A WHAT?
-Taiga: Oh and I called him Sugar Daddy and asked him if he had any sugar for little me, and I asked him that if he came to visit if he could bring a large sausage
+Taiga: Oh and I called him Sugar Daddy and asked him if he had any sugar for little me, and I asked him that if he came to visit if he could bring a large sausage for my buns fresh from the oven
 Masashi: Why would you ask that? Do you have any idea what that implies?
 Taiga: Uhhh...no? Could you explain
 Masashi: It's best if I don't. Did you have any drinks prior to this venture?
@@ -52,6 +52,19 @@ Taiga: Yup! I sure did. Was a great idea!
 Masashi: How. Many. Drinks. Taiga
 Taiga: Uhhh...I lost count after the sixth
 Masashi: SIXTH!!!
+Taiga: What was that too much?
+Masashi: YES!!!
+Taiga: Oh..oh I also asked if could bring some morning wood to put in my hearth
+Masashi: Taiga...just stop I think I get the idea
+Taiga: Alright...so I didn't do it right?
+Masashi: No. but that's because you were imitating the wrong people to imitate.
+Taiga: Oh should I have whistled at him instead? You know like this Whoo-whoo!
+Masashi:...No. Now Taiga I think in your case you should just be yourself, just tell him you like him
+Taiga: But he already laughed at me, said I was drunk and that we could talk in the morning
+Masashi: Taiga...you need to tell boy.
+Taiga: Huh?
+Masashi: Allow me to lay out a strategy for you. If girl like boy but boy no know girl likey. And if boy no talky to gir, girl need tell boy she likey.
+Taiga: Oh! Ok I understand! Ok Masashi thanks for the help! And for cheering me up!
 # Original script by Berserker Sam #
 
 
@@ -104,4 +117,22 @@ Masashi: HIIIIIYYYAAAA!
 Taiga: Good job, you were shaking a little bit in the beginning, but you split the log perfectly. You should use axes more. You'll get more comfortable with it along the way!
 Masashi: (deep breath) Th-thank you Mis-
 Taiga: It's just Taiga, just because I'm teaching you doesn't mean we need any of that royal stuff.
+# Original script by Blade of Light 12 #
+
+A Support
+Taiga: Hey! Hey! Mashi! Guess what I fixed your bow, and all by myself too.
+Masashi: Oh, Uh. Thank you. I was wondering where it was.
+Taiga: Could I try shooting again, I think your bow should work now. And I'll try not being as hard with the bow. 
+Masashi: You don't have to.
+Taiga: But you were doing pretty good with the axe so I gotta do good with the bow.                 Alright, let's see here. Hey I got it!
+Masashi: Alright, doing good.
+(The bow breaks again)
+Taiga: Oh no, not again.
+Masashi: As I said before, don't worry about it.
+Taiga: No, I'll fix it again. Just went too hard.
+(Try putting some lines from the other support)
+Masashi: Honestly, I don't think I'm tha-
+Taiga: Thanks for the advice!
+Masashi: I wasn't done talking…
+Taiga: Oh yeah, your bow too.
 # Original script by Blade of Light 12 #
