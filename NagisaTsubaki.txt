@@ -1,3 +1,4 @@
+C/B/A?
 Nagisa: Lady Tsubaki?
 Tsubaki: I'm stuck. The princess of Medea comes here and it turns out my father was being controlled.
 Nagisa: We'll get to the bottom of this. And she's definitely hiding something. That deserter Kai is one of her retainers now. There's something going on between them
@@ -10,4 +11,21 @@ Nagisa: (sighs) You're right, Lord Samegoro probably wouldn't let you go anywher
 Tsubaki: Do not worry. Let's go outside.
 Nagisa: Understood.
 Tsubaki: Smile.
+# Original script by Blade of Light 12 #
+
+A+ Support
+Tsubaki: What am I going to do?
+Nagisa: Lady Tsubaki, what's wrong?
+Tsubaki: It’s all going to be over soon. We’ll go back to Merinas. And I'll never see anyone I met here again.
+Nagisa: Tsubak- Lady Tsubaki. It's nothing you need to-
+Tsubaki: As the crown princess of Merinas, I know what I have to do. But I hate it! I hate it so much.
+Nagisa: Lady Tsubaki-
+Tsubaki: My father may have been trying to take care of me but. I'm sick of being lonely. And even the people I reunited with I'll never see again. I'm sorry, I must have been whiny.
+Nagisa: Lady Tsubaki, you aren't being whiny. If anything I was probably being cranky, grumpy and a piece of work. But even if all fall away on your account, (sniff) I never will.
+Tsubaki: Nagisa…
+Nagisa: I'm saying I'll never leave you! No matter what you do.
+Tsubaki: Thank you so much Nagisa.
+Nagisa: It’s not fair to you. But if anyone tries to lead you on, I'll be there for you. Sorry for repeating myself.
+Tsubaki: Nagisa, don't worry. You're fine. And I still plan on fulfilling my role as the crown princess. But if I have you by my side. I don't think I'll ever be lonely.
+Nagisa: Lady Tsubaki, thank you. And if you need something, come to me.
 # Original script by Blade of Light 12 #

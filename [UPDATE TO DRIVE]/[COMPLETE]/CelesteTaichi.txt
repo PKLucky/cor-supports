@@ -81,23 +81,26 @@ Taichi: Well, there was that time when I was two and tried lifting my mom's axe.
 # Original script by Blade of Light 12 #
 
 S Support
-Celeste: You! (Throws axe at a target) Take that!
-Taichi: Nice shot, better than the previous one.
-Celeste: This time I had a target-
-Taichi: That you could see.
-Celeste: Mrmphphph. I hit it on the Mark! That's the important thing.
-Taichi: (smiling) How many hits can you get?
+Celeste: You!
+(Celeste throws her axe at a target)
+Celeste: Take that!
+Taichi: Nice shot. Better than the previous one.
+Celeste: This time I had a target.
+Taichi: Yeah, one that you could actually see.
+Celeste: Hmph! I hit it on the mark! That's the important thing.
+Taichi: How many hits can you get?
 Celeste: More than you. 
-Taichi: Then let's test it. 5 hits for each of us
-(10 axe throws later)
+Taichi: Then let's test it. Five throws for each of us.
+Celeste: You're on!
+(Ten axe throws later...)
 Celeste: Told ya I'd get more than you!
-Taichi: You got one more than me. We're closer than you think.
+Taichi: You got ONE more than me. We're closer than you think.
 Celeste: Then we'll make a great team against the forces of evil!
-Taichi: (Let's see if we have gotten better) How about another duel? If I win we go on a date. If you wi-
-Celeste: Then you join me, in the great mission to fight crime and the forces of evil!
+Taichi: How about another duel? If I win, we go on a date. If you win--
+Celeste: Then you join me in the great mission to fight crime and the forces of evil!
 Taichi: Same place?
-Celeste: It would be only fair wouldn't it? Race ya there!
-Taichi: If we race there we'll be too tired for the actual duel.
+Celeste: It would be only fair, wouldn't it? Race ya there!
+Taichi: If we race there, we'll be too tired for the actual duel.
 Celeste: Sorry, was pulling your leg.
 Taichi: Sure you were.
 # Original script by Blade of Light 12 #

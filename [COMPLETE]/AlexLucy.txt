@@ -1,111 +1,52 @@
 C Support
 (Lucy enters the scene.)
-speak;Lucy;Wow, it smells really good here.|{c:e;Lucy;Smile}Oh, Miss Alex! What are you up to?
-mirror_portrait;Alex
-expression;Alex;Smile
-speak;Alex;Hello, Lucy. Just brewing some tea.|Would you like some?
-speak;Lucy;Yes, please!
-speak;Alex;Here you go.|Be careful. It's hot.
-speak;Lucy;Thank you very much.
-expression;Lucy;CloseEyes,NoSmile
-speak;Lucy;...;no_talk
-expression;Lucy;NormalBlink
-bop_portrait;Lucy
-expression;Lucy;Smile
-speak;Lucy;This is really good! What kind of tea is it?
-expression;Alex;NoSmile
-speak;Alex;It's a blend of chamomile and lavender.|I've read that both are good for sleep and relaxation.
-speak;Lucy;That's amazing! Tea can do that?
-speak;Alex;Yes, to some extent.|It can't replace eating well and taking care of your body, but it can help.|If you'd like, I could lend you my book on different teas.|You seem quite interested.
-speak;Lucy;That would be great! Thank you very much, Miss Alex!
-expression;Alex;Smile
-speak;Alex;Of course.|If you happen to come across a tea that you might like, let me know.|I'll see if I can brew it for you.
-speak;Lucy;Okay!
-unlock_support_rank;Alex;Lucy;C
-end
-end_skip
-if;support_rank_nid == 'B'
-change_background;Fireplace
-transition;open
-music;Girl of the Plains
-multi_add_portrait;Lucy;Right;Alex;Left
-expression;Lucy;Smile
-speak;Lucy;Miss Alex! I found a tea I want to try.
-speak;Alex;Oh? Which one is it?
-speak;Lucy;Ginger tea!
-expression;Alex;Smile
-speak;Alex;That one is quite good. It's one of my favorites.|{c:e;Alex;NoSmile}What caught your interest with this one in particular?
-expression;Lucy;NoSmile
-speak;Lucy;That book you lent me said that it's good for soothing a sore throat.|I was hoping it could ease my mother's symptoms, at least.
-speak;Alex;Ah, I see. How about we make a batch together?|That way we can figure out a good way to prepare it before|having your mother give it a try.
-speak;Lucy;Oh, good idea!
-remove_all_portraits
-transition;close
-change_background;BlackBackground
-transition;open
-speak;;Some time later...;StyleNid=hint;NumLines=1;no_sound
-transition;close
-change_background;Fireplace
-transition;open
-multi_add_portrait;Lucy;Right;Alex;Left
-speak;Alex;Alright, looks like it's done. Let me pour you a cup, Lucy.|{c:e;Alex;Smile}Feel free to add some lemon and honey, but don't go overboard.
-expression;Lucy;Smile
-speak;Lucy;Thank you very much, Miss Alex. I think I'll try it as is first.
-expression;Lucy;CloseEyes,NoSmile
-speak;Lucy;...;no_sound
-expression;Lucy;NormalBlink
-speak;Lucy;Oh, wow, I can see why this is recommended for sore throats.|You can really feel it go down with just a little sip.
-speak;Alex;Yes, I agree.|That's why I prefer to have it with a squeeze of lemon and some honey.|Not only do their flavors compliment the ginger, they can also ease an ailing throat.
-expression;Lucy;Smile
-speak;Lucy;I'll give it a taste.
-expression;Lucy;CloseEyes,NoSmile
-speak;Lucy;...;no_sound
-expression;Lucy;CloseEyes,Smile
-speak;Lucy;Ahh{tgm}...{tgm}|{c:e;Lucy;NormalBlink,Smile}That's really good! I think I know how to prepare this for my mother now.|Thank you very much, Miss Alex!
-speak;Alex;You're very welcome, Lucy. Please let me know what she thinks of the tea.
-speak;Lucy;Of course!
-unlock_support_rank;Alex;Lucy;B
-end
-end_skip
-if;support_rank_nid == 'A'
-change_background;Fireplace
-transition;open
-music;Girl of the Plains
-multi_add_portrait;Lucy;Right;Alex;Left
-expression;Lucy;Smile
-speak;Lucy;Miss Alex! Thanks again for helping with the tea.|Mom really liked it.
-expression;Alex;Smile
-speak;Alex;I'm glad to hear that, Lucy.
-expression;Lucy;HalfCloseEyes,NoSmile
-speak;Lucy;I just wish there was more I could do for her.
-expression;Alex;NoSmile
-speak;Alex;Well, there's only so much you can do.|{c:e;Alex;Smile}But I think what you have done has been helping a lot.
-expression;Lucy;NormalBlink
-speak;Lucy;You really think so?
-speak;Alex;Absolutely.|If anything, I'm sure your mother is happy that her daughter cares so much for her.
-speak;Lucy;Thank you, Miss Alex, but I still want to try harder for her.
-expression;Alex;CloseEyes,NoSmile
-speak;Alex;Hm{tgm}...{tgm}|{c:e;Alex;NormalBlink}I have an idea. Why don't I teach you how to grow your own ginger?|I've been reading up on how to grow various herbs and roots for tea.|Ginger does take a while to grow, but if we start now,|we'll be able to harvest it sometime next year.
-expression;Lucy;Smile
-speak;Lucy;That's a great idea!
-expression;Alex;Smile
-speak;Alex;Then, let's grab some ginger roots from the market.|We can plant them in the fields behind the castle when we come back.
-speak;Lucy;Okay!
-remove_all_portraits
-transition;close
-change_background;BlackBackground
-transition;open
-speak;;Later behind the castle...;StyleNid=hint;NumLines=1;no_sound
-transition;close
-change_background;CastleGarden
-transition;open
-multi_add_portrait;Alex;Right;Lucy;Left
-expression;Alex;Smile
-speak;Alex;Alright, this looks good.|We just have to let the maids know to take care of these while we're away.
-expression;Lucy;Smile
-speak;Lucy;Right!
-expression;Lucy;NoSmile
-bop_portrait;Lucy
-speak;Lucy;Oh, I should go to the infirmary and check up on Mom.|{c:e;Lucy;Smile}Thank you again, Miss Alex. This was really fun!
-speak;Alex;Of course. See you later, Lucy.
+Lucy: Wow, it smells really good here. Oh, Miss Alex! What are you up to?
+Alex: Hello, Lucy. Just brewing some tea. Would you like some?
+Lucy: Yes, please!
+Alex: Here you go. Be careful. It's hot.
+Lucy: Thank you very much.
+(Lucy takes a sip.)
+Lucy: ... This is really good! What kind of tea is it?
+Alex: It's a blend of chamomile and lavender. I've read that both are good for sleep and relaxation.
+Lucy: That's amazing! Tea can do that?
+Alex: Yes, to some extent. It can't replace eating well and taking care of your body, but it can help. If you'd like, I could lend you my book on different teas. You seem quite interested.
+Lucy: That would be great! Thank you very much, Miss Alex!
+Alex: Of course. If you happen to come across a tea that you might like, let me know. I'll see if I can brew it for you.
+Lucy: Okay!
+
+B Support
+Lucy: Miss Alex! I found a tea I want to try.
+Alex: Oh? Which one is it?
+Lucy: Ginger tea!
+Alex: That one is quite good. It's one of my favorites. What caught your interest with this one in particular?
+Lucy: That book you lent me said that it's good for soothing a sore throat. I was hoping it could ease my mother's symptoms, at least.
+Alex: Ah, I see. How about we make a batch together? That way we can figure out a good way to prepare it before having your mother give it a try.
+Lucy: Oh, good idea!
+(Some time later...)
+Alex: Alright, looks like it's done. Let me pour you a cup, Lucy. Feel free to add some lemon and honey, but don't go overboard.
+Lucy: Thank you very much, Miss Alex. I think I'll try it as is first.
+(Lucy takes a sip.)
+Lucy: ... Oh, wow, I can see why this is recommended for sore throats. You can really feel it go down with just a little sip.
+Alex: Yes, I agree. That's why I prefer to have it with a squeeze of lemon and some honey. Not only do their flavors compliment the ginger, they can also ease an ailing throat.
+Lucy: I'll give it a taste.
+(Lucy takes another sip.) ... Ahh... That's really good! I think I know how to prepare this for my mother now. Thank you very much, Miss Alex!
+Alex: You're very welcome, Lucy. Please let me know what she thinks of the tea.
+Lucy: Of course!
+
+A Support
+Lucy: Miss Alex! Thanks again for helping with the tea. Mom really liked it.
+Alex: I'm glad to hear that, Lucy.
+Lucy: I just wish there was more I could do for her.
+Alex: Well, there's only so much you can do. But I think what you have done has been helping a lot.
+Lucy: You really think so?
+Alex: Absolutely. If anything, I'm sure your mother is happy that her daughter cares so much for her.
+Lucy: Thank you, Miss Alex, but I still want to try harder for her.
+Alex: Hm... I have an idea. Why don't I teach you how to grow your own ginger? I've been reading up on how to grow various herbs and roots for tea. Ginger does take a while to grow, but if we start now, we'll be able to harvest it sometime next year.
+Lucy: That's a great idea!
+Alex: Then, let's grab some ginger roots from the market. We can plant them in the fields behind the castle when we come back.
+Lucy: Okay!
+(Later behind the castle...)
+Alex: Alright, this looks good. We just have to let the maids know to take care of these while we're away.
+Lucy: Right! Oh, I should go to the infirmary and check up on Mom. Thank you again, Miss Alex. This was really fun!
+Alex: Of course. See you later, Lucy.
 (Adds the base convo "A Mother's Love".)

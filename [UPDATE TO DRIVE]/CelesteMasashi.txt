@@ -1,10 +1,8 @@
 C Support
-Celeste: Miss Felicity said that we needed more firewood. So glad she asked me to do it. It just means more axe practice! Okay, log, you’re dead! Oh, and so are you! Chop! Chop! Chop!
+Celeste: Miss Felicity said that we needed more firewood. So glad she asked me to do it. It just means more axe practice! Okay, log, you're dead! Oh, and so are you! Chop! Chop! Chop!
 (Masashi enters the scene.)
-Masashi: Goodness! What on earth is that child up to?
-(Masashi approaches Celeste.)
 Masashi: Excuse me, little lady?
-Celeste: Huh? Wait, aren't you that arrow guy who's always talking to girls?
+Celeste: Huh? Who? Oh, hey there! Wait, aren't you that arrow guy who's always talking to girls?
 Masashi: ... My name is Masashi, and I'm an archer, yes. And yes, I suppose I do talk to girls a lot. That is all beside the point. At any rate, what are you up to?
 Celeste: Miss Felicity needed some more firewood, so I got asked to do it. HOORAH! Chop!
 Masashi: Still, wouldn't a more elegant weapon suit a young lady like yourself?
@@ -12,7 +10,7 @@ Celeste: And what would you suggest, mister? A sword? Everyone uses a sword!
 Masashi: Swords are a fine weapon. But, no, little lady. I had the bow in mind.
 Celeste: A bow?
 Masashi: Absolutely. Truly a fine, elegant weapon that only the most gifted use.
-Celeste: Why do you say only the most gifted?
+Celeste: Why do you say only that?
 Masashi: Very few possess the dexterous finesse to use one. Why, just look at this army. Most focus on martial weapons or the arcane arts, yet only a handful have learned to wield the bow, let alone master it.
 Celeste: Huh, you have a point.
 Masashi: So, what do you say? Would you like to learn?
@@ -23,9 +21,10 @@ Masashi: Don't hit that piece you just split. With some work, that would make a 
 Celeste: Oh? Okay, go ahead.
 Masashi: And before I go, mind pulling the string on my bow? I want an idea how strong you are.
 Celeste: I'm plenty strong!
-Masashi: I can see that, however, bowstrings have to have 
-	Celeste “Oh, ok I’ll give it a try. Hurgh….hurgh. Why is such a slim piece of string so hard to pull?
-	Masashi “You did better than I thought you would. Thank you Celeste, I’ll catch up with you when I finish making a bow that you can draw.
-	Celeste “Ok mister! This sounds fun!
-	Masashi thinking (Impressive she’s a good kid but she needs to be directed down a proper path or there’s no telling what she’ll grow up into. She has an impressive draw pull though I better get to work)
+Masashi: I can see that! However, a bow and its string needs to be adjusted to its user's strength. I need an idea of how to make this bow suitable for you.
+Celeste: Ohhhh, well, why didn't you say so? Lemme give it a try.
+(Celeste attempts to pull the string.)
+Celeste: Whew! Why is such a slim piece of string so hard to pull?
+Masashi: You did better than I thought you would, though. Thank you, Celeste. I'll catch up with you when I finish making a bow that you can draw.
+Celeste: Okay, mister! This sounds fun!
 # Original Script by Berserker Sam #
