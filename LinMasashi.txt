@@ -1,8 +1,10 @@
 C Support
-[Premise: A simple introduction. Lin is training with her pegasus. Insert a little joke about how her pegasus is afraid of Masashi's bow or something.]
+[]
+Lin: Back off, bucko. And put that bow away. You're scar
 
 B Support
-[Premise: Lin is on her way to town to do errands but is accosted by bandits along the way. Masashi steps in to stop them.]
+Lin: 
+[]
 (Masashi draws his bow.)
 Masashi: Leave the girl alone.
 Ruffian 1: Oi, you think you can take us on, chump? Yer outnumbered three t' two!

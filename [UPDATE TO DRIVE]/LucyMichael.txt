@@ -1,0 +1,54 @@
+C Support
+??? Hi there!
+Michael: Huh? Who said that?
+Lucy comes rushing in
+Lucy: I did. I’m Lucy!
+Michael: You’re a girl
+Lucy: Yup! Oh you’re a knight right?
+Michael: Uh….yeah?
+Lucy! Oh then I should call you Sir Michael then!
+Michael: I really don’t think that’s necessary
+Lucy: But…..I call Forrest, Sir Forrest. Taylor, Sir Taylor and they’re both knights
+Michael: Yes but that’s different.
+Lucy: How come?
+Michael: It just is
+Lucy: Oh why’d you become a knight Sir Michael
+Michae smiles: Ha-ha. Please just call me Michael. Sir Michael is embarrassing I haven’t done anything deserving of being called Sir
+Lucy: But you’re a knight! And you’re so strong! You protect people!
+Michael: Oh there’s plenty of people a lot stronger than I am
+Lucy: Like who? Besides Sir Forrest, Sir Taylor, Lady Alex, Princess Kirsta, Lady Chell……..ok maybe that is a lot of people
+Michael: Ha-hal It’s ok, it just means I have a long way to go but until then I’m going to do my best
+Lucy: Yeah! Me too, well maybe not at protecting people like you do but I’m going to become the best healer ever!
+Michael: I’ll do my best to keep you safe so you can become the best healer Lucy
+Lucy: And I’ll patch you up if you get hurt!
+# Original script by Berserker Sam #
+
+B:
+Lucy: Greetings Sir Michael how dost thou fare on this fine morning?
+Michael: Please Lucy...that made my sides hurt it's too funny when you talk in such an antiquated fashion
+Lucy: Hee-hee. Yeah it is pretty funny, but seriously how are you doing?
+Michael: I'm doing well I like protecting people and keeping them safe just like the knights in the stories I didn't find what I wanted with the Holy Knights but with the knights of Medea while still different from the stories it's still more like what I imagined
+Lucy: That's great Michael! I like making people feel better making sure they're no longer sick making their boo-boos go away
+Michael: Their boo-boos?
+Lucy: Their ouchies!
+Michael: Ouchies?
+Lucy: Don't make fun of me Sir Michael, ALWAYS be nice to your healer or the healer may refuse to heal you.
+Michael: Ok Lucy I'll be nice
+Lucy: Good! Bessie approves too, I wish I could heal mom though
+Michael: You've never mentioned your mom before
+Lucy: She's the best healer in the whole world but she's sick now so I'm filling in I hope she gets better
+Michael: I'm sorry to hear that I hope she gets better
+Lucy: Me too. How about you do you have a mom?
+[NEEDS REVISION]
+	Michael: Yes she's in Foliaga I'm a little worried about her what with all the commotion from us trying to smooth things over in Foliaga but she's in no danger
+	Lucy: Maybe you should write a letter to her?
+	Michael: I did. I make sure to write to her whenever I can and let her know how I'm doing and assure her things are well, she tells me in her letters she's safe.
+	Lucy: That's good she sounds nice.
+	Michael: She's the best
+	Lucy: No mine's the best
+	Michael: No mi-
+	Lucy: Huh-uh. Mine's better
+	Michael: How long is this going to keep up?
+	Lucy: No idea! Let's make sure we both stay safe so we can see our mommas when this all over
+	Michael: That's a good idea Lucy
+# Original script by Berserker Sam #

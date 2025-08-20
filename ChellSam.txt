@@ -22,6 +22,34 @@ Sam: I... I see. But anyway, I'm going to go train want to come?
 Chell: I would love to. It's been too long.
 # Original script by Berserker Sam #
 
+B Support
+Chell: Sam you said you don't have anyone special? Like no girl you met amongst the mercenaries or perhaps a pretty damsel you rescued from bandits?
+Sam: Ha-ha- no. I have saved various damsels before, merchants, travelers, etc but no one that's caught my eye...besides...
+Chell: Besides?
+Sam: The life I'm living out in the mountains, clearing out the bandits that's no life for a girl especially a girl I might consider to mean something to me
+Chell: You're not wrong, and that's sweet of you to think of things like that
+Sam: Oh..thank you?
+Chell: But it's not life for a man either Sam, think about it. All alone, no one to talk to, to share a meal with...
+Sam: Hmmm
+Chell: You've done that for how many years now?
+Sam: Uhhh...eight I think...
+Chell: Eight years that's a lot of cold bed nights
+Sam: Yeah...Chell what are you getting at?
+Chell: My point is Sam I'm sure the right girl would go anywhere with you including into bandit infested Oregot and she would help you clear it of bandits
+Sam: I suppose that's true enough...
+Chell: There's no supposing about it! What you are aspiring to do while noble and brave is foolish. How long until you finish? How long until you clear Oregot?
+Sam: Never thought about it, as long as it takes.
+Chell: And you just expect the girl to wait?
+Sam: Well...never thought about that before
+Chell: Please do the right girl will go with you the right girl will want to go with you Sam, it's too big to do all yourself
+Sam: Thanks Chell, I'll think about what you said you shared some insight I never considered
+Chell: You're welcome Sam
+Sam: I'm going to go eat, I need to mull over what you said
+Chell: Ok
+Sam: I'm just not sure who the right girl might be...ok see you
+Chell: Is he dense? Or am I unattractive? Is he not attracted to me anymore?...he can't possibly be oblivious to my hint can he? Can he??? How more obvious can I be that I will go with him into Oregot to help him bandits or no. Is he just dense?
+
+
 A Support
 Sam: ... Oh! You thought I was talking about your bo--
 Chell: Sam, please!

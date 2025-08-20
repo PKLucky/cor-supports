@@ -1,7 +1,8 @@
 C Support
 Marina: Hard at work, I see.
 Chell: Wha--Oh, hello. Marina, wasn't it?
-Marina: Yes, that's right. 
+Marina: Yes, that's right. I'm not interrupting, am I?
+Chell: Oh, not at all. 
 
 B Support
 Chell: Marina, can you perform one of your dances for me? I'm getting winded, but one of your dances would probably invigorate me.

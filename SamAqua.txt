@@ -15,11 +15,12 @@ Aqua: You need an adult to supervise you and as such I will watch over you and m
 Sam: Well what’s that going to do for me?
 Aqua: With me around I can keep you patched up without you stopping to chug a vulnery allowing you to keep killing bandits you can keep killing bandits you can kill them as much as 35% more efficently
 Sam: Hmmmmm…..that sounds good real good. Ok lemme talk to my assistant
-Sam leaves “Yo axe ya hear that? 35%!!!! That’s 35% more bandits that’s……well that’s a LOT more bandit killing!!!! Think we should accept? Uh-huh,......gotcha…..uh-huh. WELL WHAT DO YOU KNOW YOU’RE A DAMN TABLE!”
+Sam leaves “Yo axe ya hear that? 35%!!!! That’s 35% more bandits that’s……well that’s a LOT more bandit killing!!!! Think we should accept? Uh-huh,......gotcha…..uh-huh. WELL WHAT DO YOU KNOW YOU’RE A DAMN AXE!”
 Sam comes back
 Sam: Yeah representive said to go for it! BANDIT KILLING IS IN THE HOUSE! Oh name’s Sam nice to work with you Aqua
 Aqua: Pleasure is mine Mr. Sam (Aqua leaves)
-Sam: Shut up Axe you work for ME remember? I call the shots around here? What do you know about math anyway?”
+Sam: Shut up Axe you work for ME remember? I call the shots around here? What do you know about math anyway?....Course I know what 2+2 is!....Well it's uhhh...IT'S 7! DUH! No I'm not stupid, YOU'RE STUPID for asking such pointless questions!”
+# Original script by Berserker Sam #
 
 Sam and Aqua; A?
 Aqua- Sam! That was my last use of the heal staff and there’s still more bandits coming!

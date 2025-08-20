@@ -51,9 +51,20 @@ A Support
 Tsurugi: Thanks again for coming with me for these delivery runs, Mister Kai. It's been helping a lot!
 Kai: No problem. We just gotta keep going down this road, then-- !! Tsurugi! Behind me!
 Tsurugi: Wh--
-()
-[]
-Kai: You okay, Tsurugi?
+(An arrow flies through the air and misses the both of them.)
+Tsurugi: A-Ah...!
+Kai, thinking: An arrow...?!
+(Bandits approach the pair.)
+Bandit 1: Hand over the goods and no one gets hurt.
+Tsurugi: M-Mister Kai, what do we do?
+Kai: Just stick close to me, Tsurugi. I've got this.
+Bandit 2: Not surrendering, huh? Hah! Big mistake!
+Bandit 1: Let's get 'em!
+(Kai and the bandits fight.)
+Bandit 1: Augh!
+Bandit 2: Oof!
+(Both bandits fall.)
+Kai: There we go. You okay, Tsurugi?
 Tsurugi: Y-Yes. Thank you, Mister Kai. If you weren't here, I...
 Kai: Don't even worry about it. I'm a mercenary by trade. It's what I do.
 Tsurugi: I know, but I can defend myself. Really, I swear! I-I just... got scared.
@@ -61,10 +72,10 @@ Kai: Hey. Don't feel like you have to push yourself. I'm gonna be here for you, 
 Tsurugi: Mister Kai, thank you, but...
 Kai: Hm?
 Tsurugi: N-Never mind. I almost let my mouth run again.
-Kai: Heh. You know, I COULD figure out what you're hiding, but I like seeing you get flustered from almost spilling the beans.
+Kai: You know, I COULD figure out what you're hiding, but I like seeing you get flustered from almost letting your secrets out.
 Tsurugi: H-Huh?!
 Kai: Yeah, like that.
-Tsurugi: I... You... Mister Kai, please!
+Tsurugi: I... You...! Mister Kai, please!
 
 A+ Support
 Tsurugi: Mister Kai, about... Well, I'm sure you know what I want to say.

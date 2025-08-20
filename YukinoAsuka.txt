@@ -24,7 +24,7 @@ Asuka:And always be on guard!
 Yukino:Ergh! Fuck-
 Asuka:I'll do this again on another day. Anyway, The weights we usually start off with are 10 weight- 
 Yukino:Is this something that's usually done during training?
-Asuka: ... But considering you're actually escaping the ropes we'll double it. 
+Asuka: ... But considering you're actually escaping the ropes we'll double it. Eventually we'll do Isometrics.
 Yukino: How tight are these ropes?
 Asuka:Very tight. Made with only the best material.
 Yukino:Could you let me go?
@@ -48,4 +48,28 @@ Asuka: No! I just really liked being with him.
 Asuka: Remember, always keep your-
 Yukino: -Eyes open, got it. The weight training feels good, I feel like I could cut that tree.
 Asuka: That's it for today. See you next week.
+# Original script by Blade of Light 12 #
+
+S Support
+Yukino: Hya!
+Asuka: Gotcha!
+(They jump away from each other. Asuka then hits Yukino)
+Yukino: Ngh! How was I?
+Asuka: You've gotten better, you can definitely become a ninja.
+Yukino(smiles): Thank you~ I'll have to think if I'll be able to though. I have to continue to pr- I'd like to protect the woman of Shizukawa village. There's one thing I forgot to ask. When will we do more (Ties up Asuka) isometrics?
+Asuka: Darn, I should have paid more attention. 
+Yukino: I would like to know when we can continue isometrics please~?
+Asuka: To- Nex- half a week from now.
+Yukino: Alright. (Unties Asuka)
+(Asuka kisses Yukino)
+Asuka: I think you don't need Isometrics, you're already doing pretty well.
+Yukino: Then how about going to the pond?
+Asuka: Okay, but what else is there to teach you?
+Yukino: You kissed me, how about a date? 
+(Yukino gives Asuka a wooden sword)
+Yukino: Sorry it isn't much but, If you need or want anything I'll look around.
+Asuka: Hmm-
+Yukino: Or would Shizukawa Village sound nice?
+Asuka: I think you should decide that.
+Yukino: Then let's go to…
 # Original script by Blade of Light 12 #
