@@ -1,3 +1,5 @@
+# Developer notes: Cut due to nothing new being explored in this support. That and Sam not remembering he wrote this one at all. #
+
 C Support:
 Felicity: You need to move. I'm trying to clean this room, and you're in my way.
 Nagisa: Oh, you're HER servant. Miss Floozy’s personal maid. For someone in servitude, you have quite the mouth. Why, if--

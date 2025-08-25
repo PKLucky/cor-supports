@@ -24,3 +24,27 @@ Masashi: Er, well--No! Absolutely nothing! But since I am here anyway, I may as 
 Alex: And I'm NOT pretty? Come on, Masashi. I'm standing right here.
 Masashi: I never said that!!
 # Original script by Berserker Sam #
+
+B Support
+Alex: Thank you for offering to carry my packages Masashi, it was a very gentamanly gesture of you
+Masashi: Why of course 'tis only proper
+Alex: Well it's very appreciated after all those parcels are SOOOOOO heavy I have no idea how little 'ol me would have managed if a big, strong archer hadn't been nearby at the time
+Masashi: Well...uh...um...thanks Lady Alex, this is a first.
+Alex: What is?
+Masashi: Being complimented, but since you don't seem to despise my company how about a nice pot of tea? I know of several fine tea shops that a connoisseur of tea such as yourself would appreciate
+Alex: Thank Masashi I'd like that
+Some time later
+Alex: So chamomile is excellent for relaxation especially if one is having a lot of stress or has trouble sleeping, meanwhile peppermint is an excellent tea for the winter but is good for both digestion and warding off diseases, while ginger tea is a great cure for colds, sore throats among other benefits
+Masashi: My, my. I would have never guessed that such a lovely knight as yourself would be so well-versed and informed on tea and herbs
+Alex: I wanted to be a healer but I have no talent-
+Masashi: Oh come now a lady such as yourself has plenty of talent
+Alex: Isn't it rude to interrupt a lady Masashi?
+Masashi: Er...yes of course my apologies
+Alex: I shall grace you with my benevolence and forgive you but as I was saying I have no talent for healing magic, however I was able to grasp the healing properties of herbs and teas and with them I can at least make salves and vulneraries
+Masashi: That's great! I'm sure the infirmary is glad to have you around. How about poetry and dancing did you as a knight learn such finer arts
+Alex: I don't know what knights in Merinas learn but in Medeas yes every knight learns of the finer arts. Art in all it's forms including song, dance and poetry.
+Masashi: I'd love to invite you to a dance sometime if you would be so inclined
+Alex: I'd enjoy that Masashi but we should get back soon, some other time of course
+Masashi: Of course, allow me to escort you and deliver your parcels
+Alex: That would be most kind of you Masashi
+# Original script by Berserker Sam #

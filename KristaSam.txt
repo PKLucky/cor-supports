@@ -62,3 +62,31 @@ Sam: And because of that, I know you will make a good queen of Medeas someday. D
 (Sam leaves the scene.)
 Krista: Sam... I understand where he's coming from, but it's not that simple. ... Hold on, didn't he say he was gonna have me tied up through that whole interrogation? Sam, wait up! You need to hold up your end of the bargain!!
 (Krista chases after Sam.)
+# Original script by Berserker Sam #
+
+S Support
+Sam: Krista, I've got a proposal for you.
+Krista: What's up, Sam?
+Sam: No, an actual proposal. Here.
+Krista: Huh?! Wait, stop, hold it! Put that ring away! This is going way too fast. Just what in Medea's name are you going on about?
+Sam: With how often you're getting yourself in trouble, I figured making you settle down will remedy that.
+Krista: But marriage, Sam? Don't you think that's a bit extreme?
+Sam: So that's a "no"?
+Krista: That's not what I'm trying to say. I do like you a lot, so I wouldn't mind marrying you. I just don't want the whole bandit thing to be the only reason why.
+Sam: I mean, I love you too. So, I figured that it would be okay.
+Krista: Wait, you what?
+Sam: I love you, Krista. I have for a while now.
+Krista: Ah. You know, I always had a feeling, but I wasn't completely sure.
+Sam: So, what do you say, Krista?
+Krista: Yeah, I will marry you, Sam. I'd love having a big, strong man like you around.
+Sam: This big, strong man will be around to protect you no matter what.
+Krista: That's all I could ever ask for. Well, that and...
+Sam: And?
+Krista: You remember a while back how you said you'd tie me up?
+Sam: What?! I never said that!
+Krista: You sure did! Back when we had that "talk".
+Sam: I was talking figuratively.
+Krista: Well, I want it to be literal. Meet me in my room in a bit, alright?
+(Krista leaves the scene.)
+Sam: Is this what I gotta deal with now? *sigh* Well, it could be a lot worse. I'm coming, Krista!
+(Sam chases after her.)

@@ -1,0 +1,58 @@
+C Support
+Forrest: Taylor, about today's training--
+Taylor: General Forrest, I admire the work ethic, but does it look like I wanna talk about our last session?
+Forrest: It looks like you're ready to drink yourself into a stupor.
+Taylor: Glad we're on the same page. Now, if you'll excuse me...
+Forrest: Ah, hold on. Perhaps I should join you. You may need... supervision.
+Taylor: I'm a big boy, General, no need to worry! But you can still tag along if you want. The more, the merrier! By the way, have you actually drank alcohol before?
+Forrest: No, never.
+Taylor: Not a problem! We'll start you off easy to figure out your tolerance. I don't want you going out of commission tomorrow morning. Explaining to Her Highness why her most trusted knight is having the worst hangover of his life is something I DON'T want to do.
+Forrest: I trust that you know what you're doing, Taylor.
+Taylor: Of course I know what I'm doing! Now, come on, let's head to the tavern! Drinks on me!
+
+B Support
+Taylor: General Forrest! Hey! You doing okay? You're looking more sour than usual.
+Forrest: Taylor, what happened on the night we went to the tavern?
+Taylor: Oh. Uh. Why... do you ask...?
+Forrest: The women in town were giving me strange looks the last time I went out for errands. I can only assume something... unsavory happened. I can hardly recall anything from that night, though. It's all a blur.
+Taylor: It's probably best to let it stay a blur, buddy. For your own peace of mind, I mean.
+Forrest: Taylor, I fear my reputation is on the line here. I need to know what happened.
+Taylor: Don't say I didn't warn you. You see...
+(One explanation later...)
+Forrest: Oh, dear Medea...
+Taylor: It wasn't as bad as it sounds! Really! I mean, you were definitely enjoying yourself. And those ladies really liked it when you--
+Forrest: Stop stop stop no no no I don't want to hear anymore.
+Taylor: Would me saying I was jealous make the situation any better?
+Forrest: Not in the slightest.
+
+A Support
+Forrest: *sigh* This is all too much...
+Taylor: Whoa, got another bouquet, General? That's the third one this week!
+Forrest: Taylor, that tavern outing was a horrible idea. The women in town won't leave me be. First, it was the barmaid, then the general store's shopkeeper, then the baker... And then it just kept going! I can't take it anymore, Taylor!
+Taylor: You're way too stressed about this. Just look at how popular you're getting! You're gonna get a wife in no time.
+[IF FORREST IS ALREADY PAIRED]
+Forrest: First off, I already have a partner. Secondly, even if I didn't, this is not how I would want to meet them.
+[OTHERWISE]
+Forrest: I'm not ready for marriage. Secondly, even if I were, this is not how I want to meet my future partner.
+[END]
+Forrest: Especially when they only find me attractive if I'm intoxicated.
+Taylor: Oh, I'm sure it ain't like that! You've got a lot going for you as is. You're handsome, loyal, and strong. Anyone would want a husband like that. And being a flirty drunk is just the cherry on top.
+Forrest: Taylor.
+Taylor: But seriously though, this is really good for you!
+Forrest: How in Medea's name is this good?
+Taylor: Lemme put it into perspective for you. You're so dedicated to training and serving the royal family. Admirable? Sure! But that also means you don't set aside time for yourself outside the castle.
+Forrest: And...?
+Taylor: You gotta let yourself live beyond your duties, General. It's good for the soul!
+Forrest: What do you mean?
+Taylor: Let me ask you this. Wasn't that night at the tavern fun?
+Forrest: From what little I remember, it was.
+Taylor: Exactly! Expanding your world and experiencing new things does wonders! And that can all start by meeting new people.
+Forrest: Hm...
+Taylor: I'm not saying you gotta drink 'til you pass out every night to do that. It can be something small like striking up a conversation with the shopkeeper the next time you do errands. Or flirting back the next time you get a gift from one of the girls in town.
+Forrest: I am NOT doing that.
+Taylor: Haha! Fair enough.
+Forrest: I could try your first suggestion, though.
+Taylor: That's what I like to hear! Anyway, you've obviously had a long day. You know what you need?
+Forrest: If you're going to suggest alcohol, I swear to Medea--
+Taylor: You got it! To the tavern we go!
+Forrest: I REFUSE.

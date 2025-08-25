@@ -1,0 +1,146 @@
+C Support
+Forrest: Good spar today, Kai.
+Kai: Sure was. That puts our monthly spars at a tie again with four wins each.
+Forrest: Seems so. Though we're evenly matched, your speed always impresses me. It feels as if you can get another attack in before I can do anything.
+Kai: Thanks, but it's not like you make it any easier for me. Your defensive maneuvers always keep me on my toes.
+Forrest: Perhaps one day we'll see who's the better one between us.
+Kai: I believe we already established that around eight months ago.
+Forrest: That was a fluke and you know it.
+Kai: Aw, don't be like that. Look at it this way. If I didn't win, you would've lost out on the best sparring partner in the world.
+Forrest: ...
+Kai: Come on. You like having me around. Admit it.
+Forrest: Before this conversation, I would have agreed. But I suppose training alongside you has had its benefits.
+Kai: Now was that so hard?
+Forrest: If I knew you were this insufferable, I would have never agreed to hiring you. Still, your knowledge has proved useful time and time again. You have been a great addition to our ranks thus far.
+Kai: Happy to be of service.
+Forrest: At any rate, I will be preparing for our next spar. Don't expect me to go easy on you.
+Kai: I never do, Forrest. I never do.
+
+B Support
+Kai: Hey, I've been wondering something. What reasons do you have for training as much as you do? Aside from the obvious, of course.
+Forrest: I'm afraid the obvious reason is my only reason, Kai. Protecting Her Highness is my duty, and I take this duty seriously. I'd even lay down my life if it meant ensuring her safety.
+Kai: You sure have a one-track mind. Is that why you were so dead-set on beating me during our first spar?
+Forrest: Perhaps.
+Kai: It checks out if that were the case. We did agree that if I won, I'd be hired, after all. Were you so opposed to have anyone get close to Her Highness that you'd do whatever it took to keep her out of reach?
+Forrest: !!
+Kai: You're so easy to read. With how much you wear your heart on your sleeve, I'm surprised Her Highness hasn't figured out that you--
+Forrest: We are ending the conversation here!
+Kai: And you're easy to tease.
+Forrest: Have I mentioned how insufferable you can be?
+Kai: In all seriousness, your devotion is almost enviable, Forrest. Can't say I'm of the same mentality, though. I value my own existence much more than anyone else's. {c:e;Kai;CloseEyes}If I realized that sooner, then maybe things could've been different...
+[IF BEFORE CHAPTER 21]
+Forrest: What do you mean by that?
+Kai: Ah, it's nothing. Just me thinking aloud.
+[OTHERWISE]
+Forrest: Kai...
+[END]
+Kai: Anyway, good spar again, Forrest. Keep up the good work.
+Forrest: You as well, Kai.
+
+A Support
+Kai: Forrest, I've been wondering this for a while now, but about Prince Ervan...
+
+[IF BEFORE PLOT TWIST]
+Forrest: I don't like where this is going.
+Kai: I haven't even said anything yet.
+Forrest: ... Go on.
+Kai: As I was saying...
+[END]
+
+Kai: How did you feel about him? Considering how protective you are of Her Highness, assumptions can be made.
+Forrest: ...
+
+[IF BEFORE PLOT TWIST]
+Forrest: Draw your sword, Kai. We're due for our monthly spar.
+[OTHERWISE]
+Forrest: We're due for our monthly spar, you know. Perhaps I'll give you an answer if you best me.
+[END]
+
+Kai: Who's being the insufferable one now? But sure, I'll bite.
+
+[IF BEFORE PLOT TWIST]
+Kai: I win, you spill. You win, you keep your mouth shut?
+Forrest: Precisely.
+Kai: I'll definitely win, then. I'll make sure of it.
+[END]
+
+Kai: Let's go!
+(One bout later...)
+Forrest: *huff huff*
+Kai: *huff huff* That's... *huff* my win... Whew...
+
+[IF BEFORE PLOT TWIST]
+Kai: Seriously, Forrest, that was the hardest I've ever seen you fight. You don't even get like that in an actual battle.
+Forrest: I apologize. I don't know what came over me.
+[OTHERWISE]
+Kai: You're lucky I like you. I never would've followed through on this otherwise.
+[END]
+
+Kai: So, our deal?
+Forrest: If you absolutely must know, I harbored no ill feelings towards His Highness.
+
+[IF BEFORE PLOT TWIST]
+Forrest: It's just... I felt envious of him. That's all.
+Kai: Figured as much. Why be so defensive about it, though?
+Forrest: Knowing you, you'd accuse me of arranging the prince's death.
+Kai: Just for that? Forrest, you think so low of me. I suspected you from the start.
+Forrest: P-Pardon?
+Kai: Granted, I've been suspicious of both you and Her Highness. But now, let's just say you're off my list of possible suspects.
+Forrest: ...
+Kai: What's with that face? I figured you'd be happy about that.
+Forrest: You still suspect Her Highness.
+Kai: Admittedly, there have been rumors going around. I can't exactly discount them. Not when they could be a feasible lead.
+Forrest: ... I see.
+Kai: You're always so on edge when it comes to her. I wouldn't worry about it, especially if she's innocent.
+Forrest: Right. Of course.
+Kai: Do you doubt her, Forrest? Or is there something else weighing down on you?
+Forrest: ... I've held up my end of the bargain, Kai. I do not need to indulge your curiosity any longer.
+(Forrest leaves the scene.)
+Kai: Forrest... Just what do you know?
+[OTHERWISE]
+Forrest: I just felt... envious.
+Kai: ...
+Forrest: That does not mean I would consider laying a hand on him. Nor would I find joy in any misfortune befalling him. When Her Highness informed me of what happened, I was more shocked than anything. She loved him, Kai. I can't even begin to think what went wrong that day.
+Kai: So, that's how it is... You had absolutely nothing to do with it after all.
+Forrest: You suspected me?
+Kai: It was difficult not to.
+Forrest: I suppose that would be the logical thing to do. With all this in mind, Kai, what will you do now?
+Kai: I'll keep doing what I've been doing.
+[IF BEFORE CIRC PLOT TWIST]
+Kai: With how far things have gotten, it's all I really can do.
+[OTHERWISE]
+Kai: Regrettably, there's still questions that need answers. I'll be sticking around until I find them.
+[END]
+
+A+ Support
+Kai: Forrest.
+Forrest: Kai.
+Kai: You... did good out there.
+Forrest: Is that all you wish to say?
+Kai: It's just... if you weren't there, things would have been a lot worse. So, thanks.
+Forrest: I have no need for your gratitude.
+Kai: I know. I still wanted to say something.
+Forrest: Hm.
+Kai: ... I'm sorry, alright?
+Forrest: What?
+Kai: I still think your feelings about Her Highness are completely self-destructive. However, if you didn't act when you did, we may have lost her. And if we did, it would have been my fault. I thought about what you said back then. That guilt would have been too much to bear. Perhaps I was wrong when I left Lady Tsubaki too.
+Forrest: No, I believe you had every right to call me out. All I've known is protecting Her Highness. This duty clouded my mind to the point where I forgot I had my own life to live. When I rescued Princess Krista from Circ's Talons, luck was on my side. If I hesitated for even a moment...
+Kai: But you didn't. And that's what matters. Your determination, your discipline... When you factor Princess Krista out, it's quite admirable. Really admirable. You're not a bad guy, Forrest.
+Forrest: Was that a genuine compliment from you just now?
+Kai: Believe what you want to believe. Anyway, that's where we're ending things off. See ya.
+(Kai attempts to leave.)
+Forrest: Oh no, you don't!
+(Forrest drags Kai back.)
+Forrest: Hah, even now, laying your heart bare is like pulling teeth. But that's just how you are, isn't it?
+Kai: ...
+Forrest: Kai, there is nothing to be ashamed about.
+Kai: I said all those horrible things to you, though. Why would you even care about how I think of you?
+Forrest: Because you're my friend, Kai. No, you're more than that. You're an irreplaceable companion.
+Kai: Laying on a bit thick, aren't we?
+Forrest: That is just exactly how I feel. When you stayed behind, I felt betrayed. I thought that despite everything, you'd still...
+Kai: Krista did kill Ervan. What would you expect me to think of my employer after learning something like that?
+Forrest: Yes, you're right. I was foolish to think you'd do anything else.
+Kai: But, y'know, I am glad you think so highly of me. I've burned so many bridges that someone liking me would be a rarity.
+Forrest: Like I said, you're irreplaceable to me, Kai. It won't be easy for me to think ill of you.
+Kai: Even when I'm insufferable?
+Forrest: Even then.

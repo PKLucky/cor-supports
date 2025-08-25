@@ -17,3 +17,31 @@ Masashi: Nothing, nothing sir Forrest follow me I need to see a fletcher my arro
 Forrest: They look fine to me
 Masashi: Irrelevant good man, don’t worry about it.
 # Original script by Berserker Sam #
+
+B 
+Masashi: Ah and here we are at the fletcher's establishment
+Forrest: So it would seem and why did you pick this one?
+Masashi: No reason anyway in we go!
+???: Hello handsome gents how can I help you? Oh it's you Masashi back so soon?
+Masashi: Yes I'm afraid my arrows are a little bent and I was worried the fletching might come off and that just won't do especially if I see my Cupid's Mark.
+???: Hee-hee oh you, ok I'll examine them for you
+Forrest: You shouldn't encourage him miss if he's bothering you just say the word and I'll haul him off to the dungeons
+Masashi: You wouldn't!
+???: You would?
+Forrest: Yes.
+???: Oh my the big bold Forrest protecting me from the pesky archer I don't know what to do. I think I might swoon
+Forrest: I'll haul him off then
+Masashi: No wait-
+???: I was being dramatic Forrest, Masashi isn't being any more annoying than any other customer he's just a lot more fun and entertaining
+Forrest: Oh. If you're sure
+???: Good grief! Can you lighten up already? How do you expect to win the princess' heart if you're as stoic as a stone?
+Masashi: Wait Forrest wants to marry the princess?
+Forrest: No
+???: Yes. Everyone knows it
+Masashi: Forrest my man why didn't you say so? I can help you win her
+Forrest: I don't need help
+???: Yes he does
+Masashi: Yes you do good sir. You've got no charm, no style Come let us go to a restaurant we need to practice and hone in your act
+Forrest: My act?
+Masashi: You got to get your game on Forrest!
+# Original script by Berserker Sam #

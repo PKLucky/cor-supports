@@ -28,3 +28,27 @@ Celeste: Whew! Why is such a slim piece of string so hard to pull?
 Masashi: You did better than I thought you would, though. Thank you, Celeste. I'll catch up with you when I finish making a bow that you can draw.
 Celeste: Okay, mister! This sounds fun!
 # Original Script by Berserker Sam #
+
+B Support
+Masashi: Oh Celeste there you are! I made the bow, here give it a pull. How does it feel?
+Celeste: Oh cool! You made this? Wow....hey this isn't so bad it's easy actually.
+Masashi: Wait till you've loosed your 50th arrow it can get tiring
+Celeste: Ok so I put the arrow on the string, pull and...aw man it fell off
+Masashi: Don't worry about that it happens to everyone when they first start
+Many missed shots later
+Celeste: Ah man! This is dumb! I could have hit that target with just a handaxe by now
+Masashi: But how many times in a row can you hit it by throwing an axe Celeste?
+Celeste: I dunno...maybe 5?
+Masashi: Observe...whoosh,whoosh,whoosh,whoosh,whoosh-whoosh-whoosh-whoosh-whoosh!
+Celste: Oh wow! They're all in the center
+Masashi: Not just that look at the grouping, they're all tight up against each other A bow takes time but once you grasp it there's nothing else like it. The bow is the pinnacle ranged weapon Celeste and every bow is personal to the archer
+[NEEDS REVISION]
+	Celeste: Hmmm...you know after having pulled a bow I can believe that with an axe I could easily use Captain Taylor's or someone else's axe but a bow not really
+[END REVISION SECTION]
+Masashi: Don't get discouraged Celeste the bow is a great weapon but it does take time and a lot of practice but once grasped you can more easily hit enemies at a distance
+Celeste: I think I understand I'll keep practicing mister...you sure everyone has this experience? I'm not just a dunce with a bow am I?
+Masashi: Absolutely not everyone struggles in the beginning
+Celeste: Even you?
+Masashi: ...sigh...yes even I. As embarrassing to admit that as it is
+Celeste: Ok! I'll keep practicing and I'll be the best archer in this army!
+# Original script by Berserker Sam #

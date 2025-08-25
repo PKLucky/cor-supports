@@ -1,0 +1,27 @@
+C Support
+Ecco: Hmmm...material is comfortable...but it might get torn easily
+???: And that will be 2500 gold that is my FINAL offer! Do you realize how hard these are to make?
+Ecco: Huh? What on earth is someone buying that it's costing that much? That's a lot! I'm going to look into this
+Lucy: Are you sure? I really need a heal staff! People keep getting hurt
+???: You think these grow on trees little girl?
+Lucy: Well...no
+Ecco: What's going on here?
+Lucy: Oh hi! Ecco right?
+Ecco: That's me
+Lucy: Oh the infirmary was getting low on heal staves and I was trying to buy some more
+???: As you can see these heal staves or of exquisite workmanship they are VERY costly
+Ecco: Uh-huh...you trying to pull a fast one on me bucko?
+???: I would NEVER! But these heal staves are VERY costly to make and then shipping costs and protection fees you have no idea how much work is involved here
+Ecco: Huh-huh. Listen mister I know at least SIX merchants who could drop that price down to at least 1000 gold and that's the stingy ones
+???: One th-th-thousand?
+A lot of bargaining later
+Ecco: Here you go Lucy
+Lucy: Thanks Ecco what was all that about?
+Ecco: He was trying to hike the price up and he thought he could fool you into paying more than what it is worth
+Lucy: Really? Why? That's ...that's mean it's also lying.
+Ecco: True, sadly it happens all the time lucky for you I was around
+Lucy: Yeah! Still he shouldn't get away with it
+Ecco: Oh he won't trust me( Ecco has a plan to inform her mercenary contacts that a merchant was trying to cheat a healer, they all pledge to charge him double next time he wants their protection services for transporting goods) Want to go shopping? I could teach you how to bargain and spot cheats
+Lucy: Oh! That sounds great! Thanks Ecco and yeah I'd love to this sounds fun!
+
+# Original script by Berserker Sam #

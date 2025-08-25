@@ -1,0 +1,22 @@
+# Developer notes: What is the current C Support used to be the B Support. This old C Support didn't link well with the then B Support and there weren't enough new elements introduced in this conversation to keep it in. #
+
+Alex: Hello, Joshua. I didn't expect to see you here in the library.
+Joshua: Hey there, Alex. Figured I'd unwind after training by doing some reading.
+Alex: I never would have taken you for a reader Joshua. You come off as more... abrasive, honestly.
+[IF Taylor is still alive:]
+Alex: A lot like Taylor, actually. And getting HIM to read anything is like getting a child to eat their greens.
+[END]
+Joshua: You gotta keep your mind sharp if you want to survive in the arena. Both mind and body need to be strong.
+
+Alex: I can agree with that sentiment. On that note, what do you like to read usually? Maybe I can make some recommendations? While not an expert on what the library contains, I do know how the books are organized.
+Joshua: That would be very helpful. Maybe books with legends about different dragon slayers. Especially those where a sword is used in the slaying.
+Alex: Ah, you like dragon-slaying tales I take it?
+Joshua: They’re fun to read, besides what’s more formidable than a dragon?
+
+Alex: I can agree with that sentiment. Though, I fear it's my mind that's more strong than my body.
+Joshua: Don't sell yourself short, Alex. You strike me as a strong, capable woman. However, if you want some help, these books might do the trick. I'll leave them with you.
+Alex: Why, thank you, Joshua.
+Joshua: No problem. I'll catch you later. Reading makes me hungry.
+(Joshua leaves the scene.)
+Alex: What a strange man. What are these books? "10 Lifts for Life", "Meat Makes Muscle", and "Train Like a Champion, Be a Champion"... These aren't something I normally read, but they seem interesting.
+# Original script by Berserker Sam #

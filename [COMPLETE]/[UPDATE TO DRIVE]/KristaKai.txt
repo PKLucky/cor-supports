@@ -1,0 +1,120 @@
+C Support
+Kai: Excellent work, Your Highness. Your swordsmanship has been improving steadily.
+Krista: Thanks! You're pretty good yourself, as usual.
+Kai: I believe we deserve a break after such a good spar.
+Krista: Sounds good to me!
+(Scene transitions inside the castle.)
+Kai: Say, I've been curious about something.
+Krista: Yes?
+Kai: Your sword skills are decent, but what about other weapons? I heard that Medeans of the royal bloodline are trained to use weapons of all kinds.
+Krista: Yeah, that's true, but... When Chell's parents were still around, they taught me the sword and lance. Then Forrest took over after they passed away. And back when Sam was around, he tried to teach me stuff about axes. And don't even get me started on magic. That went absolutely nowhere. Even though none of those things stuck with me, I was pretty decent with a bow back in the day. Though, it's been a while since I've used one.
+Kai: The bow? Who taught you archery?
+Krista: Oh. Um. Prince Ervan, actually...
+Kai: Ah, the late prince of Fuegsol, was it?
+Krista: Y-Yeah... Um, anyway! I gotta, uh, help Forrest with a thing! Talk to you later!
+(Krista leaves the scene.)
+Kai: Hm... So those rumors I heard... Was there some truth to them after all?
+
+B Support
+Kai: So that's how arranged marriages work in the Medean royal family... Fascinating.
+(Krista enters the scene.)
+Krista: Got your nose in a book as per usual, Kai?
+Kai: Ah, Your Highness. I'm surprised to see you here. What brings you to the castle library?
+Krista: Forrest says I gotta brush up on my history knowledge. He caught me in a "no study" mood, so I'm not gonna bother. The least I can do is PRETEND to study.
+Kai: ... I see.
+Krista: But enough about what I'm supposed to be doing but not actually doing. What are you up to?
+Kai: Just doing research on something that caught my attention.
+Krista: Cool, cool. Hey, wait a sec. That's a book on the Medean royal family! You should've come to me if you wanted some info. Get it straight from the source!
+Kai: The source who devotes no time to studying her own continent's history?
+Krista: ... Okay, fair. Still, I can probably help with your research! Even if it's something small.
+Kai: Well, since you're offering, I'm curious about the arranged marriages within the royal family.
+Krista: You got it! Lucky for you, I actually know a lot about this. I'm sure Yondo's other royal families got the whole arranged marriage thing too, but Medeas has a whole system on how to choose the heir's partner.
+Kai: Oh?
+Krista: You probably noticed when looking down the family tree, but there's a cyclical pattern going on with the betrothed's home nation.
+Kai: Yes, I did notice that. I assume this has to do with Medeas' public relations?
+Krista: You got it! My ancestors figured out this system so that one nation wouldn't be favored over the other when it came time for a political marriage.
+Kai: Interesting... So, according to this, your father married a priestess from Foliaga.
+Krista: Yup! With Foliaga being the previous nation in the cycle, that means Fuegsol would have been next in line.
+Kai: So, Prince Ervan was...
+Krista: ... Y-Yeah.
+Kai: ...
+Krista: S-Sorry, uh. Anything else you needed, Kai?
+Kai: One last thing, if you don't mind.
+Krista: Uh-huh?
+Kai: Dumb question, but how much did Prince Ervan mean to you?
+Krista: He was everything to me, Kai. I loved him more than anything. And I know that he felt the same. I miss him so, so much.
+Kai: I see. Thanks for your time, Princess. You've been a great help.
+Krista: I'm glad. I should get going now. Talk to you later, Kai.
+(Krista leaves the scene.)
+Kai: So, Ervan and Krista were close. That much was true. But accusing her of murdering him? Merely the common folk spreading outlandish rumors yet again. Disproving that does get a load off my mind, though.
+
+A Support
+Kai: C'mon, Princess! You almost got me that time!
+Krista: *huff huff* Hya!
+(Krista moves in and successfully strikes Kai.)
+Kai: There we go. Let's call it here.
+Krista: Dear Medea, finally. You've been making these lessons tougher lately, Kai. Have you been holding out on me or what?
+Kai: Maybe, maybe not. I'll let you figure that out.
+Krista: No straight answers from you, as always. Hm...
+Kai: Something on your mind?
+Krista: Remember how we first met?
+Kai: Of course I do. Just bumped into you, Forrest, and Felicity one day while you were shopping in the castle town's marketplace.
+Krista: "Just bumped into us." If you told me that months ago, I would've believed you.
+Kai: What if I said that was actually the truth?
+Krista: I'd say you're full of shit.
+Kai: Heh, and you'd be right.
+Krista: So, what's the deal, then? Considering all that snooping you've been doing since you got here, you're obviously trying to get info on something.
+Kai: Alright, you got me. But if you knew I was trying to find something, why didn't you do anything about it?
+Krista: Call it a hunch, but I feel like something would've happened by now if you had bad intentions behind all that research you were doing.
+Kai: A bit too trusting, are we?
+Krista: Maybe. You still haven't done anything yet, though. We've known each other for almost a year now, Kai. You've got an ample amount of info to blackmail me with now, don't you? If you really wanted to, you could do just that. Makes me wonder just what you're after.
+Kai: Well, well. Guess I've underestimated you, Princess. Hmm... You know what? I'm feeling nice. I'll give you a hint.
+Krista: What's the catch?
+Kai: No catch. You just gotta use that head of yours to figure it out, is all.
+Krista: Alright, lay it on me, then.
+(Kai leans in close and whispers into Krista's ear.)
+Kai: With Ervan gone for so long, are you ready to move on? Or is there something else on your mind?
+Krista: Kai...?
+(Kai backs off.)
+Kai: There you go. That's your hint. We'll talk later, Princess.
+(Kai leaves the scene.)
+Krista: Wh-What the--?! Damn it, getting all close and personal... He did that on purpose to throw me off, I know it! But bringing up Ervan like that, though. I wonder...
+
+A+ Support
+Kai: So, Your Highness, what's your plan from here?
+Krista: Dunno. After this is all over, I'm probably gonna get arrested for murdering Ervan. Thrown in the dungeons or worse. No hero's welcome for me.
+Kai: At least you're not completely ignorant of the punishment you'll receive.
+Krista: How could I have been? It's something that's always been in the back of my mind. But despite that...
+Kai: Yeah?
+Krista: This is gonna sound silly, but I kept thinking "What if I never get caught?" No one other than Forrest knew, so I thought I could still have my chance to become queen. To be the leader my people needed. To make up for everything... for Ervan's sake...
+Kai: Heh.
+Krista: I know. I was being dumb.
+Kai: Hey, I never said that. I'm just baffled at how stupid I've been this whole time. You've proved me wrong yet again, Princess.
+Krista: Huh?
+Kai: I thought this love you showed to everyone had been all an act. But it was genuine, wasn't it? This army, your people, Ervan... You've loved everyone and kept loving everyone despite everything.
+Kai: Foolish? Maybe. But I can't deny that it's what got us this far.
+Krista: It's what Medea would have... No. It's what a proper ruler should do. That's what I believe, at least.
+Kai: If only things were different, huh?
+Krista: Yeah...
+Kai: Hey, I've got a proposition for you.
+Krista: What is it?
+Kai: Run away with me.
+Krista: I'm sorry, what?
+Kai: Run away with me, Krista. Neither of us has a place in Yondo anymore. Once this is all over, let's get outta here. We can start a whole new life together. Just the two of us.
+Krista: Pfft... Hahaha! Kai, come on. You were finally being completely honest with me, and now you pull this? I thought you were better than that.
+Kai: Krista, I'm being serious here. I want to be with you. I've fallen for you. How could I not have? After all this? After all we've been through?
+Krista: I... Wow. I'm sorry. This is just so sudden.
+Kai: ... Pfft! You actually fell for that.
+Krista: What?! Why you...!
+Kai: Haha! Sorry, Princess. Just wanted to tease ya. Man, for someone who lied through her teeth for so long, you're really trusting of other people.
+Krista: You were so convincing, though! For a second there, I thought you were gonna go down on one knee if I accepted.
+Kai: We both know I ain't the marrying type.
+Krista: Yeah, I guess so. Still though... Can I confess something to you, Kai?
+Kai: Shoot.
+Krista: When Circ's Talons captured me, they put me under an illusion spell. They brought me back to a part of my past. Before everything went wrong. The one off thing was...= You were there.
+Kai: Oh?
+Krista: The fact you were there snapped me out of it. I was brought back to the happiest moment in my life, and yet... I couldn't imagine a world where I didn't meet you. You're too important to me, y'know?
+Kai: You flatter me too much, Princess. Still, that means a lot. My offer of running away together was serious, by the way. The way things are, sounds like a pretty good idea, right?
+Krista: That does sound nice, but I wanna tie up some loose ends if I can. I'm sorry.
+Kai: Don't even worry about it. I figured you'd say something like that anyway. I'm leaving Yondo as soon as this is all over, so find me, okay? I'll be waiting for you.
+Krista: I'll come running, Kai.

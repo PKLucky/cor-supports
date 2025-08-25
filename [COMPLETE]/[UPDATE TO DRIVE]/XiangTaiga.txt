@@ -1,0 +1,107 @@
+C Support
+Taiga: Yo! Xiang! Mind helping me with something? It's something only you can do.
+Xiang: I suppose. For what do you need my assistance?
+Taiga: There's no time to explain, just follow me!
+(Taiga leaves the scene.)
+Xiang: Ah, wait!
+(Scene transitions to the gambling hall.)
+Taiga: Hey guys! I'm back!
+Man 1: Oh, Taiga. Here to lose all your gold again?
+Taiga: Not this time! I got a lucky charm on me. Right, Xiang?
+Xiang: Are you referring to me?
+Man 2: Not like it's gonna make a difference. Here, let's deal you in.
+Taiga, whispering: Aw, dammit. This hand's total garbage. Xiang, what should I do?
+Xiang, whispering: Pardon?
+Taiga, whispering: You can see what the next cards are in the deck, right? So, what should I keep?
+Xiang: This is the reason for bringing me here?
+Man 1: Hey, what are you two whispering about?! Get on with it, Taiga.
+Taiga: Alright, alright! Don't rush me, old man!
+(A few rounds later...)
+Man 2: Well, Taiga, looks like you're completely broke. Again.
+Taiga: Oh, shut it.
+Taiga: Come on, Xiang. Let's get out of here.
+Xiang: Alright.
+(Scene transitions to outside.)
+Taiga: Argh, that was a disaster! You didn't help me at all!
+Xiang: How am I supposed to help you when I had no idea what was going on?
+Taiga: Wait, you don't know how to play poker?
+Xiang: No?
+Taiga: What?! Aw, Merin, so THAT was the problem! Guess I probably should have asked first.
+Xiang: That would have been a wise decision, yes.
+Taiga: Alright, alright. I'm gonna teach you poker. And next time, we'll show those geezers what we're made of!
+Xiang: Okay?
+
+B Support
+Taiga: Alright, let's review. Name off each hand, highest to lowest!
+Xiang: Royal Flush, Straight Flush,{br}Four of a Kind, Full House, Flush, Straight, Three of a Kind, Two Pair, Pair, High Card.
+Taiga: Now the suits, highest to lowest.
+Xiang: Spades, Hearts, Diamonds, Clubs.
+Taiga: And the highest ranked cards are?
+Xiang: Aces.
+Taiga: Aw yeah, we're definitely ready now! To the gambling hall!
+(Scene transitions to the gambling hall.)
+Taiga: Guess who's back?
+Man 1: So, Taiga's back with her "lucky charm," huh?
+Taiga: She's super lucky now! We're gonna win big today!
+Man 2: We'll see about that.
+Taiga, whispering: So, what do you think?
+Xiang, whispering: Discarding two of your cards has a high chance of winning this round.
+Taiga, whispering: Okay, but which ones should I lose?
+Xiang, whispering: I don't know.
+Taiga, whispering: What do ya mean you don't know?!
+Man 1: Ha! Your lucky charm having trouble there, Taiga?
+Taiga: Shut your trap! Just give me a sec here, alright?!
+(A few rounds later...)
+Man 2: So this is what you call "winning big," Taiga?
+Taiga: You all can screw off. Let's go, Xiang.
+(Scene transitions outside.)
+Taiga: What the hell was that?! That was even worse than last time! I thought you could see the future.
+Xiang: I can see the future, but not its exact outcomes. I can only see where the paths lead.
+Taiga: You could have told me that earlier.
+Xiang: You never asked.
+Taiga: ... Okay. I know we can actually win next time. We just gotta figure out what your powers are trying telling us. So, once we figure out a system, we'll win for sure!
+Xiang: Alright.
+
+A Support
+Taiga: Okay, so, what about this hand?
+Xiang: Discard three cards.
+Taiga: If it's three cards, then maybe it's a Full House? I've already got a pair of threes here. Let's see... Hey, a Four of a Kind! Even better! Okay, Xiang, I think we got it down this time. We'll really show 'em what we've got now!
+(Scene transitions to the gambling hall.)
+Taiga: Yo!
+Man 1: Ready to empty your coin pouch?
+Taiga: Not this time, old man! Third time's the charm.
+Man 2: I'm all for some easy gold. Let's deal you in, Taiga.
+Taiga, whispering: So?
+Xiang, whispering: Discard two cards.
+Taiga, thinking: If it's two cards, then it's probably a Straight. We've got a five, six, and seven here already. A bit weak, but it's our best option here.
+Taiga: Gonna discard these two.
+Man 2: Alright. Here are your new cards.
+Taiga, thinking: Straight with a High Card of nine. Not bad.
+Man 1: Discarding three.
+Man 2: Okay. Time to show your hands.
+Taiga: Straight.
+Man 1: Argh... Two Pair.
+Man 2: Pair of queens.
+Taiga: Hell yeah! Suck on that!
+Man 1: Oh, pipe down. You won one hand. So what?
+Taiga: I'm tellin' ya, my lucky charm's the best. Right, Xiang?
+Xiang: Mmhm.
+Man 2: Alright, alright. Place your antes, you two.
+(A few rounds later...)
+Taiga: And that brings me up to 10,000 gold.
+Man 1: I can't believe this!
+Man 2: You have to be cheating!
+Taiga: Nope, not in the slightest. No cards up our sleeves, no mirrors, no nothing. Just me and my lucky charm.
+Xiang: It's the truth.
+Man 1: Grr...
+Taiga: Anyway, good game, boys. Me and Xiang are gonna head home. 'Til next time!
+(Scene transitions to outside.)
+Taiga: We did it, Xiang! All our hard work finally paid off. So, how do you wanna celebrate?
+Xiang: Why are you asking me?
+Taiga: Don't be so modest! If it weren't for your powers, we wouldn't be rolling in gold right now.
+Xiang: That is not completely true. You were the one who chose what cards to keep per round. Your knowledge of poker helped too.
+Taiga: Y'know, you have a point. Still, I've been asking a lot outta you this entire time. I think you should take the helm on this one.
+Xiang: In that case, could we play poker together? No stakes, just for fun.
+Taiga: Ha! You really liked all that, huh? But that's unfair, don't you think? You're the one who can see the future here.
+Xiang: As I have said before, I cannot see the exact outcomes. You have more practical experience with the game, so you can logically figure out what could be a better hand. I would say we are evenly matched.
+Taiga: Hm... Never thought about it that way. Alright, that settles it! You're on, Xiang!

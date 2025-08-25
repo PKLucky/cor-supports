@@ -1,140 +1,78 @@
 C Support
-speak;Trevor;Anil, my friend!|Could you spare me a moment of your time?
-speak;Anil;?;no_talk
-speak;Trevor;I shall take that as a "yes"!
-expression;Anil;HalfCloseEyes
-speak;Anil;*rolls eyes*;no_talk
-expression;Trevor;NoSmile
-speak;Trevor;You see, Her Highness assigned me to inform everyone of their|duties in the upcoming days, and I would like to inform you--
-expression;Anil;NormalBlink
-move_portrait;Anil;MidLeft
-speak;Anil;*places hand over Trevor's mouth*;no_talk
-speak;Trevor;Mm?!
-expression;Anil;HalfCloseEyes
-speak;Anil;...;no_talk
-speak;Trevor;Mph mm-mph mmm-mn??
-move_portrait;Anil;Right
-expression;Anil;NormalBlink
-speak;Anil;*takes out a sheet of parchment and writes on it*;no_talk
-speak;Trevor;Hm? What did you write?|Let me take a look{tgm}...{tgm}|{c:e;Trevor;HalfCloseEyes}"You talk too much. Goodbye."?
-speak;Anil;*nods*;no_talk
-mirror_portrait;Anil
-move_portrait;Anil;OffscreenRight
-expression;Trevor;NormalBlink
-bop_portrait;Trevor
-speak;Trevor;Wait! Anil!
-move_portrait;Trevor;OffscreenRight
-speak;Trevor;You were assigned to do kitchen duty this week!|Come back!!
-unlock_support_rank;Trevor;Anil;C
-end
-end_skip
-if;support_rank_nid == 'B'
-change_background;CastleInterior
-transition;open
-music;Guildmaster Wigglytuff
-multi_add_portrait;Trevor;Left;Anil;Right
-speak;Trevor;Anil, my friend, I have something I wish to ask of you.
-expression;Anil;HalfCloseEyes
-speak;Anil;...;no_talk
-speak;Trevor;I promise I will be quick about it.
-speak;Anil;...;no_talk
-mirror_portrait;Anil
-move_portrait;Anil;FarRight
-speak;Trevor;Wait! Please! Stop!!
-move_portrait;Trevor;Right
-speak;Trevor;Please hear me out, I beg of you!|If you do not wish to fulfill my request,|I promise you will not have to speak to me ever again.
-move_portrait;Trevor;Left;no_block
-mirror_portrait;Anil
-move_portrait;Anil;Right
-expression;Anil;HalfCloseEyes
-speak;Anil;*points to mouth and shakes head*;no_talk
-speak;Trevor;Yes, yes, I know you cannot speak! Please take this seriously!|As I alluded to before, this is my request:|Could you please teach me sign language?
-expression;Anil;NormalBlink
-speak;Anil;!|{c:e;Anil;CloseEyes}...|{c:e;Anil;NormalBlink}?;no_talk
-speak;Trevor;I assume you are wondering why I would ask this of you?
-speak;Anil;*nods*;no_talk
-speak;Trevor;Well, the other day, you informed me that I spoke too much.|So, I thought that if I learned how to sign,|you would not have to hear me speak as often as before.|Does this sound satisfactory to you?
-speak;Anil;...|{c:e;Anil;Smile}*nods*;no_talk
-expression;Trevor;Smile
-speak;Trevor;Excellent! Thank you so much, Anil.|I promise I will listen to your teachings to the best of my ability!
-speak;Anil;*points to mouth*;no_talk
-expression;Trevor;CloseEyes,NoSmile
-speak;Trevor;Yes, yes, I know!!
-unlock_support_rank;Trevor;Anil;B
-end
-end_skip
-if;support_rank_nid == 'A'
-change_background;CastleInterior
-transition;open
-music;Guildmaster Wigglytuff
-multi_add_portrait;Trevor;Left;Anil;Right
-expression;Trevor;Smile
-speak;Trevor;[Friend Anil! Good today you?];no_talk
-speak;Anil;[Good try. It's more like:]|["My friend, Anil. How are you today?"]
-speak;Trevor;I see! Hold on, let me try again.|{tgm}{c:e;Trevor;NoSmile}[My friend... Anil. How... are you... today??]
-speak;Anil;*nods*|[Good job. You're a quick learner, Trevor.]
-expression;Trevor;Smile
-speak;Trevor;[Thank you.]|[You good teach.];no_talk
-expression;Anil;Smile
-speak;Anil;[Haha, almost got it. But I still understood what you meant.]|[Oh, I've got a fun one to teach you. Look.]|[@%!*]
-expression;Trevor;NoSmile
-speak;Trevor;Oh? What does that mean?
-speak;Anil;[It's another way you can say "fu--]
-expression;Trevor;CloseEyes
-speak;Trevor;I will choose to not use that, thank you very much!!
-expression;Anil;NoSmile
-speak;Anil;[Why not? It can be useful sometimes.]
-expression;Trevor;HalfCloseEyes
-speak;Trevor;I fail to see how that can be useful in any situation.
-speak;Anil;[Okay, okay. Here, I'll teach you an actual useful one. Watch.]|["I love you."]
-speak;Trevor;Anil, I swear if you're tricking me--
-speak;Anil;*shakes head*
-speak;Anil;*puts hand over heart*
-expression;Trevor;NormalBlink
-speak;Trevor;Hmmm. I assume that meant "I love you"?
-speak;Anil;*nods*
-speak;Trevor;Allow me to try.|{tgm}[I... love... you.]
-speak;Anil;[Good job. Go ahead and try again.]
-speak;Trevor;[I love you.];no_talk
-expression;Anil;Smile
-speak;Anil;[I love you too, Trevor.]
-bop_portrait;Trevor
-speak;Trevor;Gah! Anil, please!!
-speak;Anil;[Sorry, Trevor. You're just easy to tease.]
-speak;Trevor;*sigh* Still, I appreciate you doing this for me, Anil.|These lessons have been of the utmost help.
-speak;Anil;[Good. I'm glad I could help.]
-if;{v:TrevorAnilA} != True
-sound;Item
-alert;Trevor gained 1 SKL!
-change_stats;Trevor;SKL,1
-game_var;TrevorAnilA;True
-end
-unlock_support_rank;Trevor;Anil;A
-end
-end_skip
-if;support_rank_nid == 'S'
-change_background;CastleInterior
-transition;open
-music;Lyn's Desire
-multi_add_portrait;Trevor;Left;Anil;Right
-speak;Trevor;Anil!
-speak;Anil;[Trevor? What is it?]
-speak;Trevor;I have an urgent matter I wish to discuss with you.
-speak;Anil;[Am I on kitchen duty again?]
-speak;Trevor;I--Well, yes, you are, actually.|But that is not the point!|There are more urgent matters at hand.
-expression;Anil;Smile
-speak;Anil;[More important than kitchen duty?]
-expression;Trevor;HalfCloseEyes
-speak;Trevor;Anil, please take this seriously.|I am trying to tell you something important.
-speak;Anil;[Sorry, just poking fun at you.]|{c:e;Anil;NoSmile}[Go ahead, Trevor. I'm listening.]
-expression;Trevor;NormalBlink
-speak;Trevor;You see, I have perused the castle library some time ago|and taught myself more sign language on my own.
-speak;Anil;[Oh, really? Let me see how much you've learned, then.]
-speak;Trevor;I apologize if I get something wrong, but here we go.|{tgm}[Anil, I... believe you are...]|[smart... and patient... and a good... friend.]|[I admire you... a lot. And that... is why I... will give you this.]
-bop_portrait;Anil
-expression;Anil;Smile
-speak;Anil;!!!|[You're proposing to me?]
-expression;Trevor;Smile
-speak;Trevor;*nods*|[I want to... spend the rest... of my life... with you.]|[Will you... take my hand... in marriage?];no_talk
-speak;Anil;*nod* *nod* *nod*|[I love you. I love you. I love you!]
-speak;Trevor;[I love you too, Anil. I love you too so so much.]
+Trevor: Anil, my friend! Could you spare me a moment of your time?
+Anil: ?
+Trevor: I shall take that as a "yes"!
+Anil: *rolls eyes*
+Trevor: You see, Her Highness assigned me to inform everyone of their duties in the upcoming days, and I would like to inform you--
+Anil: *places hand over Trevor's mouth*
+Trevor: Mm?!
+Anil: ...
+Trevor: Mph mm-mph mmm-mn??
+Anil: *takes out a sheet of parchment and writes on it*
+Trevor: Hm? What did you write? Let me take a look... "You talk too much. Goodbye."?
+Anil: *nods*
+(Anil leaves the scene.)
+Trevor: Wait! Anil!
+Trevor: You were assigned to do kitchen duty this week! Come back!!
+
+B Support
+Trevor: Anil, my friend, I have something I wish to ask of you.
+Anil: ...
+Trevor: I promise I will be quick about it.
+Anil: ...
+(Anil begins to leave.)
+Trevor: Wait! Please! Stop!! Please hear me out, I beg of you! If you do not wish to fulfill my request, I promise you will not have to speak to me ever again.
+Anil: *points to mouth and shakes head*
+Trevor: Yes, yes, I know you cannot speak! Please take this seriously! As I alluded to before, this is my request: Could you please teach me sign language?
+Anil: ! ... ?
+Trevor: I assume you are wondering why I would ask this of you?
+Anil: *nods*
+Trevor: Well, the other day, you informed me that I spoke too much. So, I thought that if I learned how to sign, you would not have to hear me speak as often as before. Does this sound satisfactory to you?
+Anil: ... *nods*
+Trevor: Excellent! Thank you so much, Anil. I promise I will listen to your teachings to the best of my ability!
+Anil: *points to mouth*
+Trevor: Yes, yes, I know!!
+
+A Support
+Trevor: [Friend Anil! Good today you?]
+Anil: [Good try. It's more like: "My friend, Anil. How are you today?"]
+Trevor: I see! Hold on, let me try again. [My friend... Anil. How... are you... today??]
+Anil: *nods* [Good job. You're a quick learner, Trevor.]
+Trevor: [Thank you. You good teach.]
+Anil: [Haha, almost got it. But I still understood what you meant. Oh, I've got a fun one to teach you. Look. @%!*]
+Trevor: Oh? What does that mean?
+Anil: [It's another way you can say "fu--]
+Trevor: I will choose to not use that, thank you very much!!
+Anil: [Why not? It can be useful sometimes.]
+Trevor: I fail to see how that can be useful in any situation.
+Anil: [Okay, okay. Here, I'll teach you an actual useful one. Watch. "I love you."]
+Trevor: Anil, I swear if you're tricking me--
+Anil: *shakes head*
+Anil: *puts hand over heart*
+Trevor: Hmmm. I assume that meant "I love you"?
+Anil: *nods*
+Trevor: Allow me to try. [I... love... you.]
+Anil: [Good job. Go ahead and try again.]
+Trevor: [I love you.]
+Anil: [I love you too, Trevor.]
+Trevor: Gah! Anil, please!!
+Anil: [Sorry, Trevor. You're just easy to tease.]
+Trevor: *sigh* Still, I appreciate you doing this for me, Anil. These lessons have been of the utmost help.
+Anil: [Good. I'm glad I could help.]
+
+S Support
+Trevor: Anil!
+Anil: [Trevor? What is it?]
+Trevor: I have an urgent matter I wish to discuss with you.
+Anil: [Am I on kitchen duty again?]
+Trevor: I--Well, yes, you are, actually. But that is not the point! There are more urgent matters at hand.
+Anil: [More important than kitchen duty?]
+Trevor: Anil, please take this seriously. I am trying to tell you something important.
+Anil: [Sorry, just poking fun at you. Go ahead, Trevor. I'm listening.]
+Trevor: You see, I have perused the castle library some time ago and taught myself more sign language on my own.
+Anil: [Oh, really? Let me see how much you've learned, then.]
+Trevor: I apologize if I get something wrong, but here we go. [Anil, I... believe you are... smart... and patient... and a good... friend. I admire you... a lot. And that... is why I... will give you this.]
+Anil: !!! [You're proposing to me?]
+Trevor: *nods* [I want to... spend the rest... of my life... with you. Will you... take my hand... in marriage?]
+Anil: *nod* *nod* *nod* [I love you. I love you. I love you!]
+Trevor: [I love you too, Anil. I love you too so so much.]

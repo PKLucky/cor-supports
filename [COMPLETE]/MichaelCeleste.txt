@@ -1,171 +1,84 @@
 C Support
-speak;Celeste;Heyyy, Michael, there's a store nearby.
-expression;Michael;HalfCloseEyes
-speak;Michael;You don't have something bad planned do you?
-speak;Celeste;No, it's a very nice store and I want to get us both something.
-expression;Michael;CloseEyes
-speak;Michael;Is it another fireworks store?|{c:e;Michael;HalfCloseEyes}Last time we went to one, we had to clean up the entire thing.
-speak;Celeste;No, it's a gem store.|There's these gem pairs that mean "Best Friends Forever".|I want to take you with me and see if we can get them.
-expression;Michael;NormalBlink
-bop_portrait;Michael
-speak;Michael;O-Oh, well, thank you. I guess I'll go with you.|Is it an outdoor store?
-expression;Celeste;NoSmile
-speak;Celeste;Yeah, aren't gem stores like that usually?|Are you worried about seeing a lot of people?|We can go to the smaller stores first if you aren't comfortable.
-speak;Michael;N-no, that's not it. It--
-expression;Celeste;Smile
-speak;Celeste;Then, let's go!
-mirror_portrait;Celeste
-move_portrait;Celeste;OffscreenLeft
-bop_portrait;Michael
-speak;Michael;W-Wait!
-move_portrait;Michael;OffscreenLeft
-unlock_support_rank;Michael;Celeste;C
+Celeste: Heyyy, Michael! Wanna go shopping together? There's a bunch of cool shops nearby.
+Michael: I don't know... Last time we went shopping was at that fireworks store. And I don't want us to clean up another huge mess.
+Celeste: Don't worry! It's not gonna be like that this time. I wanna hit up a gem store. There's these gem pairs that mean "Best Friends Forever". I want to take you with me and see if we can get them.
+Michael: O-Oh, well, thank you. I guess I'll go, then. But, uh, it's not going to be really crowded there, is it?
+Celeste: I don't think so. It's at an open-air market, so things should be spread out. Are you worried about seeing a lot of people? We can go to the smaller stores first if you aren't comfortable.
+Michael: N-No, that's not it. I just don't--
+Celeste: Then, let's go!
+(Celeste leaves the scene.)
+Michael: --want to cause another mess. Ah, Celeste, wait!
+(Michael chases after her.)
 # Original script by Blade of Light 12 #
-end
-end_skip
-if;support_rank_nid == 'B'
-change_background;Plains
-transition;open
-music;Guildmaster Wigglytuff
-multi_add_portrait;Celeste;Right;MichaelArmorless;Left
-speak;Celeste;Michael, I have a question.
-speak;MichaelArmorless;What's the matter?
-speak;Celeste;Is your armor too heavy for you?|You've never been particularly strong,|and I'd be upset if something were to happen to you.
-speak;MichaelArmorless;The armor is okay.|{c:e;MichaelArmorless;HalfCloseEyes}I'm{tgm}...{tgm} not having any trouble with it.
-speak;Celeste;Really?
-move_portrait;Celeste;MidLeft
-expression;Celeste;Smile
-speak;Celeste;Hup!
-expression;MichaelArmorless;NormalBlink
-speak;MichaelArmorless;Wh-Whoa!
-remove_all_portraits
-transition;close
-change_background;MichaelCelesteSupport
-transition;open
-speak;Celeste;I'm taller than you, older than you, and still physically stronger than you.
-speak;Michael;P-Please put me down. The armor is fine.
-speak;Celeste;Is that so? I'll have to carry you with it on to see if it is.|If I can, then that means you'll be fine.
-speak;Michael;The armor's light!
-speak;Celeste;Alright, I get it. Let me put you down.
-transition;close
-change_background;Plains
-transition;open
-add_portrait;Celeste;Right;;Smile;no_block
-add_portrait;MichaelArmorless;Left
-expression;Celeste;NormalBlink,Smile
-move_portrait;Celeste;Right
-speak;Celeste;But if it really is, could I wear it?
-bop_portrait;MichaelArmorless
-speak;MichaelArmorless;W-Well, um--{c:e;MichaelArmorless;CloseEyes}I-I'll be back!
-mirror_portrait;MichaelArmorless
-move_portrait;MichaelArmorless;OffscreenLeft
-expression;Celeste;NoSmile,HalfCloseEyes
-speak;Celeste;I hope he's really fine in all that armor.|I wouldn't want him to strain himself.
-unlock_support_rank;Michael;Celeste;B
+
+B Support
+Celeste: Michael, I have a question.
+Michael: What's the matter?
+Celeste: Is your armor too heavy for you? You've never been particularly strong, and I'd be upset if something were to happen to you.
+Michael: The armor is okay. I'm... not having any trouble with it.
+Celeste: Really?
+(Celeste picks Michael up.)
+Celeste: Hup!
+Michael: Wh-Whoa!
+Celeste: I'm taller than you, older than you, and still physically stronger than you.
+Michael: P-Please put me down. The armor is fine.
+Celeste: Is that so? I'll have to carry you with it on to see if it is. If I can, then that means you'll be fine.
+Michael: The armor's light!
+Celeste: Alright, I get it. Let me put you down.
+(Celeste sets Michael back down.)
+Celeste: But if it really is, could I wear it?
+Michael: W-Well, um--I-I'll be back!
+(Michael leaves the scene.)
+Celeste: I hope he's really fine in all that armor. I wouldn't want him to strain himself.
 # Original script by Blade of Light 12
-end
-end_skip
-if;support_rank_nid == 'A'
-change_background;Shore
-add_portrait;Celeste;Left;mirror;no_block
-add_portrait;Michael;OffscreenRight
-music;Respite in Battle
-expression;Celeste;CloseEyes
-speak;Celeste;*sigh* What am I going to do?|{c:e;Celeste;HalfCloseEyes}I need to find my mother when this is all over, but how will I know if she'll be okay?
-move_portrait;Michael;Right
-speak;Michael;Celeste?
-mirror_portrait;Celeste
-speak;Celeste;Oh, Michael. Uh{tgm}...{tgm}|{c:e;Celeste;Smile}The beach is pretty nice, isn't it? Check out this pearl I found!
-expression;Michael;HalfCloseEyes
-speak;Michael;There's something wrong, isn't there? Please don't hide it.
-expression;Celeste;NoSmile
-speak;Celeste;How long were you here?
-expression;Michael;NormalBlink
-speak;Michael;I came here a while ago to get resources.|I heard you talking to yourself about your mother.|{c:e;Michael;HalfCloseEyes}It's weird seeing you so upset.
-expression;Celeste;CloseEyes
-speak;Celeste;You don't have to worry about me. I'm fine.|{c:e;Celeste;NormalBlink,Smile}Speaking of her, remember she said you'd be good at using lances?|Turns out she was right.
-expression;Michael;NormalBlink
-speak;Michael;Huh, yeah.|{c:e;Michael;CloseEyes}My mother, on the other hand, was against it.|{c:e;Michael;NormalBlink}She was always teaching me that I must be polite whenever I can.|{c:e;Michael;CloseEyes}Needless to say, she thought using weapons wasn't "polite".|{c:e;Michael;NormalBlink,Smile}Still, that didn't stop her from letting us go to each other's houses.|Even if you were a little{tgm}...{tgm} energetic.
-expression;Celeste;NoSmile
-speak;Celeste;Huh, really?|{c:e;Celeste;Smile}I remember you were often there for my axe training.|I even let you try giving it a couple of swings.
-speak;Michael;Mm-hm. It was fun.|{c:e;Michael;NoSmile}With that, I guess what I'm trying to say is that if there is anything bothering you,|you can tell me.|We're friends, after all.
-expression;Celeste;HalfCloseEyes
-speak;Celeste;...;no_talk
-expression;Celeste;NormalBlink
-bop_portrait;Celeste
-expression;Celeste;Smile
-speak;Celeste;Hey, Michael, why don't we do some stone skipping?
-speak;Michael;H-Huh?
-speak;Celeste;Here, take one!
-move_portrait;Celeste;MidRight
-wait;200
-move_portrait;Celeste;Left
-speak;Michael;B-But--
-expression;Celeste;NoSmile
-speak;Celeste;No use in dwelling on something we can't control.|{c:e;Celeste;Smile}So, come on! Let's have some fun!
-speak;Michael;Er, alright.
-unlock_support_rank;Michael;Celeste;A
+
+A Support
+Celeste: *sigh* What am I going to do? I need to find my mother when this is all over, but how will I know if she'll be okay?
+(Michael enters the scene.)
+Michael: Celeste?
+Celeste: Oh, Michael. Uh... The beach is pretty nice, isn't it? Check out this pearl I found!
+Michael: There's something wrong, isn't there? Please don't hide it.
+Celeste: How long were you here?
+Michael: I came here a while ago to get resources. I heard you talking to yourself about your mother. It's weird seeing you so upset.
+Celeste: You don't have to worry about me. I'm fine. Speaking of her, remember she said you'd be good at using lances? Turns out she was right.
+Michael: Huh, yeah. My mother, on the other hand, was against it. She was always teaching me that I must be polite whenever I can. Needless to say, she thought using weapons wasn't "polite". Still, that didn't stop her from letting us go to each other's houses. Even if you were a little... energetic.
+Celeste: Huh, really? I remember you were often there for my axe training. I even let you try giving it a couple of swings.
+Michael: Mm-hm. It was fun. With that, I guess what I'm trying to say is that if there is anything bothering you, you can tell me. We're friends, after all.
+Celeste: ... Hey, Michael, why don't we do some stone skipping?
+Michael: H-Huh?
+Celeste: Here, take one!
+(Celeste hands Michael a stone.)
+Michael: B-But--
+Celeste: No use in dwelling on something we can't control. So, come on! Let's have some fun!
+Michael: Er, alright.
 # Original script by Blade of Light 12 #
-end
-end_skip
-if;support_rank_nid == 'S'
-change_background;DeepForest
-transition;open
-music;Lyn's Desire
-add_portrait;Celeste;Left;mirror;no_block
-add_portrait;Michael;Right
-speak;Michael;This forest looks familiar{tgm}...
-bop_portrait;Michael
-speak;Michael;Celeste?
-mirror_portrait;Celeste
-expression;Celeste;Smile
-speak;Celeste;Oh, hey again, Michael. Looking for more resources again?|{c:e;Celeste;NoSmile}I was just looking for my axe.|{c:e;Celeste;HalfCloseEyes}How do I lose something like that?
-expression;Michael;CloseEyes,Smile
-speak;Michael;It's not the craziest thing you lost.
-expression;Celeste;NormalBlink
-speak;Celeste;Hey! It's not like I lost you! That would be sad.
-expression;Michael;Smile,NormalBlink
-speak;Michael;Ha, true. But I'll help. I'd love to, in fact.
-remove_all_portraits
-transition;close
-change_background;BlackBackground
-transition;open
-speak;;Some time later...;StyleNid=hint;NumLines=1;no_sound
-transition;close
-change_background;DeepForest
-transition;open
-multi_add_portrait;Celeste;Left;Michael;Right
-speak;Michael;Hey, does this place look familiar to you?
-speak;Celeste;You too?|Like the time we first met when I saved you from bullies?
-speak;Michael;Mm-hm.{c:e;Michael;HalfCloseEyes} They told me to go in, otherwise they'd said they do something to my mom.
-expression;Celeste;Smile
-speak;Celeste;It was a good thing I showed up when I did, then.|{c:e;Celeste;CloseEyes,Smile}I came in, beat them senseless, and they ran away.|{c:e;Celeste;NoSmile,NormalBlink}You were crying, so we just started talking to calm you down.|I remember telling you about how the forest wasn't that scary,|and a bunch of other stuff.|And then we both said that our favorite color--
-expression;Michael;NormalBlink,Smile
-expression;Celeste;Smile
-speak;Celeste;Was green!;no_block;hold
-speak;Michael;Was green!
-unhold;Celeste
-expression;Michael;NoSmile
-speak;Michael;If you didn't do that I'd be just an errand boy for them,|and I wouldn't have thought of joining the knights.|{c:e;Michael;Smile}I've got to thank you for that.
-expression;Celeste;Smile
-speak;Celeste;You already have.|After that, I took you back to my house.|My mom wasn't sure how she felt about me going to the forest by myself.|But she was glad I rescued someone.
-expression;Michael;NormalBlink,NoSmile
-speak;Michael;Well, can't really say I'd blame her. We were pretty dirty.|You also begged her to let me stay the next two days.
-expression;Celeste;NoSmile,HalfCloseEyes
-speak;Celeste;Ah{tgm}...{tgm} I wish I could find her soon.
-expression;Michael;NoSmile,NormalBlink
-speak;Michael;Hey, when this is all over, we'll go find your mom and|ask her if{tgm}...{tgm} if we could start dating.
-expression;Celeste;NormalBlink
-speak;Celeste;Michael{tgm}...
-expression;Michael;Smile
-speak;Michael;Then you can actually reading the books I gave you.
-speak;Celeste;What do you mean?! I do read them.
-expression;Michael;CloseEyes,Smile
-speak;Michael;Oh boy, if my mother were still around...;StyleNid=thought_bubble
-expression;Michael;HalfCloseEyes,Smile
-speak;Michael;You skim through them.
-speak;Celeste;I do not! I--
-bop_portrait;Celeste
-expression;Celeste;Smile
-speak;Celeste;Oh! My axe. Let's go!
+
+S Support
+Michael: This forest looks familiar...
+(Michael sees Celeste in the distance.)
+Michael: Celeste?
+Celeste: Oh, hey, Michael. Looking for more resources again?
+Michael: Yeah. What are you doing out here?
+Celeste: I was just looking for my axe. How do I lose something like that?
+Michael: It's not the craziest thing you lost. Remember when I had to help you find your mom's shield that one winter?
+Celeste: Haha, yeah. That took us the whole day. Never used THAT as a sled again.
+Michael: Ha! I hope not. Anyway, let's see if we can find your axe.
+Celeste: Yeah!
+(Some time later...)
+Michael: Hey, does this place look familiar to you?
+Celeste: You too? Like the time we first met when I saved you from bullies?
+Michael: Mm-hm. They told me to go in, otherwise they'd said they do something to my mom.
+Celeste: It was a good thing I showed up when I did, then. I came in, beat them senseless, and they ran away. You were crying, so we just started talking to calm you down. I remember telling you about how the forest wasn't that scary, and a bunch of other stuff. And then we both said that our favorite color--
+Celeste and Michael: Was green!
+Michael: If you didn't do that, I'd be just an errand boy for them, and I wouldn't have thought of joining the knights. I've got to thank you for that.
+Celeste: You already have. After that, I took you back to my house. My mom wasn't sure how she felt about me going to the forest by myself. But she was glad I rescued someone.
+Michael: Well, can't really say I'd blame her. We were pretty dirty. You also begged her to let me stay the next two days.
+Celeste: Ah... I wish I could find her soon.
+Michael: Hey, when this is all over, we'll go find your mom and ask her if... if we could start dating.
+Celeste: Michael...
+Michael: Then you can actually reading the books I gave you.
+Celeste: What do you mean?! I do read them.
+Michael: You skim through them.
+Celeste: I do not! I-- Oh! My axe! Hey, how about I help you gather resources now?
+Michael: That'd be great. Thanks, Celeste.
 # Original script by Blade of Light 12 #

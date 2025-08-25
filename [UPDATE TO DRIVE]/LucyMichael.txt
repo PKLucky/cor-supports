@@ -13,7 +13,7 @@ Michael: Yes but that’s different.
 Lucy: How come?
 Michael: It just is
 Lucy: Oh why’d you become a knight Sir Michael
-Michae smiles: Ha-ha. Please just call me Michael. Sir Michael is embarrassing I haven’t done anything deserving of being called Sir
+Michael smiles: Ha-ha. Please just call me Michael. Sir Michael is embarrassing I haven’t done anything deserving of being called Sir
 Lucy: But you’re a knight! And you’re so strong! You protect people!
 Michael: Oh there’s plenty of people a lot stronger than I am
 Lucy: Like who? Besides Sir Forrest, Sir Taylor, Lady Alex, Princess Kirsta, Lady Chell……..ok maybe that is a lot of people
@@ -39,16 +39,15 @@ Michael: You've never mentioned your mom before
 Lucy: She's the best healer in the whole world but she's sick now so I'm filling in I hope she gets better
 Michael: I'm sorry to hear that I hope she gets better
 Lucy: Me too. How about you do you have a mom?
-[NEEDS REVISION]
-	Michael: Yes she's in Foliaga I'm a little worried about her what with all the commotion from us trying to smooth things over in Foliaga but she's in no danger
-	Lucy: Maybe you should write a letter to her?
-	Michael: I did. I make sure to write to her whenever I can and let her know how I'm doing and assure her things are well, she tells me in her letters she's safe.
-	Lucy: That's good she sounds nice.
-	Michael: She's the best
-	Lucy: No mine's the best
-	Michael: No mi-
-	Lucy: Huh-uh. Mine's better
-	Michael: How long is this going to keep up?
-	Lucy: No idea! Let's make sure we both stay safe so we can see our mommas when this all over
-	Michael: That's a good idea Lucy
+Michael: Yes she's in Foliaga I'm a little worried about her what with all the commotion from us trying to smooth things over in Foliaga but she's in no danger
+Lucy: Maybe you should write a letter to her?
+Michael: I did. I make sure to write to her whenever I can and let her know how I'm doing and assure her things are well, she tells me in her letters she's safe.
+Lucy: That's good she sounds nice.
+Michael: She's the best
+Lucy: No mine's the best
+Michael: No mi-
+Lucy: Huh-uh. Mine's better
+Michael: How long is this going to keep up?
+Lucy: No idea! Let's make sure we both stay safe so we can see our mommas when this all over
+Michael: That's a good idea Lucy
 # Original script by Berserker Sam #

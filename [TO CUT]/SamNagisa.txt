@@ -1,3 +1,5 @@
+# Developer notes: Cut from the game upon request. Sam didn't remember what direction he wanted to take this support. #
+
 C Support:
 Nagisa: Watchin Sam training
 Nagisa: ……...Eh-hem There is a WOMAN present mister, put a shirt on did no one teach you how to act around the fairer sex?

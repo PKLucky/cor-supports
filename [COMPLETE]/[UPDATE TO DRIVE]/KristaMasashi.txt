@@ -1,0 +1,49 @@
+C Support
+Masashi: Your Highness! May I have a word with you?
+Krista: Oh, Masashi. What is it?
+Masashi: I would like to humbly apologize for my behavior when we first met. It was, quite frankly, a terrible first impression.
+Krista: You can say that again.
+Masashi: I see now the error of my ways. Why, your beauty is unparalleled! You swing your blade with such grace. The way you lead your army has such refinement. I was completely wrong about you!
+Krista: Dear Medea... Look, you don't gotta say stuff you don't mean.
+Masashi: What? But I do mean what I said.
+Krista: Sure, sure. Anyway, I've got more important things to do than listen to shallow compliments. See ya.
+(Krista leaves the scene.)
+Masashi: Ah, Your Highness! Hm... Perhaps words alone are not enough. I shall prove to her my honesty by any means necessary!
+
+B Support
+Krista: Masashi!!
+Masashi: Your Highness? Is something wrong?
+Krista: Yes. Multiple somethings, actually. It's about all the gifts from you that were outside my chambers.
+Masashi: Oh, is that all? Did you not like them?
+Krista: Look, I will admit this is very flattering. But, dear Medea, I can just feel Forrest staring daggers at you from across the room. I'm saying this because I'm honestly fearing for your life--
+Masashi: You actually care about me?
+Krista: I never said that. I just don't want Forrest to commit murder. So, just cool it with the gifts, alright? I don't want to lose a valuable member of the army because he's being stupid.
+(Krista leaves the scene.)
+Masashi: Oh, Merin... She said I was valuable! Masashi, you're in now!
+
+A Support
+Masashi: Ah, Your Highness! I did not expect to see you at the archery range.
+Krista: Hm.
+Masashi: A master of the bow yourself, I see. You're just full of surprises, aren't you?
+(Krista fires an arrow.)
+Krista: ...
+Masashi: A bullseye! You have great aim, Your Highness, even while I'm conversing with you like this. You have great focus--
+Krista: Shut up already.
+Masashi: P-Pardon? I apologize. Am I distracting you?
+Krista: Technically, no. Just... Just don't talk to me while I shoot, okay?
+Masashi: Er, alright.
+(Krista fires another arrow.)
+Krista: ...
+Masashi: ...
+(Krista fires one more arrow, but misses.)
+Krista: ... D-Damn it...
+Masashi: Your Highness? What's wrong? Why are you crying?
+Krista: Masashi, I'm sorry. It's just... When you started talking like that, it reminded me of Ervan...
+Masashi: Ervan?
+Krista: My fiancee. ... Ex-fiancee. And former prince of Fuegsol. He taught me everything about the bow, and we would talk just like this during training.
+Masashi: I see. ... I deeply apologize, Your Highness. I did not mean to bring up such memories.
+Krista: It's okay. You didn't know. If anything, I should be sorry for snapping at you earlier.
+Masashi: It's understandable. Just me being stupid. Haha...
+Krista: Heh.
+Masashi: Alright, let's get those tears dried, Your Highness. And if you'd like, we can train together. Perhaps you could give me some tips? I'd love to hear about Fuegan archery techniques.
+Krista: Sure. I'd like that.
