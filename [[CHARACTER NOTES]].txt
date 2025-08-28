@@ -128,6 +128,7 @@ Felicity
 * Is trusted by Krista’s parents greatly. Felicity reports to them whenever Krista deliberately gets kidnapped by bandits
 * Acts casual towards most people except for Krista. Barely. The most formal she is with her is calling her "Your Highness"
 * First encountered Krista in a marketplace where she stole some food from one of the stalls. Krista paid for the stolen goods and brought Felicity to the castle to give her a proper meal. Felicity stayed at the castle ever since.
+* Has a fear of crowds due to past trauma
 * Has some spoiler-y backstory elements involving her life before she met Krista
 
 Viola
@@ -158,13 +159,13 @@ Rembrandt
 * Trained himself to use enchanted swords for self-defense purposes.
 
 Anna
-* Travelling merchant from Oregot. Is hinted to not actually be native to Oregot
+* Travelling merchant from Oregot.
 * Charismatic and pragmatic
 * When she was younger, she would help her father at the armory he ran. She would perform maintenance on the weapons in stock and, when she got older, start dealing with customers herself
 * Has spoiler-y backstory elements involving her life before getting recruited
 
 Jake
-* Travelling merchant from Oregot. Is hinted to not actually be native to Oregot
+* Travelling merchant from Oregot.
 * Always sees the best in everyone and has a positive attitude. Acts casually towards most people
 * Was a traveling mercenary prior to meeting Anna
 * Met Anna at her father’s armory. Fumbled with flirting with her, but Anna found it cute
@@ -239,7 +240,7 @@ Reem
 
 Yukino
 * Woman from Shizukawa Village. Leader of the Wildflower Bandits, a group of women who were kidnapped by Hayato’s bandit group and escaped.
-* 
+* Was formerly in an abusive relationship with her husband
 
 Masashi
 * A flirty nobleman from Merinas
@@ -263,6 +264,7 @@ Asuka
 * Ninja and retainer to Emperor Samegoro
 * Disciplined and extremely loyal to the emperor
 * Was taught ninja techniques by both her mother and Kai’s father who were both considered the best ninjas under the emperor’s service at the time
+* Had a crush on Kai's father and still has lingering feelings for him even after his death.
 
 Nagisa
 * Tsubaki’s only remaining retainer
@@ -276,19 +278,29 @@ Tsubaki
 * Meek, quiet, and hates conflict
 * Has abandonment issues due to her mother dying when she was young on top of both Ryuuji and Kai leaving her for reasons.
 * Has a crush on Kai.
+
 Act 3 Characters
 Judah
 * Ervan’s former retainer
 * Strict and has an intimidating presence
 * Is highly suspicious of Forrest and Krista regarding Ervan’s death. Used to be at least on good terms with both of them. Or at least relatively better terms.
 
+Shula
+* Runs an orphanage in Coral Village in Fuegsol. Was good friends with Solmaz (boss of Ch. 24) and they ran the orphanage together until Solmaz sided with the bad guys.
+* Goes hunting every morning to bring food to the orphanage.
+
 Kiraz
-* A young girl who lives in isolation in Fuegsol’s deserts
+* A young girl who lives at the orphanage in Coral Village.
 * Optimistic and cheerful
+* Often helps Shula look after the other orphans since she's one of the oldest children there.
 * Has spoiler-y backstory elements
 
 Torgen
 * A bandit from southern Oregot
 * Griffon’s name: Asra(?) (Currently a placeholder)
 * Can be crude, but has a good heart
-* Was part of the bandit group who kidnapped Krista five years prior to the story.
+* Was part of the bandit group who kidnapped Krista five years prior to the story. Split off of that group and led his own some time after Krista was rescued.
+
+Peter
+* A hermit who lives in the mountains of Oregot.
+* Gets along well with the animals that live in the area.

@@ -1,0 +1,97 @@
+C Support
+Krista: Hey, Torgen. Mind tying me up? For old-time's sake?
+Torgen: Don't you have more important things to do?
+Krista: I mean, yeah, but we've got a bit of downtime.
+Torgen: I'm not tying you up.
+Krista: C'mon, it'll be fun! I look real cute wrapped up in ropes, dontcha think?
+Torgen: I'm not into that.
+Krista: If you aren't, why did you keep agreeing to "kidnapping" me, hm?
+Torgen: Because you wouldn't stop pestering me if I didn't.
+Krista: Okay, fair. But! You still enjoyed it at least a little bit, didn't you?
+Torgen: Being with the same people day in and day out can get dull, I guess.
+Krista: That's what I thought.
+Torgen: Still not gonna tie you up.
+Krista: Oh come on! Please? For me?
+Torgen: And there you go, pestering me again.
+Krista: ... Is it working?
+Torgen: ... *sigh* Let me get the rope.
+Krista: Woo!
+
+B Support
+Krista: Torgen! Wanna tie me up agai--
+Torgen: No. Not in the mood.
+Krista: Yeesh, you're sounding more grumpy than usual. What's up?
+Torgen: Just... Sorry about last time.
+Krista: What?
+Torgen: Things shouldn't have gone that way. Gordon wouldn't've gotten his grubby mitts on you if I--
+Krista: Hey. I already told you it was okay. I'm alive, aren't I?
+Torgen: But--
+Krista: I'm not hearing it! Besides, if I didn't forgive you, we wouldn't be talking right now.
+Torgen: You have a point. Still, I can't get over how scared you were when Gordon got you. It was like when we met eight years ago.
+Krista: ...
+Torgen: I don't want you fearing for your life like that, Krista. I'm not fumbling like that ever again.
+Krista: If I died that day, I...
+Torgen: Huh?
+Krista: N-Nothing. It's nothing. Anyway, sorry for bothering you. I'm just gonna go.
+(Krista leaves the scene.)
+Torgen: Krista? What's gotten into you?
+
+A Support
+Torgen: Huh? Krista? What're you doing laying on the ground like that?
+Krista: ... Cloud watching.
+Torgen: Mind if I join you?
+Krista: If you wanna, go ahead.
+(Torgen lays beside Krista.)
+Krista: ...
+Torgen: ... Doesn't cloud watching usually go where someone says, oh I don't know, "Hey, that cloud looks like a bear," or something like that?
+Krista: It could. To be honest, I just watch them float by.
+Torgen: Huh.
+Krista: I like your idea, though. Beats what I usually think about.
+Torgen: Which is?
+Krista: Sometimes I wonder if you fell from a great height, would the clouds be the last thing you saw?
+Torgen: If you fell on your back, maybe. Kind of a morbid thing to think about, though.
+Krista: I guess.
+Torgen: ... Krista, if you fell, I'd catch you.
+(Krista and Torgen get up.)
+Krista: H-Huh? Torgen--
+Torgen: Let me finish. Whatever the reason, if it was my fault, someone else's, on accident, on purpose, it doesn't matter. I'll be there before you hit the ground. You can count on me.
+Krista: On purpose too, huh...? Torgen, I... S-Sorry. I've been saying weird stuff this whole time.
+Torgen: All sorts of weird stuff's been on your mind lately. A while back, you were sayin' something about dying when we first met.
+Krista: !!
+Torgen: I don't know what exactly's going on in that head of yours. All I know is that something's stressing you out, right? Something weighing down on you so much, you just wanna stop?
+Krista: Y-Yeah.
+Torgen: Being royalty's a lot of responsibility. I can't even imagine how much is on your shoulders just from that. Still, I get it. Before this, I was just a bandit tryin' to scrape by. All those years ago when you were captured, and I saw you crying in that cell, I knew I couldn't keep living that life. That's why I helped. Or tried to, at least.
+Krista: Torgen...
+Torgen: But I couldn't escape it. I was still a bandit, and that's the only life I thought could know. I kept holding on, hoping that things would change. That maybe there was a chance I wouldn't have to keep living like this. Then you came back.
+Krista: You were just lucky. What if you're not there to save me like I did for you? I can't just depend on you.
+Torgen: Then you grit your teeth and save your own damn self. I knew I couldn't bank on us meeting again. Let alone you whisking me away to a new way of life. So I just kept going despite everything.
+Krista: I'm not strong enough for that!
+Torgen: Yes you are!
+Krista: ...!
+Torgen: You made it this far, right? What's one more day? If you make it that day, then you can make it to the next, right?
+Krista: I guess you have a point.
+Torgen: Life's tough. It'll keep beating your ass if you let it. So, the best thing to do is beat its ass back! Show it that no matter what it throws at you, you can dish out ten times worse! So just... Just keep living on, Krista. Promise me that.
+Krista: Torgen... Yeah. I promise.
+
+A+ Support
+Krista: Hey, Torgen. After this is all over, wanna stay in Medeas with me?
+Torgen: What are you going on about now?
+Krista: I'm giving you a job offer! You can be one of my retainers.
+Torgen: You can't be serious. I'm a bandit, Krista. There's no way this can work.
+Krista: I've turned a thief and a couple of vagrants into reliable retainers. A bandit won't be too out there for me.
+Torgen: You're a strange one.
+Krista: But that's why you like me.
+Torgen: Can't deny that.
+Krista: Besides, weren't you the one who said you wanted to leave the bandit life behind?
+Torgen: Yeah, but having an out handed to me on a silver platter? Feels like cheating.
+Krista: So what? You wanna work for the position?
+Torgen: That would make it feel more legitimate.
+Krista: Fine, fine. Let's see... Oh, I know! If you're still alive once this is all over, I'm making you my retainer. Deal?
+Torgen: Wait, doesn't that mean I'll be under your service no matter what I do? Aw, forget it. Deal.
+Krista: Alright! Partners 'til the end!
+Torgen: As long as "the end" isn't too soon.
+Krista: I know, I know.
+Torgen: Don't even think about changing your mind about this, by the way. Remember that you're the one who asked in the first place.
+Krista: I won't regret it. I promise. If you want, you can keep me on a short leash so I don't run away.
+Torgen: You'd enjoy that too much.
+Krista: Hehe!
