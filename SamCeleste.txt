@@ -1,18 +1,7 @@
 C Support
-Celeste: Hoo-ya! Take that, meanie! Now, stay down, stupid bandit! Ya! Celeste wins again!
-(Sam enters the scene.)
-Sam: Hey, kid! Training your axe skills again?
-Celeste: Hey, mister! Yeah, I gotta get stronger! Need to do my best and to keep my friends safe.
-Sam: Good for you. You like axes, it seems.
-Celeste: Yeah, axes are the best! Who wants a boring old sword anyway? I can chop wood with this if I need to! When was the last time a swordfighter chopped up wood with a sword?
-Sam: Yeah, axes are really cool. They're also fun to swing through the air.
-Celeste: I know, right? Whoosh, whoosh! They're so cool! I tried to get  Michael to use an axe, but he just sticks to his lance. I never really got the appeal.
-Sam: The spear is a good weapon, though. I don't use one myself, but yes, axes are great. What got you to use axes in the first place?
-Celeste: My mom. This was her axe. She was the one who taught me and Michael how to use our respective weapons in the first place.
-Sam: I see.
-Celeste: Yeah. That's why I'm going to be the best axe swinger around one day! They'll sing songs about Celeste the Invincible! And her trusty sidekick Michael.
-Sam: I look forward to it. Keep improving, kiddo!
-Celeste: Thanks, mister. You too!
-(Sam leaves the scene.)
-Celeste: Okay, you bandit, now where were we?
+[Celeste is trying to use a large, hefty axe in the training yard. Sam comes over and suggests trying to use one more suitable for her.]
+# Original script by Berserker Sam #
+
+B Support
+[Sam and Celeste are sharing a meal in the dining hall. Celeste notices that Sam has a lot of meat and cheese on his plate. Sam points out that you need meat to bulk up and get strong. Celeste mentions that her mom always said to eat her greens to be healthy.]
 # Original script by Berserker Sam #

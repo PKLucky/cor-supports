@@ -1,3 +1,5 @@
+[Very silly, but ultimately it's a whole lot of nothing actually happening. Could work better as a base support?]
+
 C Support
 Joshua: 'Sup, bro!
 Sam: What's up, bro!

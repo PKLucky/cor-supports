@@ -21,14 +21,17 @@ Marina: You also don't need to worry about people liking you for your title, unl
 Alex: But still... How to phrase this... While I'm not looking for a Prince Charming, I'm looking for someone I can fall in love with. Someone to marry and look after. And he would look after me in return. However, I wonder if I would even catch someone's eye.
 Marina: Alex. You have more going for you than you realize. While you are mature enough to understand there is no Prince Charming, you shouldn't worry about being the perfect girl either. There are still men who don't care about perfect. They just want a loving wife. Sadly, being a dancer makes finding such a man difficult for me. But they do exist.
 Alex: I see. Thank you, Marina.
-Marina: No, thank YOU, Alex. It was a lovely talk. And thank you for the tea. {c:e;Marina;NoSmile}Oh, if you have any book recommendations, I would love to hear them. I just finished this. Next time we talk, you can share your recommendations.
+Marina: No, thank YOU, Alex. It was a lovely talk. And thank you for the tea.
+
+[TO CUT?]
+Marina: Oh, if you have any book recommendations, I would love to hear them. I just finished this. Next time we talk, you can share your recommendations.
 Alex: Certainly.
 Marina: Until next time, dear.
 (Marina leaves the scene.)
 Alex: I wonder what book this is? Hmm, "Heavenly Desires"? I haven't heard of this one before. Maybe it can give me an idea of what kinds of books she likes. ... Oh. ... Oh my. ... Oh, it went THERE already? I haven't even finished the first chapter yet.
 # Original script by Berserker Sam #
 
-B Support
+B Support [MAY NEED REVISION/REWRITE]
 Marina: Hello again, Alex. Not to put you in a rush, but have you finished "Heavenly Desires" yet? I've recently had this urge to give it another read. I'm also curious about any book recommendations you may have based on this.
 Alex: Yes, here you go.
 Marina: So, what did you think of it?

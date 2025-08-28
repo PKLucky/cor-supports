@@ -1,4 +1,4 @@
-C Support
+C Support [Considering to turn this into a Chell/Aqua support with some revisions.]
 Aqua: Now, let's see, what can I top this with? Oh, pineapple! I've always wanted to try pineapple. Something sweet like this should go with something savory... Maybe the ham?
 (Alex enters the scene.)
 Alex: Aqua? What might you be doing in the kitchen?
