@@ -2,12 +2,12 @@ C Support
 Celeste: Heyyy, Michael! Wanna go shopping together? There's a bunch of cool shops nearby.
 Michael: I don't know... Last time we went shopping was at that fireworks store. And I don't want us to clean up another huge mess.
 Celeste: Don't worry! It's not gonna be like that this time. I wanna hit up a gem store. There's these gem pairs that mean "Best Friends Forever". I want to take you with me and see if we can get them.
-Michael: O-Oh, well, thank you. I guess I'll go, then. But, uh, it's not going to be really crowded there, is it?
-Celeste: I don't think so. It's at an open-air market, so things should be spread out. Are you worried about seeing a lot of people? We can go to the smaller stores first if you aren't comfortable.
+Michael: O-Oh, well, thank you. I guess I'll go, then. But, uh, it's not going to be out in the open, is it?
+Celeste: It's at an open-air market, so yeah, it is. Are you worried about seeing a lot of people? We can go to the smaller stores first if you aren't comfortable.
 Michael: N-No, that's not it. I just don't--
 Celeste: Then, let's go!
 (Celeste leaves the scene.)
-Michael: --want to cause another mess. Ah, Celeste, wait!
+Michael: Ah, Celeste, wait!
 (Michael chases after her.)
 # Original script by Blade of Light 12 #
 
