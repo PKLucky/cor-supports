@@ -1,19 +1,25 @@
-C Support [REQUIRES REVISION]
-(Yukino sees Masashi leaving a house)
-Yukino: (Argh, it’s him.)
-Masashi: Oh- hello I wasn't expecting to see you.what conditioner do you use?
-Yukino: (What do I say to have him leave me alone?) First of all, that’s none of your business-
-Masashi: I'm sorry, it's just that you look like someone I knew.
-Yukino: Sure I do, bet I'm not the first person you've said that to.
-Masashi: N-no, I really mean it. And I just want to say thank you for sparing me, I know it was because I was needed for information but still. 
-Yukino: Wasn't the demand for your life, never speaking to me again? I'm thinking of withdrawing it. (moves closer to Masashi) Wanna see some sword skills?
-Masashi: Uh- I want to make up for our first meeting, I-I want to kn-know more about you.
-Yukino: Don't worry I'm not gonna kill you, but I'm not kidding about my sword skills.
-Masashi: I-I'll show off my bow skills too.
-Yukino: Oh I'd like to see them? (slightly smiling, touches him)
-Masashi: I-I I’m sorry!
-(Masashi leaves)
-Yukino: He's interesting… I hope he's not as bad as he presents himself.
+C Support
+Thug 1: Heya pretty, you wanna hang out with me and my guys?
+Yukino(Off-Screen): If you want to see tomorrow I suggest you leave me alone.
+Thug 2: Come on, if you don't then we'll have to take you.
+Yukino(Still Off-Screen): Very manly. Five against one.
+Masashi: (They don't know when to stop, got to teach them a lesson.)
+Thug 3: We'll ask nicely then-
+Masashi fires an arrow, just missing Thug 3 on purpose
+Masashi: She said to leave her alone, if you don't then I'll fire again.
+Thug 4: Bastard!
+Yukino slashes Thug 4
+Masashi: Should have left her alone.
+Yukino: Hm.
+Thug 5: Five against two is fair seeing what you are capable of.
+Masashi fires another arrow this time at Thug 5, the thug isn't dead but seriously injured. While Yukino cripples Thug 2. 
+Yukino: Have anything else to say? If you don't-
+Thug 1: This isn’t good, let's get out of here.
+The Thugs run and crawl away.
+Yukino: Hey, thanks for coming in. Just wanted to let you know.
+Masashi: Oh- Uh Yukino, sorry I- didn't forget the command I jus- couldn't see you. And thanks for sparing me. I'll leave you alone now.
+Masashi sprints away.
+Yukino: He's interesting… he doesn't seem as bad as he presents himself. Could I have been too harsh?
 # Original script by Blade of Light 12 #
 
 B Support (Might need revisions depending on how heavily revised the C Support is)
