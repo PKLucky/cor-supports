@@ -15,7 +15,7 @@ Krista:
 * Is currently affected by the trauma of losing her fiance Prince Ervan of Fuegsol
 * Had a love of history, but dropped it since that reminded her of Ervan's love of history
 * Has other heavy spoiler-y backstory elements involving herself and Ervan.
-* is given Ervan's wyvern Jawhara upon promotion to third tier
+* is given Ervan's wyvern Gohar upon promotion to third tier
 
 Forrest:
 * Krista's knight
@@ -57,6 +57,7 @@ Chell:
 
 Sam
 * Native from Oregot who was hired by the Medean royal family to teach Krista axe combat
+* Is the son of a well-known family of axe experts. Was chosen as Krista's axe teacher to establish good will towards Oregot for when Krista and her future husband would choose a suitor for their child.
 * Loud and crude, but tactful as well
 * His goal of killing bandits is related to Krista getting kidnapped by them years ago: to make sure she's not in danger again
 * Gained a lot of knowledge on surviving in the wilderness and combat experience from a leader of a mercenary band from Oregot (who might be recruitable in Act 3?)
@@ -77,7 +78,7 @@ Semi
 
 Taylor
 * Co-captain of the Medean royal army
-* Mount’s name: Yumil
+* Mount's name: Yumil
 * Has a romanticized view of combat and has a boisterous personality
 * Not book smart, but is knowledgeable in weapons, armor, and combat techniques
 * Can get competitive over even the littlest things
@@ -136,11 +137,13 @@ Viola
 * Mount’s name: Mello
 * A positive young woman, but is affected by the loss of her mother deep down
 * Ever since Lin left, she tried to keep a positive attitude so that Chell didn’t have to fret over her
+* Can understand what her Pegasus is saying to some extent.
 
 Marina
 * Travelling performer and barmaid from Foliaga
 * Free-spirited and independent
 * Is a bit of a gossip due to her traveling around so much
+* Is a lover of erotic romance novels.
 
 Joshua
 * Famous arena fighter from Oregot.
@@ -182,12 +185,14 @@ Celeste
 * Has an idealistic view of heroism and justice.
 * Optimistic, but can be impulsive most of the time
 * Her mother was one of the Holy Knights. When other Holy Knights raided Florene Village, her mother told her to take her axe and flee from the village. Her mother had taught her axe combat
+
 Act 2 Characters
 Parker
 * Nobleman from Medeas, Krista’s cousin from her father’s side of the family
 * Mount’s name: Percival
 * Is a scholar of magic and has taken in Cole as a student
 * Well-informed in politics and foreign relations
+* While straight-laced in front of most people, he lets loose when around Krista. However, his more silly personality slips out every once in a while.
 
 Cole
 * An orphan taken in by Parker
@@ -197,8 +202,8 @@ Cole
 Ryuuji
 * Captain of the infamous Wyrmfang Pirates
 * Keeps a cool head a lot of the time and has a natural charisma
-* Was one of Tsubaki’s retainers and his real name is Kenji. The Wyrmfang Pirates raided the capital five years prior to the story and Ryuuji was captured by them. The captain was impressed by his bravery and let him join his crew. Eventually, Ryuuji took over as captain and took on the alias Ryuuji. He also deliberately ceased raids near the Merinas capital to not bring harm to the royal family again.
-* Acted as a big brother figure to Kai, Tsubaki, and Nagisa when he was still serving the royal family
+* Was one of Tsubaki’s retainers and his real name is Kenji. The Wyrmfang Pirates raided the capital five years prior to the story and Ryuuji was captured by them. The captain was impressed by his bravery and let him join his crew. Eventually, Ryuuji took over as captain and took on the alias Ryuuji. He also deliberately ceased raids near the Merinas capital to not bring harm to the imperial family again.
+* Acted as a big brother figure to Kai, Tsubaki, and Nagisa when he was still serving the imperial family
 
 Taiga
 * First mate of the Wyrmfang Pirates
@@ -218,6 +223,11 @@ Taichi
 * Loves his family and his village deeply and would do anything to protect them
 * Had a pet stag beetle named Razor. Released him back into the wild before joining the party
 
+Yumi
+* Promoter and organizer at Gintoki City's arena
+* Has a lot of self-confidence and charisma.
+* Knows a lot about the regular participants at the arena due to her line of work.
+
 Lin
 * Chell and Viola's younger sister
 * Mount’s name: Flugel
@@ -233,21 +243,26 @@ Tsurugi
 Khalid
 * Crown Prince of Fuegsol
 * Mount’s name: Saif
+* Optimistic and enjoys the thrill of combat
+* A bit self-conscious about the fact that Krista chose Ervan over him. Despite that, he doesn't hold ill will towards either of them.
 
 Reem
 * Khalid’s retainer
 * Mount’s name: Aina
+* Dutiful and a bit of a romantic.
+* She and Forrest had a mutual attraction to each other before Ervan died.
 
 Yukino
 * Woman from Shizukawa Village. Leader of the Wildflower Bandits, a group of women who were kidnapped by Hayato’s bandit group and escaped.
 * Was formerly in an abusive relationship with her husband
+* Killed her husband in self-defense when his abuse went too far. Also lost her daughter in the scuffle.
 
 Masashi
 * A flirty nobleman from Merinas
 * Will flirt with every woman he comes across but will back off if she's clearly not into it
 * Is not successful with his flirting most of the time, so when a girl is actually into him, he doesn't know how to proceed
 * Was one of Emperor Samegoro’s shoguns
-* Knows that he’s a loser deep down, so he just plays into it
+* Is sincere with his flirting and doesn't let his failures get to him
 
 Hikaru
 * Masashi's retainer and scholar specializing in theology
@@ -304,3 +319,26 @@ Torgen
 Peter
 * A hermit who lives in the mountains of Oregot.
 * Gets along well with the animals that live in the area.
+
+Santiago
+* Bishop of the Order of Oreg
+* Uptight and disciplined
+* Not only trains himself spiritually, but also physically (this man is BUFF and is capable of breaking bones you didn't know you had.)
+
+Tora
+* A tiger shifter from an underground settlement in Oregot.
+* Was alive during the time of the War of Divides and hates Humans for killing off his people.
+
+Estoc
+* A golem created by the tiger and cat shifters. Was the golem assigned to be Felicity's guardian during the War of Divides.
+* Was created to be a combat-oriented golem, hence why he is named after a weapon.
+
+Lucian
+* Knight under service of House Valoria. Was Trevor's personal knight.
+* Loud and takes his job seriously. Can be overzealous when it comes to protecting Trevor, but his heart is in the right place.
+* Helped Trevor escape from home a few months prior to the story.
+
+Melanie
+* Knight under service of House Valoria. Was Trevor's personal knight.
+* Friendly and amicable towards most people, but can get tired of Lucian's excitable personality.
+* Doesn't completely understand why Trevor wanted to leave home in the first place, but if that makes him happy, then that's all that matters to her.
