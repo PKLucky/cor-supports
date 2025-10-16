@@ -1,188 +1,93 @@
 C Support
-speak;Forrest;Your Highness, are you awake?|{c:e;Forrest;CloseEyes}*sigh* No, not even a bit. Of course.|{c:e;Forrest;NormalBlink}Your Highness, wake up!
-expression;Krista;NormalBlink
-bop_portrait;Krista
-speak;Krista;Wait! Grab my--|H-huh?
-speak;Forrest;You were dreaming, Your Highness.
-speak;Krista;O-Oh{tgm}...{tgm} Uh, good morning?
-expression;Forrest;HalfCloseEyes
-speak;Forrest;"Good afternoon" is more appropriate.
-expression;Krista;Smile
-speak;Krista;Oh, lunch time!
-expression;Forrest;NormalBlink
-speak;Forrest;Yes. Then, it's time for lessons.
-expression;Krista;HalfCloseEyes,NoSmile
-speak;Krista;Maaaan. Do I gotta?|They're so boringgggg.
-speak;Forrest;Yes, you "gotta".|As future queen of Medeas, you must be knowledgeable in many aspects.|Not just combat, but also history, mathematics--
-expression;Krista;CloseEyes
-speak;Krista;"And literature and theology to ensure a well-balanced mind, body, and spirit|befitting a proper ruler of Medeas."|{c:e;Krista;NormalBlink}Man, I've lost count of how many times I've heard that spiel.
-expression;Forrest;HalfCloseEyes
-speak;Forrest;I wonder why that might be.
-speak;Krista;Anyway, I'm too hungry to argue about it.|Let's head off to the dining hall.
-expression;Forrest;NormalBlink
-speak;Forrest;As you wish, Your Highness.
-move_portrait;Krista;OffscreenRight
-mirror_portrait;Forrest
-music;Silent Ground
-speak;Forrest;...;no_talk
-expression;Forrest;CloseEyes
-speak;Forrest;What was she mumbling about just now?|Could it be that nightmare?;StyleNid=thought_bubble
-unlock_support_rank;Krista;Forrest;C
-end
-end_skip
-if;support_rank_nid == 'B'
-change_background;Bedroom
-transition;open
-music;Requiem
-add_portrait;Krista;Left;;CloseEyes;no_block
-add_portrait;Forrest;Right
-speak;Forrest;Your Highness, it is time for--|Ah. Still asleep, as per usual.
-speak;Krista;E-Ervan{tgm}...{tgm}{br}No{tgm}...
-speak;Forrest;Your Highness?
-speak;Krista;Don't{tgm}...{tgm} Wait, please{tgm}...{tgm} I{tgm}...
-expression;Forrest;CloseEyes
-speak;Forrest;That nightmare again, is it{tgm}...?{tgm}|{c:e;Forrest;NormalBlink}Your Highness, wake up!
-expression;Krista;NormalBlink
-bop_portrait;Krista
-speak;Krista;Gah! I'm up! I'm up!|Oh, Forrest. It's just you.
-speak;Forrest;You were having that nightmare again.
-speak;Krista;O-Oh{tgm}...{c:e;Krista;HalfCloseEyes} ...
-speak;Forrest;Your Highness, you shouldn't blame yourself for--
-expression;Krista;NormalBlink
-speak;Krista;I don't wanna talk about it, okay?!
-speak;Forrest;...;no_talk
-expression;Krista;HalfCloseEyes
-speak;Krista;S-Sorry, I didn't mean to snap at you. I just{tgm}...
-speak;Forrest;It's fine.|But please understand, if you ever do wish to talk about it,|I am always willing to lend an ear.
-expression;Krista;CloseEyes
-speak;Krista;I know.
-unlock_support_rank;Krista;Forrest;B
-end
-end_skip
-if;support_rank_nid == 'A'
-change_background;Bedroom
-transition;open
-music;Lullaby of a Loyal Knight
-add_portrait;Krista;Left;;CloseEyes;no_block
-add_portrait;Forrest;Right;;CloseEyes
-speak;Forrest;♫ Tenu paleru naki somune ♫;FontType=iconvo
-speak;Krista;*yawn*|{c:e;Krista;HalfCloseEyes}Forrest?
-expression;Forrest;NormalBlink
-speak;Forrest;A-Ah, Your Highness. You're awake.
-expression;Krista;NormalBlink
-speak;Krista;Mm-hm{tgm}...{tgm} Was that you singing just now?
-speak;Forrest;I, erm, well{tgm}...{tgm} It's just{tgm}...{tgm} It pained me to see you in so much distress night after night.|So, I thought maybe singing a lullaby could help. If it was a bother, then--
-speak;Krista;Hey, slow down there!|{c:e;Krista;Smile}You have a nice voice, Forrest. It helped.
-speak;Forrest;Really? Good, then.
-expression;Krista;NoSmile
-speak;Krista;Oh, hey, I actually woke up on time for today's history lesson.|Let's head to the library--
-bop_portrait;Forrest
-speak;Forrest;Wait.
-speak;Krista;Hm?
-speak;Forrest;We can postpone the lesson until later today.|Or even make up for it on a different day.
-speak;Krista;H-Huh? Why?
-speak;Forrest;You should get your rest, Your Highness.|I'll even sing you to sleep, if you'd like.
-speak;Krista;Are you sure?
-expression;Forrest;Smile
-speak;Forrest;Yes. It has been a long time since you have been well-rested.|I won't let you waste that.
-speak;Krista;Well, if you say so.|{c:e;Krista;Smile,CloseEyes}Lemme just get settled back in here.
-bop_portrait;Krista
-speak;Krista;Alright, go for it.
-remove_all_portraits
-transition;close
-change_background;KristaForrestA
-change_background;BlackBackground
-transition;open
-music_clear;300
-music;Lullaby of a Loyal Knight;300
-wait;41
-speak;Forrest;♫ Nelupa seni tenu paleru naki ♫;FontType=iconvo;no_block;hold;no_sound
-wait;6668
-unhold;Forrest
-speak;Forrest;♫ Somune dera sebare ♫;FontType=iconvo;no_block;hold;no_sound
-wait;6080
-unhold;Forrest
-speak;Forrest;♫ Nelupa seni tenu paleru naki ♫;FontType=iconvo;no_block;hold;no_sound
-wait;6728
-unhold;Forrest
-speak;Forrest;♫ Sulape dewo sure ♫;FontType=iconvo;no_block;hold;no_sound
-wait;5968
-unhold;Forrest
-speak;Forrest;♫ Laleru naki sereru baki ♫;FontType=iconvo;no_block;hold;no_sound
-wait;5940
-unhold;Forrest
-speak;Forrest;♫ So' mune rame so'me ♫;FontType=iconvo;no_block;hold;no_sound
-wait;6518
-unhold;Forrest
-music_clear;350
-music;Lullaby of a Loyal Knight;350
-transition;close
-change_background;Bedroom
-transition;open
-add_portrait;Krista;Left;;CloseEyes,NoSmile;no_block
-add_portrait;Forrest;Right
-speak;Krista;...;no_talk
-speak;Forrest;{tgm}...{tgm} Your Highness? Are you still awake?
-speak;Krista;...;no_talk
-expression;Forrest;CloseEyes,Smile
-speak;Forrest;Sweet dreams, Krista.|{c:e;Forrest;NormalBlink,Smile}I hope you dream of me.
-unlock_support_rank;Krista;Forrest;A
-end
-end_skip
-if;support_rank_nid == 'S'
-change_background;Bedroom
-transition;open
-music;Lyn's Desire
-multi_add_portrait;Krista;Left;Forrest;Right
-speak;Krista;Forrest?
-speak;Forrest;Yes, Your Highness?
-expression;Krista;CloseEyes
-speak;Krista;I've been thinking{tgm}...{tgm}|{c:e;Krista;HalfCloseEyes}When this is all over, I'm probably not gonna be the princess of Medeas anymore.
-speak;Forrest;As regrettable as it is, you are most likely correct.
-expression;Krista;NormalBlink
-speak;Krista;Since we're on the same page about that, I wanna ask you something.
-speak;Forrest;Hm?
-speak;Krista;Knowing I can't go back home, would you still want to stay by my side?
-speak;Forrest;Of course I would.
-bop_portrait;Krista
-speak;Krista;Wh-Whoa, that was a sudden answer!|This is serious, Forrest. You gotta put some thought into it--
-speak;Forrest;I already have.
-speak;Krista;Wha--?|{c:e;Krista;CloseEyes}No way. I refuse to believe that!|{c:e;Krista;NormalBlink}You wouldn't throw away everything just to be with me.
-speak;Forrest;But I would.
-speak;Krista;You have a life in Medeas, Forrest!
-speak;Forrest;I don't.
-speak;Krista;What are you talking about? You're a knight!|A knight under direct service to the royal family at that.|Even if I'm gone, you still have a duty to uphold--
-bop_portrait;Forrest
-expression;Forrest;CloseEyes
-speak;Forrest;That doesn't matter!
-speak;Krista;{tgm}...{tgm} Forrest?
-expression;Forrest;NormalBlink
-speak;Forrest;I was merely born into this position, Your Highness.|It was expected of me to uphold my duties to protect the royal family.|{c:e;Forrest;CloseEyes}But as time passed, I realized what my own desires were.
-speak;Krista;What are you trying to say?
-expression;Forrest;NormalBlink
-speak;Forrest;My loyalties do not lay with Medeas, let alone the royal family.|They're solely with you, Krista.{br}Only you.
-speak;Krista;Do you really mean that?
-speak;Forrest;I've never been more honest about anything in my life.
-speak;Krista;You{tgm}...{c:e;Krista;CloseEyes}{tgm} You idiot!
-speak;Forrest;Krista?
-expression;Krista;NormalBlink
-speak;Krista;All I ever did was pile my problems onto you!|If you accepted that because you were my knight, I'd understand.|{c:e;Krista;CloseEyes}But if what you're saying is true, then why?|{c:e;Krista;HalfCloseEyes}I've treated you so horribly{tgm}...!{tgm}|{c:e;Krista;CloseEyes}I don't{tgm}...{tgm} *sniff*{br}I don't understand{tgm}...
-expression;Forrest;CloseEyes
-speak;Forrest;Krista, listen to me.|{c:e;Forrest;NormalBlink}Even if I wasn't born into knighthood, I'd still remain by your side.|You're everything to me.
-expression;Krista;HalfCloseEyes
-speak;Krista;F-Forrest{tgm}...?
-expression;Forrest;CloseEyes
-speak;Forrest;I don't want you to suffer alone.|{c:e;Forrest;NormalBlink}I will be there to protect you no matter the cost!
-expression;Krista;NormalBlink
-speak;Krista;I{tgm}...{c:e;Krista;CloseEyes}{tgm} Thank you.|{c:e;Krista;HalfCloseEyes}I don't know what to say{tgm}...
-speak;Forrest;There's no need for further words, Krista. Just{tgm}...{tgm}|{c:e;Forrest;CloseEyes}Please forgive me for my boldness.
-expression;Krista;NormalBlink
-speak;Krista;What are you--
-remove_all_portraits
-transition;close
-change_background;KristaForrestS1
-transition;open
-speak;Krista;Mmn?!
-change_background;KristaForrestS2
-speak;Forrest;I apologize. I've wanted to do that for so{br}long...
-speak;Krista;Heh, never thought I'd see you be so{br}forward.|Here. Let's do that more properly.
+Forrest: Your Highness, are you awake? *sigh* No, not even a bit. Of course. Your Highness, wake up!
+Krista: Wait! Grab my-- H-huh?
+Forrest: You were dreaming, Your Highness.
+Krista: O-Oh... Uh, good morning?
+Forrest: "Good afternoon" is more appropriate.
+Krista: Oh, lunch time!
+Forrest: Yes. Then, it's time for lessons.
+Krista: Maaaan. Do I gotta? They're so boringgggg.
+Forrest: Yes, you "gotta". As future queen of Medeas, you must be knowledgeable in many aspects. Not just combat, but also history, mathematics--
+Krista: "And literature and theology to ensure a well-balanced mind, body, and spirit befitting a proper ruler of Medeas." Man, I've lost count of how many times I've heard that spiel.
+Forrest: I wonder why that might be.
+Krista: Anyway, I'm too hungry to argue about it. Let's head off to the dining hall.
+Forrest: As you wish, Your Highness.
+(Krista leaves.)
+Forrest: ...
+Forrest, thinking: What was she mumbling about just now? Could it be that nightmare?
+
+B Support
+Forrest: Your Highness, it is time for-- Ah. Still asleep, as per usual.
+Krista: E-Ervan... No...
+Forrest: Your Highness?
+Krista: Don't... Wait, please... I...
+Forrest: That nightmare again, is it...? Your Highness, wake up!
+Krista: Gah! I'm up! I'm up! Oh, Forrest. It's just you.
+Forrest: You were having that nightmare again.
+Krista: O-Oh... ...
+Forrest: Your Highness, you shouldn't blame yourself for--
+Krista: I don't wanna talk about it, okay?!
+Forrest: ...
+Krista: S-Sorry, I didn't mean to snap at you. I just...
+Forrest: It's fine. But please understand, if you ever do wish to talk about it, I am always willing to lend an ear.
+Krista: I know.
+
+A Support
+Forrest: ♫ Tenu paleru naki somune ♫
+Krista: *yawn* Forrest?
+Forrest: A-Ah, Your Highness. You're awake.
+Krista: Mm-hm... Was that you singing just now?
+Forrest: I, erm, well... It's just... It pained me to see you in so much distress night after night. So, I thought maybe singing a lullaby could help. If it was a bother, then--
+Krista: Hey, slow down there! You have a nice voice, Forrest. It helped.
+Forrest: Really? Good, then.
+Krista: Oh, hey, I actually woke up on time for today's history lesson. Let's head to the library--
+Forrest: Wait.
+Krista: Hm?
+Forrest: We can postpone the lesson until later today. Or even make up for it on a different day.
+Krista: H-Huh? Why?
+Forrest: You should get your rest, Your Highness. I'll even sing you to sleep, if you'd like.
+Krista: Are you sure?
+Forrest: Yes. It has been a long time since you have been well-rested. I won't let you waste that.
+Krista: Well, if you say so. Lemme just get settled back in here. Alright, go for it.
+Forrest: ♫ Nelupa seni tenu paleru naki / Somune dera sebare / Nelupa seni tenu paleru naki / Sulape dewo sure / Laleru naki sereru baki / So' mune rame so'me ♫
+Krista: ...
+Forrest: ... Your Highness? Are you still awake?
+Krista: ...
+Forrest: Sweet dreams, Krista. I hope you dream of me.
+
+S Support
+Krista: Forrest?
+Forrest: Yes, Your Highness?
+Krista: I've been thinking... When this is all over, I'm probably not gonna be the princess of Medeas anymore.
+Forrest: As regrettable as it is, you are most likely correct.
+Krista: Since we're on the same page about that, I wanna ask you something.
+Forrest: Hm?
+Krista: Knowing I can't go back home, would you still want to stay by my side?
+Forrest: Of course I would.
+Krista: Wh-Whoa, that was a sudden answer! This is serious, Forrest. You gotta put some thought into it--
+Forrest: I already have.
+Krista: Wha--? No way. I refuse to believe that! You wouldn't throw away everything just to be with me.
+Forrest: But I would.
+Krista: You have a life in Medeas, Forrest!
+Forrest: I don't.
+Krista: What are you talking about? You're a knight! A knight under direct service to the royal family at that. Even if I'm gone, you still have a duty to uphold--
+Forrest: That doesn't matter!
+Krista: ... Forrest?
+Forrest: I was merely born into this position, Your Highness. It was expected of me to uphold my duties to protect the royal family. But as time passed, I realized what my own desires were.
+Krista: What are you trying to say?
+Forrest: My loyalties do not lay with Medeas, let alone the royal family. They're solely with you, Krista. Only you.
+Krista: Do you really mean that?
+Forrest: I've never been more honest about anything in my life.
+Krista: You... You idiot!
+Forrest: Krista?
+Krista: All I ever did was pile my problems onto you! If you accepted that because you were my knight, I'd understand. But if what you're saying is true, then why? I've treated you so horribly...! I don't... *sniff* I don't understand...
+Forrest: Krista, listen to me. Even if I wasn't born into knighthood, I'd still remain by your side. You're everything to me.
+Krista: F-Forrest...?
+Forrest: I don't want you to suffer alone. I will be there to protect you no matter the cost!
+Krista: I... Thank you. I don't know what to say...
+Forrest: There's no need for further words, Krista. Just... Please forgive me for my boldness.
+Krista: What are you--
+(Forrest kisses Krista.)
+Krista: Mmn?!
+Forrest: I apologize. I've wanted to do that for so long...
+Krista: Heh, never thought I'd see you be so forward. Here. Let's do that more properly.

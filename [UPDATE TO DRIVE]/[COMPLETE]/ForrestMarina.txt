@@ -49,20 +49,25 @@ Marina: You know, Sir Forrest, I wouldn't mind teaching you more Folian ballads.
 Forrest: I would love to, Miss Marina. I may even teach you some Medean tunes as well. I do happen to know a few.
 
 S Support
-[]
-Marina: When I was a little girl, I dreamed of getting swept off my feet by a dashing young knight. I never thought that would have actually happened to me.
-Forrest: "Dashing," you say? You flatter me too much, Miss Marina.
-Marina: Oh, enough of the formalities. We have gone past that, wouldn't you say?
-Forrest: I suppose.
-Marina: But back to the matter at hand, I already told you how handsome you are. And with a face like that, it makes me wonder if there's a body to match.
+Marina: ♫ Laleru naki sereru baki / So' mune rame so'me ♫
+Forrest: Very good, Miss Marina.
+Marina: Thank you, Sir Forrest. It's a beautiful lullaby.
+Forrest: Indeed. My mother would sing it to me every night when I was younger. It's a good memory.
+Marina: I'm sure. Though it's hard to imagine you as a little boy sleeping to lullabies when you're such a mature young man now.
+Forrest: This young man had to start somewhere.
+Marina: Very true. You know, when I myself was a little girl, I dreamed of getting swept off my feet by a dashing young knight. I never thought that would have actually happened to me.
+Forrest: Hm? Do you mean...?
+Marina: Yes, I do, Sir Forrest. You have certainly won the heart of this fair maiden.
+Forrest: I... I see. Ahem. If we're being candid here, then I must admit this knight's heart has been won over as well. I will say that describing me as "dashing" is a bit much, though.
+Marina: I wouldn't say so. I've already told you how handsome you are. And with a face like that, it makes me wonder if there's a body to match.
 Forrest: P-Pardon?
 Marina: You always looked so gallant and strong when riding across the battlefield. Just what could be beneath all that armor, hm?
-Forrest: M-Marina, I...
-Marina: Yes?
-Forrest: This, er, doesn't seem like a proper conversation to have--
+Forrest: M-Miss Marina, I...
+Marina: Come now, there's no need to be so formal anymore, Forrest.
+Forrest: Still, this, er, doesn't seem like a proper conversation to have.
 Marina: We've had worse. Remember how I said you could do other lines of work?
 Forrest: I'd much rather forget.
-Marina: I do still think that, you know. In fact, I wouldn't mind if we did it for free.
+Marina: I do still think that. In fact, I wouldn't mind if we did it for free.
 Forrest: Wh-What?! I... Erm... W-Well-- I apologize, Marina. I-I just remembered Her Highness needed me for... Um... S-Sorry, goodbye!
 (Forrest leaves)
-Marina: Still a shy boy, I see. He'll come around eventually.
+Marina: Still a little boy in that regard, I see. How cute. He'll come around eventually, I'm sure.

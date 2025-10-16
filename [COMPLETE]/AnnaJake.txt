@@ -1,20 +1,15 @@
 S Support
 Anna: Jake, there's something really important you need to know.
-speak;Jake;Huh, if you're saying it like that, it's gotta be real serious.
-speak;Anna;Just please promise me you won't freak out when I tell you.
-speak;Jake;Aw, come on already! Just say it!|You're making me worry here.
-expression;Anna;CloseEyes,Smile
-speak;Anna;Alright, here goes{tgm}...{tgm}{c:e;Anna;NormalBlink,Smile} Jake, I{tgm}...{tgm}|{c:e;Anna;NoSmile}You're going to be a father.
-bop_portrait;Jake
-speak;Jake;I{tgm}...{tgm} What??
-speak;Anna;You're gonna be a father, Jake! I'm pregnant!
-speak;Jake;No, no, I get that! It's just{tgm}...{tgm}|When? How??|{c:e;Jake;CloseEyes}I mean, I know HOW.|{c:e;Jake;NormalBlink}But when did this happen?|All this time, we've been too busy to do anything.
-speak;Anna;Remember that one night before we got roped into this adventure?|{c:e;Anna;HalfCloseEyes}That one night when we had you in a--
-expression;Jake;CloseEyes
-speak;Jake;Ohhhhhhh. Yeah, that checks out.|{c:e;Jake;CloseEyes,Smile}But, wow. Me, a father{tgm}...{tgm}|That's{tgm}...{tgm} wow.|{c:e;Jake;NoSmile,NormalBlink}I just wish I knew about this sooner.
-expression;Anna;NormalBlink
-speak;Anna;And have you fretting over your girlfriend this entire time?|No way!
-speak;Jake;I guess that's true{tgm}...
-speak;Anna;And there's still not a thing to worry about now.|I've been taking care of myself just fine.|We're gonna have a family, Jake. I'll make sure of it.
-expression;Jake;Smile
-speak;Jake;Right! And don't forget I'm gonna be here every step of the way too!
+Jake: Huh, if you're saying it like that, it's gotta be real serious.
+Anna: Just please promise me you won't freak out when I tell you.
+Jake: Aw, come on already! Just say it! You're making me worry here.
+Anna: Alright, here goes... Jake, I... You're going to be a father.
+Jake: I... What??
+Anna: You're gonna be a father, Jake! I'm pregnant!
+Jake: No, no, I get that! It's just... When? How?? I mean, I know HOW. But when did this happen? All this time, we've been too busy to do anything.
+Anna: Remember that one night before we got roped into this adventure? That one night when we had you in a--
+Jake: Ohhhhhhh. Yeah, that checks out. But, wow. Me, a father... That's... wow. I just wish I knew about this sooner.
+Anna: And have you fretting over your girlfriend this entire time? No way!
+Jake: I guess that's true...
+Anna: And there's still not a thing to worry about now. I've been taking care of myself just fine. We're gonna have a family, Jake. I'll make sure of it.
+Jake: Right! And don't forget I'm gonna be here every step of the way too!

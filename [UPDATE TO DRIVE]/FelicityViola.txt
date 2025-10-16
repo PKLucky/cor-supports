@@ -19,9 +19,12 @@ Viola: Your age! I now know why my calculations were off.
 Felicity: Oh?
 Viola: I've been going about it all wrong. You're just older than you look!
 Felicity: Uh--
-Viola: That's totally it, right? You’re probably like forty or fifty and just look really young for your age!
+Viola: That's totally it, right? You're probably like forty or fifty and just look really young for your age!
 Felicity: Oh! Um, yes. You got it right, Viola! Haha...
 Viola: No need to be embarrassed about it! My mother was like that too. You look really good for fifty!
 Felicity: Wh-Why thank you, Viola. I, er, appreciate you saying so.
 Viola: Of course! Oh, and don't worry. I won't tell anyone. A lady's gotta have her secrets, after all.
 Felicity: I am glad you understand, Viola.
+Viola: Anyway, I'm gonna head to the library. I gotta brush up on my math! See ya!
+(Viola leaves.)
+Felicity: Phew, that was close. I wonder if she'll figure things out... Maybe. It may take a while though.

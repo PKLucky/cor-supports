@@ -34,8 +34,8 @@ Kai:
 * Tends to tease others just to get a reaction out of them
 * Doesn't consider himself close with most people and has trust issues
 * Was challenged by Forrest to a duel eight months prior to the story. Kai won and is now Krista's sword tutor
-* Was a ninja and retainer to Samegoro’s daughter, Tsubaki. Left her service to pursue the truth about Emperor Samegoro’s recent change in behavior and the circumstances behind Prince Ervan’s death. At least, that’s the partial truth. The whole truth is that he was dissatisfied with laying down his life for the royal family and used recent events as an excuse to leave.
-* His father was also a ninja under the service of the royal family and taught Kai everything he knew. He died while on a mission many years prior to the story.
+* Was a ninja and retainer to Samegoro’s daughter, Tsubaki. Left her service to pursue the truth about Emperor Samegoro’s recent change in behavior and the circumstances behind Prince Ervan’s death. At least, that’s the partial truth. The whole truth is that he was dissatisfied with laying down his life for the imperial family and used recent events as an excuse to leave.
+* His father was also a ninja under the service of the imperial family and taught Kai everything he knew. He died while on a mission many years prior to the story.
 
 Trevor:
 * Krista's retainer
@@ -185,6 +185,7 @@ Celeste
 * Has an idealistic view of heroism and justice.
 * Optimistic, but can be impulsive most of the time
 * Her mother was one of the Holy Knights. When other Holy Knights raided Florene Village, her mother told her to take her axe and flee from the village. Her mother had taught her axe combat
+* Is implied to have direct ancestry to Folia
 
 Act 2 Characters
 Parker

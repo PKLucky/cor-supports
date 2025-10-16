@@ -1,139 +1,76 @@
 C Support
-speak;Felicity;Joshua, what is the meaning of this?
-speak;Joshua;Oh, these swords aren't mine. Well, except Old Iron here.|I offered to clean everyone's swords.
-expression;Felicity;CloseEyes
-speak;Felicity;That is NOT what I was referring to, Joshua.
-speak;Joshua;What is the problem, then?
-expression;Felicity;NormalBlink
-speak;Felicity;Look around you!|Her Highness has been very gracious in granting you a private chamber,|and you let it get like this!|The state of this room is appalling!
-speak;Joshua;What do you mean? There's no dust or rats or anything.
-speak;Felicity;Oh sweet Medea! Where are your boots? Here on the nightstand?|Where's your armor? Hung up? No! It's thrown on the reading table.
-speak;Joshua;You mean I can't temporarily put them there?
-speak;Felicity;Of course not! Where did you grow up?|{c:e;Felicity;CloseEyes}Don't answer that. I don't want to know.
-speak;Joshua;Soooo{tgm}...{tgm} you want armor and clothes in the closet instead?
-expression;Felicity;NormalBlink
-speak;Felicity;Yes, it would make my job easier.
-bop_portrait;Felicity
-speak;Felicity;Wait, isn't that Princess Krista's sword?
-speak;Joshua;Yes, it's seen some heavy use.|I offered to sharpen it and clean it up. A few knicks in it too.|A little light for my liking, but it's a good blade. Well balanced.
-speak;Felicity;You are something else.|Your room is worse than a rat's nest, but you keep your weapons and armor well-maintained.
-speak;Joshua;If you don't maintain your weapons, they'll fail you when you need them most.
-speak;Felicity;All of that is well and good,|but could you please maintain your chambers better?
-expression;Joshua;Smile
-speak;Joshua;Sure, I can do that.
-expression;Felicity;Smile
-speak;Felicity;Thank you!|{c:e;Felicity;HalfCloseEyes,Smile}Oh, next time you want to sneak out to the tavern,|I can get you out without Forrest knowing.{c:e;Felicity;NormalBlink,Smile} Bye!
-mirror_portrait;Felicity
-move_portrait;Felicity;OffscreenLeft
-expression;Joshua;NoSmile,CloseEyes
-speak;Joshua;That woman is something else. Reminds me of one of my aunts.
-unlock_support_rank;Felicity;Joshua;C
-# Original script by Berserker Sam #
-end
-end_skip
-if;support_rank_nid == 'B'
-change_background;Bedroom
-transition;open
-multi_add_portrait;Joshua;Right;Felicity;OffscreenLeft
-music;Girl of the Plains
-expression;Joshua;HalfCloseEyes
-speak;Joshua;Alright, just a little grime off the blade here, anddddd{tgm}...{tgm}|{c:e;Joshua;NormalBlink,Smile}Done!|{c:e;Joshua;NoSmile}Can't say I remember anyone using this axe before.|I wonder who it belongs to?
-move_portrait;Felicity;Left
-speak;Felicity;Ah, there you are, Joshua. Have you seen my--
-bop_portrait;Felicity
-expression;Felicity;Smile
-speak;Felicity;Aha! I had a feeling my axe was with you.
-speak;Joshua;Wait, you're saying this is yours?|I never expected you to know how to use martial weapons. Especially not axes.
-expression;Felicity;NoSmile
-speak;Felicity;Oh? And why not?
-speak;Joshua;I figured you'd prefer to be on the sidelines.|Provide support from a distance with that magic-y stuff you do.
-expression;Felicity;CloseEyes,Smile
-speak;Felicity;You aren't wrong, per se.|{c:e;Felicity;NormalBlink,Smile}I do not put myself in the line of fire if I can help it.|But having a Plan B can be useful just in case something goes wrong.
-speak;Joshua;Makes sense to me. Still, if you miss, it'll be costly.|Re-orienting yourself after a whiff takes time.
-speak;Felicity;Oh, I'm well-aware. But you know I can be light on my feet.
-speak;Joshua;Yeah, but you can't depend on that all the time.
-expression;Felicity;CloseEyes,Smile
-speak;Felicity;It's never failed me yet.
-expression;Joshua;HalfCloseEyes
-speak;Joshua;Still pretty reckless.
-expression;Felicity;NormalBlink,Smile
-speak;Felicity;Well, if you think that, how about a quick spar?|I'll show you that my reflexes are more reliable than you think.|I'll help you sneak over to the tavern again if you win.
-expression;Joshua;NormalBlink,Smile
-speak;Joshua;Hah! Sure thing, Felicity. Let's go!
-unlock_support_rank;Felicity;Joshua;B
-end
-end_skip
-if;support_rank_nid == 'A'
-change_background;CastleNight
-transition;open
-music;Girl of the Plains
-multi_add_portrait;Felicity;MidRight;Joshua;FarRight
-expression;Felicity;HalfCloseEyes
-speak;Felicity;Joshua, can't you move quietly?|The idea was to sneak through the servants' halls. That means NO noise.
-speak;Joshua;I'm trying Felicity, but these halls are a little small and narrow.
-expression;Felicity;CloseEyes
-speak;Felicity;That's because we don't hire lumbering, mountain men as maids.
-add_portrait;Maid1;Left;mirror
-expression;Felicity;NormalBlink
-bop_portrait;Felicity
-speak;Felicity;Eep!
-mirror_portrait;Maid1
-speak;Maid1;Oh, am I in your way Miss Felicity?
-expression;Felicity;HalfCloseEyes
-speak;Felicity;Yes, you are.
-speak;Maid1;My apologies.
-mirror_portrait;Maid1
-move_portrait;Maid1;FarLeft
-mirror_portrait;Maid1
-expression;Maid1;HalfCloseEyes
-speak;Maid1;...;no_talk
-speak;Felicity;...;no_talk
-mirror_portrait;Maid1
-move_portrait;Maid1;OffscreenLeft
-remove_all_portraits
-multi_add_portrait;Felicity;Left;Joshua;Right
-expression;Felicity;CloseEyes
-speak;Felicity;Ugh!!
-speak;Joshua;You okay? Stubbed your toe or something?
-expression;Felicity;HalfCloseEyes
-speak;Felicity;No, I am NOT okay, Joshua!|{c:e;Felicity;NormalBlink}You did see her, right?
-speak;Joshua;Yes, what of it?
-expression;Felicity;CloseEyes
-speak;Felicity;She will think I'm sneaking a secret lover into or from my quarters!|That floozy hypocrite!
-speak;Joshua;So? Who cares? I don't see how what she thinks matters.|It's not going to affect your standing with the princess or her parents.
-expression;Felicity;NormalBlink
-speak;Felicity;It's the principle, Joshua!|I don't want unneeded attention or people talking about me.|{c:e;Felicity;HalfCloseEyes}Staring at me{tgm}...
-speak;Joshua;Fuck 'em!
-expression;Felicity;NormalBlink
-speak;Felicity;Pardon?
-speak;Joshua;Fuck 'em. Who gives a shit?|It's none of her business or|her damn place to back-talk someone as hard-working as you.
-expression;Felicity;CloseEyes,Smile
-speak;Felicity;At least someone realizes I work hard around here.
-speak;Joshua;You clearly work your ass off.|If she gives you hell, tell her to fuck off. Tell her where she can take her bitch ass.
-expression;Felicity;NormalBlink,Smile
-speak;Felicity;Hee-hee. You sure you're not related to Her Highness?
-expression;Joshua;Smile
-speak;Joshua;I'm sure.
-speak;Felicity;Anyway, here's the back door. Have fun at the tavern.
-speak;Joshua;Why don't you come too this time? I think you need to unwind a little.
-expression;Felicity;NoSmile
-speak;Felicity;I really shouldn't, though.
-speak;Joshua;You really want to deal with the other servants now?
-expression;Felicity;CloseEyes,Smile
-speak;Felicity;You know what, alright.|{c:e;Felicity;NormalBlink,Smile}It's been a millenia since I've taken it easy.
-expression;Felicity;NoSmile
-bop_portrait;Felicity
-speak;Felicity;F-Figuratively speaking, of course. Haha{tgm}...
-expression;Joshua;NoSmile
-speak;Joshua;Hm?
-expression;Felicity;Smile
-speak;Felicity;Let's go.
-mirror_portrait;Felicity
-move_portrait;Felicity;OffscreenLeft
-speak;Joshua;Huh, wonder what that was about?
-speak;Felicity;What are you waiting for, Joshua? Come on!
-expression;Joshua;NormalBlink
-bop_portrait;Joshua
-speak;Joshua;Right behind you!
-move_portrait;Joshua;OffscreenLeft
+Felicity: Joshua, what is the meaning of this?
+Joshua: Oh, these swords aren't mine. Well, except Old Iron here. I offered to clean everyone's swords.
+Felicity: That is NOT what I was referring to, Joshua.
+Joshua: What is the problem, then?
+Felicity: Look around you! Her Highness has been very gracious in granting you a private chamber, and you let it get like this! The state of this room is appalling!
+Joshua: What do you mean? There's no dust or rats or anything.
+Felicity: Oh sweet Medea! Where are your boots? Here on the nightstand? Where's your armor? Hung up? No! It's thrown on the reading table.
+Joshua: You mean I can't temporarily put them there?
+Felicity: Of course not! Where did you grow up? Don't answer that. I don't want to know.
+Joshua: Soooo... you want armor and clothes in the closet instead?
+Felicity: Yes, it would make my job easier. Wait, isn't that Princess Krista's sword?
+Joshua: Yes, it's seen some heavy use. I offered to sharpen it and clean it up. A few knicks in it too. A little light for my liking, but it's a good blade. Well balanced.
+Felicity: You are something else. Your room is worse than a rat's nest, but you keep your weapons and armor well-maintained.
+Joshua: If you don't maintain your weapons, they'll fail you when you need them most.
+Felicity: All of that is well and good, but could you please maintain your chambers better?
+Joshua: Sure, I can do that.
+Felicity: Thank you! Oh, next time you want to sneak out to the tavern, I can get you out without Forrest knowing. Bye!
+(Felicity leaves.)
+Joshua: That woman is something else. Reminds me of one of my aunts.
+
+B Support
+Joshua: Alright, just a little grime off the blade here, anddddd... Done! Can't say I remember anyone using this axe before. I wonder who it belongs to?
+Felicity: Ah, there you are, Joshua. Have you seen my-- Aha! I had a feeling my axe was with you.
+Joshua: Wait, you're saying this is yours? I never expected you to know how to use martial weapons. Especially not axes.
+Felicity: Oh? And why not?
+Joshua: I figured you'd prefer to be on the sidelines. Provide support from a distance with that magic-y stuff you do.
+Felicity: You aren't wrong, per se. I do not put myself in the line of fire if I can help it. But having a Plan B can be useful just in case something goes wrong.
+Joshua: Makes sense to me. Still, if you miss, it'll be costly. Re-orienting yourself after a whiff takes time.
+Felicity: Oh, I'm well-aware. But you know I can be light on my feet.
+Joshua: Yeah, but you can't depend on that all the time.
+Felicity: It's never failed me yet.
+Joshua: Still pretty reckless.
+Felicity: Well, if you think that, how about a quick spar? I'll show you that my reflexes are more reliable than you think. I'll help you sneak over to the tavern again if you win.
+Joshua: Hah! Sure thing, Felicity. Let's go!
+
+A Support
+Felicity: Joshua, can't you move quietly? The idea was to sneak through the servants' halls. That means NO noise.
+Joshua: I'm trying Felicity, but these halls are a little small and narrow.
+Felicity: That's because we don't hire lumbering, mountain men as maids.
+(Felicity and Joshua run into a maid.)
+Felicity: Eep!
+Maid: Oh, am I in your way, Miss Felicity?
+Felicity: Yes, you are.
+Maid: My apologies.
+(The maid begins to walk off but turns back.)
+Maid: ...
+Felicity: ...
+(The maid leaves.)
+Felicity: Ugh!!
+Joshua: You okay? Stubbed your toe or something?
+Felicity: No, I am NOT okay, Joshua! You did see her, right?
+Joshua: Yes, what of it?
+Felicity: She will think I'm sneaking a secret lover into or from my quarters! That floozy hypocrite!
+Joshua: So? Who cares? I don't see how what she thinks matters. It's not going to affect your standing with the princess or her parents.
+Felicity: It's the principle, Joshua! I don't want unneeded attention or people talking about me. Staring at me...
+Joshua: Fuck 'em!
+Felicity: Pardon?
+Joshua: Fuck 'em. Who gives a shit? It's none of her business or her damn place to back-talk someone as hard-working as you.
+Felicity: At least someone realizes I work hard around here.
+Joshua: You clearly work your ass off. If she gives you hell, tell her to fuck off. Tell her where she can take her bitch ass.
+Felicity: Hee-hee. You sure you're not related to Her Highness?
+Joshua: I'm sure.
+Felicity: Anyway, here's the back door. Have fun at the tavern.
+Joshua: Why don't you come too this time? I think you need to unwind a little.
+Felicity: I really shouldn't, though.
+Joshua: You really want to deal with the other servants now?
+Felicity: You know what, alright. It's been a millennia since I've taken it easy. F-Figuratively speaking, of course. Haha...
+Joshua: Hm?
+Felicity: Let's go.
+(Felicity leaves.)
+Joshua: Huh, wonder what that was about?
+Felicity: What are you waiting for, Joshua? Come on!
+Joshua: Right behind you!
+(Joshua follows Felicity.)
 # Original script by Berserker Sam #
