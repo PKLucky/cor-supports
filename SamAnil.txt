@@ -32,7 +32,7 @@ Sam: Protecting someone.
 Anil: ?
 Sam: Bandits kidnapped Krista years ago. I couldn't let that happen ever again.
 Anil: ...
-Sam: Not just her either. Everyone I love will not get hurt by bandits again. {c:e;Sam;HalfCloseEyes}Not on my watch.
+Sam: Not just her either. Everyone I love will not get hurt by bandits again. Not on my watch.
 Anil: [Just be thankful you didn't make your way up north. Because if you pulled the same thing there,] [you'd have bandits out for vengeance against you too. And one of those bandits could've been me.]
 Sam: What?
 Anil: [We're done here. Bye.]

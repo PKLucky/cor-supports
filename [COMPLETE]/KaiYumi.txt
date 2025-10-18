@@ -1,123 +1,66 @@
 C Support
-speak;Yumi;Hm{tgm}...{tgm} I wonder{tgm}...
-expression;Kai;CloseEyes,Smile
-speak;Kai;It's impolite to stare, you know.
-expression;Yumi;HalfCloseEyes,Smile
-speak;Yumi;My, aren't you sharp? It makes me wonder if you're used to getting stared at.
-mirror_portrait;Kai
-expression;Kai;Smile
-speak;Kai;Implying something?
-expression;Yumi;NormalBlink,NoSmile
-speak;Yumi;Does the nickname "The Escort Mercenary" mean anything to you?
-expression;Kai;NoSmile
-speak;Kai;Can't say it does. Should it?
-speak;Yumi;I've heard that a handsome young mercenary from Merinas|has been selling more than just his sword arm.|{c:e;Yumi;HalfCloseEyes,Smile}If you catch my drift.|{c:e;Yumi;NormalBlink,NoSmile}Ring any bells?
-expression;Kai;CloseEyes,Smile
-speak;Kai;Well, I can admit my "swordplay" is decent.|{c:e;Kai;NormalBlink,Smile}And I have shown it off to those willing to pay me.|Though, I'd imagine not as often as these rumors say.
-speak;Yumi;So, you're saying it HAS happened.
-expression;Kai;CloseEyes,Smile
-speak;Kai;Since you seem so interested in my services, let me lay out my terms.|{c:e;Kai;NormalBlink,NoSmile}Payment consists of both gold and information.|If the info's not good enough, it's a no-go.
-expression;Yumi;Smile
-speak;Yumi;Oh, it's good. Trust me. Working for the arena's got its perks.
-expression;Kai;Smile
-speak;Kai;In that case, how about we talk business over some drinks?|Let's see how good that info of yours really is.
-expression;Yumi;HalfCloseEyes,Smile
-speak;Yumi;Gladly.
-unlock_support_rank;Kai;Yumi;C
-end
-end_skip
-if;support_rank_nid == 'B'
-change_background;Fireplace
-transition;open
-music;Girl of the Plains
-multi_add_portrait;Yumi;Right;Kai;Left
-speak;Yumi;Kai, do you mind if I ask you something?
-speak;Kai;Depends on what it is.
-speak;Yumi;About the other night--
-mirror_portrait;Kai
-move_portrait;Kai;OffscreenLeft
-bop_portrait;Yumi
-speak;Yumi;Wha--Hey! You can't just run off like that!
-move_portrait;Yumi;OffscreenLeft
-transition;close
-change_background;OutsideFort
-transition;open
-add_portrait;Yumi;Right;no_block
-add_portrait;Kai;Left;mirror
-speak;Yumi;*huff* There{tgm}...{tgm} *huff* you are{tgm}...!
-mirror_portrait;Kai
-expression;Kai;Smile
-speak;Kai;Aren't you persistent?|{c:e;Kai;NoSmile}Good job tailing me, but I'm still not gonna talk about that.
-speak;Yumi;But--
-speak;Kai;You gave me your payment and I delivered. Transaction's over.|I make it a policy to not dwell on nights like that after the fact.|It's best if you did the same, Yumi. I wouldn't want you to get attached.
-speak;Yumi;Get attached? Just what kind of girl do you take me for?!
-speak;Kai;I've seen this sort of thing happen before, Yumi.|{c:e;Kai;CloseEyes}We start talking more, you pay for more one-on-one time,|one thing leads to another--
-speak;Yumi;Don't be so full of yourself! You weren't even that great.
-expression;Kai;NormalBlink
-bop_portrait;Kai
-speak;Kai;I{tgm}...{tgm} What?
-expression;Yumi;CloseEyes
-speak;Yumi;Oh, good. You're actually listening to me.|{c:e;Yumi;NormalBlink}Your performance was mediocre, Kai.
-speak;Kai;Huh. That's a first.
-speak;Yumi;It was such a drag! Where was the energy? The passion?|{c:e;Yumi;CloseEyes}Honestly, I feel bad for anyone who paid for such a poor display.
-speak;Kai;Well, my past clients were satisfied enough, so why should I care?
-expression;Yumi;NormalBlink
-speak;Yumi;Do you even hear yourself right now?!|What about any future clients? You need to step it up for their sake.|Be glad I'm not asking for a refund.
-expression;Kai;CloseEyes,Smile
-speak;Kai;Wow, harsh words, Yumi. Harsh words.|{c:e;Kai;NormalBlink,NoSmile}But, again, the transaction's done. End of discussion.
-speak;Yumi;Oh no, it's not. I am getting my money's worth out of you whether you like it or not.
-speak;Kai;Your money's worth?|{c:e;Kai;CloseEyes}Oh, dear Merin, you're not suggesting{tgm}...
-expression;Yumi;HalfCloseEyes
-speak;Yumi;My quarters. I'll let you know when I'm free.
-expression;Kai;HalfCloseEyes
-speak;Kai;And if I refuse?
-expression;Yumi;CloseEyes,Smile
-speak;Yumi;I'm sure Her Highness would LOVE to know what|her loyal retainer has been doing in his free time.
-speak;Kai;{tgm}...{c:e;Kai;CloseEyes}{tgm} Fine.
-unlock_support_rank;Kai;Yumi;B
-end
-end_skip
-if;support_rank_nid == 'A'
-change_background;Bedroom
-transition;open
-music;Girl of the Plains
-multi_add_portrait;Yumi;Left;KaiShirtless;Right
-expression;Yumi;HalfCloseEyes
-speak;Yumi;That wasn't any better than last time.
-expression;KaiShirtless;CloseEyes
-speak;KaiShirtless;And I keep telling you I don't care.|{c:e;KaiShirtless;NormalBlink}Whatever you're looking for, you're not gonna find it with me, Yumi.
-expression;Yumi;NormalBlink
-speak;Yumi;Why bother with this line of work then?
-speak;KaiShirtless;Because there's a demand. It's all a means to an end.
-speak;Yumi;Come on, you can't honestly believe that.|Hasn't there been at least one client who you maybe{tgm}...{tgm}|{c:e;Yumi;HalfCloseEyes}Wanted as more than just a client?
-speak;KaiShirtless;Nope. It's just a job to me.
-expression;Yumi;NormalBlink
-speak;Yumi;Do you just not like doing it?
-speak;KaiShirtless;I didn't say that. I just don't feel one way or another about it, is all.
-expression;Yumi;CloseEyes
-speak;Yumi;Really now{tgm}...?
-expression;KaiShirtless;CloseEyes
-speak;KaiShirtless;I know most people say they actually get excitement out of it, but not me.|{c:e;KaiShirtless;NormalBlink}Like I said before, as long as we both get what we want out of it,|I don't care how they feel.|At the end of the day, it's a transaction.
-expression;Yumi;HalfCloseEyes,Smile
-speak;Yumi;You know, if you said all that to begin with, I wouldn't have pestered you about it.
-expression;KaiShirtless;CloseEyes,Smile
-speak;KaiShirtless;It's what I was trying to say from the start.
-expression;Yumi;CloseEyes,NoSmile
-speak;Yumi;Hmm{tgm}...{tgm} I suppose so.|{c:e;Yumi;NormalBlink}Sorry for wasting your time, Kai.
-expression;KaiShirtless;Smile
-speak;KaiShirtless;Hey, that's my line.|{c:e;KaiShirtless;NoSmile}I'll refund you the gold, Yumi.|You said you'd want your money's worth, and you're not gonna get it.|So, it'd be in your best interest to take it back.
-expression;Yumi;CloseEyes,Smile
-speak;Yumi;Keep it.{c:e;Yumi;HalfCloseEyes,Smile} Think of it as compensation for me being a bother.
-expression;KaiShirtless;CloseEyes,Smile
-speak;KaiShirtless;Suit yourself.|{c:e;KaiShirtless;NormalBlink,NoSmile}Anyway, I'd better get dressed and out the door.|Better to slip out while it's still dark, after all.
-expression;Yumi;NormalBlink,NoSmile
-speak;Yumi;Yeah. See ya.
-mirror_portrait;KaiShirtless
-move_portrait;KaiShirtless;FarRight
-mirror_portrait;KaiShirtless
-speak;KaiShirtless;Hey. Before I go, I just wanna say thanks.
-speak;Yumi;Hm? For what?
-expression;KaiShirtless;Smile
-speak;KaiShirtless;Just{tgm}...{tgm} for being understanding.
-expression;Yumi;Smile
-speak;Yumi;Yeah. Of course.
+Yumi: Hm... I wonder...
+Kai: It's impolite to stare, you know.
+Yumi: My, aren't you sharp? It makes me wonder if you're used to getting stared at.
+Kai: Implying something?
+Yumi: Does the nickname "The Escort Mercenary" mean anything to you?
+Kai: Can't say it does. Should it?
+Yumi: I've heard that a handsome young mercenary from Merinas has been selling more than just his sword arm. If you catch my drift. Ring any bells?
+Kai: Well, I can admit my "swordplay" is decent. And I have shown it off to those willing to pay me. Though, I'd imagine not as often as these rumors say.
+Yumi: So, you're saying it HAS happened.
+Kai: Since you seem so interested in my services, let me lay out my terms. Payment consists of both gold and information. If the info's not good enough, it's a no-go.
+Yumi: Oh, it's good. Trust me. Working for the arena's got its perks.
+Kai: In that case, how about we talk business over some drinks? Let's see how good that info of yours really is.
+Yumi: Gladly.
+
+B Support
+Yumi: Kai, do you mind if I ask you something?
+Kai: Depends on what it is.
+Yumi: About the other night--
+(Kai leaves.)
+Yumi: Wha--Hey! You can't just run off like that!
+(Scene transitions to outside.)
+Yumi: *huff* There... *huff* you are...!
+Kai: Aren't you persistent? Good job tailing me, but I'm still not gonna talk about that.
+Yumi: But--
+Kai: You gave me your payment and I delivered. Transaction's over. I make it a policy to not dwell on nights like that after the fact. It's best if you did the same, Yumi. I wouldn't want you to get attached.
+Yumi: Get attached? Just what kind of girl do you take me for?!
+Kai: I've seen this sort of thing happen before, Yumi. We start talking more, you pay for more one-on-one time, one thing leads to another--
+Yumi: Don't be so full of yourself! You weren't even that great.
+Kai: I... What?
+Yumi: Oh, good. You're actually listening to me. Your performance was mediocre, Kai.
+Kai: Huh. That's a first.
+Yumi: It was such a drag! Where was the energy? The passion? Honestly, I feel bad for anyone who paid for such a poor display.
+Kai: Well, my past clients were satisfied enough, so why should I care?
+Yumi: Do you even hear yourself right now?! What about any future clients? You need to step it up for their sake. Be glad I'm not asking for a refund.
+Kai: Wow, harsh words, Yumi. Harsh words. But, again, the transaction's done. End of discussion.
+Yumi: Oh no, it's not. I am getting my money's worth out of you whether you like it or not.
+Kai: Your money's worth? Oh, dear Merin, you're not suggesting...
+Yumi: My quarters. I'll let you know when I'm free.
+Kai: And if I refuse?
+Yumi: I'm sure Her Highness would LOVE to know what her loyal retainer has been doing in his free time.
+Kai: ... Fine.
+
+A Support
+Yumi: That wasn't any better than last time.
+Kai: And I keep telling you I don't care. Whatever you're looking for, you're not gonna find it with me, Yumi.
+Yumi: Why bother with this line of work then?
+Kai: Because there's a demand. It's all a means to an end.
+Yumi: Come on, you can't honestly believe that. Hasn't there been at least one client who you maybe... Wanted as more than just a client?
+Kai: Nope. It's just a job to me.
+Yumi: Do you just not like doing it?
+Kai: I didn't say that. I just don't feel one way or another about it, is all.
+Yumi: Really now...?
+Kai: I know most people say they actually get excitement out of it, but not me. Like I said before, as long as we both get what we want out of it, I don't care how they feel. At the end of the day, it's a transaction.
+Yumi: You know, if you said all that to begin with, I wouldn't have pestered you about it.
+Kai: It's what I was trying to say from the start.
+Yumi: Hmm... I suppose so. Sorry for wasting your time, Kai.
+Kai: Hey, that's my line. I'll refund you the gold, Yumi. You said you'd want your money's worth, and you're not gonna get it. So, it'd be in your best interest to take it back.
+Yumi: Keep it. Think of it as compensation for me being a bother.
+Kai: Suit yourself. Anyway, I'd better get dressed and out the door. Better to slip out while it's still dark, after all.
+Yumi: Yeah. See ya.
+(Kai begins to leave.)
+Kai: Hey. Before I go, I just wanna say thanks.
+Yumi: Hm? For what?
+Kai: Just... for being understanding.
+Yumi: Yeah. Of course.

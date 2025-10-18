@@ -1,94 +1,56 @@
 C Support
-speak;Forrest;So, Trevor, how have you been lately?|Not too stressed from your first time on the battlefield, I hope.
-expression;Trevor;Smile
-speak;Trevor;Why, I have been doing quite well, thank you.|Fighting alongside you, Her Highness, and everyone else has been most exhilarating.
-speak;Forrest;That's a relief to hear.|Most people can't handle being in the heat of battle.|I know when I was still a squire,|just the thought of hurting someone else made me uneasy.
-expression;Trevor;NoSmile
-speak;Trevor;Is that so? That is difficult to believe, in my opinion.|{c:e;Trevor;Smile}Why, look at you now!|You have been protecting Her Highness from ruffians left and right like|a true knight should.
-expression;Forrest;HalfCloseEyes
-speak;Forrest;Most of those rescue missions were unnecessary, but yes.|{c:e;Forrest;NormalBlink}I have gotten used to upholding my duties as Princess Krista's knight.
-expression;Trevor;NoSmile
-speak;Trevor;Just how do you do it, Forrest?|I am sure this change of heart did not happen overnight.
-speak;Forrest;No, it didn't. It felt like it did, though.|I had to do a lot of self-reflection after Princess Krista|was first kidnapped by bandits eight years ago.
-speak;Trevor;Eight years ago?
-speak;Forrest;Yes. This was back when Sam was still with us.|And unlike the many times after this one,|this kidnapping was not deliberate on Krista's part.
-speak;Trevor;That must have been a traumatic experience. At least one would assume so.|And if that were the case, why would Her Highness keep letting herself--
-expression;Forrest;HalfCloseEyes
-speak;Forrest;Don't ask questions you're not prepared to hear the answer to, Trevor.
-speak;Trevor;Understood.{c:e;Trevor;HalfCloseEyes}{tgm}...{tgm} I think.|{c:e;Trevor;NormalBlink}Regardless, please continue, Forrest.
-expression;Forrest;NormalBlink
-speak;Forrest;We were young when it happened. I would have been around your age, in fact.|The princess was not in any danger before that point,|so it never occurred to me that I would have to raise my sword to serve her.|Not until that day.
-speak;Trevor;Forrest{tgm}...
-speak;Forrest;Trevor, while I am glad you can hold your own,|do not forget your duties as Princess Krista's retainer.|You have to be there to protect her no matter what.|That is your number one priority.
-expression;Trevor;CloseEyes
-speak;Trevor;No matter what{tgm}...
-unlock_support_rank;Forrest;Trevor;C
-end
-end_skip
-if;support_rank_nid == 'B'
-change_background;CastleInterior
-transition;open
-music;Silent Ground
-multi_add_portrait;Forrest;Left;Trevor;Right
-speak;Forrest;Trevor, just what were you doing out there during the last battle?!|If I weren't close by, Her Highness would have--
-speak;Trevor;Do you think I don't know that?!|By Medea, Forrest, when there's that many enemies surrounding us,|there's only so much I can do.|Some of us aren't as brawny as you are.
-speak;Forrest;That is no excuse. Remember what I said before?|Protecting Princess Krista is your top priority.
-speak;Trevor;Are you suggesting my own life is not as important as hers?
-speak;Forrest;Is that even a question?
-speak;Trevor;Do you even comprehend your own words right now, Forrest?|It is one thing to serve Her Highness, but to throw one's own life away so carelessly?|That is inconceivable!
-speak;Forrest;Then, I'm afraid you will have to reconsider your position as her retainer, Trevor.|It's a difficult concept to grasp, I know. But it is necessary.|Princess Krista is Medeas' future queen. Without her, the kingdom will fall.
-speak;Trevor;But even so, what if we were gone?|Who would be there to protect her?
-expression;Forrest;HalfCloseEyes
-speak;Forrest;There are other knights and mages, Trevor.|We can be replaced if need be.
-speak;Trevor;You do not honestly believe that, do you?
-expression;Forrest;NormalBlink
-speak;Forrest;It does not matter what my personal feelings are. This is just the reality of the situation.|{c:e;Forrest;CloseEyes}I{tgm}...{tgm} have come to accept that a long time ago.
-expression;Trevor;HalfCloseEyes
-speak;Trevor;{tgm}...{tgm} Are you sure about that?
-expression;Forrest;NormalBlink
-speak;Forrest;Look. We are done here, Trevor.|Just think about what I said.|Do not let Her Highness be in peril again.
-mirror_portrait;Forrest
-move_portrait;Forrest;OffscreenLeft
-expression;Trevor;CloseEyes
-speak;Trevor;Despite what you may say, I am not the only one who has to think about this, Forrest.
-unlock_support_rank;Forrest;Trevor;B
-end
-end_skip
-if;support_rank_nid == 'A'
-change_background;CastleInterior
-transition;open
-music;Respite in Battle
-multi_add_portrait;Forrest;Left;Trevor;Right
-speak;Trevor;Forrest, are you well? You seemed distracted during the last battle.
-speak;Forrest;That is just your imagination, Trevor. I'm perfectly fine.
-speak;Trevor;I am not so sure about that.|You were so focused on your own actions, you paid no attention to anything else around you.
-expression;Forrest;HalfCloseEyes
-speak;Forrest;Is that so{tgm}...?
-expression;Trevor;HalfCloseEyes
-speak;Trevor;Seeing you waver like this is unusual, and quite frankly, it worries me.|{c:e;Trevor;NormalBlink}I wish to help you if something is troubling you, Forrest.|You are my friend, after all.
-expression;Forrest;CloseEyes
-speak;Forrest;{tgm}...{tgm}|{c:e;Forrest;NormalBlink}I was thinking about our discussion from some time ago.|I know I said we could be replaced, but{tgm}...{tgm}|I wish to remain at Her Highness' side for as long as I can.|{c:e;Forrest;CloseEyes}The fear of losing her overwhelmed me, I suppose.
-expression;Trevor;CloseEyes,Smile
-speak;Trevor;So, there IS a human heart beneath all that armor.
-expression;Forrest;CloseEyes,Smile
-speak;Forrest;Oh, please.|{c:e;Forrest;NormalBlink,NoSmile}This may sound selfish of me,|but I do not wish to entrust her life to someone else's hands.|To tell you the truth, when Her Highness brought in Felicity, then Kai, then you{tgm}...{tgm}|I had my doubts about you all. But you proved your worth eventually.
-expression;Trevor;NormalBlink,NoSmile
-speak;Trevor;I am not sure if I should be elated or offended.
-expression;Forrest;HalfCloseEyes
-speak;Forrest;I apologize. I'm not very good at this.
-expression;Trevor;Smile
-speak;Trevor;Do not fret. I know you meant well.|I admire your honesty even if you can be blunt about it at times.
-expression;Forrest;CloseEyes
-speak;Forrest;My honesty, hm{tgm}...?{tgm}|{c:e;Forrest;NormalBlink}May I confess something to you?|I actually haven't said the whole truth.
-expression;Trevor;NoSmile
-speak;Trevor;Oh?
-speak;Forrest;I may be upholding my duties as Princess Krista's knight, but ultimately, I{tgm}...{tgm}|{c:e;Forrest;CloseEyes}I love her, Trevor.
-speak;Trevor;I{tgm}...{tgm} see{tgm}...
-expression;Forrest;NormalBlink
-speak;Forrest;That's why I can't let her go to anyone else.
-speak;Trevor;I can understand the sentiment, Forrest.|{c:e;Trevor;CloseEyes}I also{tgm}...
-speak;Forrest;Hm?
-expression;Trevor;NormalBlink
-speak;Trevor;Ah, nothing. Pay me no mind.|{c:e;Trevor;Smile}At any rate, let us continue to do good work together.
-expression;Forrest;Smile
-speak;Forrest;Of course.
+Forrest: So, Trevor, how have you been lately? Not too stressed from your first time on the battlefield, I hope.
+Trevor: Why, I have been doing quite well, thank you. Fighting alongside you, Her Highness, and everyone else has been most exhilarating.
+Forrest: That's a relief to hear. Most people can't handle being in the heat of battle. I know when I was still a squire, just the thought of hurting someone else made me uneasy.
+Trevor: Is that so? That is difficult to believe, in my opinion. Why, look at you now! You have been protecting Her Highness from ruffians left and right like a true knight should.
+Forrest: Most of those rescue missions were unnecessary, but yes. I have gotten used to upholding my duties as Princess Krista's knight.
+Trevor: Just how do you do it, Forrest? I am sure this change of heart did not happen overnight.
+Forrest: No, it didn't. It felt like it did, though. I had to do a lot of self-reflection after Princess Krista was first kidnapped by bandits eight years ago.
+Trevor: Eight years ago?
+Forrest: Yes. This was back when Sam was still with us. And unlike the many times after this one, this kidnapping was not deliberate on Krista's part.
+Trevor: That must have been a traumatic experience. At least one would assume so. And if that were the case, why would Her Highness keep letting herself--
+Forrest: Don't ask questions you're not prepared to hear the answer to, Trevor.
+Trevor: Understood. ... I think. Regardless, please continue, Forrest.
+Forrest: We were young when it happened. I would have been around your age, in fact. The princess was not in any danger before that point, so it never occurred to me that I would have to raise my sword to serve her. Not until that day.
+Trevor: Forrest...
+Forrest: Trevor, while I am glad you can hold your own, do not forget your duties as Princess Krista's retainer. You have to be there to protect her no matter what. That is your number one priority.
+Trevor: No matter what...
+
+B Support
+Forrest: Trevor, just what were you doing out there during the last battle?! If I weren't close by, Her Highness would have--
+Trevor: Do you think I don't know that?! By Medea, Forrest, when there's that many enemies surrounding us, there's only so much I can do. Some of us aren't as brawny as you are.
+Forrest: That is no excuse. Remember what I said before? Protecting Princess Krista is your top priority.
+Trevor: Are you suggesting my own life is not as important as hers?
+Forrest: Is that even a question?
+Trevor: Do you even comprehend your own words right now, Forrest? It is one thing to serve Her Highness, but to throw one's own life away so carelessly? That is inconceivable!
+Forrest: Then, I'm afraid you will have to reconsider your position as her retainer, Trevor. It's a difficult concept to grasp, I know. But it is necessary. Princess Krista is Medeas' future queen. Without her, the kingdom will fall.
+Trevor: But even so, what if we were gone? Who would be there to protect her?
+Forrest: There are other knights and mages, Trevor. We can be replaced if need be.
+Trevor: You do not honestly believe that, do you?
+Forrest: It does not matter what my personal feelings are. This is just the reality of the situation. I... have come to accept that a long time ago.
+Trevor: ... Are you sure about that?
+Forrest: Look. We are done here, Trevor. Just think about what I said. Do not let Her Highness be in peril again.
+(Forrest leaves.)
+Trevor: Despite what you may say, I am not the only one who has to think about this, Forrest.
+
+A Support
+Trevor: Forrest, are you well? You seemed distracted during the last battle.
+Forrest: That is just your imagination, Trevor. I'm perfectly fine.
+Trevor: I am not so sure about that. You were so focused on your own actions, you paid no attention to anything else around you.
+Forrest: Is that so...?
+Trevor: Seeing you waver like this is unusual, and quite frankly, it worries me. I wish to help you if something is troubling you, Forrest. You are my friend, after all.
+Forrest: ... I was thinking about our discussion from some time ago. I know I said we could be replaced, but... I wish to remain at Her Highness' side for as long as I can. The fear of losing her overwhelmed me, I suppose.
+Trevor: So, there IS a human heart beneath all that armor.
+Forrest: Oh, please. This may sound selfish of me, but I do not wish to entrust her life to someone else's hands. To tell you the truth, when Her Highness brought in Felicity, then Kai, then you... I had my doubts about you all. But you proved your worth eventually.
+Trevor: I am not sure if I should be elated or offended.
+Forrest: I apologize. I'm not very good at this.
+Trevor: Do not fret. I know you meant well. I admire your honesty even if you can be blunt about it at times.
+Forrest: My honesty, hm...? May I confess something to you? I actually haven't said the whole truth.
+Trevor: Oh?
+Forrest: I may be upholding my duties as Princess Krista's knight, but ultimately, I... I love her, Trevor.
+Trevor: I... see...
+Forrest: That's why I can't let her go to anyone else.
+Trevor: I can understand the sentiment, Forrest. I also...
+Forrest: Hm?
+Trevor: Ah, nothing. Pay me no mind. At any rate, let us continue to do good work together.
+Forrest: Of course.

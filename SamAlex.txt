@@ -16,6 +16,7 @@ Alex: Well, let's see...
 Sam: That's a lot of different books you've read, Alex. I might give some of them a try.
 Alex: If you ever do, please let me know what you think of them.
 Sam: Will do.
+# Original script by Berserker Sam #
 
 B Support
 Alex: Hmmm... fascinating. While you can't judge a book by its cover, you most certainly can tell a lot about a man by his bookshelf. "Myths of the Journey", "The Adventures of Robin Took", "The Blade in the Boulder"... Quite the selection. Sam is surprisingly a man of culture. I wish Taylor had a varied taste like this. All he has are combat manuals, books on weapon and armor upkeep... And all those cocktail recipe books...

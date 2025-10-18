@@ -10,7 +10,7 @@ Trevor: I see. Go on.
 Kai: Being a magic prodigy yourself, I'm sure you'd know about the most powerful mage family in Medeas, wouldn't you?
 Trevor: Well... of course! Now, Kai, excuse me for being presumptuous, but I am not the missing Valoria heir of which you speak. For the Valoria family only had a daughter, not a son. It would be impossible for it to be me.
 Kai: Huh. Well, that's news to me. Sorry about the assumptions, Trevor. I guess I'll have to go back to the drawing board for this one.
-Trevor: It is quite alright, my friend. I would love to chat more, but I must get to my studies. {c:e;Trevor;Smile}Do not get too caught up in the rumor mill, now.
+Trevor: It is quite alright, my friend. I would love to chat more, but I must get to my studies. Do not get too caught up in the rumor mill, now.
 (Trevor leaves the scene.)
 Kai: Well, that trail has gone cold. Hm... Why do I have this nagging feeling that there's more to this story?
 

@@ -11,13 +11,11 @@ Felicity: It's... It's nothing. At any rate, I have more chores to attend to. If
 Krista: I wonder what that was about.
 
 B Support
-[]
-Maid 1: She's so shameless too. What makes her think she can be close to Her Highness like that? She thinks she's so subtle, brushing shoulders and "innocently" asking to hold hands with the Princess. The nerve!
-Maid 2: I know, right? Oh, and did you hear? Apparently some of Her Highness' garments had gone missing during the last laundry day. Guess who was on duty?
-Maid 1: *Gasp!* No way!
-Maid 2: Mmhmm. Trisha told me all about it. {c:e;Maid2;HalfCloseEyes,NoSmile}Once a thief, always a thief, I tell you. Her Highness should just toss her out to the streets where she belongs--
+Maid 1: Say, did you hear? Apparently some of Her Highness' garments had gone missing during the last laundry day. Guess who was on duty?
+Maid 2: *Gasp!* No way! It was Felicity, wasn't it?
+Maid 1: Mmhmm. Trisha told me all about it. Once a thief, always a thief, I tell you. Her Highness should just toss her back out to the streets where she belongs--
 Krista, offscreen: Ahem.
-Maid 2: Eep!
+Maid 1: Eep!
 (Krista enters the scene.)
 Maid 2: Y-Your Highness! Was there something you needed?
 Krista: Oh, nothing in particular. But, Glenda, aren't you supposed to be scrubbing the floors in the west wing?
@@ -26,32 +24,32 @@ Krista: And Helen, aren't you supposed to be dusting in the main hall?
 Maid 2: Well, that's--
 Maid 1: O-Our apologies, Your Highness!
 Maid 2: We'll be on our way now.
-Krista: Before you leave, one more thing.
+Krista: Before you leave, just one more thing.
 Maid 1: Y-Yes?
-Krista: Please remind the other maids that during THAT time of the month to treat the heavily soiled clothes properly and DON'T mix them in with the normal loads. Felicity has done SUCH a good job with that, so you don't need to tell her. In fact, let her know that she's been doing a GREAT job around the castle overall.
+Krista: Please remind the other maids that during THAT time of the month to treat the heavily soiled clothes properly and don't mix them in with the normal loads. Felicity has done SUCH a good job with that, so you don't need to tell her. In fact, let her know that I EXPLICITLY said she's been doing a great job around the castle overall.
 Maid 2: ... Y-Yes, Your Highness. Now, if you'll please excuse us...
 (Both maids leave the scene.)
-Krista: *sigh* Some people... Hm... Felicity, you can come out now. I know you're still around here somewhere.
+Krista: *sigh* Some people... Hm... Felicity, you can come out now. I know you're around here somewhere.
 (Felicity enters the scene.)
 Felicity: You didn't need to do that, Your Highness.
-Krista: How much of that did you hear?
+Krista: How much did you hear?
 Felicity: Enough to know their thoughts on me haven't changed at all.
 Krista: Do the other maids always talk behind your back like this?
 Felicity: It doesn't matter if they do or not. They can think whatever they want about me. I don't care.
 Krista: You may not care, but I do. I'm gonna give them a proper talking to when I get the chance.
 Felicity: I appreciate it, Your Highness, but it's best if you don't. It would only get worse if you interfered.
 Krista: What do you mean?
+Felicity: There is no need to worry about such things, Your Highness. Someone of your station has higher priorities than the well-being of one of their maids.
+Krista: But--
+Felicity: If you'll please excuse me, I have more chores to attend to.
+(Felicity leaves.)
+Krista: We're friends, Felicity. I can't just stand by like that.
+
+
 Felicity: They'd twist the situation to make it look like I'm currying favor with you and further feed into their negative perceptions of me. Let them believe what they want to believe, Your Highness. You know me for who I am, and that's all that matters to me.
 Krista: But still, it's rather cruel of them to hate you and not even try to get to know you.
 Felicity: Some people will just hate you no matter what you do, Your Highness. And no amount of persuasion will change their mind. I learned that a long time ago.
-Krista: ... Felicity?
-Felicity: Yes?
-Krista: I know I say this all the time, but you can depend on me, y'know? If things get tough, or you just need someone to listen, I'll be here. Okay?
-Felicity: ... Ha. If only you could return the favor just as easily, Your Highness.
-Krista: Huh?
-Felicity: You know exactly what I'm talking about. Now, if you'll excuse me, I must be getting back to my chores.
-(Felicity leaves the scene.)
-Krista: ... She knows. But for how long has she known?
+
 
 A Support
 Krista: Felicity, you knew all along? About Ervan, I mean.
