@@ -1,10 +1,31 @@
 C Support:
-[Premise: Parker has a more lax personality when in private and Krista is the only person who knows this.]
-Krista: Why do you only act like that when it’s just me around?
+Parker: Ah, Krista. Would you like to play a round or two of chess? It's been a while since we last played.
+Krista: Sure! And I'm gonna win this time. I'm wayyy smarter than I was years ago. I've got totally flawless strategies up my sleeve.
+Parker: We'll see about that.
+(Scene transitions to the castle library.)
+Krista, thinking: Okay, so we've got a bunch of pawns here, a bunch of pawns there, both of us still got our queens, but he's down a knight, so...
+Krista: Hmmmmmm...
+Parker: So, about those "flawless strategies"...
+Krista: Shh! I'm focused. So focused.
+Parker: Practically locked onto the board.
+Krista: Yup!
+Parker: So locked on that you haven't made your move yet.
+Krista: Give me a second! ... There. Perfect position for my bishop.
+Parker: Are you sure about that?
+Krista: What are you--Nooooo, you gotta be kidding me...!
+Parker: So, you see it too. I'll go ahead with the move we're both seeing, then. There goes that bishop.
+Krista: Fine, whatever. It's just one bishop. I can totally bounce back from this!
+Parker: With your "flawless strategy"?
+Krista: You get it!
+(Several moves later...)
+Parker: And that's checkmate.
+Krista: Man...
+Parker: Good game, Krista. Your move-by-move analysis of the board has improved since our last game years ago.
+Krista: Really?
+Parker: Mm-hm. At any rate, I have important business to attend to, so we'll leave it at that. See you later, Krista. Don't cause too much trouble out there.
+
+B Support:
+[]
+Krista: Why do you only act like that when it's just me around?
 Parker: Because if you told anyone this is how I am in private, no one would ever believe you.
-Krista: … Oh Medea, I hate that you’re right.
-Parker: At any rate, I have important business to attend to.
-(Insert CG of Parker giving Krista a head pat here?)
-Parker: Don’t cause too much trouble out there, Krista.
-(Parker leaves.)
-Krista: Wha– Hey! *sigh* That guy…
+Krista: ... Oh Medea, I hate that you're right.

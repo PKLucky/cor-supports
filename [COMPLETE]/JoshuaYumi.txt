@@ -1,191 +1,79 @@
 C Support
-speak;Joshua;Yah!
-move_portrait;Joshua;MidLeft
-sound;Miss
-move_portrait;Yumi;FarLeft
-expression;Yumi;Smile
-speak;Yumi;Missed me!
-expression;Yumi;NoSmile
-move_portrait;Yumi;Left;no_block
-move_portrait;Joshua;Right
-bop_portrait;Joshua
-speak;Joshua;Hyah!!
-move_portrait;Joshua;MidLeft
-sound;Miss
-move_portrait;Yumi;FarLeft
-expression;Yumi;Smile,HalfCloseEyes
-speak;Yumi;Oh~ Almost got me that time~
-expression;Yumi;NormalBlink,NoSmile
-move_portrait;Yumi;Left;no_block
-move_portrait;Joshua;Right
-bop_portrait;Joshua
-speak;Joshua;This'll be the one! RAGH!!
-move_portrait;Joshua;MidLeft
-sound;Miss
-move_portrait;Yumi;FarLeft
-move_portrait;Yumi;Left
-bop_portrait;Yumi
-sound;Attack Hit 1
-move_portrait;Joshua;Right
-expression;Joshua;CloseEyes
-speak;Joshua;Gah!
-expression;Yumi;Smile
-speak;Yumi;Got you~
-expression;Joshua;HalfCloseEyes
-speak;Joshua;Argh, not again.
-expression;Joshua;NormalBlink
-speak;Joshua;Alright, alright, let's call it here.
-speak;Yumi;Fine by me.
-speak;Joshua;Honestly, Yumi, it still surprises me how nimble you are considering how you're{tgm}...{tgm}|{c:e;Joshua;CloseEyes}Well, y'know.
-speak;Yumi;Oh? How I'm what?
-expression;Joshua;NormalBlink
-speak;Joshua;That you{tgm}...{tgm}{c:e;Joshua;CloseEyes} Uh, well{tgm}...
-expression;Yumi;HalfCloseEyes,Smile
-speak;Yumi;Uh-huh? Go on~
-expression;Joshua;NormalBlink
-speak;Joshua;That you're kinda{tgm}...{tgm} top-heavy?
-expression;Yumi;Smile,NormalBlink
-speak;Yumi;Oh? You mean these? My boo--
-bop_portrait;Joshua
-speak;Joshua;Yeah, yes, those! They're pretty hard to miss.
-expression;Yumi;CloseEyes,Smile
-speak;Yumi;They do make good distractions.
-speak;Joshua;And good targets. Those things are just asking to get hit.|And when they do, BAM! That's gonna do more than just sting.
-expression;Yumi;HalfCloseEyes,Smile
-speak;Yumi;Assuming you can get me first.
-speak;Joshua;All it takes is one wrong move or one good swing, Yumi.|I can prove it to you right now! One more round! Come on!
-expression;Yumi;CloseEyes,Smile
-speak;Yumi;Okay, okay, big guy.{c:e;Yumi;NormalBlink,Smile}{br}Let's see what you got!
-if;{v:JoshuaYumiC} != True
-sound;Item
-alert;Both participants gain 10 EXP!
-give_exp;Joshua;10
-give_exp;Yumi;10
-game_var;JoshuaYumiC;True
-end
-unlock_support_rank;Yumi;Joshua;C
-end
-end_skip
-if;support_rank_nid == 'B'
-change_background;CastleInterior
-transition;open
-music;Girl of the Plains
-multi_add_portrait;Yumi;Right;Joshua;Left
-expression;Yumi;Smile
-speak;Yumi;You know, Joshua, I've never seen a sword as big as yours before.|Seems pretty unique.
-speak;Joshua;Oh, yeah, I inherited it from my father.
-speak;Yumi;Oh, fascinating~|{c:e;Yumi;Smile,HalfCloseEyes}Now, what about that block of iron you call a weapon?
-speak;Joshua;Huh? I just said--|{c:e;Joshua;HalfCloseEyes}{tgm}...{tgm} Wait.
-expression;Yumi;CloseEyes,Smile
-speak;Yumi;Heehee! You made that way too easy, Joshua.|{c:e;Yumi;NormalBlink,NoSmile}But, seriously, that was your father's? He must have been really strong.
-expression;Joshua;NormalBlink
-speak;Joshua;Strong and fast. He could cut through the air with Old Iron more easily than I can.|Sure, I can wield it, but I'm not at his level yet. Far from it.
-speak;Yumi;A guy like him would make a name for himself in the arena.|{c:e;Yumi;CloseEyes,NoSmile}And now that I think of it,|I never heard of anyone like your father participating in any famous tournaments like|the Rooms of Valor.
-speak;Joshua;That's because he focused on his mercenary work.|Stuff like arena fighting never interested him.
-expression;Yumi;NormalBlink
-speak;Yumi;What about you? It seems like you have a different goal in mind.
-speak;Joshua;I want to get up to my father's level, then surpass it if I can.|I know I have a long way to go, so I fight in arenas to seek out stronger opponents.
-speak;Yumi;I'd say you're plenty strong already, but I don't think that's what you want to hear.|{c:e;Yumi;Smile}So, I'll say this: keep working hard.
-expression;Joshua;Smile
-speak;Joshua;Ha! You don't gotta tell me twice.|Speaking of which, I'm gonna get more training in. See ya, Yumi!
-mirror_portrait;Joshua
-move_portrait;Joshua;OffscreenLeft
-expression;Yumi;NoSmile
-speak;Yumi;So he's not in it for fame or money, huh?|{c:e;Yumi;Smile}You don't see that every day.
-unlock_support_rank;Yumi;Joshua;B
-end
-end_skip
-if;support_rank_nid == 'A'
-change_background;Library
-transition;open
-music;Girl of the Plains
-add_portrait;Yumi;Left;mirror
-speak;Yumi;Hm{tgm}...{tgm} Sten's got a win-loss record of thirteen to four, so that's not too bad.|Him mainly wielding axes would make him a good candidate.|{c:e;Yumi;HalfCloseEyes}And I'd normally consider Duarte for something like this too,|but I'm pretty sure he's still recovering from that broken leg from last season.|{c:e;Yumi;CloseEyes}I'll have to double-check on that, though.|{c:e;Yumi;NormalBlink}In the meantime, maybe Matan would be a good substitute.|He's got a similar record of fifteen to three.|{c:e;Yumi;HalfCloseEyes}Wait, who was he up against for these matches again? Hm{tgm}...{tgm}|{c:e;Yumi;NormalBlink}No, there was too much of a skill disparity between|him and his opponent for most of these. Never mind.
-add_portrait;Joshua;OffscreenRight
-move_portrait;Joshua;Right
-expression;Joshua;Smile
-speak;Joshua;Yumi! What's got you so busy?
-mirror_portrait;Yumi
-expression;Yumi;Smile
-speak;Yumi;Oh, Joshua! Perfect timing.|{c:e;Yumi;NoSmile}I was thinking about what you said the other day.|How you fought in arenas to go up against strong opponents.|{c:e;Yumi;Smile}So, I've been organizing a private tournament for you to take on|the toughest fighters in the area.
-expression;Joshua;NoSmile
-speak;Joshua;Huh. And what's with all these numbers and stuff?
-expression;Yumi;NoSmile
-speak;Yumi;I can't just pick up random guys off the street, now can I?|I gotta analyze these statistics and make sure you get the most out of this.
-speak;Joshua;Sounds complicated.
-expression;Yumi;CloseEyes
-speak;Yumi;Honestly, yeah, it is.|{c:e;Yumi;NormalBlink}Haven't you ever thought about how wagers in the arena are calculated?|This is how.
-speak;Joshua;Wait a minute. All that sneaking around and gathering info that you do{tgm}...
-expression;Yumi;Smile
-speak;Yumi;Yup, it's all for this.|{c:e;Yumi;Smile,HalfCloseEyes}My charm and good looks makes it a lot easier, in case you were wondering.
-expression;Joshua;Smile,CloseEyes
-speak;Joshua;I'm not surprised.|{c:e;Joshua;NormalBlink,NoSmile}Anyway, who do you have in mind for this tournament?
-expression;Yumi;CloseEyes,Smile
-speak;Yumi;Like I'd tell you!{c:e;Yumi;NormalBlink,NoSmile} I wouldn't want you to have an unfair advantage.|{c:e;Yumi;HalfCloseEyes,Smile}I mean, unless you'd be willing to "pay" me for the info.
-expression;Joshua;CloseEyes
-speak;Joshua;I'll pass.
-expression;Yumi;CloseEyes,Smile
-speak;Yumi;Heehee~ Just testing you.{c:expression;Yumi;NormalBlink,Smile} And you passed.|As a reward, I'll let you know that I'm planning on having a variety of|fighters with different techniques up their sleeves for this tournament.|I don't plan on making this easy for you just because you're a friend.
-expression;Joshua;Smile
-speak;Joshua;Hah! I'd be disappointed if you did.|Thanks for all this, Yumi.|You didn't have to go through all this trouble just for me.
-speak;Yumi;Don't mention it.|You're an interesting man, Joshua.|I wanna see just how strong you can become.
-unlock_support_rank;Yumi;Joshua;A
-end
-end_skip
-if;support_rank_nid == 'S'
-change_background;Town
-transition;open
-music;Lyn's Desire
-multi_add_portrait;Joshua;Right;Yumi;Left
-expression;Joshua;Smile,CloseEyes
-bop_portrait;Joshua
-speak;Joshua;Woooo!! That tournament got me fired up!|{c:e;Joshua;Smile,NormalBlink}Thanks again for organizing all that, Yumi. This was great!
-expression;Yumi;Smile
-speak;Yumi;Glad you had fun, Joshua.|{c:e;Yumi;NoSmile}Sorry you didn't win, though.
-expression;Joshua;NoSmile
-speak;Joshua;Aw, you know that doesn't matter to me. It just means that I've got more to work on.|Did you see that last guy I was up against?|He was pretty much running circles around me!
-expression;Yumi;Smile,CloseEyes
-speak;Yumi;Haha, yeah, that sure was something.|{c:e;Yumi;NormalBlink,Smile}Sounds like you and I need to train together more often.
-speak;Joshua;Seems like it. Wanna do that now?
-speak;Yumi;Sure! And how about we make this interesting?|You take me out to dinner if I win.
-expression;Joshua;Smile
-speak;Joshua;You're on!
-remove_all_portraits
-transition;close
-change_background;BlackBackground
-transition;open
-speak;;Later during their spar...;StyleNid=hint;NumLines=1;no_sound
-transition;close
-change_background;CastleBack
-transition;open
-multi_add_portrait;Yumi;Right;Joshua;Left
-expression;Yumi;Smile
-speak;Yumi;Come on, Joshua! You're so close!
-expression;Joshua;CloseEyes
-speak;Joshua;*huff huff*|{c:e;Joshua;HalfCloseEyes}Man, Yumi, have you gotten faster since last time?|How's that even possible?
-speak;Yumi;Hey, like I said, you almost got me.|Looks like we've both been getting better.
-expression;Joshua;CloseEyes,Smile
-speak;Joshua;Heh, guess so.|{c:e;Joshua;NormalBlink,Smile}But I'm not gonna give up that easily!
-expression;Joshua;NoSmile
-bop_portrait;Joshua
-speak;Joshua;Hyah!!
-move_portrait;Joshua;MidRight
-sound;Miss
-move_portrait;Yumi;FarRight
-remove_all_portraits
-transition;close
-change_background;BlackBackground
-#change_background;JoshuaYumiS
-transition;open
-speak;Joshua;?!
-speak;Yumi;Got you~
-transition;close
-change_background;CastleBack
-transition;open
-multi_add_portrait;Joshua;Left;Yumi;Right
-speak;Joshua;H-Hey, what was that?!
-expression;Yumi;CloseEyes,Smile
-speak;Yumi;That was me winning again.|{c:e;Yumi;NormalBlink,Smile}Anyway, dinner?
-expression;Joshua;CloseEyes
-speak;Joshua;*sigh*|{c:e;Joshua;NormalBlink,Smile}Yeah, alright, fine.
-speak;Yumi;Okay! It's a date!
+Joshua: Yah!
+(Joshua moves in to strike, but Yumi dodges.)
+Yumi: Missed me!
+Joshua: Hyah!!
+(Joshua attacks again, but Yumi dodges.)
+Yumi: Oh~ Almost got me that time~
+Joshua: This'll be the one! RAGH!!
+(Joshua attacks one more time, misses, then Yumi counterattacks.)
+Joshua: Gah!
+Yumi: Got you~
+Joshua: Argh, not again. Alright, alright, let's call it here.
+Yumi: Fine by me.
+Joshua: Honestly, Yumi, it still surprises me how nimble you are considering how you're... Well, y'know.
+Yumi: Oh? How I'm what?
+Joshua: That you... Uh, well...
+Yumi: Uh-huh? Go on~
+Joshua: That you're kinda... top-heavy?
+Yumi: Oh? You mean these? My boo--
+Joshua: Yeah, yes, those! They're pretty hard to miss.
+Yumi: They do make good distractions.
+Joshua: And good targets. Those things are just asking to get hit. And when they do, BAM! That's gonna do more than just sting.
+Yumi: Assuming you can get me first.
+Joshua: All it takes is one wrong move or one good swing, Yumi. I can prove it to you right now! One more round! Come on!
+Yumi: Okay, okay, big guy. Let's see what you got!
+
+B Support
+Yumi: You know, Joshua, I've never seen a sword as big as yours before. Seems pretty unique.
+Joshua: Oh, yeah, I inherited it from my father.
+Yumi: Oh, fascinating~ Now, what about that block of iron you call a weapon?
+Joshua: Huh? I just said-- ... Wait.
+Yumi: Heehee! You made that way too easy, Joshua. But, seriously, that was your father's? He must have been really strong.
+Joshua: Strong and fast. He could cut through the air with Old Iron more easily than I can. Sure, I can wield it, but I'm not at his level yet. Far from it.
+Yumi: A guy like him would make a name for himself in the arena. And now that I think of it, I never heard of anyone like your father participating in any famous tournaments like the Rooms of Valor.
+Joshua: That's because he focused on his mercenary work. Stuff like arena fighting never interested him.
+Yumi: What about you? It seems like you have a different goal in mind.
+Joshua: I want to get up to my father's level, then surpass it if I can. I know I have a long way to go, so I fight in arenas to seek out stronger opponents.
+Yumi: I'd say you're plenty strong already, but I don't think that's what you want to hear. So, I'll say this: keep working hard.
+Joshua: Ha! You don't gotta tell me twice. Speaking of which, I'm gonna get more training in. See ya, Yumi!
+(Joshua leaves.)
+Yumi: So he's not in it for fame or money, huh? You don't see that every day.
+
+A Support
+Yumi: Hm... Sten's got a win-loss record of thirteen to four, so that's not too bad. Him mainly wielding axes would make him a good candidate. And I'd normally consider Duarte for something like this too, but I'm pretty sure he's still recovering from that broken leg from last season. I'll have to double-check on that, though. In the meantime, maybe Matan would be a good substitute. He's got a similar record of fifteen to three. Wait, who was he up against for these matches again? Hm... No, there was too much of a skill disparity between him and his opponent for most of these. Never mind.
+(Joshua enters the scene.)
+Joshua: Yumi! What's got you so busy?
+Yumi: Oh, Joshua! Perfect timing. I was thinking about what you said the other day. How you fought in arenas to go up against strong opponents. So, I've been organizing a private tournament for you to take on the toughest fighters in the area.
+Joshua: Huh. And what's with all these numbers and stuff?
+Yumi: I can't just pick up random guys off the street, now can I? I gotta analyze these statistics and make sure you get the most out of this.
+Joshua: Sounds complicated.
+Yumi: Honestly, yeah, it is. Haven't you ever thought about how payouts in the arena are calculated? This is how.
+Joshua: Wait a minute. All that sneaking around and gathering info that you do...
+Yumi: Yup, it's all for this. My charm and good looks makes it a lot easier, in case you were wondering.
+Joshua: I'm not surprised. Anyway, who do you have in mind for this tournament?
+Yumi: Like I'd tell you! I wouldn't want you to have an unfair advantage. I mean, unless you'd be willing to "pay" me for the info.
+Joshua: I'll pass.
+Yumi: Heehee~ Just testing you. And you passed. As a reward, I'll let you know that I'm planning on having a variety of fighters with different techniques up their sleeves for this tournament. I don't plan on making this easy for you just because you're a friend.
+Joshua: Hah! I'd be disappointed if you did. Thanks for all this, Yumi. You didn't have to go through all this trouble just for me.
+Yumi: Don't mention it. You're an interesting man, Joshua. I wanna see just how strong you can become.
+
+S Support
+Joshua: Woooo!! That tournament got me fired up! Thanks again for organizing all that, Yumi. This was great!
+Yumi: Glad you had fun, Joshua. Sorry you didn't win, though.
+Joshua: Aw, you know that doesn't matter to me. It just means that I've got more to work on. Did you see that last guy I was up against? He was pretty much running circles around me!
+Yumi: Haha, yeah, that sure was something. Sounds like you and I need to train together more often.
+Joshua: Seems like it. Wanna do that now?
+Yumi: Sure! And how about we make this interesting? You take me out to dinner if I win.
+Joshua: You're on!
+(Later during their spar...)
+Yumi: Come on, Joshua! You're so close!
+Joshua: *huff huff* Man, Yumi, have you gotten faster since last time? How's that even possible?
+Yumi: Hey, like I said, you almost got me. Looks like we've both been getting better.
+Joshua: Heh, guess so. But I'm not gonna give up that easily! Hyah!!
+Joshua: ?!
+Yumi: Got you~
+Joshua: H-Hey, what was that?!
+Yumi: That was me winning again. Anyway, dinner?
+Joshua: *sigh* Yeah, alright, fine.
+Yumi: Okay! It's a date!

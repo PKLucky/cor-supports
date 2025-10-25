@@ -5,7 +5,7 @@ Alex: Yes, actually. I have something I wish to discuss with you.
 Taylor: I'm all ears.
 Alex: It seems all you do is train. Don't you have anything else you do during your free time?
 Taylor: Uh, I go to the tavern?
-Alex: I am well aware of that.
+Alex: I am well-aware of that.
 Taylor: Speaking of which, wanna grab a drink after I'm done with training for the day? My treat!
 Alex: No. I do not want a repeat of last time.
 Taylor: Oh, come on! I'll limit myself to three mugs of ale this time!
@@ -31,7 +31,7 @@ Taylor: Let's see... "Tryst by Moonlight". Wonder what this is about?
 
 A Support
 Alex: Taylor, I seem to have misplaced one of my books. It's called "Tryst by Moonlight". Have you seen it?
-Taylor: Oh yeah! You dropped it the other day. Here you go.
+Taylor: Oh, yeah! You dropped it the other day. Here you go.
 Alex: What a relief! I thought I would never find it again. Thank you, Taylor. This is one of my favorites.
 Taylor: I can see why. It's pretty good!
 Alex: Wait, you read it?

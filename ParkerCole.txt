@@ -1,23 +1,62 @@
-C Support [REQUIRES REVISION]
-Cole: Greetings, Mister Parker.
-Parker: Hello, Cole.
-Cole: What's today's lesson?
-Parker: I know that you excel in fire magic, so I want you to practice more... Obscure magic. I know that you're really good, but I want you to be able to adapt. Some magic is stronger in certain situations. Ice against fire melts, but then turns into water which puts out the fire. In other words ice magic?
-Parker: Precisely.
-Cole: And the wind controls water. And the thunder can make fire.
+C Support
+Cole: Greetings, Mister Parker. What's today's lesson?
+Parker: Hello, Cole. Considering your skill with Anima magic, I wanted to cover a more obscure category of Anima. One must be able to adapt to many combat situations, after all.
+Cole: The main elements of Anima are Fire, Thunder, and Wind. Casting Anima magic involves manipulating the concentrations of these elements.
+Parker: Correct.
+Cole: Fire is highly condensed heat. Thunder condenses the natural electricity in the air. And Wind is condensed air particles. 
 Parker: Yes, very good. I see you have been keeping up with your studies.
-Cole: Thank you, Mister Parker.
-Parker: Now, let's begin with the rest of the lesson.
+Cole: Thank you, Mister Parker. So, that just leaves Ice magic, right?
+Parker: Exactly. How Ice magic differs from the others is that the element is manipulated in the complete opposite way of the traditional method.
+Cole: The complete opposite... Instead of the element being highly condensed, it becomes... dispersed?
+Parker: Correct. Ice magic is the result of dispersing an element from a single point. The concentration of the element is brought down so low that it is practically zero. With that in mind, which element would make the most sense to result in Ice magic?
+Cole: Hm... Fire? Ice is cold, and to make something cold, you'd have to take away its heat.
+Parker: Sound reasoning there, Cole. But, sorry to say, that was a trick question. The correct answer is that all three elements may be dispersed to cast Ice magic.
+Cole: Wait, how does that make sense?
+Parker: You see, the point from which the elements are dispersed becomes stagnant. In that moment, the area has no particles moving within it. No movement means no energy being produced. We would perceive that as a sudden drop in temperature.
+Cole: In other words, ice forms at that point.
+Parker: Precisely. Now, shall we start with the practical portion of the lesson?
+Cole: Yes, sir! I'll do my best.
+# Original script by Blade of Light 12 and PKLucky #
 
-B Support [REQUIRES REVISION]
-Cole: Greetings, Mister Parker.
-Parker: Hello again, Cole.
-Cole: I have a question. What was the toughest magic duel you ever had? I know that you're not supposed to just go into battle for the sake of it, but I'm curious.
-Parker: Hmm... Let's see... I had to deal with a rogue dark mage that was terrorizing towns. I ended up confronting him at a port. He wielded Nosferatu.
-Cole: Steals the health of its victims and gives it to the user. Definitely doesn't seem like something that would be light magic.
-Parker: Yes, it felt as if my very essence was being drained away. The battle ended up being so fierce that a pub was destroyed. The mage's tome ended up breaking so he swapped to Luna.
-Cole: It completely ignores the victim's will and mental endurance.
-Parker: Correct. In the end, I got desperate that I ended up just beating him with my fists.
-Cole: Hmm... Sorry for asking. I'm glad you're okay.
-Parker: It's not your fault. You're just curious.
-Cole: I need to be able to lift heavier tomes for the battles up ahead.
+B Support
+Parker: ... And that should do it for today's lesson. Any questions?
+Cole: Yes, but it's more of a curiosity question. What was the toughest magic duel you ever had? I know that you're not supposed to just go into battle for the sake of it, but I'd still like to hear about it.
+Parker: Hmm... Let's see... I had to deal with a rogue dark mage that was terrorizing towns in northern Medeas a few years ago. I ended up confronting him at Port Gildress, and he mainly wielded Nosferatu.
+Cole: Nosferatu... A Dark magic spell that steals the lifeforce of its victims and gives it to the user. Wasn't it classified as Light magic years ago? In my opinion, it didn't seem all that "light-like" to begin with.
+Parker: While it was thought to be Light magic, recent findings led to the conclusion that its origins were older than previously thought. Hence, it being Light magic is impossible. *sigh* Just thinking about it reminds me of how my very essence was being drained away. Anyway, the mage's tome had lost its potency after excessive use, so he began using Luna instead.
+Cole: A spell that completely bypasses the victim's will and mental endurance.
+Parker: Correct. The battle lasted so long that we both exhausted our tomes. The local pub got caught in the crossfire as well.
+Cole: Oh no. Was everyone in there okay?
+Parker: Thankfully, yes. The patrons and staff were evacuated before the building collapsed. The situation was getting dire, so I had to beat the mage with my bare hands to prevent further destruction.
+Cole: Woah...
+Parker: I managed to apprehend him, and the authorities took him away afterward. If I didn't think to physically confront him, the situation may have gotten worse.
+Cole: That sounded intense, Mister Parker. Sorry for asking.
+Parker: No need to be sorry. You were just curious.
+Cole: I'm glad everything turned out okay, though.
+Parker: Indeed. Let's go ahead and wrap things up for today. Keep studying hard, Cole.
+Cole: Yes, Mister Parker.
+(Parker leaves.)
+Cole: I'll need to learn stronger spells for the battles ahead. Don't the stronger ones tend to be cast from heavier tomes too? If I can lift them AND cast them, then maybe...
+# Original script by Blade of Light 12 and PKLucky #
+
+A Support
+Cole: Mr. Parker, I have a question.
+Parker: What is it?
+Cole: About last time, about tomes being heavy. Is the reason for this just because there’s more pages?
+Parker: Ah, when I was your age, I had the same question. 
+Cole: I ask this because I tried lifting a Dark Tome. It didn’t look as heavy as Fimbulvetr, but when I tried lifting I couldn’t get it off the desk.
+Parker: That does sound familiar. I tried pulling an Eclipse tome from a bookshelf. I was training in Anima Magic, but I had also wanted to take a shot at Dark Magic. The book was really heavy, so I quickly pulled it out. But as I reached the stairs, my arms slipped and the book fell on my foot. It felt like dropping a Steel Axe on your foot.
+Cole: (eyes closed) Ow. Sorry about that Mr. Parker.
+Parker: It’s not your fault. But I was fortunate that I didn’t fall into the stairs. After that I decided to stick with Anima Magic.
+Cole: Oh, so it probably is just more pages. Sorry for thinking there was more to it.
+Parker: Hmm.
+Cole: It’s good to know that you won’t be teaching me if I go to study Dark Magic.
+Parker: Not if one of us gets a broken toe… I have an important lesson for you later.
+Cole: Alright Mr. Parker, I’ll study for it!
+(Cole leaves)
+Parker: Never taking Dark Magic again.
+# Original script by Blade of Light 12 #
+
+A+ Support
+Parker: I’ll see that you become Mage General sometime in the future.
+# Original script by Blade of Light 12 #

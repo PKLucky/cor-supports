@@ -21,7 +21,7 @@ Taichi: Honestly, I was joking with that. You're just like my brother Haruki. He
 Celeste: Hey, what's that supposed to mean?! That's it! One week from today at high noon, we duel! We'll see who's the immature one here.
 Taichi: Wait, what--
 Celeste: Prepare yourself!
-(Celeste leaves)
+(Celeste leaves.)
 Taichi: Well, it seems like I'm watching two kids now.
 # Original Script by Blade of Light 12 #
 
@@ -82,14 +82,14 @@ Taichi: Well, there was that time when I was two and tried lifting my mom's axe.
 
 S Support
 Celeste: You!
-(Celeste throws her axe at a target)
+(Celeste throws her axe at a target.)
 Celeste: Take that!
 Taichi: Nice shot. Better than the previous one.
 Celeste: This time I had a target.
 Taichi: Yeah, one that you could actually see.
 Celeste: Hmph! I hit it on the mark! That's the important thing.
 Taichi: How many hits can you get?
-Celeste: More than you. 
+Celeste: More than you.
 Taichi: Then let's test it. Five throws for each of us.
 Celeste: You're on!
 (Ten axe throws later...)

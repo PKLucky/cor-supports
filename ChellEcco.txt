@@ -5,7 +5,7 @@ Chell: One of the soldiers in the army invited me to a walk in the public garden
 Ecco: Oh, you go, girl! It's definitely a date. Guys tend to be straightforward about that sort of thing.
 Chell: Really? Fascinating. I knew my intuition about you was correct.
 Ecco: Oh?
-Chell: The thing is, I need some help preparing for this date. As you can probably tell, I'm larger framed than most women. Most normal clothes don't fit too well, and armor isn't the most romantic attire.
+Chell: The thing is, I need some help preparing for this date. As you can probably tell, I'm larger-framed than most women. Most normal clothes don't fit too well, and armor isn't the most romantic attire.
 Ecco: Haha! I see. Well, I'm not petite, myself. Got quite the tush, actually. Anyway, you want some store recommendations, I'm guessing?
 Chell: Exactly.
 Ecco: You definitely came to the right girl. Time for a shopping spree!
@@ -21,27 +21,24 @@ Merchant: Alright, how about this?
 Chell: Wh-What is that? That would hardly cover anything! Ecco, look at it!
 Ecco: I think it looks kind of cute.
 Merchant: See? She knows a good outfit when she sees one.
-Chell: My entire butt is going to be on display! The "bottoms" are not going to cover anything.
+Chell: Are these supposed to be the bottoms? They're hardly leaving anything to the imagination!
 Ecco: Oh, yeah, everyone definitely will see your butt. And your thighs too.
 Chell: That's not supposed to be a good thing, Ecco.
 Ecco: If you say so. Joe, I think she wants something a little more conservative than that.
 Merchant: You got it! Be right back.
 (The merchant leaves.)
-Chell: What was that thing?
-Ecco: Bikini armor. Duh!
+Chell: What even was that?
+Ecco: Bikini armor. Duh! You did say you wanted something alluring.
+Chell: Yes, but I didn't mean... that. What does he take me for?
+Ecco: If it's any consolation, you would look mighty fine in a bikini. You have a good form. No shame in how you look.
+Chell: Ecco, please. I don't want the whole world seeing my butt... or other things.
 (The merchant comes back.)
 Merchant: Alright, how do these look?
 Ecco: Oh, these look cute!
 Chell: Ah, now this is more like it. Let's see here...
 (Several hours later...)
 Chell: That was fun, Ecco. You're fun to shop with.
-Ecco: Thanks! We should do this more often.
-Chell: Definitely. But what was with that first outfit?
-Ecco: Well, you did say you wanted something alluring.
-Chell: Yes, but I didn't mean... that. What does he take me for?
-Ecco: If it's any consolation, you would look mighty fine in a bikini. You have a good form. No shame in how you look.
-Chell: Ecco, please. I don't want the whole world seeing my butt... or other things.
-Ecco: Alright, alright. But yeah, this was fun. Let's go get some pie. I'm starved!
+Ecco: Thanks! We should do this more often. Anyway, let's go get some pie. I'm starved!
 Chell: Yes, let's. Now that you mention it, I'm getting hungry too.
 # Original script by Berserker Sam #
 

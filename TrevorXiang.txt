@@ -1,31 +1,43 @@
 C Support
 Trevor: Ah, Miss Xiang! May I have a moment of your time?
 Xiang: Yes?
-Trevor: You seem quite adept at using dark magic--
+Trevor: You seem quite adept at using Dark magic--
 Xiang: Elder magic.
 Trevor: Er, pardon?
-Xiang: The proper term is "elder magic".
+Xiang: The proper term is "Elder magic".
 Trevor: Now this is exactly why I am in need of your assistance! You see, I wish to delve deeper into understanding the inner workings of various types of magic. Under normal circumstances, I would ask Felicity to help in this endeavor. However, she seems more interested in being an overall nuisance rather than a fellow arcane scholar.
 Xiang: So then...?
-Trevor: Miss Xiang, could you please teach me everything you know about da-- I mean, elder magic? In return, I could teach you anything you may desire about anima magic.
+Trevor: Miss Xiang, could you please teach me everything you know about Da-- I mean, Elder magic? In return, I could teach you anything you may desire about Anima magic.
 Xiang: Nature magic.
 Trevor: Wha--Oh! Fascinating. It seems I have much to learn!
 
-B Support (Could either finish here or go more in depth with the magic system.)
-Trevor: Miss Xiang, is there a reason why you use these... archaic terms for the categories of magic?
+B Support
+Trevor: Miss Xiang, is there a reason why you use these... archaic terms for the schools of magic?
 Xiang: Those terms are what they are supposed to be called. It wasn't until recently that the names have changed.
-Trevor: Recently? Why, as far as I am aware, Light, Dark, and Anima have been called these names for centuries at least!
+Trevor: Recently? Why, as far as I am aware, Dark and Anima have been called these names for centuries!
 Xiang: ... Right. My sense of time has been lost on me.
-Trevor: I apologize. I did not mean to imply that you were at fault in any way. Honestly, it is intriguing how language evolves over time. However, having "elder magic" become "dark magic" seems rather insidious.
+Trevor: I apologize. I did not mean to imply that you were at fault in any way. Honestly, it is intriguing how language evolves over time. However, having "Elder magic" become "Dark magic" seems rather insidious.
 Xiang: I can agree with that.
-Trevor: It being called elder magic seems more appropriate. The name implies it to be the oldest type of magic.
+Trevor: It being called Elder magic seems more appropriate. The name implies it to be the oldest type of magic.
 Xiang: Correct.
 Trevor: Since that is the case, elder magic should be taught to set a foundation for the other schools of magic.
 Xiang: Incorrect.
 Trevor: Oh?
-Xiang: Elder magic is different from holy and nature magic. Even if you had the ability to cast either one of those, it does not automatically mean you can also cast elder magic.
-Trevor: So it involves a deeper innate potential... I suppose that explains why practitioners of elder magic are few and far between.
+Xiang: Elder magic is different from Light and Nature magic. Even if you had the ability to cast either one of those, it does not automatically mean you can also cast Elder magic.
+Trevor: So it involves a deeper innate potential... I suppose that explains why practitioners of Elder magic are few and far between.
 Xiang: That is... part of the reason.
 Trevor: Hm?
-Xiang: We are getting off topic. Shall we continue the lesson?
-Trevor: Ah, yes. Of course.
+Xiang: Do you know of the original practitioners of Elder magic, Trevor?
+Trevor: Why, yes! They were the Shifters, were they not?
+Xiang: Correct. And what about Light magic? What was its origin?
+Trevor: It came from Medea himself. He had blessed the Sacred Five with this power that we now know as Light magic.
+Xiang: Also correct. I'm sure from here, you can draw some conclusions as to why Elder magic is not as widespread?
+Trevor: Hm... Yes, I see. The War of Divides, wasn't it?
+Xiang: And another correct answer. We can continue this discussion at another time, Trevor. It seems our time for lessons is almost up.
+Trevor: Quite alright. Until next time, Miss Xiang.
+
+A Support
+[]
+Trevor: Then why is elder magic still practiced even now?
+Xiang: There are theories that Shifters still remain in our world, or that there are descendants of Shifters among Humans.
+Trevor: Fascinating...

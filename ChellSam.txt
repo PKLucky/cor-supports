@@ -1,16 +1,14 @@
 C Support
 Chell: Sam, do you have a moment?
 Sam: Sure do. What's up?
-Chell: You've been in Oregot this whole time?
-Sam: Pretty much.
 Chell: How did you happen to get the cabin you have?
 Sam: Shortly after I left, I was recruited by a mercenary company. They helped me. Gave me training. We cleared out that cabin when it was being used as a bandit hangout. Eventually, I left them and went solo. I went back to that old cabin, cleaned it up a bit, and just used it as a base of operations, so to speak.
 Chell: Oh. It's rather large for someone all alone.
 Sam: Yeah, a little. But there's still too many bandits. Once Oregot is safer, I'll probably settle down with someone, but not yet.
 Chell: You mean you don't have a girlfriend? Perhaps a pretty girl mercenary?
-Sam: No, been too busy killing bandits, tracking down the one who killed your parents, and all that.
-Chell: You... killed that brigand?
-Sam: Still tracking him down. He hasn't left Oregot, I know that much. I got some of his captains, but not him yet. By the way, how's Lin doing? She'd be part of the Pegasus Knight unit by now, right?
+Sam: No, been too busy killing bandits.
+Chell: Speaking of which, have you taken down the leader of that one group?
+Sam: Still tracking him down. I got some of his captains, but not him yet. By the way, how's Lin doing? She'd be part of the Pegasus Knight unit by now, right?
 Chell: She left, Sam. She went on her own two years ago.
 [IF Lin hasn't been recruited]
 Chell: I haven't heard from her since the goodbye note she left.
@@ -44,7 +42,9 @@ Sam: Well... Never thought about that before either.
 Chell: Please do. The right girl will want to go with you, Sam. It's too big of a job to do by yourself.
 Sam: Thanks, Chell. I'll think about what you said. You shared some insight I haven't considered.
 Chell: You're welcome, Sam.
-Sam: I'm just not sure who the right girl might be... I'm gonna get something to eat and think it over. See you.
+Sam: I'm just not sure who the right girl might be. I know you said you'd join me, but I figured that was a given.
+Chell: ... Uh-huh?
+Sam: Hmm... I'm gonna get something to eat and think it over. See you.
 (Sam leaves.)
 Chell: *sigh* Just how dense is that man?
 # Original script by Berserker Sam #

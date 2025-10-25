@@ -1,188 +1,79 @@
 C Support
-speak;Taylor;Hey you! You're Michael, right?
-speak;Michael;Yes, sir!
-expression;Taylor;Smile
-speak;Taylor;Why don't you show me what you can do? Come at me!
-speak;Michael;I'll do my best!
-remove_all_portraits
-transition;close
-change_background;BlackBackground
-transition;open
-speak;;One spar later...;StyleNid=hint;NumLines=1;no_sound
-transition;close
-change_background;CastleBack
-transition;open
-multi_add_portrait;Taylor;Right;Michael;Left
-speak;Taylor;For your age, you're not bad.|You have good control over your lance.|{c:e;Taylor;CloseEyes}Your attacks are a little slow though.
-expression;Michael;HalfCloseEyes
-speak;Michael;I'm sorry, sir.
-expression;Taylor;NormalBlink
-speak;Taylor;I'm not criticizing you, kid. Just making observations.
-expression;Taylor;Smile
-speak;Taylor;On the flip side, your defenses are excellent.|For most people, it would be hard to get any meaningful attacks on you.
-expression;Michael;NormalBlink,Smile
-speak;Michael;Thank you, Sir Taylor!|{c:e;Michael;NoSmile}Er, Sir Taylor?
-expression;Taylor;NoSmile
-speak;Taylor;What is it, kid?|And don't call me "sir" all the time. Just Taylor is fine.
-speak;Michael;Okay, Si--
-bop_portrait;Michael
-speak;Michael;{tgm}...{tgm} Taylor.|Why did you become a knight?
-expression;Taylor;Smile
-speak;Taylor;Because I get to ride a fu--
-expression;Taylor;NoSmile
-bop_portrait;Taylor
-expression;Taylor;HalfCloseEyes
-speak;Taylor;{tgm}...{tgm} A *fast* horse.|{c:e;Taylor;CloseEyes,Smile}I dash around the battlefield and look damn sexy while doing it.|{c:e;Taylor;NormalBlink,Smile}Also, I can get myself a couple shots of whiskey every night.|Speaking of which, let's go relax at the tavern!
-mirror_portrait;Taylor
-move_portrait;Taylor;OffscreenRight
-expression;Michael;HalfCloseEyes
-speak;Michael;Going to the tavern doesn't seem very knightly.|{c:e;Michael;NormalBlink}I guess if Sir Taylor does it, it's okay.|{c:e;Michael;CloseEyes}Still, I don't know about this.{c:e;Michael;HalfCloseEyes} What would mom say?
-if;{v:TaylorMichaelC} != True
-sound;Item
-alert;Michael gained 10 EXP!
-give_exp;Michael;10
-game_var;TaylorMichaelC;True
-end
-unlock_support_rank;Taylor;Michael;C
+Taylor: Hey, you! You're Michael, right?
+Michael: Yes, sir!
+Taylor: Why don't you show me what you can do? Come at me!
+Michael: I'll do my best!
+(One spar later...)
+Taylor: For your age, you're not bad. You have good control over your lance. Your attacks are a little slow though.
+Michael: I'm sorry, sir.
+Taylor: I'm not criticizing you, kid. Just making observations. On the flip side, your defenses are excellent. For most people, it would be hard to get any meaningful attacks on you.
+Michael: Thank you, Sir Taylor! Er, Sir Taylor?
+Taylor: What is it, kid? And don't call me "sir" all the time. Just Taylor is fine.
+Michael: Okay, Si-- ... Taylor. Why did you become a knight?
+Taylor: Because I get to ride a fu-- ... A *fast* horse. I dash around the battlefield and look damn sexy while doing it. Also, I can get myself a couple shots of whiskey every night. Speaking of which, let's go relax at the tavern!
+(Taylor leaves.)
+Michael: Going to the tavern doesn't seem very knightly. I guess if Sir Taylor does it, it's okay. Still, I don't know about this. What would mom say?
 # Original script by Berserker Sam #
-end
-end_skip
-if;support_rank_nid == 'B'
-change_background;CastleBack
-transition;open
-music;Girl of the Plains
-multi_add_portrait;Taylor;Left;SoldierYellow1;MidRight;SoldierYellow2;FarRight
-speak;Taylor;Come on, put your backs into it! Let's go, let's go!
-bop_portrait;SoldierYellow1
-speak;SoldierYellow1;Hya!
-bop_portrait;SoldierYellow2
-speak;SoldierYellow2;Hoh!!
-speak;Taylor;Andddd{tgm}...{tgm} halt!|{c:e;Taylor;Smile}Great work today, men.
-speak;SoldierYellow1;Sir!
-expression;Taylor;CloseEyes,Smile
-speak;Taylor;At ease, soldier.|{c:e;Taylor;NormalBlink,Smile}Now, who's up for a round of drinks!?
-expression;SoldierYellow1;Smile
-bop_portrait;SoldierYellow1
-speak;SoldierYellow1;Me, Captain!
-expression;SoldierYellow1;Smile
-bop_portrait;SoldierYellow2
-speak;SoldierYellow2;Same here, Cap!
-expression;Taylor;CloseEyes,Smile
-speak;Taylor;Haha, great to hear!|{c:e;Taylor;NormalBlink,Smile}You guys go on ahead. I'll catch up in a bit.
-remove_all_portraits
-multi_add_portrait;Taylor;Right;Michael;Left
-expression;Taylor;Smile
-speak;Taylor;So, learn anything, Michael?
-expression;Michael;Smile
-speak;Michael;You lead your men amazingly, Sir T--{c:e;Michael;NoSmile}Uh, Taylor.|{c:e;Michael;CloseEyes}But{tgm}...
-expression;Taylor;NoSmile
-speak;Taylor;Something the matter?
-expression;Michael;NormalBlink
-speak;Michael;Oh, not at all!|{c:e;Michael;CloseEyes}It's just that with how you are in the training yard compared to how you are at the tavern{tgm}...{tgm}|{c:e;Michael;NormalBlink}It's like seeing night and day.
-expression;Taylor;Smile
-speak;Taylor;What do you expect? I can't have a stick up my a--{tgm}{c:e;Taylor;CloseEyes,NoSmile}...{tgm} My *side* all day.|{c:e;Taylor;NormalBlink}And I can't be a lolly-gagger all the time either.|You gotta strike a balance with these things, Michael.
-speak;Michael;That's{tgm}...{tgm} surprisingly wise.
-expression;Taylor;Smile
-speak;Taylor;Thanks!|{c:e;Taylor;NoSmile}Wait, what do you mean by "surprisingly"?
-speak;Michael;Er, n-nothing!|{c:e;Michael;Smile}Anyway, thanks again for letting me observe, Taylor.
-expression;Taylor;Smile
-speak;Taylor;No problem.|Now, come on, Michael! The tavern awaits!
-expression;Michael;NoSmile
-bop_portrait;Michael
-speak;Michael;Huh?! I'm coming too?
-speak;Taylor;Of course you are! Let's go!
-move_portrait;Taylor;MidLeft
-mirror_portrait;Taylor
-move_portrait;Taylor;OffscreenRight;no_block
-move_portrait;Michael;OffscreenRight
-speak;Michael;Wah!!
-if;{v:TaylorMichaelB} != True
-sound;Item
-alert;Taylor gained 10 EXP!
-give_exp;Taylor;10
-game_var;TaylorMichaelB;True
-end
-unlock_support_rank;Taylor;Michael;B
-end
-end_skip
-if;support_rank_nid == 'A'
-change_background;Fireplace
-transition;open
-music;Guildmaster Wigglytuff
-multi_add_portrait;SoldierYellow1;FarRight;SoldierYellow2;FarLeft;Taylor;MidRight;Michael;MidLeft
-expression;Taylor;Smile
-speak;Taylor;Here's to another great training session, boys!|Bottoms up!
-expression;SoldierYellow1;Smile
-bop_portrait;SoldierYellow1
-speak;SoldierYellow1;Woooo!
-expression;SoldierYellow2;Smile
-bop_portrait;SoldierYellow2
-speak;SoldierYellow2;Yeah!!
-remove_all_portraits
-multi_add_portrait;Michael;Left;Taylor;Right;Woman3;OffscreenLeft
-expression;Michael;CloseEyes
-speak;Michael;I don't think I'll ever get used to this{tgm}...
-expression;Taylor;Smile
-speak;Taylor;Michael, my friend, I think it's about time we get you the strong stuff.
-expression;Michael;NormalBlink
-bop_portrait;Michael
-speak;Michael;Wait, what?
-speak;Taylor;This is your first step to manhood!|Finish up that mug of water then we'll get you a pint of the good stuff.
-expression;Michael;HalfCloseEyes
-speak;Michael;I-I don't think that's a good idea--
-move_portrait;Taylor;MidLeft
-expression;Michael;NormalBlink
-bop_portrait;Michael
-speak;Michael;Urk?!
-expression;Taylor;CloseEyes,Smile
-speak;Taylor;Down the hatch, Mike!
-expression;Taylor;NormalBlink,Smile
-move_portrait;Taylor;Right
-expression;Michael;CloseEyes
-speak;Michael;*Gulp!*|{c:e;Michael;NormalBlink}*Gasp!*|{c:e;Michael;HalfCloseEyes}Oh dear Folia--
-speak;Taylor;There we go!
-move_portrait;Michael;MidLeft;no_block
-move_portrait;Woman3;FarLeft
-bop_portrait;Taylor
-speak;Taylor;Hey, get some ale in my friend's mug here!
+
+B Support
+Taylor: Come on, put your backs into it! Let's go, let's go!
+Soldier 1: Hya!
+Soldier 2: Hoh!!
+Taylor: Andddd... halt! Great work today, men.
+Soldier 1: Sir!
+Taylor: At ease, soldier. Now, who's up for a round of drinks!?
+Soldier 1: Me, Captain!
+Soldier 2: Same here, Cap!
+Taylor: Haha, great to hear! You guys go on ahead. I'll catch up in a bit.
+(Taylor comes up to Michael.)
+Taylor: So, learn anything, Michael?
+Michael: You lead your men amazingly, Sir T--Uh, Taylor. But...
+Taylor: Something the matter?
+Michael: Oh, not at all! It's just that with how you are in the training yard compared to how you are at the tavern... It's like seeing night and day.
+Taylor: What do you expect? I can't have a stick up my a--... My *side* all day. And I can't be a lolly-gagger all the time either. You gotta strike a balance with these things, Michael.
+Michael: That's... surprisingly wise.
+Taylor: Thanks! Wait, what do you mean by "surprisingly"?
+Michael: Er, n-nothing! Anyway, thanks again for letting me observe, Taylor.
+Taylor: No problem. Now, come on, Michael! The tavern awaits!
+Michael: Huh?! I'm coming too?
+Taylor: Of course you are! Let's go!
+(Taylor leaves and drags Michael with him.)
+Michael: Wah!!
+
+A Support
+Taylor: Here's to another great training session, boys! Bottoms up!
+Soldier 1: Woooo!
+Soldier 2: Yeah!!
+(Camera pans over to Taylor and Michael.)
+Michael: I don't think I'll ever get used to this...
+Taylor: Michael, my friend, I think it's about time we get you the strong stuff.
+Michael: Wait, what?
+Taylor: This is your first step to manhood! Finish up that mug of water then we'll get you a pint of the good stuff.
+Michael: I-I don't think that's a good idea--
+(Taylor forces the Michael's mug to his lips.)
+Michael: Urk?!
+Taylor: Down the hatch, Mike!
+Michael: *Gulp!* *Gasp!* Oh dear Folia--
+Taylor: There we go!
+(A barmaid approaches.)
+Taylor: Hey, get some ale in my friend's mug here!
 expression;Woman3;Smile
-speak;Woman3;On the way, sir!
-expression;Michael;NormalBlink
-speak;Michael;Uh, that's not necessary--
-mirror_portrait;Woman3
-move_portrait;Woman3;OffscreenLeft;no_block
-move_portrait;Michael;Left
-mirror_portrait;Woman3
-speak;Taylor;You've been workin' so damn hard all this time, Mikey!|It's time you let loose!
-expression;Michael;CloseEyes
-speak;Michael;How did you get this drunk that fast?
-expression;Michael;NormalBlink
-move_portrait;Michael;MidLeft;no_block
-move_portrait;Woman3;FarLeft
-expression;Woman3;Smile
-speak;Woman3;One mug-full of ale coming up!
-speak;Michael;I, uh--
-mirror_portrait;Woman3
-move_portrait;Woman3;OffscreenLeft;no_block
-move_portrait;Michael;Left
-speak;Michael;Oh. Okay.|{c:e;Michael;CloseEyes}Hm{tgm}...{c:e;Michael;HalfCloseEyes}{tgm} Maybe just a sip wouldn't hurt.|{c:e;Michael;NormalBlink}As long as I keep track of how much I'm drinking, I should be fine.
-remove_all_portraits
-transition;close
-change_background;BlackBackground
-transition;open
-speak;;A few drinks later...;StyleNid=hint;NumLines=1;no_sound
-transition;close
-change_background;Fireplace
-transition;open
-multi_add_portrait;Michael;Left;Taylor;Right
-expression;Taylor;CloseEyes,Smile
-expression;Michael;CloseEyes,Smile
-speak;Taylor;♫ Fill up my tankard with a pint of fresh ale~ ♫
-speak;Michael;♫ An' 'til th' mornin' comes, never mind what entails~ ♫
-speak;Taylor;♫ For when that hard whisky be sloshin' in mine cup~ ♫
-speak;Michael;♫ Both th' beer and the bitters will raise my soul up~! ♫
-speak;Taylor;Woooo!!!
-remove_all_portraits
-multi_add_portrait;SoldierYellow1;Right;SoldierYellow2;Left
-speak;SoldierYellow1;Andddd they're down.|Let's take 'em home, Greg.
-speak;SoldierYellow2;No need to tell me twice.
+Barmaid: On the way, sir!
+Michael: Uh, that's not necessary--
+(The barmaid leaves.)
+Taylor: You've been workin' so damn hard all this time, Mikey! It's time you let loose!
+Michael: How did you get this drunk that fast?
+(The barmaid returns.)
+Barmaid: One mug-full of ale coming up!
+Michael: I, uh--
+(The barmaid pours ale into Michael's mug and leaves.)
+Michael: Oh. Okay. Hm... Maybe just a sip wouldn't hurt. As long as I keep track of how much I'm drinking, I should be fine.
+(A few drinks later...)
+Taylor: ♫ Fill up my tankard with a pint of fresh ale~ ♫
+Michael: ♫ An' 'til th' mornin' comes, never mind what entails~ ♫
+Taylor: ♫ For when that hard whisky be sloshin' in mine cup~ ♫
+Michael: ♫ Both th' beer and the bitters will raise my soul up~! ♫
+Taylor: Woooo!!!
+(Taylor and Michael collapse.)
+Soldier 1: Andddd they're down. Let's take 'em home, Greg.
+Soldier 2: No need to tell me twice.
