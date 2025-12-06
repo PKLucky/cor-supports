@@ -46,12 +46,14 @@ Felicity: If you'll please excuse me, I have more chores to attend to.
 Krista: We're friends, Felicity. I can't just stand by like that.
 
 
+A Support
 Felicity: They'd twist the situation to make it look like I'm currying favor with you and further feed into their negative perceptions of me. Let them believe what they want to believe, Your Highness. You know me for who I am, and that's all that matters to me.
 Krista: But still, it's rather cruel of them to hate you and not even try to get to know you.
 Felicity: Some people will just hate you no matter what you do, Your Highness. And no amount of persuasion will change their mind. I learned that a long time ago.
 
 
-A Support
+
+
 Krista: Felicity, you knew all along? About Ervan, I mean.
 Felicity: Yes, I did.
 Krista: And all that time, you said nothing. But why?
