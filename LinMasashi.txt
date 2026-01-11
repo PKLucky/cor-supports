@@ -1,6 +1,6 @@
 C Support
 []
-Lin: Back off, bucko. And put that bow away. You're scaring 
+Lin: Back off, bucko. And put that bow away. You're scaring Flugel.
 
 B Support
 Lin: 
@@ -45,7 +45,7 @@ Lin: But... I really like you...
 Masashi: I know, I know. I was in a similar position to you, actually.
 Lin: Huh?
 []
-Lin: I see... Hey, can we at least just be friends? I really like you, Masashi. And not just in that sappy, romantic way either. I wanna keep hanging out with you and talking with you.
+Lin: I see... Hey, can we at least just be friends? I like you, Masashi. And not just in that sappy, romantic way either. I wanna keep hanging out with you and talking with you.
 Masashi: I...
 Lin: Look, if I get too clingy or all up in your business, just tell me off! I can take it! If you don't wanna date me, fine. I get it. In that case, I'm cool with just being friends as long as you are. Deal?
 Masashi: Miss Lin... Well, if you put it that way, alright. I'm fine with being friends.
@@ -60,4 +60,5 @@ Lin: What's up?
 Masashi: Do you have any plans after this war is over?
 Lin: Just gonna do more mercenary work. Why?
 Masashi: How would you like a more permanent position?
-Lin: 
+Lin: "Permanent"? What, wanna hire me or something?
+Masashi: That is precisely it!
