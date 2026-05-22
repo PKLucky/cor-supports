@@ -19,11 +19,11 @@ Krista: Hikaru...
 Hikaru: I believe that sending good out to the world is what makes a person good. The motivation behind the action doesn't matter, nor do any past actions discount your present efforts.
 Krista: But you don't know what I've done. It's not something that can be ignored.
 Hikaru: I do not know for what sins you seek repentance. But let me ask you this: if time were turned back, would you allow yourself to repeat that sin?
-Krista: No! Of course not!
+Krista: No, of course not!
 Hikaru: The Great Merin teaches us that just as the tides reshape the shoreline, each new day reshapes the man. Your answer tells me everything I need to know, Your Highness. Do you understand?
 Krista: Hmm... Yeah. I do. I don't feel all that different from who I was back then, though.
 Hikaru: I don't expect you to change your perspective right away, Your Highness. However, I hope that you do eventually. Until then, don't be afraid to seek me out for support. At risk of being too forward, I wouldn't mind if I were the Merin to your Medea.
-Krista: Heh, I'd like that, Hikaru. Here's to a beautiful friendship.
+Krista: I'd like that, Hikaru. Here's to a beautiful friendship.
 
 S Support
 Krista: ...
@@ -31,19 +31,19 @@ Hikaru: ...
 (Krista turns around.)
 Krista: H-Hikaru?! Man, you startled me there.
 Hikaru: I apologize, Your Highness. I did not mean to disturb you. Were you praying to Medea just now?
-Krista: Yeah, but I just finished up. Was there something you needed?
+Krista: Yeah, I just finished up. Was there something you needed?
 Hikaru: Yes. Could we go somewhere more private?
 Krista: Seems pretty private here to me.
 Hikaru: I'd rather not. This matter feels too... Well, I wouldn't feel comfortable bringing it up while in a sacred space.
 Krista: Huh, alright. Let's take this to my room, then.
 (Scene transitions to Krista's room.)
-Krista: Alright, Hikaru, what's going on? Sounds like it's pretty serious.
+Krista: So what's going on, Hikaru? Sounds like it's pretty serious.
 Hikaru: Your Highness, allow me to begin by saying I value our friendship very much. I am happy to offer you support and guidance much like Merin has to Medea. However, I... I wish to be more than that to you. Much more.
-Krista: Oh. Hikaru, I'm flattered, really, but--
+Krista: Oh. Hikaru, I'm flattered, really. But--
 Hikaru: I understand, Your Highness. I'll be taking my leave now. Please forget I said anything.
-Krista: Whoa, wait, hold it! Lemme finish my thought here! I was trying to say I'm flattered, but I don't wanna jump into things too fast. Ervan is still on my mind.
+Krista: Hold on! Lemme finish my thought here! I am flattered, but I don't wanna jump into things too fast. Ervan is still on my mind.
 Hikaru: Ah. Of course. Why wouldn't he be?
-Krista: W-Wait, that sounds way worse than it was meant to be. See, I was praying to Medea about him earlier, and, well... You remember what I said before? About what I did in the past?
+Krista: W-Wait, let me explain. See, I was praying to Medea about him earlier, and, well... You remember what I said before? About what I did in the past?
 Hikaru: Yes?
 Krista: It has to do with him. And all the times when we were talking about history and theology... It all reminded me of him.
 Hikaru: I see...

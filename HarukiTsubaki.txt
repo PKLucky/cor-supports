@@ -1,5 +1,11 @@
 C Support
-
+Tsubaki: Let's see, there seems to be enough rations for everyone--Kya!!
+(Haruki enters the scene.)
+Haruki: Lady Tsubaki, are you alright?! I heard you scream and--Oh, Rocky, there you are! Man, I was worried sick about you. Get over here!
+Tsubaki: Haruki? W-What...?
+Haruki: Oh, Merin, I'm sorry, Lady Tsubaki! Rocky must've gotten into one of the open food crates when I wasn't looking. Did he startle you?
+Tsubaki: Th-That beetle is...?
+Haruki: He's my friend! 
 
 B Support
 Tsubaki: There you are, Haruki! Here, I have some fresh fruit from the market for Rocky.
@@ -7,7 +13,21 @@ Haruki: Oh, uh... Thanks, Lady Tsubaki.
 Tsubaki: Is something wrong?
 Haruki: About Rocky... He's... Well, he was getting pretty old, so...
 Tsubaki: O-Oh. I'm so sorry, Haruki.
-[]
+Haruki: It's alright. I gave him a proper burial and everything.
+Tsubaki: ...
+Haruki: ... Hey, what kinda fruit do you got there?
+Tsubaki: Um, some oranges and apricots.
+Haruki: Nice! Rocky would've loved those. How about we eat them together? It would be a waste not to.
+Tsubaki: Alright.
+Haruki: Mm! Sweet! Nice find, Lady Tsubaki.
+Tsubaki: Thank you, Haruki. ...
+Haruki: Something up?
+Tsubaki: Ah, no. It's just... Are you sure you're going to be okay?
+Haruki: I've had my time to mourn, and it was only a matter of time. I'll be fine, Lady Tsubaki. Really.
+Tsubaki: I... I see. I'm sorry, I just remembered I have other business to attend to. I'll see you later, Haruki.
+Haruki: Oh, okay. See ya.
+(Tsubaki leaves.)
+Haruki: She seemed more tense than usual. Hm...
 
 A Support
 []
